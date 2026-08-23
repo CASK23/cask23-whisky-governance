@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-ALBERTA-DISTILLERS",
+  "slug": "alberta-distillers",
+  "officialName": "Alberta Distillers Limited",
+  "entityType": "DISTILLERY",
+  "country": "Canada",
+  "region": "Alberta",
+  "location": "Calgary, Alberta, Canada",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "The distillery describes its water as pure, mineral-rich glacial water from the Rocky Mountains.",
+    "malt": "Its signature rye production uses 100% unmalted Canadian Prairie rye sourced from Alberta, Saskatchewan and Manitoba, together with a proprietary enzyme system developed for rye conversion.",
+    "fermentation": "Established specialist technical references describe approximately four-day fermentation following mash preparation, with around 20 washbacks and a proprietary yeast strain.",
+    "stills": "Alberta Distillers uses both continuous-column and batch/pot distillation. Specialist technical documentation describes a beer column feeding further continuous rectification as well as a kettle/pot-still route used for flavouring whisky and selected rye styles.",
+    "maturation": "Whisky is matured on site in new charred white oak, ex-bourbon and reused Canadian whisky barrels, with both rack and pallet warehouse systems."
+  },
+  "houseCharacter": "Alberta Distillers builds its rye identity from resilient prairie grain, glacial water and an unusual ability to process 100% unmalted rye through its own enzyme system. Combining high-efficiency continuous distillation with pot/batch distillation lets the distillery create both lighter base whisky and more characterful rye components. New oak, ex-bourbon and reused barrels then give the blender a broad maturation palette while retaining the grain's characteristic spice, fruit and sweetness.",
+  "cask23Narrative": "Alberta Distillers is one of the great engines of Canadian rye whisky and an important provenance point for mature sourced rye found in international brands. Its technical speciality is 100% unmalted prairie rye, handled with proprietary enzymes and distilled through both continuous and pot-based systems rather than a single still regime. That combination helps explain why mature Alberta rye can carry intense spice and grain character while still providing the polished texture needed for long ageing and secondary finishing.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.albertadistillers.com/",
+    "https://www.albertadistillers.com/our-brands/alberta-premium",
+    "https://www.whiskybase.com/whiskies/distillery/356/about",
+    "https://thewhiskeywash.com/canadian-whiskey/alberta-distillers-stamps-its-version-of-canadian-rye-on-the-whisky-map/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
