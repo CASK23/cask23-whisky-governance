@@ -1,0 +1,161 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-003",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "governanceRule": "Data chooses the icon; the icon never generates the data.",
+  "records": [
+    {
+      "beverageId": "651cdec3-c62c-43b2-ac9d-eef44f68dcb0",
+      "officialName": "Nikka Days Blended 40%",
+      "verifiedDescriptors": ["Floral", "Fruity", "Light peat smoke"],
+      "descriptorFamilies": {"Floral":"floral-herbal","Fruity":"orchard-fruit","Light peat smoke":"smoke-peat"},
+      "cask23TastingNarrative": "Floral and fruity in character, with a light thread of peat smoke running through Nikka's silky, approachable blend.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://nikka.com/en/brands/nikkadays/"]
+    },
+    {
+      "beverageId": "871297fa-0471-441f-aa9b-8c5af6ccf9f7",
+      "officialName": "Nikka Coffey Grain 45%",
+      "verifiedDescriptors": ["Pear", "Cherry", "Tropical fruit", "Citrus", "Coconut", "Vanilla", "Banana", "Caramel", "Star anise"],
+      "descriptorFamilies": {"Pear":"orchard-fruit","Cherry":"dried-fruit","Tropical fruit":"tropical","Citrus":"citrus","Coconut":"tropical","Vanilla":"sweet","Banana":"tropical","Caramel":"sweet","Star anise":"spice"},
+      "cask23TastingNarrative": "Pear and cherry lead into tropical fruit and citrus, with coconut, vanilla, banana and caramel sweetness lifted by a touch of star anise.",
+      "evidenceTier": "TIER_1_OFFICIAL_IMPORTER",
+      "sources": ["https://www.nikka.com/en/brands/coffey-grain-malt/","https://specialitybrands.com/range/nikka/nikka-coffey-grain/"]
+    },
+    {
+      "beverageId": "f884b597-c3a4-4e03-ba25-876c47382de4",
+      "officialName": "Nikka Yoichi Single Malt 45%",
+      "verifiedDescriptors": ["Peat smoke", "Brine", "Fruit", "Oak", "Vanilla"],
+      "descriptorFamilies": {"Peat smoke":"smoke-peat","Brine":"maritime","Fruit":"orchard-fruit","Oak":"oak","Vanilla":"sweet"},
+      "cask23TastingNarrative": "Bold fruit and vanilla sit against oak, briny coastal character and the refined peat smoke created by Yoichi's direct coal-fired distillation.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://nikka.com/eng/brands/singlemalt-yoichi/","https://www.nikka.com/en/distilleries/yoichi/"]
+    },
+    {
+      "beverageId": "eca7fc0b-dc04-4a05-9e08-2d05eae00e47",
+      "officialName": "Torabhaig Allt Gleann The Legacy Series 46%",
+      "verifiedDescriptors": ["Peat smoke", "Lemon zest", "Honey", "Vanilla", "Sea salt", "Roasted nuts", "Citrus", "Tropical fruit", "Apple", "Kiwi"],
+      "descriptorFamilies": {"Peat smoke":"smoke-peat","Lemon zest":"citrus","Honey":"sweet","Vanilla":"sweet","Sea salt":"maritime","Roasted nuts":"nutty","Citrus":"citrus","Tropical fruit":"tropical","Apple":"orchard-fruit","Kiwi":"tropical"},
+      "cask23TastingNarrative": "Earthy peat smoke and lemon zest meet honey and vanilla, before roasted nuts, oily citrus and tropical fruit lead to apple, kiwi and a salty coastal finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://torabhaig.com/products/torabhaig-single-malt-allt-gleann"]
+    },
+    {
+      "beverageId": "e3a6adad-f17f-459f-b65a-6b856fc27a76",
+      "officialName": "Torabhaig Allt Gleann The Legacy Series — Smoke & Brine — Batch Strength",
+      "verifiedDescriptors": ["Peat smoke", "Bonfire smoke", "Lemon peel", "Vanilla", "Oak spice", "Citrus", "Tropical fruit", "Sea salt", "Orchard fruit"],
+      "descriptorFamilies": {"Peat smoke":"smoke-peat","Bonfire smoke":"smoke-peat","Lemon peel":"citrus","Vanilla":"sweet","Oak spice":"oak","Citrus":"citrus","Tropical fruit":"tropical","Sea salt":"maritime","Orchard fruit":"orchard-fruit"},
+      "cask23TastingNarrative": "Powerful peat and beach-bonfire smoke frame lemon peel and vanilla, with oak spice, oily citrus and tropical fruit giving way to orchard fruit and sea salt.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://torabhaig.com/products/torabhaig-single-malt-allt-gleann-batch-strength"]
+    },
+    {
+      "beverageId": "b522533d-431d-4789-b2e0-0b8082b98b22",
+      "officialName": "Torabhaig Conc Na Moine Chapter No. 3 Smoke & Briney 46%",
+      "verifiedDescriptors": ["Peat smoke", "Citrus zest", "Vanilla", "Fresh oak", "Black pepper", "Cedar", "Spice"],
+      "descriptorFamilies": {"Peat smoke":"smoke-peat","Citrus zest":"citrus","Vanilla":"sweet","Fresh oak":"oak","Black pepper":"spice","Cedar":"oak","Spice":"spice"},
+      "cask23TastingNarrative": "Gentle peat smoke and citrus zest are sweetened by vanilla, then deepen into fresh oak, black pepper, cedar and warming spice.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://torabhaig.com/products/torabhaig-single-malt-cnoc-na-moine"],
+      "governanceNote": "Canonical manifest spells the expression 'Conc Na Moine'; official Torabhaig spelling is 'Cnoc Na Mòine'. Sensory enrichment does not alter canonical identity."
+    },
+    {
+      "beverageId": "b88e0d5f-c785-4677-97c4-b6f04e1b4719",
+      "officialName": "Torabhaig Sound of Sleat 46%",
+      "verifiedDescriptors": ["Orange", "Apricot", "Honey", "Vanilla", "Bonfire smoke", "Sea salt", "Seaweed", "White pepper", "Oak spice"],
+      "descriptorFamilies": {"Orange":"citrus","Apricot":"orchard-fruit","Honey":"sweet","Vanilla":"sweet","Bonfire smoke":"smoke-peat","Sea salt":"maritime","Seaweed":"maritime","White pepper":"spice","Oak spice":"oak"},
+      "cask23TastingNarrative": "Orange and apricot open into honey and vanilla, while bonfire smoke, sea salt and seaweed bring the maritime core, finished with white pepper and oak spice.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://torabhaig.com/products/torabhaig-legacy-series-ch-4-sound-of-sleat"]
+    },
+    {
+      "beverageId": "60b6369d-0425-4fa2-8604-c3b2364a8cb2",
+      "officialName": "Starward Nova 41%",
+      "verifiedDescriptors": ["Red berries", "Dark chocolate", "Orchard fruit", "Vanilla", "Caramel", "Spice", "Oak"],
+      "descriptorFamilies": {"Red berries":"dried-fruit","Dark chocolate":"chocolate-coffee","Orchard fruit":"orchard-fruit","Vanilla":"sweet","Caramel":"sweet","Spice":"spice","Oak":"oak"},
+      "cask23TastingNarrative": "Red berries and orchard fruit meet dark chocolate, vanilla and caramel, with gentle spice and oak carrying the wine-cask matured finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://starward.com.au/products/nova"]
+    },
+    {
+      "beverageId": "511e51a6-6ba4-4135-ab37-369e2f1244b8",
+      "officialName": "Starward Two-Fold Double Grain 40%",
+      "verifiedDescriptors": ["Tropical fruit", "Red berries", "Vanilla", "Toasted oak"],
+      "descriptorFamilies": {"Tropical fruit":"tropical","Red berries":"dried-fruit","Vanilla":"sweet","Toasted oak":"oak"},
+      "cask23TastingNarrative": "Bright tropical fruit and red berries are balanced by vanilla sweetness and a lightly toasted-oak backbone.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://starward.com.au/products/two-fold"]
+    },
+    {
+      "beverageId": "ebd995a3-e5b3-48b5-be27-031ed401caa0",
+      "officialName": "Highland Park 12 Year 40%",
+      "verifiedDescriptors": ["Seville orange", "Heather honey", "Spiced fruitcake", "Heather peat smoke", "Jasmine", "Orange zest", "Pepper"],
+      "descriptorFamilies": {"Seville orange":"citrus","Heather honey":"sweet","Spiced fruitcake":"spice","Heather peat smoke":"smoke-peat","Jasmine":"floral-herbal","Orange zest":"citrus","Pepper":"spice"},
+      "cask23TastingNarrative": "Seville orange and heather honey lead into spiced fruitcake and jasmine, with pepper, orange zest and aromatic Orcadian peat smoke extending the finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.highlandparkwhisky.com/en/products/12-year-old-single-malt-whisky"]
+    },
+    {
+      "beverageId": "fa6b2a13-f27d-4653-affa-1783b9fada70",
+      "officialName": "Bunnahabhain Stiùireadair",
+      "verifiedDescriptors": ["Dried fruit", "Caramel", "Brine", "Vanilla", "Nuts", "Spice", "Sea salt"],
+      "descriptorFamilies": {"Dried fruit":"dried-fruit","Caramel":"sweet","Brine":"maritime","Vanilla":"sweet","Nuts":"nutty","Spice":"spice","Sea salt":"maritime"},
+      "cask23TastingNarrative": "Dried fruit and creamy caramel are lifted by vanilla and nuts, with gentle spice, brine and sea salt giving the unpeated malt its coastal edge.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://bunnahabhain.com/products/stiuireadair"]
+    },
+    {
+      "beverageId": "f1c18a28-bf76-41a9-ae29-d16a18357c10",
+      "officialName": "Benromach The Classic 10 Year 43%",
+      "verifiedDescriptors": ["Forest fruit", "Spice", "Green apple", "Light peat smoke", "Creamy malt"],
+      "descriptorFamilies": {"Forest fruit":"dried-fruit","Spice":"spice","Green apple":"orchard-fruit","Light peat smoke":"smoke-peat","Creamy malt":"sweet"},
+      "cask23TastingNarrative": "Forest fruit and green apple sit over creamy malt and delicate spice, with Benromach's characteristic light peat smoke running through the finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.benromach.com/whisky/current-range","https://www.benromach.com/news/double-award-win-for-benromach"]
+    },
+    {
+      "beverageId": "3cb21778-73b9-4f1b-99cf-fbc39568c68a",
+      "officialName": "Springbank 10 Year Amontillado (2024)",
+      "verifiedDescriptors": ["Hazelnut", "Maraschino cherry", "Blood orange", "Coconut", "Treacle", "Tarragon"],
+      "descriptorFamilies": {"Hazelnut":"nutty","Maraschino cherry":"dried-fruit","Blood orange":"citrus","Coconut":"tropical","Treacle":"sweet","Tarragon":"floral-herbal"},
+      "cask23TastingNarrative": "Hazelnut, maraschino cherry and blood orange lead into coconut and treacle sweetness, drying toward a tarragon-led finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.springbank.scot/whisky/springbank-range/"]
+    },
+    {
+      "beverageId": "652343f3-7354-4bb8-9434-b6a4f5cfab88",
+      "officialName": "Springbank 10 Year Fino (2025)",
+      "verifiedDescriptors": ["Blood orange", "Vanilla custard", "Cinnamon", "Mint", "Praline", "Morello cherry", "Lemon curd", "Lime", "Maple syrup"],
+      "descriptorFamilies": {"Blood orange":"citrus","Vanilla custard":"sweet","Cinnamon":"spice","Mint":"floral-herbal","Praline":"nutty","Morello cherry":"dried-fruit","Lemon curd":"citrus","Lime":"citrus","Maple syrup":"sweet"},
+      "cask23TastingNarrative": "Blood orange and vanilla custard open into cinnamon, mint and praline, with Morello cherry, lemon curd, lime and maple syrup shaping the Fino-led finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_PRODUCER_NOTES",
+      "sources": ["https://flaskfinewines.com/products/springbank-10-year-fino-cask-matured-2025-release-110-proof"]
+    },
+    {
+      "beverageId": "6ffba7ec-5e61-4047-bd95-174760a4e1fc",
+      "officialName": "SMWS 24.190 'An Enigma Wrapped In A Mystery'",
+      "verifiedDescriptors": ["Chocolate", "Honeycomb", "Strawberry", "Raspberry", "Walnut", "Cinnamon", "Fig", "Prune", "Peanut", "Hazelnut"],
+      "descriptorFamilies": {"Chocolate":"chocolate-coffee","Honeycomb":"sweet","Strawberry":"dried-fruit","Raspberry":"dried-fruit","Walnut":"nutty","Cinnamon":"spice","Fig":"dried-fruit","Prune":"dried-fruit","Peanut":"nutty","Hazelnut":"nutty"},
+      "cask23TastingNarrative": "Chocolate and honeycomb frame strawberry and raspberry fruit, before walnut, cinnamon, fig and prune deepen into peanut and hazelnut richness.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://smws.com/content/Nov25%20Outturn%20Digital.pdf"]
+    },
+    {
+      "beverageId": "2f8fb674-11b3-449e-aa23-446b3eb7adea",
+      "officialName": "Cardrona Growing Wings 65.6%",
+      "verifiedDescriptors": ["Pecan", "Treacle", "Vanilla"],
+      "descriptorFamilies": {"Pecan":"nutty","Treacle":"sweet","Vanilla":"sweet"},
+      "cask23TastingNarrative": "Pecan richness is wrapped in treacle and vanilla sweetness in this powerful cask-strength Cardrona release.",
+      "evidenceTier": "TIER_1_OFFICIAL_IMPORTER",
+      "sources": ["https://www.hotalingandco.com/wp-content/uploads/2025/04/GrowingWings_A4_SellSheet.pdf"]
+    },
+    {
+      "beverageId": "30693126-4988-4b98-86c5-ac26b4a439ff",
+      "officialName": "Morris Muscat Barrels 46%",
+      "verifiedDescriptors": ["Dark fruit", "Vanilla", "Cocoa", "Cinnamon"],
+      "descriptorFamilies": {"Dark fruit":"dried-fruit","Vanilla":"sweet","Cocoa":"chocolate-coffee","Cinnamon":"spice"},
+      "cask23TastingNarrative": "Dark fruit and vanilla are layered with cocoa and cinnamon spice, reflecting the influence of the Muscat barrels.",
+      "evidenceTier": "TIER_1_OFFICIAL_DISTRIBUTOR",
+      "sources": ["https://vanguardluxurybrands.com.au/wordpress/wp-content/uploads/2025/05/VAN-Catalogue-JUN2024-Digital-2.pdf"]
+    }
+  ]
+}
