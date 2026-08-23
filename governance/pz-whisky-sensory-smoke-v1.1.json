@@ -1,0 +1,25 @@
+{
+  "policyId": "PZ-WHISKY-SENSORY-SMOKE-V1.1",
+  "version": "1.1",
+  "status": "FOUNDER_REVIEW",
+  "scope": "Customer-facing whisky sensory smoke presentation",
+  "rules": {
+    "explicitGovernedSensorySmoke": "RENDER",
+    "peatedWithGovernedSmokeDimension": "RENDER",
+    "unpeatedWithoutExplicitSensorySmoke": "OMIT",
+    "unknownOrAbsentPeatWithoutExplicitSensorySmoke": "OMIT"
+  },
+  "derivedSmokeFromPeatLevel": {
+    "Unpeated": null,
+    "Lightly peated": 2,
+    "Moderately peated": 3,
+    "Heavily peated": 5
+  },
+  "precedence": [
+    "explicit governed/panel-approved sensory smoke value",
+    "allowed peat-level derivation for peated records only",
+    "absence"
+  ],
+  "nonDestructiveRequirement": "Removing the Unpeated floor must not remove textual peat facts and must not overwrite any explicit governed sensory smoke value.",
+  "implementationNote": "Lovable audit identified persisted Family 10 smoke derived from SMOKE_FROM_PEAT_LEVEL and smokeFromPeat. Applying this policy to current canonical revisions requires authorised manifest regeneration/supersession; this governance contract does not itself mutate Supabase canonical revisions."
+}
