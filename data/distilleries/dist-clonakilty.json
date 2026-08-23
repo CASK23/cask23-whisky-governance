@@ -1,0 +1,25 @@
+{
+  "distilleryId": "DIST-CLONAKILTY",
+  "slug": "clonakilty",
+  "officialName": "Clonakilty Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Ireland",
+  "location": "Clonakilty, County Cork, Ireland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Water used to reduce new make spirit is sourced from deep wells; the distillery describes its production water as being drawn from ancient rock formations.",
+    "malt": "The distillery grows heritage barley on the Scully family's farm and uses both malted and unmalted barley for its single pot still production.",
+    "fermentation": "Clonakilty states that fermentation is deliberately lengthened to allow its yeast more time to develop flavour; an exact duration is not disclosed in the verified first-party sources reviewed.",
+    "stills": "Its single pot still whiskey is triple-distilled; the distillery's customer-facing technical material does not publish still capacities or condenser geometry in the verified source set reviewed.",
+    "maturation": "Whiskey is matured in oak casks in the Atlantic coastal environment; the distillery also highlights a gradual 'gentle cut' approach when adding water to spirit."
+  },
+  "houseCharacter": "Clonakilty's house approach centres on long fermentation, triple distillation and the use of both malted and unmalted barley in its pot still whiskey. Those choices are designed to create a lighter, sweeter spirit while retaining grain and fermentation character. Coastal maturation and the use of family-grown heritage barley reinforce the distillery's emphasis on local raw materials and provenance.",
+  "cask23Narrative": "Clonakilty is a County Cork distillery built around a strong farm-to-whiskey identity. Its pot still spirit combines malted and unmalted barley, extended fermentation and triple distillation, giving customers a useful contrast to heavier double-distilled styles. The distillery's coastal location and use of deep-well water and family-grown barley make it especially relevant for anyone interested in how Irish whiskey can express both production method and place.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://clonakiltydistillery.ie/sustainability/",
+    "https://shop.clonakiltydistillery.ie/products/clonakilty-single-pot-still-70cl"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
