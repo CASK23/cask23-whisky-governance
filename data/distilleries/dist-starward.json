@@ -1,0 +1,24 @@
+{
+  "distilleryId": "DIST-STARWARD",
+  "slug": "starward",
+  "officialName": "Starward Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Australia",
+  "location": "Port Melbourne, Victoria, Australia",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "malt": "Starward uses Australian malted barley, including barley grown around Geelong for its single malt production.",
+    "fermentation": "A combination of brewer's and distiller's yeast is used to develop tropical, fruit-forward ester character. Official educational material states whisky fermentation takes at least 48 hours.",
+    "stills": "Whisky is distilled in copper stills, with the distillery emphasising retention of fermentation-derived tropical fruit character in the new make.",
+    "maturation": "Starward is built around Australian red-wine-barrel maturation, including Shiraz, Cabernet Sauvignon, Pinot Noir and Merlot casks sourced from wine regions such as the Yarra Valley, Barossa Valley and Margaret River."
+  },
+  "houseCharacter": "Starward deliberately treats fermentation as a flavour-building stage, using both brewer's and distiller's yeast to generate tropical-fruit esters. Copper distillation is then managed to preserve rather than erase those fruit-driven congeners. Fresh Australian red-wine casks add berry fruit, spice and tannin, making the maturation programme a direct extension of the fruity new-make design.",
+  "cask23Narrative": "Starward's identity is unmistakably Australian: local malt, brewer-led fermentation thinking and fresh Australian wine barrels rather than a Scotch-style cask template. The spirit is designed to carry tropical fruit from fermentation through copper distillation, then meet Shiraz, Cabernet, Pinot and other red-wine casks in Melbourne's variable climate. The result is a whisky style where fermentation fruit and wine-cask character are deliberately built to work together.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://starward.com.au/collections/award-winning-whisky",
+    "https://starward.com.au/blogs/journal/what-is-single-malt-whisky"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
