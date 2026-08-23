@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-YAMAZAKI",
+  "slug": "yamazaki",
+  "officialName": "Suntory Yamazaki Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Japan",
+  "founded": 1923,
+  "owner": "Suntory Spirits",
+  "location": "Shimamoto, Osaka Prefecture, Japan, southwest of Kyoto",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Yamazaki was selected for its high-quality local water at the confluence area of the Katsura, Uji and Kizu rivers; Suntory identifies the area's water and humid microclimate as fundamental to the distillery.",
+    "fermentation": "Suntory deliberately uses different washback types and yeast regimes to create multiple component-spirit styles. Exact washback counts and fermentation durations are not admitted because current first-party public sources emphasise diversity rather than one fixed specification.",
+    "stills": "Yamazaki uses multiple differently shaped copper pot stills rather than a single uniform still design, enabling production of a broad range of malt component spirits. Suntory confirms direct firing is used for first distillation as part of its quality approach, alongside continuing pilot-distillery research into alternative heating technologies.",
+    "maturation": "A wide range of cask types is deliberately used to create diverse malt components suitable for long-term maturation. The humid Yamazaki climate is treated by Suntory as an important part of maturation conditions."
+  },
+  "houseCharacter": "Yamazaki is designed around diversity rather than one narrowly fixed new-make style. Different washbacks, pot-still geometries, direct-fired first distillation and varied cask types allow Suntory to produce many distinct malt components at one physical site. Those components are built to withstand long ageing, with Yamazaki's humid climate and broad cask repertoire adding further differentiation during maturation.",
+  "cask23Narrative": "Yamazaki is best understood as a whisky-making laboratory at full distillery scale. Instead of relying on one still shape or one fermentation regime, Suntory deliberately creates multiple styles of new make using different washbacks, still geometries and cask types, then brings those components together through maturation and blending expertise. That production diversity is one of the reasons Yamazaki can show such breadth while remaining recognisably rooted in the same historic Japanese distillery.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.suntory.com/news/article/mt_items/14475E.pdf",
+    "https://www.suntory.com/news/article/mt_items/14584E.pdf",
+    "https://www.suntory.com/news/article/mt_items/14314E.pdf",
+    "https://www.suntory.com/csr/data/report/pdf/ccbook_2025.pdf"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
