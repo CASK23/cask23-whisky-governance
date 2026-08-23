@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-WHITE-PEAK",
+  "slug": "white-peak",
+  "officialName": "White Peak Distillery",
+  "entityType": "DISTILLERY",
+  "country": "England",
+  "location": "The Wire Works, Ambergate, Derbyshire, England",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "malt": "Wire Works is made as a lightly peated English single malt; White Peak places strong emphasis on local provenance and flavour creation during mashing and fermentation.",
+    "fermentation": "Fresh live brewer's yeast is collected from Thornbridge Brewery. White Peak states that Wire Works uses extended fermentation, with current first-party technical material describing 140-hour fermentations; earlier production writing documents a 96-hour regime, showing deliberate evolution toward longer fermentation.",
+    "stills": "The distillery uses traditional copper pot distillation and double distils its whisky. Exact pot-still capacities are not admitted because they are not published in the verified first-party source set.",
+    "peat": "The house spirit is lightly peated, intended to provide elegant smoke beneath the fermentation-derived fruit rather than dominate the profile.",
+    "maturation": "Wire Works uses a broad wood programme including STR ex-red-wine casks, ex-bourbon barrels, virgin American oak and other wine casks; maturation and bottling take place at White Peak."
+  },
+  "houseCharacter": "White Peak deliberately uses fresh live brewer's yeast and very long fermentation to maximise fruit and aromatic complexity before distillation. Light peat adds a restrained smoky layer, while copper pot distillation preserves enough body for active wood influence. STR wine casks, bourbon wood and other oak types then work with rather than replace the fermentation-driven fruit structure.",
+  "cask23Narrative": "White Peak is a modern English distillery with a distinctly brewing-led approach to whisky. Fresh Thornbridge brewer's yeast and unusually long fermentation are used to build fruit before the lightly peated wash reaches the copper stills, making fermentation one of the real signatures of Wire Works. The cask programme is broad, but the distillery's own releases repeatedly show that the spirit—not just the wood—is intended to remain visible.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.whitepeakdistillery.co.uk/our-story/",
+    "https://www.whitepeakdistillery.co.uk/60-second-read-on-yeast/",
+    "https://www.whitepeakdistillery.co.uk/derbyshire-rum-distillation-fermentation/",
+    "https://www.whitepeakdistillery.co.uk/wire-works-bourbon-barrel/",
+    "https://www.whitepeakdistillery.co.uk/wire-works-wine-cask-series/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
