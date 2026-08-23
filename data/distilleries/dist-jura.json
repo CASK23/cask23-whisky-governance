@@ -1,0 +1,30 @@
+{
+  "distilleryId": "DIST-JURA",
+  "slug": "jura",
+  "officialName": "Jura Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Islands",
+  "founded": 1810,
+  "owner": "Whyte & Mackay Ltd",
+  "location": "Craighouse, Isle of Jura, PA60 7XT",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Process water is drawn from Loch a'Bhaile Mhargaidh (Market Loch) on Jura.",
+    "malt": "The distillery primarily uses very lightly peated malt for its core distillate and also runs peated malt for selected styles.",
+    "fermentation": "Six stainless-steel washbacks are used; established specialist data records a fermentation time of approximately 54 hours.",
+    "stills": "Four exceptionally tall copper pot stills are used: two wash stills and two spirit stills. Established specialist data lists wash stills at about 24,500 litres and spirit stills at about 15,500 litres; the tall, constricted neck geometry promotes high reflux and a lighter spirit.",
+    "peat": "Core production is lightly peated or effectively unpeated, with separate peated production used for selected expressions.",
+    "maturation": "Jura uses on-site bonded warehousing with both racked and dunnage storage and matures whisky in American and European oak casks."
+  },
+  "houseCharacter": "Jura's very tall stills create extensive reflux and favour a comparatively light, fruity new-make spirit. A relatively short fermentation provides a firmer cereal structure beneath that distillate, while selective peated production allows smoke to be introduced without defining every batch. American oak ex-bourbon maturation is a central part of the distillery's modern house style.",
+  "cask23Narrative": "Jura's distillery character begins with unusually tall stills that encourage reflux and help produce a lighter, fruit-led spirit. Most of the core make is only lightly smoky, while dedicated peated runs give the distillery room to create more assertive styles when required. For the drinker, that means Jura can move between bright, balanced fruit and measured smoke without losing its underlying island identity.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.jurawhisky.com/en-gb/news/what-does-jura-whisky-taste-like-flavour-profiles-tasting-notes-and-food-pairings/",
+    "https://www.whisky.com/whisky-database/distilleries/details/jura.html",
+    "https://scotchwhisky.com/whiskypedia/1869/jura/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
