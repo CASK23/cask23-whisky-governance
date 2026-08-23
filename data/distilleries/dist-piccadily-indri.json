@@ -1,0 +1,27 @@
+{
+  "distilleryId": "DIST-PICCADILY-INDRI",
+  "slug": "piccadily-indri",
+  "officialName": "Piccadily Distillery, Indri",
+  "entityType": "DISTILLERY",
+  "country": "India",
+  "owner": "Piccadily Agro Industries Limited",
+  "location": "Indri, Haryana, India",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "malt": "The distillery uses non-hybrid, non-GMO Indian six-row barley. Official process material traces barley sourcing to Rajasthan and identifies Soufflet and Barmalt as maltsters used in preparation.",
+    "fermentation": "Wort is cooled to about 20°C before yeast is added in washbacks. Official process material states fermentation subsides after about two days, producing a wash of approximately 6-8% ABV.",
+    "stills": "The current facility operates 14 Scottish-style copper pot stills: seven 25,000-litre wash stills and seven 15,000-litre spirit stills. Malt spirit is double-distilled, with the heart cut collected as new make spirit.",
+    "peat": "The distillery produces both peated and non-peated malt components for different expressions; exact PPM is not treated as canonical unless expression-specific evidence exists.",
+    "maturation": "The Indri site operates large-scale warehousing for tens of thousands of barrels and uses a broad cask programme including virgin American oak, ex-bourbon, French wine, Oloroso and PX sherry casks. Northern India's large seasonal temperature range is an important maturation variable."
+  },
+  "houseCharacter": "Piccadily's Indri facility combines protein-rich Indian six-row barley with a relatively short, controlled fermentation and large Scottish-style copper pot stills. Double distillation is designed to retain a clean, fruity malt core while the wide cask programme contributes substantial oak-driven variation. The extreme seasonal climate of Haryana then accelerates cask interaction, producing a style that can show ripe fruit, spice and concentrated oak influence at comparatively young chronological ages.",
+  "cask23Narrative": "Indri is made at Piccadily's large malt distillery in Haryana, where Indian six-row barley meets traditional copper-pot double distillation on an unusually ambitious scale. The distillery's current stillhouse uses fourteen Scottish-style copper pot stills, while its maturation programme spans bourbon, virgin oak, wine and sherry casks. For the customer, that combination helps explain why Indri can balance bright Indian malt fruit with pronounced spice, oak and cask character shaped by northern India's dramatic climate.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.indri.in/the-distillery",
+    "https://www.indri.in/our-process",
+    "https://www.piccadily.com/our-distilleries"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
