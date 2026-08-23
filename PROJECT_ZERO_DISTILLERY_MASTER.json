@@ -1,371 +1,572 @@
 {
   "project": "PROJECT_ZERO_DISTILLERY_MASTER",
-  "version": "1.0",
+  "version": "1.1",
   "generatedDate": "2026-08-23",
   "governanceStatus": "FOUNDER_REVIEW",
   "metrics": {
     "approvedDistilleryEntityRowsCovered": 58,
-    "canonicalPhysicalFacilityProfiles": 55,
-    "aliasRowsCollapsed": 3,
+    "canonicalPhysicalFacilityProfiles": 58,
+    "v11AdditionalFacilityProfiles": 3,
+    "coverageOverrideRows": 4,
+    "sourceEntityCoverageRows": 62,
     "schemaValidationPassed": true,
-    "profileSourceReferences": 180,
-    "uniqueSourceUrls": 180,
+    "profileSourceReferences": 189,
+    "uniqueSourceUrls": 189,
     "evidenceTierCounts": {
-      "TIER_1_OFFICIAL": 32,
-      "TIER_2_ESTABLISHED_SPECIALIST": 23
-    }
+      "TIER_2_ESTABLISHED_SPECIALIST": 24,
+      "TIER_1_OFFICIAL": 34
+    },
+    "suppressedNonFacilityExploreTargets": 6,
+    "provenanceReviewQueueCount": 6
   },
   "sourceEntityCoverage": [
+    {
+      "directorySlug": "amrut",
+      "entityName": "amrut",
+      "canonicalDistilleryId": "DIST-AMRUT",
+      "canonicalSlug": "amrut",
+      "relationship": "BRAND_LABEL_RESOLVES_TO_SINGLE_PHYSICAL_FACILITY"
+    },
     {
       "directorySlug": "ardbeg",
       "entityName": "Ardbeg",
       "canonicalDistilleryId": "DIST-ARDBEG",
-      "canonicalSlug": "ardbeg"
+      "canonicalSlug": "ardbeg",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "ardmore-distillery",
       "entityName": "Ardmore Distillery",
       "canonicalDistilleryId": "DIST-ARDMORE",
-      "canonicalSlug": "ardmore"
+      "canonicalSlug": "ardmore",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "ardnahoe-distillery",
       "entityName": "Ardnahoe Distillery",
       "canonicalDistilleryId": "DIST-ARDNAHOE",
-      "canonicalSlug": "ardnahoe"
+      "canonicalSlug": "ardnahoe",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "ardnamurchan",
       "entityName": "Ardnamurchan",
       "canonicalDistilleryId": "DIST-ARDNAMURCHAN",
-      "canonicalSlug": "ardnamurchan"
+      "canonicalSlug": "ardnamurchan",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "balblair-distillery",
       "entityName": "Balblair Distillery",
       "canonicalDistilleryId": "DIST-BALBLAIR",
-      "canonicalSlug": "balblair"
+      "canonicalSlug": "balblair",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "balcones-distilling",
       "entityName": "Balcones Distilling",
       "canonicalDistilleryId": "DIST-BALCONES",
-      "canonicalSlug": "balcones"
+      "canonicalSlug": "balcones",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "balvenie",
       "entityName": "Balvenie",
       "canonicalDistilleryId": "DIST-BALVENIE",
-      "canonicalSlug": "balvenie"
+      "canonicalSlug": "balvenie",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "barton-1792-distillery",
       "entityName": "Barton 1792 Distillery",
       "canonicalDistilleryId": "DIST-BARTON-1792",
-      "canonicalSlug": "barton-1792"
+      "canonicalSlug": "barton-1792",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "benriach",
       "entityName": "BenRiach",
       "canonicalDistilleryId": "DIST-BENRIACH",
-      "canonicalSlug": "benriach"
+      "canonicalSlug": "benriach",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "benromach",
       "entityName": "Benromach",
       "canonicalDistilleryId": "DIST-BENROMACH",
-      "canonicalSlug": "benromach"
+      "canonicalSlug": "benromach",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "bimber",
       "entityName": "Bimber",
       "canonicalDistilleryId": "DIST-BIMBER",
-      "canonicalSlug": "bimber"
+      "canonicalSlug": "bimber",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "blair-athol",
       "entityName": "Blair Athol",
       "canonicalDistilleryId": "DIST-BLAIR-ATHOL",
-      "canonicalSlug": "blair-athol"
+      "canonicalSlug": "blair-athol",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "bruichladdich",
       "entityName": "Bruichladdich",
       "canonicalDistilleryId": "DIST-BRUICHLADDICH",
-      "canonicalSlug": "bruichladdich"
+      "canonicalSlug": "bruichladdich",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "buffalo-trace-distillery",
       "entityName": "Buffalo Trace Distillery",
       "canonicalDistilleryId": "DIST-BUFFALO-TRACE",
-      "canonicalSlug": "buffalo-trace"
+      "canonicalSlug": "buffalo-trace",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "bunnahabhain-distillery",
       "entityName": "Bunnahabhain Distillery",
       "canonicalDistilleryId": "DIST-BUNNAHABHAIN",
-      "canonicalSlug": "bunnahabhain"
+      "canonicalSlug": "bunnahabhain",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "cardrona",
       "entityName": "Cardrona",
       "canonicalDistilleryId": "DIST-CARDRONA",
-      "canonicalSlug": "cardrona"
+      "canonicalSlug": "cardrona",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "clonakilty",
       "entityName": "Clonakilty Distillery",
       "canonicalDistilleryId": "DIST-CLONAKILTY",
-      "canonicalSlug": "clonakilty"
+      "canonicalSlug": "clonakilty",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "cotswolds",
       "entityName": "Cotswolds",
       "canonicalDistilleryId": "DIST-COTSWOLDS",
-      "canonicalSlug": "cotswolds"
+      "canonicalSlug": "cotswolds",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "deanston-distillery",
       "entityName": "Deanston Distillery",
       "canonicalDistilleryId": "DIST-DEANSTON",
-      "canonicalSlug": "deanston"
+      "canonicalSlug": "deanston",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "fettercairn-distillery",
       "entityName": "Fettercairn Distillery",
       "canonicalDistilleryId": "DIST-FETTERCAIRN",
-      "canonicalSlug": "fettercairn"
+      "canonicalSlug": "fettercairn",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "few-spirits-llc",
       "entityName": "FEW Spirits, LLC",
       "canonicalDistilleryId": "DIST-FEW-SPIRITS",
-      "canonicalSlug": "few-spirits"
+      "canonicalSlug": "few-spirits",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "filey-bay",
       "entityName": "Filey Bay",
       "canonicalDistilleryId": "DIST-SPIRIT-OF-YORKSHIRE",
-      "canonicalSlug": "spirit-of-yorkshire"
+      "canonicalSlug": "spirit-of-yorkshire",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "four-roses-distillery",
       "entityName": "Four Roses Distillery",
       "canonicalDistilleryId": "DIST-FOUR-ROSES",
-      "canonicalSlug": "four-roses"
+      "canonicalSlug": "four-roses",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "glen-moray",
       "entityName": "Glen Moray",
       "canonicalDistilleryId": "DIST-GLEN-MORAY",
-      "canonicalSlug": "glen-moray"
+      "canonicalSlug": "glen-moray",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "glen-scotia",
       "entityName": "Glen Scotia",
       "canonicalDistilleryId": "DIST-GLEN-SCOTIA",
-      "canonicalSlug": "glen-scotia"
+      "canonicalSlug": "glen-scotia",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "glendronach",
       "entityName": "GlenDronach Distillery",
       "canonicalDistilleryId": "DIST-GLENDRONACH",
-      "canonicalSlug": "glendronach"
+      "canonicalSlug": "glendronach",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "glenfarclas",
       "entityName": "Glenfarclas",
       "canonicalDistilleryId": "DIST-GLENFARCLAS",
-      "canonicalSlug": "glenfarclas"
+      "canonicalSlug": "glenfarclas",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "glenfiddich",
       "entityName": "Glenfiddich",
       "canonicalDistilleryId": "DIST-GLENFIDDICH",
-      "canonicalSlug": "glenfiddich"
+      "canonicalSlug": "glenfiddich",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "glenglassaugh-distillery",
       "entityName": "Glenglassaugh Distillery",
       "canonicalDistilleryId": "DIST-GLENGLASSAUGH",
-      "canonicalSlug": "glenglassaugh"
+      "canonicalSlug": "glenglassaugh",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
+    },
+    {
+      "directorySlug": "glenscotia",
+      "entityName": "glenscotia",
+      "canonicalDistilleryId": "DIST-GLEN-SCOTIA",
+      "canonicalSlug": "glen-scotia",
+      "relationship": "LEGACY_ALIAS_TO_CANONICAL_FACILITY"
     },
     {
       "directorySlug": "heaven-hill-distillery",
       "entityName": "Heaven Hill Distillery",
       "canonicalDistilleryId": "DIST-HEAVEN-HILL",
-      "canonicalSlug": "heaven-hill"
+      "canonicalSlug": "heaven-hill",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "highland-park",
       "entityName": "Highland Park",
       "canonicalDistilleryId": "DIST-HIGHLAND-PARK",
-      "canonicalSlug": "highland-park"
+      "canonicalSlug": "highland-park",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
+    },
+    {
+      "directorySlug": "indri",
+      "entityName": "indri",
+      "canonicalDistilleryId": "DIST-PICCADILY-INDRI",
+      "canonicalSlug": "piccadily-indri",
+      "relationship": "BRAND_LABEL_RESOLVES_TO_SINGLE_PHYSICAL_FACILITY"
     },
     {
       "directorySlug": "jura",
       "entityName": "Jura",
       "canonicalDistilleryId": "DIST-JURA",
-      "canonicalSlug": "jura"
+      "canonicalSlug": "jura",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "kavalan",
       "entityName": "Kavalan",
       "canonicalDistilleryId": "DIST-KAVALAN",
-      "canonicalSlug": "kavalan"
+      "canonicalSlug": "kavalan",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "kavalan-distillery",
       "entityName": "Kavalan Distillery",
       "canonicalDistilleryId": "DIST-KAVALAN",
-      "canonicalSlug": "kavalan"
+      "canonicalSlug": "kavalan",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "kilchoman",
       "entityName": "Kilchoman",
       "canonicalDistilleryId": "DIST-KILCHOMAN",
-      "canonicalSlug": "kilchoman"
+      "canonicalSlug": "kilchoman",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "lagg",
       "entityName": "Lagg",
       "canonicalDistilleryId": "DIST-LAGG",
-      "canonicalSlug": "lagg"
+      "canonicalSlug": "lagg",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "laphroaig",
       "entityName": "Laphroaig Distillery",
       "canonicalDistilleryId": "DIST-LAPHROAIG",
-      "canonicalSlug": "laphroaig"
+      "canonicalSlug": "laphroaig",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "lochlea",
       "entityName": "Lochlea",
       "canonicalDistilleryId": "DIST-LOCHLEA",
-      "canonicalSlug": "lochlea"
+      "canonicalSlug": "lochlea",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "macallan",
       "entityName": "Macallan",
       "canonicalDistilleryId": "DIST-MACALLAN",
-      "canonicalSlug": "macallan"
+      "canonicalSlug": "macallan",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "macduff-distillery",
       "entityName": "Macduff Distillery",
       "canonicalDistilleryId": "DIST-MACDUFF",
-      "canonicalSlug": "macduff"
+      "canonicalSlug": "macduff",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "mackmyra",
       "entityName": "Mackmyra",
       "canonicalDistilleryId": "DIST-MACKMYRA",
-      "canonicalSlug": "mackmyra"
+      "canonicalSlug": "mackmyra",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "milk-and-honey",
       "entityName": "Milk & Honey",
       "canonicalDistilleryId": "DIST-MH",
-      "canonicalSlug": "mh-distillery"
+      "canonicalSlug": "mh-distillery",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
+    },
+    {
+      "directorySlug": "paul-john",
+      "entityName": "paul-john",
+      "canonicalDistilleryId": "DIST-JOHN-DISTILLERIES-GOA",
+      "canonicalSlug": "john-distilleries-goa",
+      "relationship": "BRAND_LABEL_RESOLVES_TO_SINGLE_PHYSICAL_FACILITY"
     },
     {
       "directorySlug": "royal-brackla",
       "entityName": "Royal Brackla",
       "canonicalDistilleryId": "DIST-ROYAL-BRACKLA",
-      "canonicalSlug": "royal-brackla"
+      "canonicalSlug": "royal-brackla",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "scapegrace",
       "entityName": "Scapegrace",
       "canonicalDistilleryId": "DIST-SCAPEGRACE",
-      "canonicalSlug": "scapegrace"
+      "canonicalSlug": "scapegrace",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "springbank",
       "entityName": "Springbank",
       "canonicalDistilleryId": "DIST-SPRINGBANK",
-      "canonicalSlug": "springbank"
+      "canonicalSlug": "springbank",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "starward",
       "entityName": "Starward",
       "canonicalDistilleryId": "DIST-STARWARD",
-      "canonicalSlug": "starward"
+      "canonicalSlug": "starward",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "the-benriach",
       "entityName": "The BenRiach",
       "canonicalDistilleryId": "DIST-BENRIACH",
-      "canonicalSlug": "benriach"
+      "canonicalSlug": "benriach",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "the-dalmore",
       "entityName": "The Dalmore",
       "canonicalDistilleryId": "DIST-DALMORE",
-      "canonicalSlug": "dalmore"
+      "canonicalSlug": "dalmore",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "the-glendronach",
       "entityName": "The GlenDronach",
       "canonicalDistilleryId": "DIST-GLENDRONACH",
-      "canonicalSlug": "glendronach"
+      "canonicalSlug": "glendronach",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "the-lakes",
       "entityName": "The Lakes",
       "canonicalDistilleryId": "DIST-LAKES",
-      "canonicalSlug": "the-lakes"
+      "canonicalSlug": "the-lakes",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "tobermory",
       "entityName": "Tobermory",
       "canonicalDistilleryId": "DIST-TOBERMORY",
-      "canonicalSlug": "tobermory"
+      "canonicalSlug": "tobermory",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "tomatin-distillery",
       "entityName": "Tomatin Distillery",
       "canonicalDistilleryId": "DIST-TOMATIN",
-      "canonicalSlug": "tomatin"
+      "canonicalSlug": "tomatin",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "torabhaig",
       "entityName": "Torabhaig",
       "canonicalDistilleryId": "DIST-TORABHAIG",
-      "canonicalSlug": "torabhaig"
+      "canonicalSlug": "torabhaig",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "tullibardine-distillery",
       "entityName": "Tullibardine Distillery",
       "canonicalDistilleryId": "DIST-TULLIBARDINE",
-      "canonicalSlug": "tullibardine"
+      "canonicalSlug": "tullibardine",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "wild-turkey",
       "entityName": "Wild Turkey",
       "canonicalDistilleryId": "DIST-WILD-TURKEY",
-      "canonicalSlug": "wild-turkey"
+      "canonicalSlug": "wild-turkey",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "wire-works",
       "entityName": "Wire Works",
       "canonicalDistilleryId": "DIST-WHITE-PEAK",
-      "canonicalSlug": "white-peak"
+      "canonicalSlug": "white-peak",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "wolfburn-distillery",
       "entityName": "Wolfburn Distillery",
       "canonicalDistilleryId": "DIST-WOLFBURN",
-      "canonicalSlug": "wolfburn"
+      "canonicalSlug": "wolfburn",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
       "directorySlug": "yamazaki",
       "entityName": "Yamazaki",
       "canonicalDistilleryId": "DIST-YAMAZAKI",
-      "canonicalSlug": "yamazaki"
+      "canonicalSlug": "yamazaki",
+      "relationship": "PZ_DISTILLERY_00_APPROVED"
     }
   ],
+  "presentationGovernance": {
+    "suppressExploreDistillery": [
+      {
+        "directorySlug": "douglas-laing-s",
+        "entityType": "INDEPENDENT_BOTTLER",
+        "policy": "NO_DISTILLERY_ROUTE",
+        "note": "Retain independent-bottler attribution. Link to a distillery only through a separate exact expression-level facility binding."
+      },
+      {
+        "directorySlug": "signatory-vintage",
+        "entityType": "INDEPENDENT_BOTTLER",
+        "policy": "NO_DISTILLERY_ROUTE",
+        "note": "Retain independent-bottler attribution. Link to a distillery only through a separate exact expression-level facility binding."
+      },
+      {
+        "directorySlug": "mossburn",
+        "entityType": "INDEPENDENT_BOTTLER",
+        "policy": "NO_DISTILLERY_ROUTE",
+        "note": "Retain independent-bottler attribution. Link to a distillery only through a separate exact expression-level facility binding."
+      },
+      {
+        "directorySlug": "that-boutique-y-whisky-co",
+        "entityType": "INDEPENDENT_BOTTLER",
+        "policy": "NO_DISTILLERY_ROUTE",
+        "note": "Retain independent-bottler attribution. Link to a distillery only through a separate exact expression-level facility binding."
+      },
+      {
+        "directorySlug": "gleann-mor",
+        "entityType": "INDEPENDENT_BOTTLER",
+        "policy": "NO_DISTILLERY_ROUTE",
+        "note": "Retain independent-bottler attribution. Link to a distillery only through a separate exact expression-level facility binding."
+      },
+      {
+        "directorySlug": "smokehead",
+        "entityType": "UNDISCLOSED_DISTILLERY",
+        "policy": "NO_DISTILLERY_ROUTE",
+        "note": "Smokehead is a brand built around undisclosed Islay single malt; no physical-facility route may be inferred."
+      }
+    ],
+    "provenanceReviewQueue": [
+      {
+        "directorySlug": "old-pulteney",
+        "reason": "Brand identity; expression-level confirmation required before binding to Pulteney Distillery."
+      },
+      {
+        "directorySlug": "whistlepig",
+        "reason": "Brand has physical distilling operations, but exact listed-expression provenance must be established before facility assignment."
+      },
+      {
+        "directorySlug": "uncle-nearest",
+        "reason": "Brand has physical distilling operations, but exact listed-expression provenance must be established before facility assignment."
+      },
+      {
+        "directorySlug": "hudson",
+        "reason": "Brand historically associated with Tuthilltown; exact listed-expression provenance must be established before facility assignment."
+      },
+      {
+        "directorySlug": "evan-williams",
+        "reason": "Brand identity; exact listed-expression production facility must be proven before assignment."
+      },
+      {
+        "directorySlug": "rebel",
+        "reason": "Brand identity; exact listed-expression production facility must be proven before assignment."
+      }
+    ]
+  },
+  "sensoryGovernance": {
+    "policyId": "PZ-WHISKY-SENSORY-SMOKE-V1.1",
+    "version": "1.1",
+    "rules": {
+      "explicitGovernedSensorySmoke": "RENDER",
+      "peatedWithGovernedSmokeDimension": "RENDER",
+      "unpeatedWithoutExplicitSensorySmoke": "OMIT",
+      "unknownOrAbsentPeatWithoutExplicitSensorySmoke": "OMIT"
+    },
+    "derivedSmokeFromPeatLevel": {
+      "Unpeated": null,
+      "Lightly peated": 2,
+      "Moderately peated": 3,
+      "Heavily peated": 5
+    },
+    "implementationNote": "Lovable audit identified persisted Family 10 smoke derived from SMOKE_FROM_PEAT_LEVEL and smokeFromPeat. Applying this policy to current canonical revisions requires authorised manifest regeneration/supersession; this governance contract does not itself mutate Supabase canonical revisions."
+  },
   "profiles": [
+    {
+      "distilleryId": "DIST-AMRUT",
+      "slug": "amrut",
+      "officialName": "Amrut Distillery",
+      "entityType": "DISTILLERY",
+      "country": "India",
+      "owner": "Amrut Distilleries Private Ltd (N.R. Jagdale Group)",
+      "location": "Bengaluru, Karnataka, India",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Established specialist reporting describes production water drawn from a local well and transported to the distillery; cooling water is kept in a separate circuit.",
+        "malt": "Amrut's malt whisky is based primarily on Indian six-row barley; some peated production uses imported peated malt because local peat is not used for those expressions.",
+        "fermentation": "Amrut uses controlled stainless-steel fermentation for malt whisky. Current official material confirms yeast fermentation but does not publish a canonical current washback count or duration; specialist sources differ on historical/current plant configuration, so unsupported precision is withheld here.",
+        "stills": "Malt whisky is double-distilled in copper pot stills. Established specialist reporting documents a wash still around 6,500 litres and a larger spirit still around 8,000 litres, with the spirit still's reflux bowl increasing copper contact during slow distillation.",
+        "peat": "Both peated and unpeated single-malt styles are produced; peated malt has historically been sourced from outside India for peated expressions.",
+        "maturation": "Whisky matures in Bengaluru's warm climate, where cask interaction and evaporation are substantially accelerated compared with cooler whisky regions. The distillery operates its own maturation warehousing and cooperage programme."
+      },
+      "houseCharacter": "Amrut combines Indian six-row barley with copper-pot double distillation and warm-climate maturation, creating a spirit architecture that tends toward concentrated malt, fruit and spice rather than lightness alone. The spirit-still reflux geometry increases copper contact and helps refine the new make before it enters cask. Bengaluru's heat then becomes a major maturation variable, accelerating extraction and concentrating cask influence while preserving the robust cereal character associated with Indian barley.",
+      "cask23Narrative": "Amrut is one of the defining names in Indian single malt because its whisky is shaped as much by place as by process. Indian six-row barley gives the spirit a robust, characterful base, while copper-pot double distillation keeps the new make refined enough to carry fruit and spice alongside that malt weight. Maturation in Bengaluru's warm climate then accelerates oak interaction dramatically, helping explain the concentrated, expressive style that has made Amrut internationally distinctive.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://amrutdistilleries.com/distillery/",
+        "https://amrutdistilleries.com/story/",
+        "https://www.whisky.com/whisky-database/distilleries/details/amrut.html"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
     {
       "distilleryId": "DIST-ARDBEG",
       "slug": "ardbeg",
@@ -1375,6 +1576,61 @@
         "https://www.mackmyra.se/var-historia",
         "https://www.whisky.com/whisky-database/distilleries/details/mackmyra.html",
         "https://www.whiskybase.com/whiskies/distillery/207/about"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-JOHN-DISTILLERIES-GOA",
+      "slug": "john-distilleries-goa",
+      "officialName": "Paul John Distillery, Goa",
+      "entityType": "DISTILLERY",
+      "country": "India",
+      "owner": "John Distilleries Private Limited",
+      "location": "Cuncolim, Goa, India",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Paul John states that production uses Goa's underground water table together with rain-fed sources and water flowing through the Western Ghats, naturally filtered through Goan wetlands.",
+        "malt": "The single malts use indigenous Indian six-row barley sourced from northern India, including Rajasthan, Haryana and the Himalayan foothills.",
+        "fermentation": "Official Paul John material states that fermentation runs for at least about 40 hours before distillation; unsupported washback-count precision is not promoted into this canonical profile.",
+        "stills": "The Goa malt facility uses custom-made Indian copper pot stills with long necks designed to promote a fruitier spirit. Official Paul John material describes two sets of stills, comprising two wash stills and two spirit stills, used for double distillation.",
+        "peat": "Both peated and unpeated whisky are produced. For peated production, peat/malted material is sourced from Scotland because there is no equivalent local peat source used for this purpose.",
+        "maturation": "Whisky is matured in Goa's tropical climate, with official material citing an angel's share around 8-10% per year. Charred American white-oak barrels are core to maturation, with additional cask types used for selected releases; the site has both above-ground and cooler underground/cellar warehousing."
+      },
+      "houseCharacter": "Paul John's Goa spirit is built from protein-rich Indian six-row barley, mineral-balanced local water and long-necked copper pot stills configured for double distillation. The still geometry favours fruitier new make, while both peated and unpeated production allow the distillery to range from bright malt character to smoke-led styles. Goa's warm, humid coastal climate then accelerates cask interaction, producing concentrated sweetness, spice and tropical-fruit character at comparatively young chronological ages.",
+      "cask23Narrative": "Paul John is distilled in Goa, where Indian six-row barley and specially designed long-necked copper pot stills create a distinctly fruit-forward new make. The distillery produces both peated and unpeated styles, but the tropical coastal climate is just as important as the stillhouse: heat and humidity accelerate oak interaction and evaporation throughout maturation. That combination gives Paul John its recognisably rich, generous style, where malt sweetness, tropical fruit, spice and—when used—peat can develop with unusual intensity.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.pauljohnwhisky.com/our-distillery.php",
+        "https://pauljohnwhisky.com/paul-john-port-cask.php",
+        "https://www.pauljohnwhisky.com/paul-john-single-malt-story.php"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-PICCADILY-INDRI",
+      "slug": "piccadily-indri",
+      "officialName": "Piccadily Distillery, Indri",
+      "entityType": "DISTILLERY",
+      "country": "India",
+      "owner": "Piccadily Agro Industries Limited",
+      "location": "Indri, Haryana, India",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "malt": "The distillery uses non-hybrid, non-GMO Indian six-row barley. Official process material traces barley sourcing to Rajasthan and identifies Soufflet and Barmalt as maltsters used in preparation.",
+        "fermentation": "Wort is cooled to about 20°C before yeast is added in washbacks. Official process material states fermentation subsides after about two days, producing a wash of approximately 6-8% ABV.",
+        "stills": "The current facility operates 14 Scottish-style copper pot stills: seven 25,000-litre wash stills and seven 15,000-litre spirit stills. Malt spirit is double-distilled, with the heart cut collected as new make spirit.",
+        "peat": "The distillery produces both peated and non-peated malt components for different expressions; exact PPM is not treated as canonical unless expression-specific evidence exists.",
+        "maturation": "The Indri site operates large-scale warehousing for tens of thousands of barrels and uses a broad cask programme including virgin American oak, ex-bourbon, French wine, Oloroso and PX sherry casks. Northern India's large seasonal temperature range is an important maturation variable."
+      },
+      "houseCharacter": "Piccadily's Indri facility combines protein-rich Indian six-row barley with a relatively short, controlled fermentation and large Scottish-style copper pot stills. Double distillation is designed to retain a clean, fruity malt core while the wide cask programme contributes substantial oak-driven variation. The extreme seasonal climate of Haryana then accelerates cask interaction, producing a style that can show ripe fruit, spice and concentrated oak influence at comparatively young chronological ages.",
+      "cask23Narrative": "Indri is made at Piccadily's large malt distillery in Haryana, where Indian six-row barley meets traditional copper-pot double distillation on an unusually ambitious scale. The distillery's current stillhouse uses fourteen Scottish-style copper pot stills, while its maturation programme spans bourbon, virgin oak, wine and sherry casks. For the customer, that combination helps explain why Indri can balance bright Indian malt fruit with pronounced spice, oak and cask character shaped by northern India's dramatic climate.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.indri.in/the-distillery",
+        "https://www.indri.in/our-process",
+        "https://www.piccadily.com/our-distilleries"
       ],
       "governanceStatus": "SOURCE_VERIFIED"
     },
