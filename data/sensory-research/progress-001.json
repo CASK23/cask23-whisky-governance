@@ -1,0 +1,160 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-001",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "governanceRule": "Data chooses the icon; the icon never generates the data.",
+  "records": [
+    {
+      "beverageId": "0343b552-34a3-46a4-bfae-3d221495c587",
+      "officialName": "Tobermory 12 Year 46.3%",
+      "verifiedDescriptors": ["Orange", "Citrus", "Vanilla", "Cinnamon", "Clove", "Sea salt"],
+      "descriptorFamilies": {"Orange":"citrus","Citrus":"citrus","Vanilla":"sweet","Cinnamon":"spice","Clove":"spice","Sea salt":"maritime"},
+      "cask23TastingNarrative": "Orange and citrus lead into creamy vanilla, with cinnamon and clove spice and a subtle salty coastal edge.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://tobermorydistillery.com/en-us/products/tobermory-12-year-old"]
+    },
+    {
+      "beverageId": "0164e68a-41d0-4ad3-b8ef-9510a6a56b72",
+      "officialName": "Kavalan Oloroso Sherry Cask Matured 46%",
+      "verifiedDescriptors": ["Dried fruit", "Marzipan", "Vanilla", "Spice", "Nuts"],
+      "descriptorFamilies": {"Dried fruit":"dried-fruit","Marzipan":"nutty","Vanilla":"sweet","Spice":"spice","Nuts":"nutty"},
+      "cask23TastingNarrative": "A clean, layered sherry style built around dried fruit and spice, with marzipan, vanilla and nutty depth carrying into a long finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.kavalancyprus.com/index.php/en/products-en"]
+    },
+    {
+      "beverageId": "08a55964-5f0d-4c3b-b82d-7965e8b77458",
+      "officialName": "Mackmyra Vintersol Port Finish 46.1%",
+      "verifiedDescriptors": ["Raisin", "Pear", "Vanilla", "Ginger", "Aniseed", "Oak"],
+      "descriptorFamilies": {"Raisin":"dried-fruit","Pear":"orchard-fruit","Vanilla":"sweet","Ginger":"spice","Aniseed":"spice","Oak":"oak"},
+      "cask23TastingNarrative": "Soft and fruity, with pear and raisin wrapped in vanilla, ginger and aniseed before a warm, oaky finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://mb.cision.com/Main/411/2906908/1107184.pdf"]
+    },
+    {
+      "beverageId": "b29c879c-c5fd-461b-ae76-47cabad7be61",
+      "officialName": "Filey Bay Flagship 46%",
+      "verifiedDescriptors": ["Caramel", "Citrus", "Honey", "Vanilla"],
+      "descriptorFamilies": {"Caramel":"sweet","Citrus":"citrus","Honey":"sweet","Vanilla":"sweet"},
+      "cask23TastingNarrative": "Light and creamy, with citrus freshness over caramel, honey and vanilla sweetness.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://spiritofyorkshire.com/wp-content/uploads/2025/09/Menu-March-2025-Price-Change-V4-1.pdf"]
+    },
+    {
+      "beverageId": "ebeb3f86-e9d4-4193-b3b1-c87ea77c4524",
+      "officialName": "Filey Bay Moscatel Finish Batch-3 46%",
+      "verifiedDescriptors": ["Orange", "Honey", "Dried fruit", "Cocoa"],
+      "descriptorFamilies": {"Orange":"citrus","Honey":"sweet","Dried fruit":"dried-fruit","Cocoa":"chocolate-coffee"},
+      "cask23TastingNarrative": "Soft and sweet, with orange and honey opening into dried fruit and cocoa from the Moscatel finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://spiritofyorkshire.com/wp-content/uploads/2025/09/Menu-March-2025-Price-Change-V4-1.pdf"]
+    },
+    {
+      "beverageId": "57e8d565-579e-4c03-86e0-68d84a4dea1b",
+      "officialName": "Ardbeg Ten Years Old",
+      "verifiedDescriptors": ["Peat smoke", "Lemon", "Lime", "Black pepper", "Sea spray", "Espresso"],
+      "descriptorFamilies": {"Peat smoke":"smoke-peat","Lemon":"citrus","Lime":"citrus","Black pepper":"spice","Sea spray":"maritime","Espresso":"chocolate-coffee"},
+      "cask23TastingNarrative": "Dense peat smoke meets lemon and lime, black pepper and briny sea spray, with dry espresso running through the long smoky finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.ardbeg.com/en-int/products/ardbeg-ten-years-old"]
+    },
+    {
+      "beverageId": "77373f10-73c5-4601-a5c6-59e7f50077ab",
+      "officialName": "Ardbeg An Oa",
+      "verifiedDescriptors": ["Toffee", "Cinnamon", "Cigar smoke", "Orange", "Aniseed", "Dates"],
+      "descriptorFamilies": {"Toffee":"sweet","Cinnamon":"spice","Cigar smoke":"smoke-peat","Orange":"citrus","Aniseed":"spice","Dates":"dried-fruit"},
+      "cask23TastingNarrative": "Creamy toffee and orange are wrapped in cinnamon, aniseed and cigar smoke, with dates adding a rounded dried-fruit sweetness.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.ardbeg.com/en-gb/ardbeg-an-oa-bottle-1075561.html"]
+    },
+    {
+      "beverageId": "8d0bbf3e-0538-47e4-8bdb-4a87cf1b1f14",
+      "officialName": "Ardbeg Uigeadail",
+      "verifiedDescriptors": ["Treacle", "Bonfire smoke", "Walnut", "Cedar", "Winter spice", "Smoked meat"],
+      "descriptorFamilies": {"Treacle":"sweet","Bonfire smoke":"smoke-peat","Walnut":"nutty","Cedar":"oak","Winter spice":"spice","Smoked meat":"smoke-peat"},
+      "cask23TastingNarrative": "Treacle-rich sweetness and walnut depth meet cedar, winter spice and smoked meat beneath a deep bonfire-smoke character.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.ardbeg.com/en-gb/products/ardbeg-uigeadail"]
+    },
+    {
+      "beverageId": "974463c9-967d-4183-b366-6d0baf0087bf",
+      "officialName": "Ardbeg Corryvreckan",
+      "verifiedDescriptors": ["Dark chocolate", "Black pepper", "Cherry", "Espresso", "Almond", "Seaweed"],
+      "descriptorFamilies": {"Dark chocolate":"chocolate-coffee","Black pepper":"spice","Cherry":"dried-fruit","Espresso":"chocolate-coffee","Almond":"nutty","Seaweed":"maritime"},
+      "cask23TastingNarrative": "Dark chocolate, black pepper and cherry drive an intense palate, with espresso, bitter almond and a briny seaweed edge beneath the smoke.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.ardbeg.com/en-gb/products/ardbeg-corryvreckan"]
+    },
+    {
+      "beverageId": "2a16a95d-040e-4c2f-a89e-cab2c9b47763",
+      "officialName": "Arran Barrel Reserve 43%",
+      "verifiedDescriptors": ["Lemon", "Green apple", "Vanilla", "Cinnamon", "Sweet oak"],
+      "descriptorFamilies": {"Lemon":"citrus","Green apple":"orchard-fruit","Vanilla":"sweet","Cinnamon":"spice","Sweet oak":"oak"},
+      "cask23TastingNarrative": "Bright lemon and green apple lead into vanilla sweetness and light cinnamon, finishing gently on sweet oak.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.arranwhisky.com/shop-whiskies/arran-single-malts/6-arran-barrel-reserve-single-malt"]
+    },
+    {
+      "beverageId": "9713bca7-ed93-4636-84b3-88db91cb15eb",
+      "officialName": "Arran Quarter Cask Ex-Bourbon Barrel 56.2%",
+      "verifiedDescriptors": ["Lemon peel", "Pineapple", "Green apple", "Vanilla", "Chilli"],
+      "descriptorFamilies": {"Lemon peel":"citrus","Pineapple":"tropical","Green apple":"orchard-fruit","Vanilla":"sweet","Chilli":"spice"},
+      "cask23TastingNarrative": "Lemon peel and green apple brighten a fuller cask-strength profile of pineapple and vanilla, with a peppery chilli lift through the finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.arranwhisky.com/shop-whiskies/arran-single-malts/14-arran-single-malt-quarter-cask"]
+    },
+    {
+      "beverageId": "3fb76771-812d-47d3-929a-32ab9f4b3fe2",
+      "officialName": "Arran Port Cask Finish 50%",
+      "verifiedDescriptors": ["Citrus", "Dried fruit", "Nuts", "Cinnamon", "Apple", "Strawberry jam"],
+      "descriptorFamilies": {"Citrus":"citrus","Dried fruit":"dried-fruit","Nuts":"nutty","Cinnamon":"spice","Apple":"orchard-fruit","Strawberry jam":"dried-fruit"},
+      "cask23TastingNarrative": "Ripe citrus and dried fruit open into nutty depth, cinnamon-baked apple and strawberry-jam richness from the Port finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.arranwhisky.com/shop-whiskies/arran-single-malts/13-arran-single-malt-port-wine-cask-finish"]
+    },
+    {
+      "beverageId": "a59c2bc6-750f-4b63-9613-953cd00b09a9",
+      "officialName": "Arran Sauternes Cask Finish 50%",
+      "verifiedDescriptors": ["Honeysuckle", "Melon", "Marzipan", "Honey", "Vanilla", "Sultana", "Toasted oak"],
+      "descriptorFamilies": {"Honeysuckle":"floral-herbal","Melon":"tropical","Marzipan":"nutty","Honey":"sweet","Vanilla":"sweet","Sultana":"dried-fruit","Toasted oak":"oak"},
+      "cask23TastingNarrative": "Honeysuckle and melon sit over marzipan and honey, with vanilla, sultana and toasted oak adding richness to the Sauternes finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.arranwhisky.com/shop-whiskies/arran-single-malts/8-arran-single-malt-sauternes-wine-cask-finish"]
+    },
+    {
+      "beverageId": "8eac408b-5da0-4d59-9f53-35a3b70a222e",
+      "officialName": "Arran Bodega Sherry Cask 55.8%",
+      "verifiedDescriptors": ["Raisin", "Mandarin", "Fig", "Cherry", "Hazelnut", "Toasted oak"],
+      "descriptorFamilies": {"Raisin":"dried-fruit","Mandarin":"citrus","Fig":"dried-fruit","Cherry":"dried-fruit","Hazelnut":"nutty","Toasted oak":"oak"},
+      "cask23TastingNarrative": "Raisin and mandarin lead into ripe fig and cherry, with hazelnut and toasted oak carrying a powerful sherry-cask finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.arranwhisky.com/shop-whiskies/arran-single-malts/45-arran-single-malt-sherry-cask"]
+    },
+    {
+      "beverageId": "847189b2-13ee-40ad-9ab5-d6054abc1617",
+      "officialName": "Glendronach 12 Year 46%",
+      "verifiedDescriptors": ["Autumn fruit", "Chocolate", "Gingerbread", "Raisin", "Orange", "Sultana", "Spice"],
+      "descriptorFamilies": {"Autumn fruit":"orchard-fruit","Chocolate":"chocolate-coffee","Gingerbread":"spice","Raisin":"dried-fruit","Orange":"citrus","Sultana":"dried-fruit","Spice":"spice"},
+      "cask23TastingNarrative": "Sherried autumn fruit and raisin meet chocolate and gingerbread, with orange, sultana and warming spice across the palate.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.glendronachdistillery.com/product/aged-12-years/"]
+    },
+    {
+      "beverageId": "fca43bc1-6a2d-4ed8-a65f-744397af83ad",
+      "officialName": "The GlenDronach Revival 15 Year Old",
+      "verifiedDescriptors": ["Cherry", "Bramble", "Dark chocolate", "Orange", "Walnut", "Apricot", "Fig"],
+      "descriptorFamilies": {"Cherry":"dried-fruit","Bramble":"dried-fruit","Dark chocolate":"chocolate-coffee","Orange":"citrus","Walnut":"nutty","Apricot":"orchard-fruit","Fig":"dried-fruit"},
+      "cask23TastingNarrative": "Cherry and bramble fruit meet dark chocolate, orange and walnut before honeyed apricot and fig deepen the sherried palate.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.glendronachdistillery.com/product/aged-15-years/"]
+    },
+    {
+      "beverageId": "843875ea-a4cf-473b-96fb-61562d2b8eec",
+      "officialName": "Glendronach 21 Year 46%",
+      "verifiedDescriptors": ["Blackberry", "Red plum", "Candied orange", "Toasted oak", "Dark chocolate", "Nutmeg", "Ginger"],
+      "descriptorFamilies": {"Blackberry":"dried-fruit","Red plum":"orchard-fruit","Candied orange":"citrus","Toasted oak":"oak","Dark chocolate":"chocolate-coffee","Nutmeg":"spice","Ginger":"spice"},
+      "cask23TastingNarrative": "Blackberry and red plum are lifted by candied orange, while toasted oak, dark chocolate, nutmeg and ginger give the mature sherry profile its weight.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.glendronachdistillery.com/product/the-glendronach-aged-21-years/"]
+    }
+  ]
+}
