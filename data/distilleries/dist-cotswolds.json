@@ -1,0 +1,25 @@
+{
+  "distilleryId": "DIST-COTSWOLDS",
+  "slug": "cotswolds",
+  "officialName": "Cotswolds Distillery",
+  "entityType": "DISTILLERY",
+  "country": "England",
+  "location": "Stourton, Shipston-on-Stour, Warwickshire, England",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "malt": "Single malt production uses 100% locally grown Cotswolds barley, floor-malted at Warminster Maltings before being milled at the distillery.",
+    "fermentation": "Each mash yields about 2,500 litres of wort into stainless-steel washbacks. Two dried yeast strains, Anchor and Fermentis, are used and fermentation runs for more than 90 hours to encourage ester formation and fruity complexity.",
+    "stills": "Whisky is double-distilled in copper pot stills. The distillery uses early cut points to capture fruity esters and switches to feints sooner than many distilleries to exclude heavier compounds; new make comes off the still at about 75% ABV.",
+    "maturation": "New make is reduced to 63.5% ABV with demineralised water before filling into a range of oak casks for maturation."
+  },
+  "houseCharacter": "Cotswolds deliberately loads flavour into the wash through local floor-malted barley, two selected yeast strains and fermentation beyond 90 hours. Early spirit cuts then favour bright esters and limit heavier late-run compounds, producing a notably fruity new make before wood influence begins. The result is a distillate architecture aimed at orchard and tropical fruit intensity rather than relying on maturation alone to create flavour.",
+  "cask23Narrative": "Cotswolds Distillery is unusually transparent about how it builds fruit into its whisky before the spirit ever reaches a cask. More than 90 hours of fermentation, two selected yeast strains and an early spirit cut create a highly ester-driven new make, while locally grown barley anchors the whisky to its English origin. For customers, it is an excellent example of a modern distillery using fermentation and cut-point control as major flavour tools rather than treating cask maturation as the whole story.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.cotswoldsdistillery.com/pages/whisky-crafting",
+    "https://www.cotswoldsdistillery.com/blogs/news/new-make-spirit-and-moonshine",
+    "https://www.cotswoldsdistillery.com/pages/our-shops-new"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
