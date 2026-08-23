@@ -1,0 +1,30 @@
+{
+  "distilleryId": "DIST-ARDMORE",
+  "slug": "ardmore",
+  "officialName": "Ardmore Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "founded": 1898,
+  "owner": "Suntory Global Spirits",
+  "location": "Kennethmont, Aberdeenshire, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Process water is drawn from naturally rising springs on Knockandy Hill above the distillery.",
+    "malt": "Ardmore uses purchased malt and is known for a lightly-to-medium peated specification; established specialist sources place the malt around 12–14 ppm phenols.",
+    "fermentation": "Established specialist sources describe wooden Douglas-fir washbacks and fermentation in roughly the mid-50-hour range; the exact current house specification is not published by the official brand site.",
+    "stills": "Ardmore operates four wash stills and four spirit stills. Specialist technical references describe approximately 15,000-litre stills with short, broad necks and downward-running lyne arms. Direct coal firing was retained until around 2000/2001, after which steam heating was introduced.",
+    "peat": "Peated Highland malt is central to the Ardmore house style; official owner material confirms Ardmore as the peated signature malt used historically in Teacher's blends.",
+    "maturation": "Ex-bourbon American oak is central to maturation, with quarter-cask and other finishes used for selected expressions; some former malting-floor buildings have been adapted for warehousing."
+  },
+  "houseCharacter": "Ardmore's peated malt gives the new make a persistent wood-smoke backbone unusual for a mainland Highland malt. Its relatively broad still geometry and descending lyne arms favour body, while the historic move from direct firing to engineered steam coils was designed to retain weight in the spirit. Bourbon-led maturation keeps smoke, orchard fruit and malt at the centre rather than letting heavy cask seasoning dominate.",
+  "cask23Narrative": "Ardmore offers a distinctly Highland take on peat: smoky, malty and weighty rather than overtly medicinal. The distillery's broad-necked stills and downward lyne arms help preserve texture, while bourbon oak gives the spirit room to show its apple, cereal and wood-smoke character. It is a useful reference point for customers who enjoy peat but want something different from the classic Islay profile.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.ardmorewhisky.com/",
+    "https://www.suntory.com/news/article/14014E.html",
+    "https://www.whisky.com/whisky-database/distilleries/details/ardmore.html"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
