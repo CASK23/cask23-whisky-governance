@@ -1,0 +1,30 @@
+{
+  "distilleryId": "DIST-SCAPEGRACE",
+  "slug": "scapegrace",
+  "officialName": "Scapegrace Distillery",
+  "entityType": "DISTILLERY",
+  "country": "New Zealand",
+  "founded": 2022,
+  "location": "Central Otago, New Zealand, near Lake Dunstan on the 45th parallel",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "The distillery identifies Southern Alps glacial water as its whisky water source.",
+    "malt": "100% New Zealand barley is used for whisky. Official material identifies local distiller's malt and a separate Manuka-smoked malt made with New Zealand-grown West Coast Manuka wood.",
+    "stills": "Scapegrace states that the Central Otago site uses Speyside-made copper stills; established specialist reporting describes a pair of copper pot stills for whisky production.",
+    "peat": "The distillery makes both unsmoked malt whisky and Manuka-smoked malt whisky; no peat-PPM figure is published in the verified source set.",
+    "maturation": "Official releases and cask-club disclosures include virgin French oak as a core maturation choice, alongside ex-bourbon, Pinot Noir and other cask types. The site deliberately exploits Central Otago's pronounced seasonal temperature swings during maturation."
+  },
+  "houseCharacter": "Scapegrace builds its single malt around New Zealand barley, glacial water and a modern Central Otago maturation climate with large seasonal temperature movement. Copper pot distillation provides the spirit base, while unsmoked and Manuka-smoked malt streams allow the distillery to create distinct aromatic styles without relying on Scotch-style peat conventions. French oak and local wine-cask influence then add spice, structure and regional character to the fruit-led new make.",
+  "cask23Narrative": "Scapegrace is a distinctly New Zealand whisky operation rather than a copy of a Scottish template. Local barley and Southern Alps water form the base, while the distillery also uses Manuka-smoked malt to create a uniquely local smoky style. Central Otago's dramatic seasons and a cask programme that includes French oak and New Zealand wine wood make maturation as important to the identity as the spirit itself.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://scapegracedistillery.com/pages/grain-to-glass-1",
+    "https://scapegracedistillery.com/pages/exclusive-cask-club",
+    "https://scapegracedistillery.com/pages/scapegrace-digital-portfolio",
+    "https://scapegracedistillery.com/products/scapegrace-single-malt-vanguard-40",
+    "https://www.thewhiskyexchange.com/inspiration/article/18144/a-guide-to-new-zealand-whisky",
+    "https://www.whisky.com/whisky-database/distilleries/details/scapegrace.html"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
