@@ -1,0 +1,27 @@
+{
+  "distilleryId": "DIST-LOCHLEA",
+  "slug": "lochlea",
+  "officialName": "Lochlea Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Lowland",
+  "founded": 2018,
+  "location": "Lochlea Farm, Craigie, Kilmarnock, Ayrshire",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Lochlea draws production water from its own well and local groundwater sources on the farm.",
+    "malt": "The distillery grows its own Laureate barley on approximately 90 hectares of the farm; malting is carried out off site before the malt returns for distillation.",
+    "fermentation": "Fermentation is carried out in purpose-designed washbacks within the converted farm steading. The official source does not disclose an exact washback count, material or fermentation duration in the verified source set.",
+    "stills": "Two copper pot stills are used. Lochlea states that their size and shape, controlled steam flow, shallow lyne arms and condensing columns are designed to maximise copper contact and produce a light, fruit-forward spirit.",
+    "maturation": "New make spirit is filled into directly sourced casks and matured entirely on the farm in converted cattle sheds using both racking and stowage."
+  },
+  "houseCharacter": "Lochlea's own-farm barley keeps a cereal note at the centre of the process, while the distillery targets clear wort and a light, fruit-forward distillate. Two copper pot stills with shallow lyne arms and deliberate copper contact favour brightness rather than heavy sulphur or oil. On-site maturation allows cask selection to develop the spirit without losing the barley-led identity established on the farm.",
+  "cask23Narrative": "Lochlea is a genuinely farm-rooted distillery: it grows its own barley, draws its own water, distils on the steading and matures its whisky in converted farm buildings. The production design aims for a light, fruit-led spirit while keeping the cereal character of the barley visible. That makes Lochlea particularly interesting for drinkers who want to understand how grain provenance and distillation style can stay connected from field to cask.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://lochleadistillery.com/our-story/the-distillery/",
+    "https://lochleadistillery.com/faqs/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
