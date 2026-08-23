@@ -9,16 +9,32 @@ DATA_DIR = ROOT / "data" / "distilleries"
 RECON_PATH = ROOT / "reconciliation" / "pz-distillery-00-entity-reconciliation.json"
 OUT_PATH = ROOT / "PROJECT_ZERO_DISTILLERY_MASTER.json"
 
-# The approved 58 DISTILLERY directory rows collapse to 55 physical assets because
-# three rows are duplicate naming aliases for the same hardware facilities.
+# Exact, founder-approved directory-row -> canonical physical-facility slug bindings.
+# These are deterministic aliases only; no fuzzy/name-similarity matching is permitted.
 ALIAS_TO_CANONICAL_SLUG = {
-    "the-benriach": "benriach",
-    "the-glendronach": "glendronach",
-    "kavalan-distillery": "kavalan",
+    "ardmore-distillery": "ardmore",
+    "ardnahoe-distillery": "ardnahoe",
+    "balblair-distillery": "balblair",
+    "balcones-distilling": "balcones",
+    "barton-1792-distillery": "barton-1792",
+    "buffalo-trace-distillery": "buffalo-trace",
+    "bunnahabhain-distillery": "bunnahabhain",
+    "deanston-distillery": "deanston",
+    "fettercairn-distillery": "fettercairn",
+    "few-spirits-llc": "few-spirits",
     "filey-bay": "spirit-of-yorkshire",
-    "wire-works": "white-peak",
+    "four-roses-distillery": "four-roses",
+    "glenglassaugh-distillery": "glenglassaugh",
+    "heaven-hill-distillery": "heaven-hill",
+    "kavalan-distillery": "kavalan",
+    "macduff-distillery": "macduff",
+    "the-benriach": "benriach",
     "the-dalmore": "dalmore",
-    "milk-and-honey": "milk-and-honey"
+    "the-glendronach": "glendronach",
+    "tomatin-distillery": "tomatin",
+    "tullibardine-distillery": "tullibardine",
+    "wire-works": "white-peak",
+    "wolfburn-distillery": "wolfburn"
 }
 
 with SCHEMA_PATH.open(encoding="utf-8") as f:
@@ -60,17 +76,8 @@ unresolved = []
 for entity in distillery_rows:
     directory_slug = entity["directorySlug"]
     target_slug = ALIAS_TO_CANONICAL_SLUG.get(directory_slug, directory_slug)
-    # Facility-led mappings may carry an explicit canonical name but not the profile slug.
-    if directory_slug == "filey-bay":
-        target_slug = "spirit-of-yorkshire"
-    elif directory_slug == "wire-works":
-        target_slug = "white-peak"
-    elif directory_slug == "the-dalmore":
-        target_slug = "dalmore"
-    elif directory_slug == "milk-and-honey":
-        # Current canonical profile may use either human slug or short implementation slug.
-        if "milk-and-honey" not in profile_by_slug and "mh" in profile_by_slug:
-            target_slug = "mh"
+    if directory_slug == "milk-and-honey" and target_slug not in profile_by_slug and "mh" in profile_by_slug:
+        target_slug = "mh"
     profile = profile_by_slug.get(target_slug)
     if profile is None:
         unresolved.append({"directorySlug": directory_slug, "targetSlug": target_slug})
