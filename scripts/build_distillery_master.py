@@ -28,6 +28,7 @@ ALIAS_TO_CANONICAL_SLUG = {
     "heaven-hill-distillery": "heaven-hill",
     "kavalan-distillery": "kavalan",
     "macduff-distillery": "macduff",
+    "milk-and-honey": "mh-distillery",
     "the-benriach": "benriach",
     "the-dalmore": "dalmore",
     "the-glendronach": "glendronach",
@@ -76,8 +77,6 @@ unresolved = []
 for entity in distillery_rows:
     directory_slug = entity["directorySlug"]
     target_slug = ALIAS_TO_CANONICAL_SLUG.get(directory_slug, directory_slug)
-    if directory_slug == "milk-and-honey" and target_slug not in profile_by_slug and "mh" in profile_by_slug:
-        target_slug = "mh"
     profile = profile_by_slug.get(target_slug)
     if profile is None:
         unresolved.append({"directorySlug": directory_slug, "targetSlug": target_slug})
