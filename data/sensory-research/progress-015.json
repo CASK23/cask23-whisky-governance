@@ -1,0 +1,61 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-015",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "governanceRule": "Exact expression evidence only; current governed identity remains unchanged.",
+  "records": [
+    {
+      "beverageId": "ebeb3f86-e9d4-4193-b3b1-c87ea77c4524",
+      "officialName": "Filey Bay Moscatel Finish Batch-3 46%",
+      "verifiedDescriptors": ["Orange", "Honey", "Dried fruit", "Cocoa"],
+      "descriptorFamilies": {"Orange":"citrus","Honey":"sweet","Dried fruit":"dried-fruit","Cocoa":"chocolate-coffee"},
+      "cask23TastingNarrative": "Orange and honey lead into dried-fruit richness and cocoa, preserving Filey Bay's soft, sweet and fruity Moscatel-finished style.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://spiritofyorkshire.com/product/filey-bay-moscatel-finish-batch-3-yorkshire-single-malt-whisky/"]
+    },
+    {
+      "beverageId": "75720193-36af-4b55-9195-b9091e3e80f2",
+      "officialName": "Glen Moray Warehouse 1 Amarone Finish",
+      "verifiedDescriptors": ["Fig", "Cinnamon", "Chocolate cherry", "Brown sugar", "Chocolate", "Red cherry", "Green peppercorn"],
+      "descriptorFamilies": {"Fig":"dried-fruit","Cinnamon":"spice","Chocolate cherry":"chocolate-coffee","Brown sugar":"sweet","Chocolate":"chocolate-coffee","Red cherry":"dried-fruit","Green peppercorn":"spice"},
+      "cask23TastingNarrative": "Fig and cinnamon lead into chocolate-cherry richness, before brown sugar, chocolate and red cherry give way to a fresh green-peppercorn finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_PRODUCER_NOTES",
+      "sources": ["https://escapementmagazine.com/articles/glen-moray-amarone-amontillado-and-oloroso-finishes-from-warehouse-1/"]
+    },
+    {
+      "beverageId": "7636d956-4721-4cb6-9136-6715d5ad5e13",
+      "officialName": "Mackmyra Svensk Rok-Amerikansk Ek (American Oak) 46.1%",
+      "verifiedDescriptors": ["Smoke", "Hazelnut", "Citrus", "Clove", "Vanilla", "Ripe pear", "Chocolate toffee", "Sea salt", "Herbs", "Juniper", "Oak"],
+      "descriptorFamilies": {"Smoke":"smoke-peat","Hazelnut":"nutty","Citrus":"citrus","Clove":"spice","Vanilla":"sweet","Ripe pear":"orchard-fruit","Chocolate toffee":"chocolate-coffee","Sea salt":"maritime","Herbs":"floral-herbal","Juniper":"floral-herbal","Oak":"oak"},
+      "cask23TastingNarrative": "Smoke, hazelnut, citrus and clove lead into vanilla and ripe pear, with chocolate-toffee sweetness, sea salt, herbs, juniper and oak defining the American-oak finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_EXACT_RELEASE",
+      "sources": ["https://www.whiskynorden.se/tasting-notes/svensk-whisky/mackmyra-svensk-rok-amerikansk-ek/"]
+    },
+    {
+      "beverageId": "74b7a5b3-9e88-432a-a89b-e8af503a2eb5",
+      "officialName": "Tomatin 2006 Port Cask 15 Years 46%",
+      "verifiedDescriptors": ["Blackberry", "Raspberry", "Cherry", "Peach", "Apricot", "Warm spice"],
+      "descriptorFamilies": {"Blackberry":"dried-fruit","Raspberry":"dried-fruit","Cherry":"dried-fruit","Peach":"orchard-fruit","Apricot":"orchard-fruit","Warm spice":"spice"},
+      "cask23TastingNarrative": "Blackberry, raspberry and cherry build a deep forest-fruit core, with peach, apricot and warm spice bringing sweetness and lift to the Port-finished palate.",
+      "evidenceTier": "TIER_2_ESTABLISHED_RETAILER_PRODUCER_NOTES",
+      "sources": ["https://www.kensingtonwinemarket.com/product/892018/tomatin-2006-port-cask-15-year"]
+    },
+    {
+      "beverageId": "97aefed2-1924-4370-9154-d593c66c10d1",
+      "officialName": "Tomatin 2006 Moscatel Cask Finish 15 Year 46%",
+      "verifiedDescriptors": ["Marmalade", "Caramel", "Citrus", "Ginger", "Star anise"],
+      "descriptorFamilies": {"Marmalade":"citrus","Caramel":"sweet","Citrus":"citrus","Ginger":"spice","Star anise":"spice"},
+      "cask23TastingNarrative": "Marmalade and caramel sweetness are brightened by citrus, with ginger and star anise adding a clean spiced edge to the Moscatel finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_EXACT_RELEASE",
+      "sources": ["https://www.thewhiskyexchange.com/p/68372/tomatin-2006-15-year-old-moscatel-casks-portuguese-collection"]
+    },
+    {
+      "beverageId": "acafead2-873d-446e-bb67-11d69f3c1f6b",
+      "officialName": "Tomatin 2006 Madeira Finish 15 Years 46%",
+      "verifiedDescriptors": ["Sun-dried fig", "Nutty sweetness", "Caramelised fruit", "Spiced oak", "Madeira sweetness"],
+      "descriptorFamilies": {"Sun-dried fig":"dried-fruit","Nutty sweetness":"nutty","Caramelised fruit":"orchard-fruit","Spiced oak":"oak","Madeira sweetness":"sweet"},
+      "cask23TastingNarrative": "Sun-dried fig and nutty sweetness lead into caramelised fruit and spiced oak, with lingering Madeira sweetness carrying the finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_EXACT_RELEASE",
+      "sources": ["https://eng.whisky.dk/shop/tomatin-whisky-127c1.html"]
+    }
+  ]
+}
