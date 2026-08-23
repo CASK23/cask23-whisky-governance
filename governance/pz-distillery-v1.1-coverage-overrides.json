@@ -1,0 +1,95 @@
+{
+  "project": "PROJECT_ZERO_DISTILLERY_MASTER",
+  "version": "1.1",
+  "status": "FOUNDER_REVIEW",
+  "coverageOverrides": [
+    {
+      "directorySlug": "glenscotia",
+      "canonicalSlug": "glen-scotia",
+      "relationship": "LEGACY_ALIAS_TO_CANONICAL_FACILITY",
+      "note": "Legacy misspelling/variant for Glen Scotia; exact deterministic alias only."
+    },
+    {
+      "directorySlug": "amrut",
+      "canonicalSlug": "amrut",
+      "relationship": "BRAND_LABEL_RESOLVES_TO_SINGLE_PHYSICAL_FACILITY",
+      "note": "Amrut dram grouping resolves to the Bengaluru Amrut physical malt-distilling facility."
+    },
+    {
+      "directorySlug": "indri",
+      "canonicalSlug": "piccadily-indri",
+      "relationship": "BRAND_LABEL_RESOLVES_TO_SINGLE_PHYSICAL_FACILITY",
+      "note": "Indri whisky grouping resolves to Piccadily Distillery, Indri, Haryana."
+    },
+    {
+      "directorySlug": "paul-john",
+      "canonicalSlug": "john-distilleries-goa",
+      "relationship": "BRAND_LABEL_RESOLVES_TO_SINGLE_PHYSICAL_FACILITY",
+      "note": "Paul John whisky grouping resolves to the John Distilleries malt facility at Cuncolim, Goa."
+    }
+  ],
+  "suppressExploreDistillery": [
+    {
+      "directorySlug": "douglas-laing-s",
+      "entityType": "INDEPENDENT_BOTTLER",
+      "policy": "NO_DISTILLERY_ROUTE",
+      "note": "Retain independent-bottler attribution. Link to a distillery only through a separate exact expression-level facility binding."
+    },
+    {
+      "directorySlug": "signatory-vintage",
+      "entityType": "INDEPENDENT_BOTTLER",
+      "policy": "NO_DISTILLERY_ROUTE",
+      "note": "Retain independent-bottler attribution. Link to a distillery only through a separate exact expression-level facility binding."
+    },
+    {
+      "directorySlug": "mossburn",
+      "entityType": "INDEPENDENT_BOTTLER",
+      "policy": "NO_DISTILLERY_ROUTE",
+      "note": "Retain independent-bottler attribution. Link to a distillery only through a separate exact expression-level facility binding."
+    },
+    {
+      "directorySlug": "that-boutique-y-whisky-co",
+      "entityType": "INDEPENDENT_BOTTLER",
+      "policy": "NO_DISTILLERY_ROUTE",
+      "note": "Retain independent-bottler attribution. Link to a distillery only through a separate exact expression-level facility binding."
+    },
+    {
+      "directorySlug": "gleann-mor",
+      "entityType": "INDEPENDENT_BOTTLER",
+      "policy": "NO_DISTILLERY_ROUTE",
+      "note": "Retain independent-bottler attribution. Link to a distillery only through a separate exact expression-level facility binding."
+    },
+    {
+      "directorySlug": "smokehead",
+      "entityType": "UNDISCLOSED_DISTILLERY",
+      "policy": "NO_DISTILLERY_ROUTE",
+      "note": "Smokehead is a brand built around undisclosed Islay single malt; no physical-facility route may be inferred."
+    }
+  ],
+  "provenanceReviewQueue": [
+    {
+      "directorySlug": "old-pulteney",
+      "reason": "Brand identity; expression-level confirmation required before binding to Pulteney Distillery."
+    },
+    {
+      "directorySlug": "whistlepig",
+      "reason": "Brand has physical distilling operations, but exact listed-expression provenance must be established before facility assignment."
+    },
+    {
+      "directorySlug": "uncle-nearest",
+      "reason": "Brand has physical distilling operations, but exact listed-expression provenance must be established before facility assignment."
+    },
+    {
+      "directorySlug": "hudson",
+      "reason": "Brand historically associated with Tuthilltown; exact listed-expression provenance must be established before facility assignment."
+    },
+    {
+      "directorySlug": "evan-williams",
+      "reason": "Brand identity; exact listed-expression production facility must be proven before assignment."
+    },
+    {
+      "directorySlug": "rebel",
+      "reason": "Brand identity; exact listed-expression production facility must be proven before assignment."
+    }
+  ]
+}

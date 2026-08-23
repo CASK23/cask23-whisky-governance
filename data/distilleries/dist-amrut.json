@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-AMRUT",
+  "slug": "amrut",
+  "officialName": "Amrut Distillery",
+  "entityType": "DISTILLERY",
+  "country": "India",
+  "owner": "Amrut Distilleries Private Ltd (N.R. Jagdale Group)",
+  "location": "Bengaluru, Karnataka, India",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Established specialist reporting describes production water drawn from a local well and transported to the distillery; cooling water is kept in a separate circuit.",
+    "malt": "Amrut's malt whisky is based primarily on Indian six-row barley; some peated production uses imported peated malt because local peat is not used for those expressions.",
+    "fermentation": "Amrut uses controlled stainless-steel fermentation for malt whisky. Current official material confirms yeast fermentation but does not publish a canonical current washback count or duration; specialist sources differ on historical/current plant configuration, so unsupported precision is withheld here.",
+    "stills": "Malt whisky is double-distilled in copper pot stills. Established specialist reporting documents a wash still around 6,500 litres and a larger spirit still around 8,000 litres, with the spirit still's reflux bowl increasing copper contact during slow distillation.",
+    "peat": "Both peated and unpeated single-malt styles are produced; peated malt has historically been sourced from outside India for peated expressions.",
+    "maturation": "Whisky matures in Bengaluru's warm climate, where cask interaction and evaporation are substantially accelerated compared with cooler whisky regions. The distillery operates its own maturation warehousing and cooperage programme."
+  },
+  "houseCharacter": "Amrut combines Indian six-row barley with copper-pot double distillation and warm-climate maturation, creating a spirit architecture that tends toward concentrated malt, fruit and spice rather than lightness alone. The spirit-still reflux geometry increases copper contact and helps refine the new make before it enters cask. Bengaluru's heat then becomes a major maturation variable, accelerating extraction and concentrating cask influence while preserving the robust cereal character associated with Indian barley.",
+  "cask23Narrative": "Amrut is one of the defining names in Indian single malt because its whisky is shaped as much by place as by process. Indian six-row barley gives the spirit a robust, characterful base, while copper-pot double distillation keeps the new make refined enough to carry fruit and spice alongside that malt weight. Maturation in Bengaluru's warm climate then accelerates oak interaction dramatically, helping explain the concentrated, expressive style that has made Amrut internationally distinctive.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://amrutdistilleries.com/distillery/",
+    "https://amrutdistilleries.com/story/",
+    "https://www.whisky.com/whisky-database/distilleries/details/amrut.html"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
