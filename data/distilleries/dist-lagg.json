@@ -1,0 +1,29 @@
+{
+  "distilleryId": "DIST-LAGG",
+  "slug": "lagg",
+  "officialName": "Lagg Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Islands",
+  "founded": 2019,
+  "owner": "Isle of Arran Distillers",
+  "location": "Kilmory, Isle of Arran, KA27 8PG",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "malt": "Lagg uses 100% malted barley and produces peated spirit at different specifications, including 20 ppm and 50 ppm runs. Official technical material identifies Concerto malt in established production.",
+    "fermentation": "Four Douglas-fir washbacks, each 24,000 litres and normally filled to 20,000 litres, are used. Current official process material gives approximately 55-60 hours with M-strain distillers yeast, followed by an additional resting period in a pine receiver before distillation.",
+    "stills": "Two custom Forsyths copper pot stills are used: a 10,000-litre bulbous-onion wash still and a 7,000-litre lamp-glass spirit still. The stills are short and broad with a downward-sloping lyne arm, and are steam heated.",
+    "peat": "Lagg is designed around peated whisky production, with official material documenting 20 ppm and 50 ppm malt specifications depending on the production run.",
+    "maturation": "The core Kilmory style is matured in first-fill bourbon barrels; the distillery also uses Oloroso sherry and a range of other finishing casks for specific releases."
+  },
+  "houseCharacter": "Lagg deliberately uses cloudy wort, M-strain yeast and a moderately long fermentation to retain fatty-acid and ester precursors that contribute earthier, weightier flavours. Its short, broad stills and downward-sloping lyne arms reduce reflux compared with tall-necked designs, reinforcing body and peat weight. The result is a smoky spirit with an oily texture but enough fruit to stop the profile becoming purely tarry or medicinal.",
+  "cask23Narrative": "Lagg was engineered from the start to make a fuller, earthier style of peated Arran whisky. Cloudy wort, Douglas-fir washbacks and short, broad pot stills all push the spirit toward weight and texture, while carefully chosen yeast and fermentation preserve a fruitier core. For customers, it is a useful contrast to the lighter unpeated style made at Lochranza on the same island.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.laggwhisky.com/latest/140-how-to-make-scotch-whisky",
+    "https://www.laggwhisky.com/latest/31-blog-series-v-washbacks",
+    "https://www.laggwhisky.com/latest/28-blog-series-copper-pot-stills-and-mash-tun"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
