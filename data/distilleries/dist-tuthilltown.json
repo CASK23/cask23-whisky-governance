@@ -1,0 +1,29 @@
+{
+  "distilleryId": "DIST-TUTHILLTOWN",
+  "slug": "tuthilltown",
+  "officialName": "Tuthilltown Spirits Distillery",
+  "entityType": "DISTILLERY",
+  "country": "United States",
+  "region": "New York",
+  "founded": 2003,
+  "owner": "William Grant & Sons",
+  "location": "14 Grist Mill Lane, Gardiner, New York 12525, United States",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "malt": "Hudson whiskey is made from New York grain sourced from local family farmers; current rye production includes a 95% rye / 5% malted barley recipe, while historic Hudson Manhattan Rye was produced from 100% rye.",
+    "fermentation": "Established specialist reporting describes eight 3,000-gallon temperature-controlled fermenters and fermentation of roughly three to four days.",
+    "stills": "The facility uses multiple stills and has historically double-distilled Hudson whiskey. The Cask 23 Hudson Manhattan Rye expression is documented as pot-distilled and double-distilled at Tuthilltown.",
+    "maturation": "Whiskey is matured on the Gardiner site in rickhouses. Historic Hudson Manhattan Rye used small new-charred American oak barrels; the current Hudson range uses new American oak with longer age statements for several releases."
+  },
+  "houseCharacter": "Tuthilltown's house identity begins with locally sourced New York grain and compact-batch fermentation before distillation on a flexible craft-scale still system. Historic Hudson releases such as Manhattan Rye relied on double pot distillation and unusually small new-oak barrels, creating a concentrated grain-and-oak style at relatively young ages. The modern distillery has evolved toward longer maturation while retaining the same strongly New York, grain-forward production identity.",
+  "cask23Narrative": "Tuthilltown Spirits in Gardiner is the physical distillery behind the historic Hudson Manhattan Rye on the Cask 23 list. The distillery helped restart legal whiskey production in New York after Prohibition and built its early reputation around local grain, hands-on distillation and small-barrel maturation. That makes Hudson Manhattan especially useful as a snapshot of the early American craft-whiskey movement: bold rye grain, direct pot-still character and assertive new oak rather than the long, polished maturation typical of larger Kentucky producers.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.hudsonwhiskey.com/en-US/distillery/",
+    "https://www.tuthilltowndistillery.com/",
+    "https://www.diffordsguide.com/beer-wine-spirits/2484/hudson-manhattan-rye-whiskey",
+    "https://www.thespiritsbusiness.com/2014/08/the-secrets-of-tuthilltown-spirits-in-pictures/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
