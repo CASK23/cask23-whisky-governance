@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-BLAIR-ATHOL",
+  "slug": "blair-athol",
+  "officialName": "Blair Athol Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "founded": 1798,
+  "owner": "Diageo",
+  "location": "Pitlochry, Perthshire, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Process water is drawn from the Allt Dour/Kinnaird Burn system flowing from the hills above Pitlochry.",
+    "malt": "The core malt specification is unpeated.",
+    "fermentation": "Established specialist references describe a relatively short house fermentation, typically around 46-50 hours, which promotes cereal, nutty and spicy character. Published washback counts vary across sources and operating periods, so no single current vessel count is asserted here.",
+    "stills": "Blair Athol uses two wash stills and two spirit stills with relatively plain, broad pear-shaped geometry and shell-and-tube condensers. The stills are steam heated.",
+    "maturation": "The distillery uses both bourbon and sherry casks, and its robust spirit is particularly well suited to ex-sherry maturation; traditional low dunnage warehouses are present on site."
+  },
+  "houseCharacter": "Blair Athol's relatively short fermentation keeps more cereal and nutty character in the wash rather than chasing maximum ester formation. Broad, low-reflux still geometry preserves weight through distillation, giving the new make a dense malt-loaf and spicy structure. That physical weight is why the spirit can take substantial sherry-cask influence without losing its core distillery character.",
+  "cask23Narrative": "Blair Athol is a muscular Highland malt built around weight rather than delicacy. Shorter fermentation and broad still geometry produce a nutty, malty spirit with enough structure to stand up to rich sherry wood. For customers, that makes Blair Athol particularly interesting when they enjoy darker fruit, spice and cereal depth rather than a light floral style.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.whisky.com/whisky-database/distilleries/details/blair-athol.html",
+    "https://scotchwhisky.com/whiskypedia/1824/blair-athol/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
