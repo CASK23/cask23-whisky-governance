@@ -10,6 +10,15 @@ on:
       - 'reconciliation/**'
       - 'scripts/build_distillery_master.py'
       - '.github/workflows/project-zero-distillery-master.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'data/distilleries/**'
+      - 'schema/**'
+      - 'reconciliation/**'
+      - 'scripts/build_distillery_master.py'
+      - '.github/workflows/project-zero-distillery-master.yml'
 
 permissions:
   contents: write
@@ -18,9 +27,10 @@ jobs:
   validate-and-build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout branch
+      - name: Checkout source branch
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.head_ref || github.ref_name }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -35,6 +45,8 @@ jobs:
         run: python scripts/build_distillery_master.py
 
       - name: Commit deterministic master payload
+        env:
+          TARGET_BRANCH: ${{ github.head_ref || github.ref_name }}
         run: |
           git config user.name "CASK23 Project Zero Bot"
           git config user.email "nilesh@cask23.co.uk"
@@ -43,5 +55,5 @@ jobs:
             echo "Master payload already current"
           else
             git commit -m "build: assemble validated Project Zero distillery master"
-            git push origin HEAD:feature/project-zero-distillery-complete
+            git push origin HEAD:"${TARGET_BRANCH}"
           fi
