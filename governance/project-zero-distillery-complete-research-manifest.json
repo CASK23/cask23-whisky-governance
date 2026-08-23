@@ -1,0 +1,41 @@
+{
+  "operation": "PROJECT-ZERO-DISTILLERY-COMPLETE",
+  "branch": "feature/project-zero-distillery-complete",
+  "status": "RESEARCH_IN_PROGRESS",
+  "sourceMapping": {
+    "repository": "CASK23/cask23-whisky-governance",
+    "pullRequest": 2,
+    "merged": true,
+    "mappingPath": "reconciliation/pz-distillery-00-entity-reconciliation.json",
+    "classifiedDistilleryEntityCount": 58
+  },
+  "researchPolicy": {
+    "researchAllInSingleOperation": true,
+    "singleMasterPullRequest": true,
+    "primarySourcesFirst": true,
+    "sourceTiers": [
+      "TIER_1_OFFICIAL",
+      "TIER_2_ESTABLISHED_SPECIALIST"
+    ],
+    "noInferenceForMissingFacts": true,
+    "noMarketingCopyAsTechnicalFact": true,
+    "fullUrlsRequired": true,
+    "founderApprovalRequiredForMerge": true
+  },
+  "requiredTechnicalTargets": [
+    "waterSource",
+    "malt",
+    "fermentation",
+    "stills",
+    "peat",
+    "maturation",
+    "houseCharacter",
+    "cask23Narrative"
+  ],
+  "facilityCanonicalisationRule": "Research is conducted against physical production facilities. If more than one approved directory entity resolves to the same physical facility, create one canonical facility profile and retain the other directory labels as implementation aliases rather than duplicating conflicting technical profiles.",
+  "output": {
+    "directory": "data/distilleries",
+    "schema": "schema/cask23-distillery-profile.schema.json",
+    "masterFile": "data/PROJECT_ZERO_DISTILLERY_MASTER.json"
+  }
+}
