@@ -1,0 +1,27 @@
+{
+  "distilleryId": "DIST-TULLIBARDINE",
+  "slug": "tullibardine",
+  "officialName": "Tullibardine Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "founded": 1949,
+  "location": "Blackford, Perthshire, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Tullibardine uses water from the Danny Burn, fed by mineral-rich springs in the Ochil Hills.",
+    "fermentation": "The current official site states the distillery has 10 washbacks; established specialist sources describe stainless-steel washbacks and a minimum fermentation of roughly 52 hours.",
+    "stills": "Four copper pot stills are operated on site: two wash stills and two spirit stills. Established specialist sources report wash-still capacities around 21,500 litres and spirit-still capacities around 16,200 litres.",
+    "maturation": "Maturation is managed on site with warehousing capacity for around 20,000 casks; the distillery also operates its own cooperage and bottling plant."
+  },
+  "houseCharacter": "Tullibardine combines mineral-rich Ochil Hills water with a straightforward four-pot-still Highland production setup and on-site control from distillation through maturation and bottling. Its stainless-steel fermentation regime is comparatively conventional, placing greater emphasis on clean spirit production and subsequent wood management. The extensive on-site warehousing and cooperage give the distillery unusually direct control over cask handling after distillation.",
+  "cask23Narrative": "Tullibardine is a particularly self-contained Highland operation: almost every stage after malting happens on the Blackford site. Danny Burn water feeds a four-still plant, while casks are matured, maintained and eventually bottled within the same distillery complex. That makes wood management and on-site control central to understanding the Tullibardine style.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.tullibardine.com/distillery",
+    "https://tullibardine.com/our-story",
+    "https://www.whisky.com/whisky-database/distilleries/details/tullibardine.html"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
