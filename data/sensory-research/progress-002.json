@@ -1,0 +1,162 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-002",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "governanceRule": "Data chooses the icon; the icon never generates the data.",
+  "records": [
+    {
+      "beverageId": "067b619a-62ac-4bba-9e07-33b4c4c1a2292",
+      "officialName": "The Benriach 12 Year 46%",
+      "verifiedDescriptors": ["Maple honey", "Cocoa", "Baked fruit", "Cherry", "Orange", "Hazelnut", "Sultana", "Spiced mocha"],
+      "descriptorFamilies": {"Maple honey":"sweet","Cocoa":"chocolate-coffee","Baked fruit":"orchard-fruit","Cherry":"dried-fruit","Orange":"citrus","Hazelnut":"nutty","Sultana":"dried-fruit","Spiced mocha":"chocolate-coffee"},
+      "cask23TastingNarrative": "Maple-honey sweetness and cocoa frame baked fruit, cherry and orange, with hazelnut, sultana and spiced mocha carrying the sherry-rich finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.benriachdistillery.com/en-us/our-whiskies/the-twelve/"]
+    },
+    {
+      "beverageId": "0748ff94-71f3-4799-953e-5e5c4c1a2292",
+      "officialName": "Hibiki Harmony Blended 43%",
+      "verifiedDescriptors": ["Rose", "Lychee", "Rosemary", "Sandalwood", "Honey", "Candied orange peel", "White chocolate", "Mizunara oak"],
+      "descriptorFamilies": {"Rose":"floral-herbal","Lychee":"tropical","Rosemary":"floral-herbal","Sandalwood":"oak","Honey":"sweet","Candied orange peel":"citrus","White chocolate":"chocolate-coffee","Mizunara oak":"oak"},
+      "cask23TastingNarrative": "Rose, lychee and rosemary lead into sandalwood and honeyed sweetness, followed by candied orange peel, white chocolate and a delicate Mizunara-oak finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.suntoryglobalspirits.com/news/house-suntory-launches-limited-edition-hibiki-21-year-old-whisky-and-hibiki-japanese-harmony"]
+    },
+    {
+      "beverageId": "141c7e6c-a604-4cfe-b015-a9363e092d8d",
+      "officialName": "Kavalan Classic Single Malt 40%",
+      "verifiedDescriptors": ["Mango", "Pear", "Honey", "Vanilla", "Coconut", "Chocolate", "Citrus", "Spice"],
+      "descriptorFamilies": {"Mango":"tropical","Pear":"orchard-fruit","Honey":"sweet","Vanilla":"sweet","Coconut":"tropical","Chocolate":"chocolate-coffee","Citrus":"citrus","Spice":"spice"},
+      "cask23TastingNarrative": "Mango and pear give the whisky its tropical-fruit lift, layered with honey, vanilla, coconut and chocolate before a gently spicy citrus finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_PRODUCER_NOTES",
+      "sources": ["https://www.thewhiskyexchange.com/p/18083/kavalan-classic-single-malt"]
+    },
+    {
+      "beverageId": "2d06d8fc-f712-4b40-9a5a-f4c16490c33e",
+      "officialName": "Kavalan ConcertMaster Port Cask Finish 40%",
+      "verifiedDescriptors": ["Tropical fruit", "Honey", "Vanilla", "Coconut", "Red berries", "Apple", "Cinnamon", "Ginger", "Dried fruit"],
+      "descriptorFamilies": {"Tropical fruit":"tropical","Honey":"sweet","Vanilla":"sweet","Coconut":"tropical","Red berries":"dried-fruit","Apple":"orchard-fruit","Cinnamon":"spice","Ginger":"spice","Dried fruit":"dried-fruit"},
+      "cask23TastingNarrative": "Tropical fruit, honey and vanilla open into coconut and red berries, with apple, cinnamon, ginger and dried fruit showing the influence of the Port finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_PRODUCER_NOTES",
+      "sources": ["https://www.thewhiskyexchange.com/p/18082/kavalan-concertmaster-port-cask-finish"]
+    },
+    {
+      "beverageId": "c2a02352-b8ae-42f9-925f-ac77efde3619",
+      "officialName": "Kavalan Podium 46%",
+      "verifiedDescriptors": ["Vanilla", "Coconut", "Mango", "Green apple", "Honey", "Cherry", "White pepper", "Grape"],
+      "descriptorFamilies": {"Vanilla":"sweet","Coconut":"tropical","Mango":"tropical","Green apple":"orchard-fruit","Honey":"sweet","Cherry":"dried-fruit","White pepper":"spice","Grape":"dried-fruit"},
+      "cask23TastingNarrative": "Vanilla and coconut frame mango and green apple, with honey, cherry, white pepper and grape adding layered fruit and spice.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_PRODUCER_NOTES",
+      "sources": ["https://www.thewhiskyexchange.com/p/34326/kavalan-podium"]
+    },
+    {
+      "beverageId": "4552ae84-ef43-429a-9f73-d5f21d4dace1",
+      "officialName": "Paul John Bold 46%",
+      "verifiedDescriptors": ["Peat smoke", "Manuka honey", "Spice", "Red liquorice", "Molasses", "Smoked mocha"],
+      "descriptorFamilies": {"Peat smoke":"smoke-peat","Manuka honey":"sweet","Spice":"spice","Red liquorice":"floral-herbal","Molasses":"sweet","Smoked mocha":"chocolate-coffee"},
+      "cask23TastingNarrative": "Peat smoke and Manuka honey are joined by prickly spice and red liquorice, with dry molasses and smoked mocha shaping the finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.pauljohnwhisky.com/bold.php"]
+    },
+    {
+      "beverageId": "4fdeb54d-4b4f-46e7-b756-ec93bf6743ae",
+      "officialName": "Paul John Mithuna Batch – 1 58%",
+      "verifiedDescriptors": ["Liquorice", "Beeswax", "Honey", "Vanilla", "Coffee mocha", "Orange peel", "Spice", "Dark cocoa", "Tannin"],
+      "descriptorFamilies": {"Liquorice":"floral-herbal","Beeswax":"sweet","Honey":"sweet","Vanilla":"sweet","Coffee mocha":"chocolate-coffee","Orange peel":"citrus","Spice":"spice","Dark cocoa":"chocolate-coffee","Tannin":"oak"},
+      "cask23TastingNarrative": "Liquorice, beeswax, honey and vanilla lead into coffee mocha, orange peel and delicate spice, with dark cocoa and tannin giving the cask-strength palate structure.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://pauljohnwhisky.com/mithuna.php"]
+    },
+    {
+      "beverageId": "5ba7676d-40fd-4610-bae9-0a8e7beeadb2",
+      "officialName": "Milk & Honey Classic 46%",
+      "verifiedDescriptors": ["Vanilla", "Caramel", "Honey", "Oak", "Floral", "Black pepper"],
+      "descriptorFamilies": {"Vanilla":"sweet","Caramel":"sweet","Honey":"sweet","Oak":"oak","Floral":"floral-herbal","Black pepper":"spice"},
+      "cask23TastingNarrative": "Vanilla, caramel and honey give this Tel Aviv malt its approachable sweetness, balanced by light oak, floral notes and black-pepper spice.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://mh-distillery.com/product_series/classic/"]
+    },
+    {
+      "beverageId": "d73c2dc7-e1f1-475b-8bba-790391a063af",
+      "officialName": "Milk & Honey Peated 46%",
+      "verifiedDescriptors": ["Peat smoke", "Earthy", "Vanilla", "Oak", "Lemon", "Ginger", "Spice"],
+      "descriptorFamilies": {"Peat smoke":"smoke-peat","Earthy":"floral-herbal","Vanilla":"sweet","Oak":"oak","Lemon":"citrus","Ginger":"spice","Spice":"spice"},
+      "cask23TastingNarrative": "A fresh, earthy peat character sits over vanilla and oak, with lemon, ginger and light spice keeping the smoky palate bright.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://mh-distillery.com/product/elements-peated/"]
+    },
+    {
+      "beverageId": "0ec4b768-b86c-4a2b-a402-0de1b76da855",
+      "officialName": "Milk & Honey Apex Pomegranate Wine Cask 57.2%",
+      "verifiedDescriptors": ["Pomegranate", "Vanilla", "Roasted coffee", "Butterscotch", "Spearmint", "Baked apple", "Dried fig", "Herbs", "Toasted oak", "Red fruit"],
+      "descriptorFamilies": {"Pomegranate":"dried-fruit","Vanilla":"sweet","Roasted coffee":"chocolate-coffee","Butterscotch":"sweet","Spearmint":"floral-herbal","Baked apple":"orchard-fruit","Dried fig":"dried-fruit","Herbs":"floral-herbal","Toasted oak":"oak","Red fruit":"dried-fruit"},
+      "cask23TastingNarrative": "Ripe pomegranate is layered with vanilla, roasted coffee and butterscotch, followed by spearmint, baked apple and dried fig before a dry, toasted-oak and red-fruit finish.",
+      "evidenceTier": "TIER_1_OFFICIAL_VARIANT_NOTE",
+      "sources": ["https://mh-distillery.com/product/apex-pomegranate-wine-cask/"],
+      "governanceNote": "Manifest ABV 57.2%; current official release page is 57.4%. Sensory profile is expression-family specific and retained; ABV is not altered by this sensory record."
+    },
+    {
+      "beverageId": "c7a847a7-b4f2-4dde-b3cc-f02a4dc8a50b",
+      "officialName": "M&H APEX Dead Sea — Small Batch",
+      "verifiedDescriptors": ["Vanilla", "Mocha", "Cigar box", "Spearmint", "Oak", "Black tea", "Cinnamon", "Coriander", "Dark cocoa", "White pepper", "Ginger", "Clove", "Herbs", "Sea salt"],
+      "descriptorFamilies": {"Vanilla":"sweet","Mocha":"chocolate-coffee","Cigar box":"oak","Spearmint":"floral-herbal","Oak":"oak","Black tea":"floral-herbal","Cinnamon":"spice","Coriander":"spice","Dark cocoa":"chocolate-coffee","White pepper":"spice","Ginger":"spice","Clove":"spice","Herbs":"floral-herbal","Sea salt":"maritime"},
+      "cask23TastingNarrative": "Vanilla and mocha open with cigar-box oak and spearmint, before black tea, cinnamon, coriander, dark cocoa and white pepper build into a long ginger, clove, herb and sea-salt finish.",
+      "evidenceTier": "TIER_1_OFFICIAL_IMPORTER",
+      "sources": ["https://impexbev.com/milk-honey/"]
+    },
+    {
+      "beverageId": "727db098-cd17-4f89-84d3-b4023a5c8594",
+      "officialName": "The Lakes One Fine Blended Sherry Finish 46.6%",
+      "verifiedDescriptors": ["Peat smoke", "Treacle toffee", "Dried fruit", "Dark chocolate", "Orange oil", "Wood smoke"],
+      "descriptorFamilies": {"Peat smoke":"smoke-peat","Treacle toffee":"sweet","Dried fruit":"dried-fruit","Dark chocolate":"chocolate-coffee","Orange oil":"citrus","Wood smoke":"smoke-peat"},
+      "cask23TastingNarrative": "Peat smoke, treacle toffee and dried fruit lead into dark chocolate and orange oil, with wood smoke carrying the rich sherry-finished palate.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://lakesdistillery.com/products/the-one-whisky-sherry"]
+    },
+    {
+      "beverageId": "2da9275b-759b-4366-be9b-a937f3a308cc",
+      "officialName": "The Lakes One Fine Blended Port Cask Finish 46.6%",
+      "verifiedDescriptors": ["Cherry", "Plum", "Spice", "Wood smoke", "Nutmeg", "Black pepper"],
+      "descriptorFamilies": {"Cherry":"dried-fruit","Plum":"orchard-fruit","Spice":"spice","Wood smoke":"smoke-peat","Nutmeg":"spice","Black pepper":"spice"},
+      "cask23TastingNarrative": "Ripe cherry and plum are wrapped in gentle spice and wood smoke, with nutmeg and black pepper adding warmth to the Port-finished palate.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://lakesdistillery.com/products/the-one-whisky-port"]
+    },
+    {
+      "beverageId": "ee3cd9ee-bf4d-4943-abe3-7617f8b28009",
+      "officialName": "The Lakes One Fine Blended 46.6%",
+      "verifiedDescriptors": ["Orchard fruit", "Butterscotch", "Smoke", "Vanilla custard", "Honeyed fruit", "Spice"],
+      "descriptorFamilies": {"Orchard fruit":"orchard-fruit","Butterscotch":"sweet","Smoke":"smoke-peat","Vanilla custard":"sweet","Honeyed fruit":"sweet","Spice":"spice"},
+      "cask23TastingNarrative": "Fresh orchard fruit and butterscotch sit over a hint of smoke, with vanilla custard, lightly honeyed fruit and gentle spice giving the blend its rounded palate.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://lakesdistillery.com/blogs/news/the-lakes-whisky-secures-four-gold-medals-at-the-isc-2024"]
+    },
+    {
+      "beverageId": "eb240bbf-81a0-4233-b639-ed3357f5fd8f",
+      "officialName": "The Lakes Whisky Makers Reserve No.6 52%",
+      "verifiedDescriptors": ["Oriental spice", "Marzipan", "Rose water", "Candied ginger", "Polished oak", "Dates", "Toasted teacake"],
+      "descriptorFamilies": {"Oriental spice":"spice","Marzipan":"nutty","Rose water":"floral-herbal","Candied ginger":"spice","Polished oak":"oak","Dates":"dried-fruit","Toasted teacake":"sweet"},
+      "cask23TastingNarrative": "Oriental spice, marzipan and rose water meet candied ginger and polished oak, before sun-dried dates and toasted teacake deepen the mellow sherry-led palate.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://lakesdistillery.com/products/whiskymakers-reserve-no6"]
+    },
+    {
+      "beverageId": "ef47e936-8057-4611-bcca-24081b3f221d",
+      "officialName": "The Lakes Still Bonnets First Edition Blended Malt 46.6%",
+      "verifiedDescriptors": ["Creamy vanilla", "Nuts", "Wood smoke"],
+      "descriptorFamilies": {"Creamy vanilla":"sweet","Nuts":"nutty","Wood smoke":"smoke-peat"},
+      "cask23TastingNarrative": "Creamy vanilla and nutty malt are held together by a restrained layer of wood smoke in this English-and-Scottish blended malt.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_QUOTING_OFFICIAL",
+      "sources": ["https://thewhiskyphiles.com/2018/09/14/steel-bonnets-blended-malt-whisky/"],
+      "governanceNote": "Manifest says 'Still Bonnets'; external evidence identifies the release as 'Steel Bonnets'. This sensory record does not alter canonical identity wording."
+    },
+    {
+      "beverageId": "34a32af5-0fd9-43c4-b44b-4ac415aac0db",
+      "officialName": "Balblair 15 Year Old",
+      "verifiedDescriptors": [],
+      "descriptorFamilies": {},
+      "cask23TastingNarrative": null,
+      "evidenceTier": "WITHHELD_PENDING_EXACT_PRIMARY_OR_SPECIALIST_MATCH",
+      "sources": []
+    }
+  ]
+}
