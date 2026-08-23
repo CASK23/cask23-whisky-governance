@@ -1,0 +1,30 @@
+{
+  "distilleryId": "DIST-BRUICHLADDICH",
+  "slug": "bruichladdich",
+  "officialName": "Bruichladdich Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Islay",
+  "founded": 1881,
+  "location": "Bruichladdich, Isle of Islay, Argyll, PA49 7UN",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Bruichladdich identifies An Torran, its own reservoir, as a source-water supply for production and uses separate Islay spring water for bottling reduction.",
+    "malt": "The distillery works with 100% Scottish barley across the Bruichladdich range and deliberately varies provenance, growing region and barley variety. Peated Port Charlotte and Octomore spirit are produced separately from the unpeated Bruichladdich style.",
+    "fermentation": "Fermentation averages about 72 hours in six Douglas-fir washbacks. Bruichladdich uses a mixture of fast- and slow-acting compressed wet yeast strains to extend fermentation activity and maintain the house fermentation profile.",
+    "stills": "Bruichladdich uses tall, narrow-necked Victorian-era copper pot stills and deliberately slow, trickle-style distillation to create a light, elegant, floral spirit.",
+    "peat": "Bruichladdich single malt is unpeated; Port Charlotte is typically produced at a heavily peated specification around 40 ppm, while Octomore explores substantially higher phenolic malt specifications as a separate expression family made at the same distillery.",
+    "maturation": "Whisky is matured on Islay in an exceptionally broad cask programme spanning bourbon, sherry, wine and fortified-wine casks; the distillery reports extensive on-site stocks and a very diverse wood inventory."
+  },
+  "houseCharacter": "Bruichladdich's relatively long wooden-washback fermentation builds floral and fruity precursors before distillation. Tall, narrow-necked stills and deliberately slow distillation increase reflux and favour an elegant, clean spirit rather than a heavy sulphury style. Because the same hardware can distil unpeated Bruichladdich, peated Port Charlotte and ultra-peated Octomore, the distillery provides a clear demonstration of how raw-material peat specification can radically change flavour while the underlying still-house signature remains recognisable.",
+  "cask23Narrative": "Bruichladdich is unusual on Islay because its house identity is not defined by one peat level. The same Victorian stillhouse produces unpeated Bruichladdich, heavily peated Port Charlotte and the extreme Octomore family, all through tall narrow-necked stills designed for elegant spirit. That makes the distillery especially valuable for understanding how barley provenance, peat and cask selection can transform a common production architecture into very different whiskies.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://uk.bruichladdich.com/blogs/news/glossary-of-whisky-words",
+    "https://uk.bruichladdich.com/collections/bruichladdich",
+    "https://uk.bruichladdich.com/blogs/philosophy/whats-in-your-whisky",
+    "https://uk.bruichladdich.com/blogs/news/port-charlotte-rising"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
