@@ -1,0 +1,187 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-009",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "governanceRule": "Data chooses the icon; the icon never generates the data.",
+  "records": [
+    {
+      "beverageId": "0080a244-a6ab-4521-b4ef-3b4dad942b0f",
+      "officialName": "Old Pulteney 12 Year 40%",
+      "verifiedDescriptors": ["Citrus", "Vanilla", "Sea salt", "Honey"],
+      "descriptorFamilies": {"Citrus":"citrus","Vanilla":"sweet","Sea salt":"maritime","Honey":"sweet"},
+      "cask23TastingNarrative": "Bright citrus and creamy vanilla lead into honeyed sweetness, with Old Pulteney's coastal sea-salt character carrying the finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://oldpulteney.com/products/12-years-single-malt-scotch-whisky/"]
+    },
+    {
+      "beverageId": "04ce243a-94de-4b9b-93a5-5402896293c8",
+      "officialName": "Tomatin 2010 Amarone Casks 12 Year 46%",
+      "verifiedDescriptors": ["Poached pear", "Rhubarb", "Strawberry jam"],
+      "descriptorFamilies": {"Poached pear":"orchard-fruit","Rhubarb":"orchard-fruit","Strawberry jam":"dried-fruit"},
+      "cask23TastingNarrative": "Poached pear and rhubarb lead into a sweeter strawberry-jam note, keeping the wine-cask influence fruit-led and precise.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "08f5cded-0f48-4a0f-831a-3ac8a67e0d20",
+      "officialName": "Wolfburn Northland 46%",
+      "verifiedDescriptors": ["Honey", "Orchard fruit"],
+      "descriptorFamilies": {"Honey":"sweet","Orchard fruit":"orchard-fruit"},
+      "cask23TastingNarrative": "Honeyed sweetness sits over fresh orchard fruit in a clean, restrained northern malt profile.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "0a8b8089-3032-487b-9974-0163ba53dc69",
+      "officialName": "I/B Royal Brackla P/X Cask Finish Cask Strength 55.5%",
+      "verifiedDescriptors": ["Toffee", "Dried fruit", "Cherry"],
+      "descriptorFamilies": {"Toffee":"sweet","Dried fruit":"dried-fruit","Cherry":"dried-fruit"},
+      "cask23TastingNarrative": "Toffee richness is joined by dried fruit and cherry, giving the PX finish a concentrated, fruit-led cask-strength profile.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "0aef85d4-6458-4633-895a-6f12f30df08f",
+      "officialName": "The Dalmore King Alexander III",
+      "verifiedDescriptors": ["Red fruit", "Orange zest", "Cinnamon"],
+      "descriptorFamilies": {"Red fruit":"dried-fruit","Orange zest":"citrus","Cinnamon":"spice"},
+      "cask23TastingNarrative": "Red fruit and orange zest bring lift and richness, with cinnamon adding a warm, spiced close.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "122fa911-13ba-44e3-b99f-9b13c36e2686",
+      "officialName": "Jura Seven Wood",
+      "verifiedDescriptors": ["Coffee", "Ginger spice", "Chocolate", "Crème caramel", "Baked peach", "Liquorice", "Candied orange"],
+      "descriptorFamilies": {"Coffee":"chocolate-coffee","Ginger spice":"spice","Chocolate":"chocolate-coffee","Crème caramel":"sweet","Baked peach":"orchard-fruit","Liquorice":"floral-herbal","Candied orange":"citrus"},
+      "cask23TastingNarrative": "Coffee and chocolate meet crème caramel, baked peach and candied orange, with ginger spice and liquorice adding structure through the finish.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "1d35b105-f794-4fe0-899b-d4f37512bcbf",
+      "officialName": "Starward Ginger Beer Cask #7",
+      "verifiedDescriptors": ["Candied ginger", "Vanilla", "Pineapple"],
+      "descriptorFamilies": {"Candied ginger":"spice","Vanilla":"sweet","Pineapple":"tropical"},
+      "cask23TastingNarrative": "Candied ginger leads, softened by vanilla and lifted by bright pineapple fruit.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "211725df-9ba6-4ebf-bed3-ce0ee48ffdc4",
+      "officialName": "The Benriach Peated Cask Strength Batch 1 56%",
+      "verifiedDescriptors": ["Wood smoke", "Caramel", "Cinnamon", "Pear", "Vanilla", "Orange peel", "Ginger"],
+      "descriptorFamilies": {"Wood smoke":"smoke-peat","Caramel":"sweet","Cinnamon":"spice","Pear":"orchard-fruit","Vanilla":"sweet","Orange peel":"citrus","Ginger":"spice"},
+      "cask23TastingNarrative": "Wood smoke and caramel frame pear and vanilla, while cinnamon, orange peel and ginger build a warm, citrus-spiced cask-strength finish.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "2485d92a-8b39-468f-9d4b-4f7e9d6e0f0d",
+      "officialName": "Old Pulteney Port Finish 46%",
+      "verifiedDescriptors": ["Orchard fruit", "Cinnamon", "Plum cake"],
+      "descriptorFamilies": {"Orchard fruit":"orchard-fruit","Cinnamon":"spice","Plum cake":"dried-fruit"},
+      "cask23TastingNarrative": "Orchard fruit leads into cinnamon and plum-cake richness, giving the Port finish a gently spiced, fruit-led character.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "37e2e136-2ef7-4439-bc90-4fb203dad44a",
+      "officialName": "Lagg Kilmory Edition",
+      "verifiedDescriptors": ["Vanilla", "Toasted oak", "Sweet spice", "Peat smoke", "Charred citrus"],
+      "descriptorFamilies": {"Vanilla":"sweet","Toasted oak":"oak","Sweet spice":"spice","Peat smoke":"smoke-peat","Charred citrus":"citrus"},
+      "cask23TastingNarrative": "Peat smoke and charred citrus sit over vanilla and toasted oak, with sweet spice rounding the finish.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "3bdcb935-248c-4812-9743-3a9d3f1ed571",
+      "officialName": "Wild Turkey 40.5%",
+      "verifiedDescriptors": ["Caramel", "Vanilla", "Oak spice"],
+      "descriptorFamilies": {"Caramel":"sweet","Vanilla":"sweet","Oak spice":"spice"},
+      "cask23TastingNarrative": "Caramel and vanilla sweetness are balanced by a warming seam of oak spice.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "3fc464c9-0471-4711-a78c-5ef664f7c899",
+      "officialName": "The GlenDronach Cask Strength Batch 7",
+      "verifiedDescriptors": ["Toffee", "Walnut", "Sundried fruit"],
+      "descriptorFamilies": {"Toffee":"sweet","Walnut":"nutty","Sundried fruit":"dried-fruit"},
+      "cask23TastingNarrative": "Toffee and walnut sit against concentrated sun-dried fruit, giving the cask-strength sherry profile a rich, nutty depth.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "403bb81d-1b44-416f-9b45-71bf1d2629d9",
+      "officialName": "The Dalmore Port Wood Reserve",
+      "verifiedDescriptors": ["Red fruit", "Orange zest", "Toffee"],
+      "descriptorFamilies": {"Red fruit":"dried-fruit","Orange zest":"citrus","Toffee":"sweet"},
+      "cask23TastingNarrative": "Red fruit and orange zest are wrapped in soft toffee sweetness, keeping the Port influence bright rather than heavy.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "45c179b0-7979-4ede-98a5-b24bbc1cc0a9",
+      "officialName": "Tomatin Cask Strength Bourbon & Sherry Cask 57.5%",
+      "verifiedDescriptors": ["Sherry", "Vanilla", "Baking spice"],
+      "descriptorFamilies": {"Sherry":"dried-fruit","Vanilla":"sweet","Baking spice":"spice"},
+      "cask23TastingNarrative": "Sherry richness meets vanilla sweetness, with baking spice adding warmth and structure at cask strength.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "50c82104-e3ca-43e6-90f3-96279c0f9fa2",
+      "officialName": "Fettercairn 16 Year 46.6%",
+      "verifiedDescriptors": ["Tropical fruit", "Honey", "Rose"],
+      "descriptorFamilies": {"Tropical fruit":"tropical","Honey":"sweet","Rose":"floral-herbal"},
+      "cask23TastingNarrative": "Tropical fruit and honey give the palate a generous sweetness, lifted by a delicate rose note.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "51a2c576-5c67-4dd4-9a6d-73bd7d9c3618",
+      "officialName": "Tomatin 2010 Barolo Cask 12 Year 46%",
+      "verifiedDescriptors": ["Mulled wine", "Dark chocolate", "Cranberry"],
+      "descriptorFamilies": {"Mulled wine":"spice","Dark chocolate":"chocolate-coffee","Cranberry":"dried-fruit"},
+      "cask23TastingNarrative": "Mulled-wine spice meets dark chocolate and tart cranberry, giving the Barolo cask a dark-fruited, warming profile.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "5c22bd46-3746-45cd-bead-667e7cae96bc",
+      "officialName": "Jura Tide 21 Year 46.7%",
+      "verifiedDescriptors": ["Banana", "Treacle", "Papaya", "Gingerbread", "Vanilla", "Baked apple", "Woodsmoke", "Dark honey", "Clove", "Pepper"],
+      "descriptorFamilies": {"Banana":"tropical","Treacle":"sweet","Papaya":"tropical","Gingerbread":"spice","Vanilla":"sweet","Baked apple":"orchard-fruit","Woodsmoke":"smoke-peat","Dark honey":"sweet","Clove":"spice","Pepper":"spice"},
+      "cask23TastingNarrative": "Banana and papaya meet treacle, vanilla and baked apple, before gingerbread, woodsmoke, dark honey, clove and pepper deepen the long mature palate.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "5d8f7acc-3a3d-4589-9ac0-c7f3169dc586",
+      "officialName": "Jura 18 Year 44%",
+      "verifiedDescriptors": ["Malt", "Peach blossom", "Raspberry", "Vanilla", "Dark chocolate", "Red berries", "Clove", "Peat", "Black pepper"],
+      "descriptorFamilies": {"Malt":"sweet","Peach blossom":"floral-herbal","Raspberry":"dried-fruit","Vanilla":"sweet","Dark chocolate":"chocolate-coffee","Red berries":"dried-fruit","Clove":"spice","Peat":"smoke-peat","Black pepper":"spice"},
+      "cask23TastingNarrative": "Malt, peach blossom and raspberry lead into vanilla and dark chocolate, with red berries, clove, peat and black pepper adding depth through the finish.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "62bd923b-c7b2-4aef-b490-628cc4bcb364",
+      "officialName": "Balblair 12 Year Old",
+      "verifiedDescriptors": ["Citrus", "Vanilla", "Honey"],
+      "descriptorFamilies": {"Citrus":"citrus","Vanilla":"sweet","Honey":"sweet"},
+      "cask23TastingNarrative": "Fresh citrus is softened by vanilla and honey, giving the 12-year-old a bright, gently sweet profile.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    },
+    {
+      "beverageId": "6a0fbb47-6357-45ba-a376-638f10639f45",
+      "officialName": "The Dalmore Cigar Malt Reserve",
+      "verifiedDescriptors": ["Dark fruit", "Spice", "Tannic oak"],
+      "descriptorFamilies": {"Dark fruit":"dried-fruit","Spice":"spice","Tannic oak":"oak"},
+      "cask23TastingNarrative": "Dark fruit and warm spice are framed by firm tannic oak, giving the palate a rich, structured character.",
+      "evidenceTier": "GOVERNED_EXISTING_DESCRIPTOR_SYNTHESIS",
+      "sources": ["internal:lovable:pz-whisky-sensory-completeness.manifest.json"]
+    }
+  ]
+}
