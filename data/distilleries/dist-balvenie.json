@@ -1,0 +1,27 @@
+{
+  "distilleryId": "DIST-BALVENIE",
+  "slug": "balvenie",
+  "officialName": "The Balvenie Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Speyside",
+  "founded": 1892,
+  "owner": "William Grant & Sons",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "malt": "The Balvenie retains traditional floor maltings and grows part of its own barley. Established specialist technical references state that only a minority of total malt demand is produced on site, with the balance purchased externally.",
+    "fermentation": "Established specialist references describe approximately 65-hour fermentation in large washbacks, producing a sweet, malty wash.",
+    "stills": "The distillery operates multiple wash and spirit stills with tall necks and reflux features. Specialist references describe five wash stills and six spirit stills, with distinctive reflux balls and differing lyne-arm orientations that promote separation and a sweet, refined spirit.",
+    "peat": "The standard house style is essentially unpeated; once a year The Balvenie produces a separate smoky spirit during its Peat Week programme using peat prepared through its own malting operation.",
+    "maturation": "The distillery maintains an on-site cooperage and is strongly associated with American-oak whisky casks, European-oak sherry casks and secondary cask finishing, a technique pioneered at The Balvenie by David C. Stewart."
+  },
+  "houseCharacter": "Balvenie's production architecture is built around preserving sweetness while maintaining texture. Floor-malted barley contributes a traditional cereal base, while long fermentation and high-reflux still geometry favour honeyed, fruity spirit with relatively little roughness. Its extensive in-house cooperage and finishing programme then layers vanilla, spice, dried fruit and other cask-derived notes onto that sweet Speyside core.",
+  "cask23Narrative": "The Balvenie is unusual not because one single production feature dominates, but because so many traditional crafts remain on site. Floor malting, resident coppersmithing and cooperage feed into a spirit designed to be naturally honeyed and supple. That makes it especially responsive to the distillery's famous use of secondary cask maturation and wood finishing.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.thebalvenie.com/en-gb/our-whisky-collection/stories-whiskies/the-creation-of-a-classic/",
+    "https://www.whisky.com/whisky-database/distilleries/details/balvenie.html"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
