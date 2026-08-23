@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-ARDNAHOE",
+  "slug": "ardnahoe",
+  "officialName": "Ardnahoe Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Islay",
+  "owner": "Hunter Laing & Co. Ltd",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Production water is drawn from Loch Ardnahoe, described by the distillery as exceptionally soft water filtered through peat and rock.",
+    "malt": "The distillery states its malt is dried over peat smoke for around 20 hours before milling in a 100-year-old Vickers Boby mill.",
+    "fermentation": "Fermentation takes place in four Oregon pine washbacks. Ardnahoe states a total fermentation time of approximately 65-70 hours, with the wash settling after about 50 hours before the extended fermentation completes.",
+    "stills": "Two lantern-shaped copper pot stills made by Speyside Copperworks are used: a 13,000-litre wash still and an 11,000-litre spirit still. Both employ unusually long descending lyne arms and traditional worm-tub condensers, with the distillery emphasising slow, gentle distillation.",
+    "peat": "Peat smoke is used during malt drying for around 20 hours, establishing a deliberately peated Islay spirit style.",
+    "maturation": "The distillery highlights direct sourcing of American white-oak bourbon casks from the United States and European-oak Oloroso sherry casks from Jerez as core maturation wood types."
+  },
+  "houseCharacter": "Ardnahoe combines peated malt with a relatively long 65-70 hour fermentation designed to generate a fruitier wash before distillation. Large lantern-shaped stills, long descending lyne arms and slow distillation into worm tubs favour texture and weight while retaining fruit and peat. Bourbon and Oloroso sherry casks then provide a structured maturation framework around that fruity, peaty and textural new make.",
+  "cask23Narrative": "Ardnahoe is one of the clearest examples of a modern Islay distillery built around traditional hardware. Its four Oregon pine washbacks and 65-70 hour fermentation aim to create a fruitier wash, while unusually long lyne arms and worm tubs give the spirit a weightier, more textural shape. In the glass, that makes the distillery particularly interesting for customers who enjoy peat but also want fruit, density and cask-driven richness rather than smoke alone.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://ardnahoedistillery.com/pages/our-process",
+    "https://ardnahoedistillery.com/pages/our-story",
+    "https://ardnahoedistillery.com/pages/tours-tastings"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
