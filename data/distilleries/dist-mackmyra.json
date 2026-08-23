@@ -1,0 +1,29 @@
+{
+  "distilleryId": "DIST-MACKMYRA",
+  "slug": "mackmyra",
+  "officialName": "Mackmyra Gravity Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Sweden",
+  "founded": 2011,
+  "owner": "No.1 Beverage Group",
+  "location": "Gävle, Sweden",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Mackmyra's whisky production is based on Swedish spring water; established specialist references identify naturally filtered water from the Valboåsen esker system.",
+    "malt": "Mackmyra uses Swedish barley and maintains both unpeated and smoked malt streams. The smoked recipe uses Swedish peat together with juniper smoke as a distinctive house technique.",
+    "fermentation": "Established specialist data records stainless-steel washbacks and an extended fermentation of roughly 4-6 days. The current official site does not publish a precise fermentation specification.",
+    "stills": "The 35-metre Gravity Distillery moves raw materials downward through production stages using gravity. Distillation is carried out in a pair of Forsyths copper pot stills with comparatively classical narrow-neck geometry.",
+    "peat": "Smoked production uses Swedish peat together with juniper, while unpeated production is run separately.",
+    "maturation": "Mackmyra uses Swedish oak, American oak and ex-wine/spirit casks, including small 30-litre casks. Maturation occurs across multiple Swedish environments, notably the Bodås mine approximately 50 metres underground."
+  },
+  "houseCharacter": "Mackmyra's Gravity Distillery is engineered around vertical material flow rather than pumps, reducing energy use while preserving conventional pot-still distillation. Swedish barley, local spring water and separate unpeated or juniper-and-peat smoked recipes create a distinctly Nordic raw-material signature. Maturation in Swedish oak, small casks and unusual environments such as the Bodås mine adds pronounced spice and wood influence to an otherwise fruity spirit.",
+  "cask23Narrative": "Mackmyra combines familiar malt-whisky mechanics with distinctly Swedish ingredients and maturation ideas. The gravity-fed distillery uses Scottish-made copper pot stills, but its smoked spirit can combine Swedish peat with juniper, and its cask programme makes extensive use of Swedish oak and unusual warehouse sites. That makes Mackmyra valuable for customers exploring how local raw materials can create a recognisable national style without abandoning traditional malt distillation.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.mackmyra.se/var-historia",
+    "https://www.whisky.com/whisky-database/distilleries/details/mackmyra.html",
+    "https://www.whiskybase.com/whiskies/distillery/207/about"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
