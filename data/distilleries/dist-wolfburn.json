@@ -1,0 +1,29 @@
+{
+  "distilleryId": "DIST-WOLFBURN",
+  "slug": "wolfburn",
+  "officialName": "Wolfburn Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "location": "Thurso, Caithness, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Water is drawn from the Wolf Burn, rising from a spring near the distillery and naturally filtered through Caithness stone.",
+    "malt": "Wolfburn uses sustainably sourced UK malt and produces both non-peated and lightly peated spirit depending on the production run.",
+    "fermentation": "A single bottom-fermenting yeast strain is used. Wolfburn describes fermentation as deliberately long and unhurried; no exact hour figure is admitted because it is not published in the verified first-party source set.",
+    "stills": "Whisky is double distilled slowly and gently in small copper pot stills. Exact still counts and capacities are not admitted from first-party evidence currently available.",
+    "peat": "The distillery produces both non-peated and lightly peated spirit; official bottling data shows lightly peated examples around 5 ppm, but this is not treated as a universal facility-wide specification.",
+    "maturation": "All whisky is matured on site in traditional-style dunnage warehouses near the sea. Core cask types include first-fill ex-bourbon barrels, first- and second-fill Oloroso sherry butts, rum casks and custom recoopered quarter casks."
+  },
+  "houseCharacter": "Wolfburn is built around unhurried production: extended fermentation is followed by slow, gentle small-pot distillation rather than high-throughput spirit stripping. The result is intended to preserve fruit and a smooth, rounded texture before oak influence. On-site dunnage maturation, with bourbon and sherry casks at the centre of the programme, then develops the spirit in Caithness's cool northern climate.",
+  "cask23Narrative": "Wolfburn's production philosophy is deliberately patient. Spring water from the Wolf Burn, long fermentation and slow double distillation in small copper stills are all used to create a clean but flavourful spirit before it enters oak. Because every cask matures at the distillery in traditional dunnage warehouses, the northern Caithness environment remains part of the whisky's story from new make to bottle.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://wolfburn.com/pages/corewhiskies",
+    "https://wolfburn.com/products/10-year-old-single-malt-scotch-whisky-46-vol-70cl",
+    "https://wolfburn.com/products/12-year-old-single-malt-scotch-whisky-46-vol-35cl",
+    "https://wolfburn.com/pages/dramsontheburn"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
