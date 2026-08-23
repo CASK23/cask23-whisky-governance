@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-JOHN-DISTILLERIES-GOA",
+  "slug": "john-distilleries-goa",
+  "officialName": "Paul John Distillery, Goa",
+  "entityType": "DISTILLERY",
+  "country": "India",
+  "owner": "John Distilleries Private Limited",
+  "location": "Cuncolim, Goa, India",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Paul John states that production uses Goa's underground water table together with rain-fed sources and water flowing through the Western Ghats, naturally filtered through Goan wetlands.",
+    "malt": "The single malts use indigenous Indian six-row barley sourced from northern India, including Rajasthan, Haryana and the Himalayan foothills.",
+    "fermentation": "Official Paul John material states that fermentation runs for at least about 40 hours before distillation; unsupported washback-count precision is not promoted into this canonical profile.",
+    "stills": "The Goa malt facility uses custom-made Indian copper pot stills with long necks designed to promote a fruitier spirit. Official Paul John material describes two sets of stills, comprising two wash stills and two spirit stills, used for double distillation.",
+    "peat": "Both peated and unpeated whisky are produced. For peated production, peat/malted material is sourced from Scotland because there is no equivalent local peat source used for this purpose.",
+    "maturation": "Whisky is matured in Goa's tropical climate, with official material citing an angel's share around 8-10% per year. Charred American white-oak barrels are core to maturation, with additional cask types used for selected releases; the site has both above-ground and cooler underground/cellar warehousing."
+  },
+  "houseCharacter": "Paul John's Goa spirit is built from protein-rich Indian six-row barley, mineral-balanced local water and long-necked copper pot stills configured for double distillation. The still geometry favours fruitier new make, while both peated and unpeated production allow the distillery to range from bright malt character to smoke-led styles. Goa's warm, humid coastal climate then accelerates cask interaction, producing concentrated sweetness, spice and tropical-fruit character at comparatively young chronological ages.",
+  "cask23Narrative": "Paul John is distilled in Goa, where Indian six-row barley and specially designed long-necked copper pot stills create a distinctly fruit-forward new make. The distillery produces both peated and unpeated styles, but the tropical coastal climate is just as important as the stillhouse: heat and humidity accelerate oak interaction and evaporation throughout maturation. That combination gives Paul John its recognisably rich, generous style, where malt sweetness, tropical fruit, spice and—when used—peat can develop with unusual intensity.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.pauljohnwhisky.com/our-distillery.php",
+    "https://pauljohnwhisky.com/paul-john-port-cask.php",
+    "https://www.pauljohnwhisky.com/paul-john-single-malt-story.php"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
