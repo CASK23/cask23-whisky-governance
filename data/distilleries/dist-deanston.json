@@ -1,0 +1,27 @@
+{
+  "distilleryId": "DIST-DEANSTON",
+  "slug": "deanston",
+  "officialName": "Deanston Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "location": "Deanston, near Doune, Perthshire, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Production water is drawn from the River Teith, which also provides hydro-electric power for the distillery.",
+    "malt": "Deanston states that its barley is 100% Scottish and sourced as locally as possible.",
+    "fermentation": "Fermentation takes place in stainless-steel washbacks and can run for up to 100 hours.",
+    "stills": "Whisky is distilled in copper pot stills; Deanston highlights its feints receiver as part of the distillation system used to shape its waxy new-make character.",
+    "maturation": "Spirit matures in hand-selected oak casks in seven warehouses at the distillery, including former weaving sheds from the site's textile-mill history."
+  },
+  "houseCharacter": "Deanston combines very long fermentation with a traditional pot-still regime to build a waxy, fruit-bearing new make before maturation. Up to 100 hours in stainless-steel washbacks allows extensive fermentation-derived flavour development, while the River Teith supplies both process water and renewable power. Maturation in the old weaving sheds reinforces a production model that is closely tied to the converted mill site itself.",
+  "cask23Narrative": "Deanston is one of the Highlands' most distinctive converted industrial sites: a former cotton mill turned distillery on the River Teith. Its long fermentations of up to 100 hours help create the waxy, fruity new make for which the distillery is known, while the same river supplies both water and hydro-electric energy. It is a particularly useful distillery for customers who want to understand how fermentation length can shape texture and flavour before oak maturation begins.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://deanstonmalt.com/en-de/pages/about-deanston",
+    "https://deanstonmalt.com/de-de/blogs/news/deanston-organic-whisky",
+    "https://deanstonmalt.com/en-de"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
