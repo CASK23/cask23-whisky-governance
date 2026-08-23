@@ -1,0 +1,31 @@
+{
+  "distilleryId": "DIST-TOMATIN",
+  "slug": "tomatin",
+  "officialName": "Tomatin Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "founded": 1897,
+  "owner": "Tomatin Distillery Co. Ltd. (Takara Shuzo group)",
+  "location": "Tomatin, Inverness-shire, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Tomatin uses naturally soft water from the Alt-na-Frith burn.",
+    "malt": "Scottish malted barley is used. The core Tomatin spirit is unpeated; a lightly peated production run made for roughly one week each year is used for Cu Bocan.",
+    "fermentation": "Twelve stainless-steel washbacks are documented by established specialist sources. Published specialist fermentation figures conflict materially, so no exact duration is admitted to the governed profile.",
+    "stills": "Twelve tall, slim copper pot stills remain installed at Tomatin, arranged as six wash and six spirit stills, although production utilisation varies. The tall still geometry supports the distillery's light, soft and fruity spirit style.",
+    "peat": "Tomatin's core spirit is unpeated; the distillery separately produces a lightly peated spirit for Cu Bocan during a limited annual production period.",
+    "maturation": "Official material emphasises a broad wood policy including bourbon, sherry, refill and wine/fortified-wine casks, with both dunnage and racked warehousing represented in established technical sources."
+  },
+  "houseCharacter": "Tomatin combines soft Highland water with tall, slim stills to produce a light and fruit-forward new make rather than a heavy spirit. The site retains unusually large installed still capacity, but production is managed for quality rather than the scale that once made Tomatin Scotland's largest malt distillery. A broad wood policy then gives the gentle spirit enough flexibility to support both classic bourbon/sherry maturation and more experimental cask programmes.",
+  "cask23Narrative": "Tomatin's modern identity is almost the opposite of its historic reputation for sheer scale. Although twelve stills remain on site, the distillery now emphasises a softer, fruitier spirit made with Alt-na-Frith water and tall copper stills, then develops that spirit through a broad cask programme. The separate lightly peated Cu Bocan run shows how the same plant can also create a different house stream without redefining the core Tomatin style.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://tomatin.com/",
+    "https://tomatin.com/tomatin/our-whisky/",
+    "https://scotchwhisky.com/whiskypedia/1901/tomatin/",
+    "https://www.whisky.com/whisky-database/distilleries/details/tomatin.html"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
