@@ -1,0 +1,30 @@
+{
+  "distilleryId": "DIST-BUNNAHABHAIN",
+  "slug": "bunnahabhain",
+  "officialName": "Bunnahabhain Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Islay",
+  "founded": 1881,
+  "location": "Port Askaig, Isle of Islay, PA46 7RP",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Bunnahabhain uses mineral-rich spring water from the Margadale Spring, approximately one mile north of the distillery.",
+    "malt": "The distillery is best known for an unpeated Islay style, while separately produced peated spirit is also made for selected releases. Established specialist sources describe malt supply from Port Ellen Maltings.",
+    "fermentation": "Established specialist technical references describe six large Douglas-fir washbacks and fermentation of roughly 55 hours, creating a fruity, citrus-led wash.",
+    "stills": "Bunnahabhain operates two wash stills and two spirit stills. The official distillery describes its pear-shaped stills as the tallest on Islay, with long swan necks that restrict heavier compounds and promote a lighter spirit.",
+    "peat": "The core Bunnahabhain house style is unpeated; peated spirit is produced separately for Mòine and other designated releases.",
+    "maturation": "The distillery strongly associates its house style with high-quality American and European oak, particularly sherry casks, and matures stocks in traditional coastal dunnage warehouses beside Bunnahabhain Bay."
+  },
+  "houseCharacter": "Bunnahabhain combines an unpeated malt specification with relatively short-to-moderate fermentation and unusually tall pear-shaped stills. The long necks increase separation during distillation, helping create a lighter, fruitier distillate despite the robust oily texture for which the make is known. Sherry-led maturation then builds dried fruit, nuts and spice onto that clean coastal spirit rather than relying on peat smoke as the primary marker of Islay identity.",
+  "cask23Narrative": "Bunnahabhain is one of Islay's great counterpoints to the island's smoky stereotype. Its core spirit is unpeated and passes through the tallest stills on Islay, giving a lighter, fruitier distillate with enough oil and structure to handle rich sherry maturation. That combination explains why classic Bunnahabhain can taste coastal and powerful without needing heavy peat smoke.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://bunnahabhain.com/pages/about-us",
+    "https://bunnahabhain.com/en-us",
+    "https://bunnahabhain.com/en-us/pages/investing-in-a-cask",
+    "https://www.whisky.com/whisky-database/distilleries/details/bunnahabhain.html"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
