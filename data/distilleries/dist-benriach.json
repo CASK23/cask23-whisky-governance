@@ -1,0 +1,29 @@
+{
+  "distilleryId": "DIST-BENRIACH",
+  "slug": "benriach",
+  "officialName": "The Benriach Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Speyside",
+  "founded": 1898,
+  "owner": "Brown-Forman",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Benriach draws mineral-rich water from an underground aquifer beneath the distillery grounds and uses a distinctive four-water mash.",
+    "malt": "Benriach produces both unpeated and Highland-peated spirit and periodically revives its own floor maltings during its annual Malting Season.",
+    "fermentation": "The official site links the sweet four-water mash to a fruit-forward wash; established specialist technical references describe eight washbacks and an unusually long fermentation averaging around 100 hours.",
+    "stills": "Benriach operates four main copper pot stills, two wash and two spirit stills, and distils deliberately slowly. The distillery also makes small annual runs of triple-distilled spirit.",
+    "peat": "Benriach distils a Highland-peated style as well as its classic unpeated spirit, using mainland peat to create a sweeter woodland-smoke profile rather than a medicinal coastal peat profile.",
+    "maturation": "Benriach uses an unusually broad cask palette sourced globally, including bourbon, sherry, wine and other fortified-wine casks, with stocks held in both traditional dunnage and larger warehouse formats."
+  },
+  "houseCharacter": "Benriach deliberately builds fruit before the spirit reaches the cask: its mineral-rich water, four-water mash and long fermentation favour ester formation and orchard-fruit character. Slow distillation then preserves a broad heart cut, while the distillery can switch among unpeated, peated and occasional triple-distilled styles. That flexible spirit architecture is designed to work with an unusually diverse cask inventory rather than one narrowly defined maturation regime.",
+  "cask23Narrative": "Benriach is best understood as a Speyside distillery built for flavour diversity. Its long, sweet fermentation and slow distillation create a fruit-forward core, but the same site also produces Highland-peated and occasional triple-distilled spirit. That gives the maturation team an unusually wide canvas, which is why Benriach expressions can range from orchard-fruit Speyside elegance to sweet smoke and richly cask-driven styles.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.benriachdistillery.com/en-us/our-process/",
+    "https://www.benriachdistillery.com/our-history/",
+    "https://www.whisky.com/whisky-database/distilleries/details/benriach.html"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
