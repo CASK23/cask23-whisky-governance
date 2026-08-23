@@ -1,0 +1,26 @@
+{
+  "distilleryId": "DIST-CARDRONA",
+  "slug": "cardrona",
+  "officialName": "Cardrona Distillery",
+  "entityType": "DISTILLERY",
+  "country": "New Zealand",
+  "location": "Cardrona Valley, Otago, New Zealand",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Water is drawn from Alvin's Well, fed by the flanks of Mount Cardrona; the distillery also describes its process water as pristine Cardrona mountain water.",
+    "malt": "Single malt production uses 100% malted barley grown on New Zealand's South Island/Canterbury plains, malted to Cardrona's specifications and milled on site.",
+    "fermentation": "Wort ferments in stainless-steel washbacks with distiller's yeast for a minimum of 70 hours.",
+    "stills": "Whisky is double-distilled in two bespoke, hand-hammered Forsyths copper pot stills: the 2,000-litre wash still 'Roaring Meg' and 1,300-litre spirit still 'Gentle Annie'.",
+    "maturation": "Spirit is filled into seasoned ex-sherry, ex-Pinot Noir and ex-bourbon casks and matured in Cardrona's high-altitude valley environment, where the distillery highlights arid humidity and a large seasonal temperature swing."
+  },
+  "houseCharacter": "Cardrona builds a clean, fruit-led new make through a long fermentation in stainless steel followed by small-scale double pot distillation. The compact Forsyths stills retain concentration while the extended fermentation encourages ester development before the spirit reaches oak. Maturation in an alpine, low-humidity environment with large seasonal temperature swings gives cask interaction a distinctive environmental context.",
+  "cask23Narrative": "Cardrona is a modern New Zealand single malt distillery with unusually small bespoke pot stills and a fermentation of at least 70 hours. Its whisky starts with South Island barley and water drawn from Alvin's Well beneath Mount Cardrona, before ageing in casks such as ex-bourbon, ex-sherry and Otago Pinot Noir. The combination of long fermentation, compact stills and a high-altitude maturation climate makes Cardrona particularly interesting for customers exploring how New World whisky can build character through both process and place.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.cardronadistillery.com/pages/distillery",
+    "https://www.cardronadistillery.com/pages/faqs",
+    "https://www.cardronadistillery.com/collections/cardrona"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
