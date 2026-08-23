@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-HIGHLAND-PARK",
+  "slug": "highland-park",
+  "officialName": "Highland Park Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Islands",
+  "founded": 1798,
+  "owner": "The Edrington Group",
+  "location": "Kirkwall, Orkney, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "malt": "The distillery retains traditional floor malting for part of its malt requirement and dries hand-turned malt in two historic kilns.",
+    "fermentation": "Established specialist technical data records fermentation periods spanning approximately 52 to 96 hours depending on production schedule.",
+    "stills": "Four Forsyths copper pot stills are used: two wash stills and two spirit stills, described by Highland Park as medium-sized and designed for a balanced, rounded new make.",
+    "peat": "Highland Park uses Orkney peat in its traditional maltings, giving the distillery its distinctive aromatic smoke rather than an aggressively phenolic style.",
+    "maturation": "A substantial portion of the whisky matures in traditional earth-floored dunnage warehouses beside the distillery in Orkney's cool, temperate maritime climate."
+  },
+  "houseCharacter": "Traditional floor-malting and Orkney peat provide an aromatic smoky component before fermentation and double pot distillation. Medium-sized stills and a variable fermentation regime balance fruit, malt weight and smoke rather than maximising any single element. Dunnage maturation in Orkney's relatively even maritime climate then allows that heathery peat, fruit and oak to develop slowly with comparatively restrained evaporation.",
+  "cask23Narrative": "Highland Park's character begins before the stillhouse, with part of its barley still malted by hand and dried using Orkney peat. That peat is central to the distillery's aromatic, heathery smoke, which is noticeably different from the sharper medicinal styles often associated with Islay. Four medium-sized pot stills and cool Orkney dunnage maturation then build a rounded spirit where smoke, fruit, malt and oak tend to sit in balance rather than compete.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.highlandparkwhisky.com/en/brand-story/distillery",
+    "https://scotchwhisky.com/whiskypedia/1867/highland-park/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
