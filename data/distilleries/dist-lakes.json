@@ -1,0 +1,25 @@
+{
+  "distilleryId": "DIST-LAKES",
+  "slug": "the-lakes",
+  "officialName": "The Lakes Distillery",
+  "entityType": "DISTILLERY",
+  "country": "England",
+  "location": "Bassenthwaite, Cumbria, England",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "The distillery uses pure water from the Lake District National Park in whisky production.",
+    "malt": "Unpeated malted barley is used for The Lakes single malt.",
+    "fermentation": "Three different yeast strains are combined to build layered flavour. Fermentation is extended to as much as 96 hours, deliberately reaching malolactic fermentation to increase complexity and creamy texture.",
+    "stills": "The distillery uses copper pot distillation with separate wash and spirit stills. Distillation is run slowly to maximise copper contact and retain a robust, fruity spirit suited to active maturation.",
+    "maturation": "The house philosophy is explicitly sherry-led and wood-forward. The distillery has expanded racked warehousing on site to support maturation and stock growth."
+  },
+  "houseCharacter": "The Lakes begins with unpeated malt and intentionally long, multi-yeast fermentation to create a robust, fruity and textural wash. Slow copper-pot distillation maximises copper contact while preserving enough body for active wood influence. The resulting spirit is engineered specifically for a sherry-led, wood-forward maturation regime rather than for neutral cask treatment.",
+  "cask23Narrative": "The Lakes Distillery designs its spirit with maturation already in mind. Three yeast strains and fermentation of up to 96 hours build fruit and texture before slow copper distillation creates a spirit strong enough to stand up to assertive sherry-led wood. It is a useful example of modern English whisky making where fermentation, distillation and cask design are treated as one connected flavour system.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://lakesdistillery.com/pages/whisky-story",
+    "https://lakesdistillery.com/blogs/news/lakes-distillery-secure-investment-to-support-growth-plans"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
