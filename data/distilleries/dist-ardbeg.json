@@ -1,0 +1,29 @@
+{
+  "distilleryId": "DIST-ARDBEG",
+  "slug": "ardbeg",
+  "officialName": "Ardbeg Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Islay",
+  "founded": 1815,
+  "location": "Port Ellen, Islay PA42 7EA",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Production water comes from Loch Uigeadail, flowing via Loch Airigh Nam Beist and the burn to Charlie's Dam at the distillery.",
+    "malt": "Malted barley is kilned over peat smoke to a minimum of 55 ppm phenols before milling in the distillery's Boby mill.",
+    "fermentation": "Wort is fermented in Oregon pine washbacks with distiller's yeast; the distillery states the resulting wash is approximately 8% ABV.",
+    "stills": "Ardbeg operates four copper pot stills after the 2021 stillhouse expansion. Distillation is described as 'two and a shortie bit times'; the spirit still uses a purifier on the lyne arm to return heavier vapours for redistillation and increase copper contact/reflux.",
+    "peat": "The malt is peated to a minimum of 55 ppm phenols, making peat a deliberate structural input rather than a flavour inference.",
+    "maturation": "Bourbon oak is described by the distillery as the foundation of the house style, with additional use of casks including Oloroso sherry butts and new French oak for specific expressions."
+  },
+  "houseCharacter": "Ardbeg's high-phenol malt establishes a powerful smoky base before fermentation and distillation shape the spirit. The purifier on the spirit-still lyne arm increases reflux and copper contact, helping retain fruity and floral sweetness alongside the peat. Bourbon-led maturation then preserves the distillery's smoky-sweet core while allowing selective sherry and French-oak influence in individual expressions.",
+  "cask23Narrative": "Ardbeg is built around deliberate contrasts: heavily peated malt, but a distillation regime engineered to keep sweetness, fruit and floral lift in the new make. Its spirit-still purifier sends heavier vapours back for redistillation, creating extra reflux and copper contact rather than simply chasing maximum weight. For the customer, that helps explain why classic Ardbeg can be intensely smoky yet still show citrus, sweetness and aromatic complexity beneath the peat.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.ardbeg.com/en-gb/pages/about-the-process",
+    "https://www.ardbeg.com/en-gb/pages/history",
+    "https://www.ardbeg.com/en-gb/pages/contact"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
