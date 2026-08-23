@@ -1,0 +1,26 @@
+{
+  "distilleryId": "DIST-BUFFALO-TRACE",
+  "slug": "buffalo-trace",
+  "officialName": "Buffalo Trace Distillery",
+  "entityType": "DISTILLERY",
+  "country": "United States",
+  "location": "Frankfort, Franklin County, Kentucky, United States",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Buffalo Trace uses Kentucky limestone-influenced water; official production records for specific releases also document reverse-osmosis treatment where appropriate.",
+    "malt": "Production spans multiple proprietary bourbon and rye recipes. Official release records document corn-rye-malted-barley recipes, wheated bourbon recipes and experimental grain variations rather than one universal mash bill.",
+    "fermentation": "Buffalo Trace is a sour-mash distillery. Official historical and release documentation confirms the use of fermenters and sour-mash processes, including revived E.H. Taylor-era Old Fashioned Sour Mash experiments; exact current fermentation duration is not published as one universal figure in the verified official source set.",
+    "stills": "Core bourbon production uses continuous column distillation followed by a second distillation step through a doubler. Buffalo Trace also operates an E.H. Taylor Jr. Microstill, a combination pot-and-column experimental still for small research batches.",
+    "maturation": "Whiskey is matured in new charred American white-oak barrels across multiple on-site warehouses. Official release records show variation in char level, entry proof, stave seasoning, warehouse type and floor as deliberately controlled maturation variables."
+  },
+  "houseCharacter": "Buffalo Trace's house architecture is intentionally flexible because one distillery supports multiple mash bills and brands rather than a single fixed new-make profile. Sour-mash fermentation and column-plus-doubler distillation create a consistent bourbon framework, while recipe, entry proof and warehouse placement are then used as controlled variables. The distillery's extensive experimentation programme makes maturation engineering—char, stave seasoning, entry proof and warehouse position—an unusually visible part of its flavour design.",
+  "cask23Narrative": "Buffalo Trace is best understood as a large production and research distillery rather than one narrowly defined bourbon recipe. Different grain bills pass through a common bourbon architecture of sour mash, column distillation and redistillation, before warehouse location, barrel char and entry proof shape the final whiskey. That is why brands made at the same Frankfort site can share a family resemblance while tasting markedly different.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.buffalotracedistillery.com/content/dam/buffalotracedistillery/letters/experimental-collection/2023-UPDATED-Experimental-Collection-Catalogue.pdf",
+    "https://www.buffalotracedistillery.com/content/dam/sazerac/corporate/news/press-releases/archive/2019/buffalo-trace/BTD%20Jan.%2023%202019%20OFC%20Fermenter%20Filled.pdf",
+    "https://www.buffalotracedistillery.com/content/dam/sazerac/corporate/news/press-releases/2023/buffalo-trace/2023-06-07-Daniel-Weller-Launch-Press-Release_FINAL.pdf"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

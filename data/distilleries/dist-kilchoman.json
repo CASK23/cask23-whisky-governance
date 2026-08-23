@@ -1,0 +1,29 @@
+{
+  "distilleryId": "DIST-KILCHOMAN",
+  "slug": "kilchoman",
+  "officialName": "Kilchoman Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Islay",
+  "founded": 2005,
+  "location": "Rockside Farm, Bruichladdich, Isle of Islay, PA49 7UT",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Water is drawn from the Allt Gleann Osamail burn; spirit is reduced to cask-filling strength with Glen Osamail water.",
+    "malt": "Kilchoman grows barley on Rockside Farm for its 100% Islay releases and retains traditional floor malting. Its own malt is peated on site over Islay peat; other production also uses peated malted barley.",
+    "fermentation": "The distillery states a 90-hour fermentation for current production, using distiller's yeast; six washbacks are documented in official tour material.",
+    "stills": "Two identical stillhouses operate in parallel. Each has a steam-heated wash still charged with about 3,000 litres and a small spirit still with a tall narrow neck and reflux bulb; the spirit still is approximately 2,070 litres. Slow distillation and high copper contact are used to create a light, floral spirit.",
+    "peat": "Peat is fundamental to production; on-site malt for the 100% Islay style is smoked with Islay peat and official production material describes peating as a core stage.",
+    "maturation": "100% of Kilchoman spirit is matured on Islay. The site uses both dunnage and racked warehousing; bourbon casks are the predominant maturation vessel with sherry and other cask types also used."
+  },
+  "houseCharacter": "Kilchoman combines highly traditional farm-distillery practices with deliberately long fermentation and very small still geometry. The 90-hour fermentation develops fruity and lactic complexity, while slow distillation through a tall, narrow-necked spirit still with a reflux bulb increases copper interaction. This keeps the heavily peated distillate unusually clean, floral and citrus-led rather than simply dense or medicinal.",
+  "cask23Narrative": "Kilchoman is one of the clearest grain-to-glass examples on Islay: barley can be grown, floor-malted, peated, distilled, matured and bottled at the same farm distillery. Its long 90-hour fermentation and small reflux-heavy spirit still are designed to preserve fruit and floral lift inside a firmly peated structure. That is why Kilchoman can taste unmistakably smoky while still showing brightness, citrus and creamy fermentation character.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.kilchomandistillery.com/our-farm-distillery/",
+    "https://www.kilchomandistillery.com/distillery-news/behind-the-scenes-mashing-fermenting-distilling/",
+    "https://www.kilchomandistillery.com/distillery-news/behind-the-scenes-cask-maturation/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

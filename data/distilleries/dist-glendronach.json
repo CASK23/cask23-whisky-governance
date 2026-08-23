@@ -1,0 +1,30 @@
+{
+  "distilleryId": "DIST-GLENDRONACH",
+  "slug": "glendronach",
+  "officialName": "The GlenDronach Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "founded": 1826,
+  "location": "Forgue by Huntly, Aberdeenshire, Scotland",
+  "owner": "Brown-Forman",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Soft Highland water is drawn from springs associated with the Dronac Burn on the distillery grounds.",
+    "malt": "Scottish malted barley is used; small volumes of peated spirit have also been produced.",
+    "fermentation": "Traditional Scottish larch washbacks are used. Established specialist reporting places fermentation at roughly 55-60 hours for the current robust, weighty style.",
+    "stills": "The distillery uses four copper pot stills, two wash and two spirit stills, with the distinctive saxophone-shaped geometry highlighted by the distillery.",
+    "peat": "The house style is primarily unpeated, with limited peated production occurring separately.",
+    "maturation": "Pedro Ximénez and Oloroso sherry casks are central to the house style, with maturation in traditional dunnage warehouses."
+  },
+  "houseCharacter": "A relatively compact fermentation regime and robust Highland new make preserve cereal weight and dark-fruit potential rather than chasing maximum lightness. The saxophone-shaped stills retain body while still allowing enough copper contact for fruit and texture to remain articulate. Long maturation in Oloroso and Pedro Ximénez casks then amplifies dried fruit, nut, spice and natural colour into the deeply sherried style for which GlenDronach is known.",
+  "cask23Narrative": "The GlenDronach is built around a substantial Highland spirit designed to stand up to long maturation in richly seasoned sherry oak. Traditional larch washbacks and distinctive saxophone-shaped stills help preserve weight and texture before the whisky moves into Oloroso and Pedro Ximénez casks in dunnage warehouses. For customers, that means the sherry influence is not simply a finish laid over a delicate spirit; it is integrated with a muscular new make capable of carrying deep dried-fruit, nut and spice character for decades.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.glendronachdistillery.com/our-craft/",
+    "https://www.masterofmalt.com/blog/post/how-the-glendronach-is-winning-over-sherry-lovers/",
+    "https://www.masterofmalt.com/blog/post/the-glendronach-cask-strength-batch-12-review/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

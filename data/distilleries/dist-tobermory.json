@@ -1,0 +1,30 @@
+{
+  "distilleryId": "DIST-TOBERMORY",
+  "slug": "tobermory",
+  "officialName": "Tobermory Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Islands",
+  "founded": 1798,
+  "location": "Tobermory, Isle of Mull, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Established specialist sources identify Gearr Abhainn as the distillery water source.",
+    "malt": "The same physical distillery makes unpeated Tobermory and heavily peated Ledaig spirit. Specialist technical references describe Tobermory malt at very low phenol levels and Ledaig at roughly 35 ppm or higher.",
+    "fermentation": "Four wooden washbacks are used. Established specialist sources report variable fermentation, approximately 50-100 hours, with longer runs supporting fruit development.",
+    "stills": "Two wash stills and two spirit stills are used. The stills incorporate reflux bowls and distinctive S-shaped/kinked lyne arms, increasing reflux; shell-and-tube condensers are used.",
+    "peat": "Peat is a deliberate production split: Tobermory is the unpeated house spirit, while Ledaig is the heavily peated style from the same distillery.",
+    "maturation": "Only limited warehousing is retained on site; a significant proportion of maturation takes place away from the distillery, while special or limited stocks can be held locally."
+  },
+  "houseCharacter": "Tobermory's unusual still geometry creates meaningful reflux despite the distillery's relatively oily spirit texture. Variable fermentation length allows fruit character to develop before the spirit reaches the two pairs of stills. The same hardware then supports two distinct malt streams—unpeated Tobermory and heavily peated Ledaig—making malt specification rather than separate plant one of the key determinants of style.",
+  "cask23Narrative": "Tobermory is really two whisky personalities made in one historic Isle of Mull distillery. Unpeated Tobermory and smoky Ledaig share the same fermentation and distinctive kinked-lyne-arm stillhouse, so the major stylistic split begins with the malt itself. That makes the site a useful example of how a single set of hardware can produce dramatically different whiskies when peat specification is changed deliberately.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://tobermorydistillery.com/pages/distillery-experiences",
+    "https://www.whisky.com/whisky-database/distilleries/details/tobermory.html",
+    "https://scotchwhisky.com/whiskypedia/1900/tobermory/",
+    "https://www.whiskybase.com/whiskies/distillery/115/about"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

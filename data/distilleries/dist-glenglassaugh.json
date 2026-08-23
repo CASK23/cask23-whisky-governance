@@ -1,0 +1,30 @@
+{
+  "distilleryId": "DIST-GLENGLASSAUGH",
+  "slug": "glenglassaugh",
+  "officialName": "Glenglassaugh Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "founded": 1874,
+  "owner": "Brown-Forman",
+  "location": "Portsoy, Aberdeenshire, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "The distillery draws mineral-rich water from the Glassaugh Spring on Durne Hill above the site.",
+    "malt": "Core production is unpeated, with separate periods of peated production; established specialist data records peated malt above 30 ppm for those runs.",
+    "fermentation": "Six washbacks are used, four wooden and two stainless steel. Established specialist data records a minimum fermentation of approximately 60 hours.",
+    "stills": "A single pair of copper pot stills is used, one wash still and one spirit still, both with boil-ball geometry and vertical shell-and-tube condensation.",
+    "peat": "Predominantly unpeated production with separately scheduled peated runs.",
+    "maturation": "Whisky matures in coastal warehouses overlooking Sandend Bay, with bourbon, sherry, Manzanilla, port and other cask types used across the range."
+  },
+  "houseCharacter": "Mineral-rich spring water and a mixed wood/stainless fermentation setup support a ripe, fruity fermentation profile before distillation through a single pair of boil-ball stills. The distillery's standard spirit is unpeated and fruit-led, with separate peated campaigns adding a darker smoky dimension without replacing the core style. Coastal warehousing and broad cask use then reinforce Glenglassaugh's combination of tropical fruit, honeyed sweetness and maritime salinity.",
+  "cask23Narrative": "Glenglassaugh sits almost on the edge of Sandend Bay, and its production is unusually easy to read in the glass: ripe fruit from fermentation and distillation, then a distinct coastal maturation environment. A single pair of boil-ball stills gives the distillery a relatively focused spirit profile, while separate peated runs create a second, smokier register without changing the identity of the core whisky. For customers, Glenglassaugh is a strong example of how location, spirit shape and cask choice can combine to create a recognisably coastal malt without relying on heavy peat alone.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.glenglassaugh.com/discover/",
+    "https://www.glenglassaugh.com/glenglassaugh-spirit-reawakens-with-new-era-of-coastal-malts/",
+    "https://scotchwhisky.com/whiskypedia/1857/glenglassaugh/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

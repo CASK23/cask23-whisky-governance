@@ -1,0 +1,27 @@
+{
+  "distilleryId": "DIST-KAVALAN",
+  "slug": "kavalan",
+  "officialName": "Kavalan Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Taiwan",
+  "founded": 2005,
+  "owner": "King Car Group",
+  "location": "Yilan County, Taiwan",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Production water comes from springs fed by Taiwan's Snow Mountain and Central Mountain ranges.",
+    "malt": "Malted barley is imported rather than grown in Taiwan; the distillery's regional production material notes imported malt and no in-house malting.",
+    "fermentation": "Temperature-controlled jacketed washbacks are used. Official regional material gives a fermentation period of 3-5 days; established specialist data records 16 closed stainless-steel washbacks and a typical 60-72 hour cycle in current operation.",
+    "stills": "Kavalan uses double distillation in Forsyths copper pot stills. The original configuration used paired 12,000-litre wash stills and 7,000-litre spirit stills; later expansion brought the site to 20 pot stills.",
+    "maturation": "Whisky matures in multi-storey warehouses at Yilan, where strong temperature gradients accelerate extraction. The distillery uses American white oak extensively alongside European wine and sherry casks, with on-site cooperage and STR reconditioning for selected casks."
+  },
+  "houseCharacter": "Kavalan starts with very soft mountain spring water and temperature-controlled fermentation adapted to Taiwan's subtropical climate. Double distillation in Forsyths copper pot stills creates a clean, fruit-forward new make, while the hot Yilan warehouses accelerate extraction and oxidation. The resulting house style is typically ripe, tropical and cask-expressive, with climate playing a larger role in maturation speed than in traditional cool-climate Scotch production.",
+  "cask23Narrative": "Kavalan is a useful example of how climate can reshape whisky production without changing the core logic of malt distillation. Mountain spring water, controlled fermentation and Scottish-made copper stills establish a clean spirit, then Taiwan's heat drives unusually active maturation. The result is often intensely fruity and cask-led at younger chronological ages than a drinker might expect from cooler whisky regions.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://kavalan.eu/herstellung/",
+    "https://www.whisky.com/whisky-database/distilleries/details/kavalan-yuan-shan-distillery.html"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

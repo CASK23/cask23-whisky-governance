@@ -1,0 +1,27 @@
+{
+  "distilleryId": "DIST-FETTERCAIRN",
+  "slug": "fettercairn",
+  "officialName": "Fettercairn Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "founded": 1824,
+  "location": "Fettercairn, Aberdeenshire, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "The distillery uses clear mountain water from the Cairngorm foothills; first-party material describes local estate water feeding the site and the cooling-ring system.",
+    "stills": "Fettercairn's defining feature is a copper cooling ring fitted around the upper part of the still. During distillation, water cascades over the outside of the copper, increasing internal condensation so that lighter vapours continue upward for collection.",
+    "maturation": "The distillery uses American white oak ex-bourbon barrels extensively and also runs a long-term Scottish Oak Programme exploring native oak for whisky maturation."
+  },
+  "houseCharacter": "Fettercairn's production identity is dominated by its unique still-cooling ring, which actively changes reflux by cooling the copper during distillation. By forcing more internal condensation, the system favours lighter vapours and is explicitly linked by the distillery to its refined tropical-fruit house style. Bourbon-led maturation then supports that bright distillate profile while selected releases explore alternative woods, including Scottish oak.",
+  "cask23Narrative": "Fettercairn is technically unusual even by Scotch whisky standards. Its stills are drenched externally with mountain water through a copper cooling ring, increasing condensation and allowing the lighter vapours to progress through the still. That engineering choice is central to the distillery's bright tropical style, making Fettercairn a fascinating dram for customers interested in how still design can directly alter spirit character.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.fettercairnwhisky.com/en-gb/about-us/",
+    "https://www.fettercairnwhisky.com/en-us/faqs/",
+    "https://www.fettercairnwhisky.com/en-gb/our-whisky/signature-collection/16-year-old/",
+    "https://www.fettercairnwhisky.com/en-gb/about-us/fettercairn-forest/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

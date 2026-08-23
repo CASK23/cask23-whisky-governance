@@ -1,0 +1,24 @@
+{
+  "distilleryId": "DIST-FEW-SPIRITS",
+  "slug": "few-spirits",
+  "officialName": "FEW Spirits",
+  "entityType": "DISTILLERY",
+  "country": "United States",
+  "location": "Evanston, Illinois, United States",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "malt": "FEW describes its whiskeys as grain-to-glass and made from locally sourced grains; its bourbon uses a high-rye three-grain recipe and its rye combines a high rye content with corn.",
+    "fermentation": "FEW states that its bourbon fermentation uses a saison-style yeast, contributing spicy and fruity fermentation character.",
+    "maturation": "Its bourbon is matured in charred oak barrels and its rye in air-dried oak barrels."
+  },
+  "houseCharacter": "FEW's public technical disclosure emphasises grain selection, yeast choice and small-batch maturation rather than detailed still geometry. The use of saison-style yeast in bourbon fermentation is a distinctive flavour-building choice that supports spicy and fruity character before maturation. High-rye recipes and charred or air-dried oak then reinforce a robust American whiskey profile.",
+  "cask23Narrative": "FEW Spirits is an Evanston distillery whose technical identity is built around local grain, small-batch production and an unusually expressive fermentation choice: saison-style yeast in its bourbon. That yeast contributes another layer of spice and fruit before the whiskey meets oak, while the high-rye grain structure keeps the spirit lively and assertive. It is a useful American comparison for customers who want to see how yeast selection can matter as much as mash bill and barrel char.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://fewspirits.com/",
+    "https://fewspirits.com/products/",
+    "https://fewspirits.com/few-and-a-brew/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

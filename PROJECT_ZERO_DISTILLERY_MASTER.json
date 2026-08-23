@@ -1,0 +1,1921 @@
+{
+  "project": "PROJECT_ZERO_DISTILLERY_MASTER",
+  "version": "1.0",
+  "generatedDate": "2026-08-23",
+  "governanceStatus": "FOUNDER_REVIEW",
+  "metrics": {
+    "approvedDistilleryEntityRowsCovered": 58,
+    "canonicalPhysicalFacilityProfiles": 55,
+    "aliasRowsCollapsed": 3,
+    "schemaValidationPassed": true,
+    "profileSourceReferences": 180,
+    "uniqueSourceUrls": 180,
+    "evidenceTierCounts": {
+      "TIER_1_OFFICIAL": 32,
+      "TIER_2_ESTABLISHED_SPECIALIST": 23
+    }
+  },
+  "sourceEntityCoverage": [
+    {
+      "directorySlug": "ardbeg",
+      "entityName": "Ardbeg",
+      "canonicalDistilleryId": "DIST-ARDBEG",
+      "canonicalSlug": "ardbeg"
+    },
+    {
+      "directorySlug": "ardmore-distillery",
+      "entityName": "Ardmore Distillery",
+      "canonicalDistilleryId": "DIST-ARDMORE",
+      "canonicalSlug": "ardmore"
+    },
+    {
+      "directorySlug": "ardnahoe-distillery",
+      "entityName": "Ardnahoe Distillery",
+      "canonicalDistilleryId": "DIST-ARDNAHOE",
+      "canonicalSlug": "ardnahoe"
+    },
+    {
+      "directorySlug": "ardnamurchan",
+      "entityName": "Ardnamurchan",
+      "canonicalDistilleryId": "DIST-ARDNAMURCHAN",
+      "canonicalSlug": "ardnamurchan"
+    },
+    {
+      "directorySlug": "balblair-distillery",
+      "entityName": "Balblair Distillery",
+      "canonicalDistilleryId": "DIST-BALBLAIR",
+      "canonicalSlug": "balblair"
+    },
+    {
+      "directorySlug": "balcones-distilling",
+      "entityName": "Balcones Distilling",
+      "canonicalDistilleryId": "DIST-BALCONES",
+      "canonicalSlug": "balcones"
+    },
+    {
+      "directorySlug": "balvenie",
+      "entityName": "Balvenie",
+      "canonicalDistilleryId": "DIST-BALVENIE",
+      "canonicalSlug": "balvenie"
+    },
+    {
+      "directorySlug": "barton-1792-distillery",
+      "entityName": "Barton 1792 Distillery",
+      "canonicalDistilleryId": "DIST-BARTON-1792",
+      "canonicalSlug": "barton-1792"
+    },
+    {
+      "directorySlug": "benriach",
+      "entityName": "BenRiach",
+      "canonicalDistilleryId": "DIST-BENRIACH",
+      "canonicalSlug": "benriach"
+    },
+    {
+      "directorySlug": "benromach",
+      "entityName": "Benromach",
+      "canonicalDistilleryId": "DIST-BENROMACH",
+      "canonicalSlug": "benromach"
+    },
+    {
+      "directorySlug": "bimber",
+      "entityName": "Bimber",
+      "canonicalDistilleryId": "DIST-BIMBER",
+      "canonicalSlug": "bimber"
+    },
+    {
+      "directorySlug": "blair-athol",
+      "entityName": "Blair Athol",
+      "canonicalDistilleryId": "DIST-BLAIR-ATHOL",
+      "canonicalSlug": "blair-athol"
+    },
+    {
+      "directorySlug": "bruichladdich",
+      "entityName": "Bruichladdich",
+      "canonicalDistilleryId": "DIST-BRUICHLADDICH",
+      "canonicalSlug": "bruichladdich"
+    },
+    {
+      "directorySlug": "buffalo-trace-distillery",
+      "entityName": "Buffalo Trace Distillery",
+      "canonicalDistilleryId": "DIST-BUFFALO-TRACE",
+      "canonicalSlug": "buffalo-trace"
+    },
+    {
+      "directorySlug": "bunnahabhain-distillery",
+      "entityName": "Bunnahabhain Distillery",
+      "canonicalDistilleryId": "DIST-BUNNAHABHAIN",
+      "canonicalSlug": "bunnahabhain"
+    },
+    {
+      "directorySlug": "cardrona",
+      "entityName": "Cardrona",
+      "canonicalDistilleryId": "DIST-CARDRONA",
+      "canonicalSlug": "cardrona"
+    },
+    {
+      "directorySlug": "clonakilty",
+      "entityName": "Clonakilty Distillery",
+      "canonicalDistilleryId": "DIST-CLONAKILTY",
+      "canonicalSlug": "clonakilty"
+    },
+    {
+      "directorySlug": "cotswolds",
+      "entityName": "Cotswolds",
+      "canonicalDistilleryId": "DIST-COTSWOLDS",
+      "canonicalSlug": "cotswolds"
+    },
+    {
+      "directorySlug": "deanston-distillery",
+      "entityName": "Deanston Distillery",
+      "canonicalDistilleryId": "DIST-DEANSTON",
+      "canonicalSlug": "deanston"
+    },
+    {
+      "directorySlug": "fettercairn-distillery",
+      "entityName": "Fettercairn Distillery",
+      "canonicalDistilleryId": "DIST-FETTERCAIRN",
+      "canonicalSlug": "fettercairn"
+    },
+    {
+      "directorySlug": "few-spirits-llc",
+      "entityName": "FEW Spirits, LLC",
+      "canonicalDistilleryId": "DIST-FEW-SPIRITS",
+      "canonicalSlug": "few-spirits"
+    },
+    {
+      "directorySlug": "filey-bay",
+      "entityName": "Filey Bay",
+      "canonicalDistilleryId": "DIST-SPIRIT-OF-YORKSHIRE",
+      "canonicalSlug": "spirit-of-yorkshire"
+    },
+    {
+      "directorySlug": "four-roses-distillery",
+      "entityName": "Four Roses Distillery",
+      "canonicalDistilleryId": "DIST-FOUR-ROSES",
+      "canonicalSlug": "four-roses"
+    },
+    {
+      "directorySlug": "glen-moray",
+      "entityName": "Glen Moray",
+      "canonicalDistilleryId": "DIST-GLEN-MORAY",
+      "canonicalSlug": "glen-moray"
+    },
+    {
+      "directorySlug": "glen-scotia",
+      "entityName": "Glen Scotia",
+      "canonicalDistilleryId": "DIST-GLEN-SCOTIA",
+      "canonicalSlug": "glen-scotia"
+    },
+    {
+      "directorySlug": "glendronach",
+      "entityName": "GlenDronach Distillery",
+      "canonicalDistilleryId": "DIST-GLENDRONACH",
+      "canonicalSlug": "glendronach"
+    },
+    {
+      "directorySlug": "glenfarclas",
+      "entityName": "Glenfarclas",
+      "canonicalDistilleryId": "DIST-GLENFARCLAS",
+      "canonicalSlug": "glenfarclas"
+    },
+    {
+      "directorySlug": "glenfiddich",
+      "entityName": "Glenfiddich",
+      "canonicalDistilleryId": "DIST-GLENFIDDICH",
+      "canonicalSlug": "glenfiddich"
+    },
+    {
+      "directorySlug": "glenglassaugh-distillery",
+      "entityName": "Glenglassaugh Distillery",
+      "canonicalDistilleryId": "DIST-GLENGLASSAUGH",
+      "canonicalSlug": "glenglassaugh"
+    },
+    {
+      "directorySlug": "heaven-hill-distillery",
+      "entityName": "Heaven Hill Distillery",
+      "canonicalDistilleryId": "DIST-HEAVEN-HILL",
+      "canonicalSlug": "heaven-hill"
+    },
+    {
+      "directorySlug": "highland-park",
+      "entityName": "Highland Park",
+      "canonicalDistilleryId": "DIST-HIGHLAND-PARK",
+      "canonicalSlug": "highland-park"
+    },
+    {
+      "directorySlug": "jura",
+      "entityName": "Jura",
+      "canonicalDistilleryId": "DIST-JURA",
+      "canonicalSlug": "jura"
+    },
+    {
+      "directorySlug": "kavalan",
+      "entityName": "Kavalan",
+      "canonicalDistilleryId": "DIST-KAVALAN",
+      "canonicalSlug": "kavalan"
+    },
+    {
+      "directorySlug": "kavalan-distillery",
+      "entityName": "Kavalan Distillery",
+      "canonicalDistilleryId": "DIST-KAVALAN",
+      "canonicalSlug": "kavalan"
+    },
+    {
+      "directorySlug": "kilchoman",
+      "entityName": "Kilchoman",
+      "canonicalDistilleryId": "DIST-KILCHOMAN",
+      "canonicalSlug": "kilchoman"
+    },
+    {
+      "directorySlug": "lagg",
+      "entityName": "Lagg",
+      "canonicalDistilleryId": "DIST-LAGG",
+      "canonicalSlug": "lagg"
+    },
+    {
+      "directorySlug": "laphroaig",
+      "entityName": "Laphroaig Distillery",
+      "canonicalDistilleryId": "DIST-LAPHROAIG",
+      "canonicalSlug": "laphroaig"
+    },
+    {
+      "directorySlug": "lochlea",
+      "entityName": "Lochlea",
+      "canonicalDistilleryId": "DIST-LOCHLEA",
+      "canonicalSlug": "lochlea"
+    },
+    {
+      "directorySlug": "macallan",
+      "entityName": "Macallan",
+      "canonicalDistilleryId": "DIST-MACALLAN",
+      "canonicalSlug": "macallan"
+    },
+    {
+      "directorySlug": "macduff-distillery",
+      "entityName": "Macduff Distillery",
+      "canonicalDistilleryId": "DIST-MACDUFF",
+      "canonicalSlug": "macduff"
+    },
+    {
+      "directorySlug": "mackmyra",
+      "entityName": "Mackmyra",
+      "canonicalDistilleryId": "DIST-MACKMYRA",
+      "canonicalSlug": "mackmyra"
+    },
+    {
+      "directorySlug": "milk-and-honey",
+      "entityName": "Milk & Honey",
+      "canonicalDistilleryId": "DIST-MH",
+      "canonicalSlug": "mh-distillery"
+    },
+    {
+      "directorySlug": "royal-brackla",
+      "entityName": "Royal Brackla",
+      "canonicalDistilleryId": "DIST-ROYAL-BRACKLA",
+      "canonicalSlug": "royal-brackla"
+    },
+    {
+      "directorySlug": "scapegrace",
+      "entityName": "Scapegrace",
+      "canonicalDistilleryId": "DIST-SCAPEGRACE",
+      "canonicalSlug": "scapegrace"
+    },
+    {
+      "directorySlug": "springbank",
+      "entityName": "Springbank",
+      "canonicalDistilleryId": "DIST-SPRINGBANK",
+      "canonicalSlug": "springbank"
+    },
+    {
+      "directorySlug": "starward",
+      "entityName": "Starward",
+      "canonicalDistilleryId": "DIST-STARWARD",
+      "canonicalSlug": "starward"
+    },
+    {
+      "directorySlug": "the-benriach",
+      "entityName": "The BenRiach",
+      "canonicalDistilleryId": "DIST-BENRIACH",
+      "canonicalSlug": "benriach"
+    },
+    {
+      "directorySlug": "the-dalmore",
+      "entityName": "The Dalmore",
+      "canonicalDistilleryId": "DIST-DALMORE",
+      "canonicalSlug": "dalmore"
+    },
+    {
+      "directorySlug": "the-glendronach",
+      "entityName": "The GlenDronach",
+      "canonicalDistilleryId": "DIST-GLENDRONACH",
+      "canonicalSlug": "glendronach"
+    },
+    {
+      "directorySlug": "the-lakes",
+      "entityName": "The Lakes",
+      "canonicalDistilleryId": "DIST-LAKES",
+      "canonicalSlug": "the-lakes"
+    },
+    {
+      "directorySlug": "tobermory",
+      "entityName": "Tobermory",
+      "canonicalDistilleryId": "DIST-TOBERMORY",
+      "canonicalSlug": "tobermory"
+    },
+    {
+      "directorySlug": "tomatin-distillery",
+      "entityName": "Tomatin Distillery",
+      "canonicalDistilleryId": "DIST-TOMATIN",
+      "canonicalSlug": "tomatin"
+    },
+    {
+      "directorySlug": "torabhaig",
+      "entityName": "Torabhaig",
+      "canonicalDistilleryId": "DIST-TORABHAIG",
+      "canonicalSlug": "torabhaig"
+    },
+    {
+      "directorySlug": "tullibardine-distillery",
+      "entityName": "Tullibardine Distillery",
+      "canonicalDistilleryId": "DIST-TULLIBARDINE",
+      "canonicalSlug": "tullibardine"
+    },
+    {
+      "directorySlug": "wild-turkey",
+      "entityName": "Wild Turkey",
+      "canonicalDistilleryId": "DIST-WILD-TURKEY",
+      "canonicalSlug": "wild-turkey"
+    },
+    {
+      "directorySlug": "wire-works",
+      "entityName": "Wire Works",
+      "canonicalDistilleryId": "DIST-WHITE-PEAK",
+      "canonicalSlug": "white-peak"
+    },
+    {
+      "directorySlug": "wolfburn-distillery",
+      "entityName": "Wolfburn Distillery",
+      "canonicalDistilleryId": "DIST-WOLFBURN",
+      "canonicalSlug": "wolfburn"
+    },
+    {
+      "directorySlug": "yamazaki",
+      "entityName": "Yamazaki",
+      "canonicalDistilleryId": "DIST-YAMAZAKI",
+      "canonicalSlug": "yamazaki"
+    }
+  ],
+  "profiles": [
+    {
+      "distilleryId": "DIST-ARDBEG",
+      "slug": "ardbeg",
+      "officialName": "Ardbeg Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Islay",
+      "founded": 1815,
+      "location": "Port Ellen, Islay PA42 7EA",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Production water comes from Loch Uigeadail, flowing via Loch Airigh Nam Beist and the burn to Charlie's Dam at the distillery.",
+        "malt": "Malted barley is kilned over peat smoke to a minimum of 55 ppm phenols before milling in the distillery's Boby mill.",
+        "fermentation": "Wort is fermented in Oregon pine washbacks with distiller's yeast; the distillery states the resulting wash is approximately 8% ABV.",
+        "stills": "Ardbeg operates four copper pot stills after the 2021 stillhouse expansion. Distillation is described as 'two and a shortie bit times'; the spirit still uses a purifier on the lyne arm to return heavier vapours for redistillation and increase copper contact/reflux.",
+        "peat": "The malt is peated to a minimum of 55 ppm phenols, making peat a deliberate structural input rather than a flavour inference.",
+        "maturation": "Bourbon oak is described by the distillery as the foundation of the house style, with additional use of casks including Oloroso sherry butts and new French oak for specific expressions."
+      },
+      "houseCharacter": "Ardbeg's high-phenol malt establishes a powerful smoky base before fermentation and distillation shape the spirit. The purifier on the spirit-still lyne arm increases reflux and copper contact, helping retain fruity and floral sweetness alongside the peat. Bourbon-led maturation then preserves the distillery's smoky-sweet core while allowing selective sherry and French-oak influence in individual expressions.",
+      "cask23Narrative": "Ardbeg is built around deliberate contrasts: heavily peated malt, but a distillation regime engineered to keep sweetness, fruit and floral lift in the new make. Its spirit-still purifier sends heavier vapours back for redistillation, creating extra reflux and copper contact rather than simply chasing maximum weight. For the customer, that helps explain why classic Ardbeg can be intensely smoky yet still show citrus, sweetness and aromatic complexity beneath the peat.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.ardbeg.com/en-gb/pages/about-the-process",
+        "https://www.ardbeg.com/en-gb/pages/history",
+        "https://www.ardbeg.com/en-gb/pages/contact"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-ARDMORE",
+      "slug": "ardmore",
+      "officialName": "Ardmore Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "founded": 1898,
+      "owner": "Suntory Global Spirits",
+      "location": "Kennethmont, Aberdeenshire, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Process water is drawn from naturally rising springs on Knockandy Hill above the distillery.",
+        "malt": "Ardmore uses purchased malt and is known for a lightly-to-medium peated specification; established specialist sources place the malt around 12–14 ppm phenols.",
+        "fermentation": "Established specialist sources describe wooden Douglas-fir washbacks and fermentation in roughly the mid-50-hour range; the exact current house specification is not published by the official brand site.",
+        "stills": "Ardmore operates four wash stills and four spirit stills. Specialist technical references describe approximately 15,000-litre stills with short, broad necks and downward-running lyne arms. Direct coal firing was retained until around 2000/2001, after which steam heating was introduced.",
+        "peat": "Peated Highland malt is central to the Ardmore house style; official owner material confirms Ardmore as the peated signature malt used historically in Teacher's blends.",
+        "maturation": "Ex-bourbon American oak is central to maturation, with quarter-cask and other finishes used for selected expressions; some former malting-floor buildings have been adapted for warehousing."
+      },
+      "houseCharacter": "Ardmore's peated malt gives the new make a persistent wood-smoke backbone unusual for a mainland Highland malt. Its relatively broad still geometry and descending lyne arms favour body, while the historic move from direct firing to engineered steam coils was designed to retain weight in the spirit. Bourbon-led maturation keeps smoke, orchard fruit and malt at the centre rather than letting heavy cask seasoning dominate.",
+      "cask23Narrative": "Ardmore offers a distinctly Highland take on peat: smoky, malty and weighty rather than overtly medicinal. The distillery's broad-necked stills and downward lyne arms help preserve texture, while bourbon oak gives the spirit room to show its apple, cereal and wood-smoke character. It is a useful reference point for customers who enjoy peat but want something different from the classic Islay profile.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.ardmorewhisky.com/",
+        "https://www.suntory.com/news/article/14014E.html",
+        "https://www.whisky.com/whisky-database/distilleries/details/ardmore.html"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-ARDNAHOE",
+      "slug": "ardnahoe",
+      "officialName": "Ardnahoe Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Islay",
+      "owner": "Hunter Laing & Co. Ltd",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Production water is drawn from Loch Ardnahoe, described by the distillery as exceptionally soft water filtered through peat and rock.",
+        "malt": "The distillery states its malt is dried over peat smoke for around 20 hours before milling in a 100-year-old Vickers Boby mill.",
+        "fermentation": "Fermentation takes place in four Oregon pine washbacks. Ardnahoe states a total fermentation time of approximately 65-70 hours, with the wash settling after about 50 hours before the extended fermentation completes.",
+        "stills": "Two lantern-shaped copper pot stills made by Speyside Copperworks are used: a 13,000-litre wash still and an 11,000-litre spirit still. Both employ unusually long descending lyne arms and traditional worm-tub condensers, with the distillery emphasising slow, gentle distillation.",
+        "peat": "Peat smoke is used during malt drying for around 20 hours, establishing a deliberately peated Islay spirit style.",
+        "maturation": "The distillery highlights direct sourcing of American white-oak bourbon casks from the United States and European-oak Oloroso sherry casks from Jerez as core maturation wood types."
+      },
+      "houseCharacter": "Ardnahoe combines peated malt with a relatively long 65-70 hour fermentation designed to generate a fruitier wash before distillation. Large lantern-shaped stills, long descending lyne arms and slow distillation into worm tubs favour texture and weight while retaining fruit and peat. Bourbon and Oloroso sherry casks then provide a structured maturation framework around that fruity, peaty and textural new make.",
+      "cask23Narrative": "Ardnahoe is one of the clearest examples of a modern Islay distillery built around traditional hardware. Its four Oregon pine washbacks and 65-70 hour fermentation aim to create a fruitier wash, while unusually long lyne arms and worm tubs give the spirit a weightier, more textural shape. In the glass, that makes the distillery particularly interesting for customers who enjoy peat but also want fruit, density and cask-driven richness rather than smoke alone.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://ardnahoedistillery.com/pages/our-process",
+        "https://ardnahoedistillery.com/pages/our-story",
+        "https://ardnahoedistillery.com/pages/tours-tastings"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-ARDNAMURCHAN",
+      "slug": "ardnamurchan",
+      "officialName": "Ardnamurchan Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "founded": 2014,
+      "location": "Glenbeg, Acharacle, PH36 4JG",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "The distillery uses water from the Glenmore spring to reduce new make spirit to 63.5% ABV before cask filling; the Glenmore river supplies cooling water.",
+        "fermentation": "Ardnamurchan uses seven washbacks in total: four wooden washbacks, comprising one oak and three Oregon pine, plus three stainless-steel washbacks.",
+        "stills": "The distillery uses traditional copper pot stills: a 10,000-litre wash still and a 6,000-litre spirit still. The spirit still has a boil ball for additional reflux, and both stills feed standard shell-and-tube condensers located outside the building. Heating is by steam generated from a local woodchip biomass boiler.",
+        "peat": "The distillery describes its intended house profile as showing gentle peat smoke rather than a heavily peated style.",
+        "maturation": "Ardnamurchan matures whisky on site in its own dunnage warehouses on the Ardnamurchan peninsula, close to the North Atlantic."
+      },
+      "houseCharacter": "Ardnamurchan's mixed wooden and stainless-steel washback regime gives the distillery flexibility in how fermentation-derived character is developed, while the exact fermentation duration is not stated in the verified source set. The spirit still's boil ball increases reflux, and external shell-and-tube condensers support a clean but still weighty spirit structure. On-site dunnage maturation preserves a close link between production and maturation, supporting the distillery's stated gently smoky, rich, oily, honeyed and fruity house direction.",
+      "cask23Narrative": "Ardnamurchan combines modern engineering with a deliberately traditional maturation setup. Its spirit still uses a boil ball to encourage extra reflux, while both wooden and stainless-steel washbacks are used in fermentation and the whisky matures in dunnage warehouses beside the distillery. The result is a West Highland style built around gentle peat, oiliness, honeyed fruit and coastal character rather than aggressive smoke.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://ardnamurchandistillery.com/distillery",
+        "https://ardnamurchandistillery.com/responsible-distilling",
+        "https://ardnamurchandistillery.com/news/ardnamurchan-distillery-turns-ten"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-BALBLAIR",
+      "slug": "balblair",
+      "officialName": "Balblair Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "founded": 1790,
+      "location": "Edderton, Tain, Ross-Shire, IV19 1LB",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Balblair uses water from the open lade flowing down the Edderton Hills.",
+        "malt": "The distillery states that its whisky is made with Black Isle barley.",
+        "fermentation": "Balblair publishes an extended 62-hour fermentation as part of its deliberately slow production regime.",
+        "stills": "Balblair describes its original squat-neck copper pot stills and an unusually slow distillation regime, including approximately 4.5 hours of slow distillation.",
+        "maturation": "Balblair emphasises patient maturation and cask selection rather than fixed single-wood maturation; the verified official source set does not publish a single universal warehouse or cask specification for all spirit."
+      },
+      "houseCharacter": "Balblair's long fermentation develops ester-driven fruit before distillation. Its squat-neck pot stills retain sufficient weight to balance that fruit with oils and structure, while slow distillation allows careful separation of the spirit cut. The result is a light but complex Highland new make that can carry both bright fruit and heavier nutty, leathery notes through maturation.",
+      "cask23Narrative": "Balblair is shaped by patience rather than speed. A 62-hour fermentation builds fruit, while slow distillation through squat-neck pot stills gives the spirit enough weight to remain complex rather than simply delicate. For the customer, that helps explain Balblair's mix of orchard fruit, citrus and honey alongside deeper nutty and leathery tones as the whisky matures.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.balblair.com/our-distillery",
+        "https://www.balblair.com/collection",
+        "https://www.balblair.com/timeline-our-story"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-BALCONES",
+      "slug": "balcones",
+      "officialName": "Balcones Distilling",
+      "entityType": "DISTILLERY",
+      "country": "United States",
+      "founded": 2008,
+      "location": "Waco, Texas, United States",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "malt": "Balcones separates production for malted barley from corn and rye. American single malt production uses a dedicated roller mill that lightly cracks malted barley, while corn and rye are processed separately for grain-whisky production.",
+        "fermentation": "Balcones uses a seven-day open fermentation exposed to the Waco environment. For single malt, the distillery states that it uses a dual pitch of dry malt-whisky yeast and dry brewer's ale yeast; corn and rye whiskies use malt-whisky yeast only.",
+        "stills": "The stillhouse contains four copper pot stills: two wash stills and two spirit stills. Balcones double-distils in batches, uses distinctive helical lyne-arm geometry, and equips wash stills with external reboilers so grain whiskies can be pot-distilled on-grain.",
+        "maturation": "Balcones matures whisky in the hot Texas climate and employs multiple oak and cask regimes across its American single malt and grain-whisky programmes; the official process source does not define one universal wood specification for every expression."
+      },
+      "houseCharacter": "Balcones builds flavour heavily during fermentation: seven days of open fermentation allow both pitched yeast and local microflora to create acids and ester precursors. Pot distillation through four copper stills preserves weight and density, while the distillery's unusual lyne-arm and external-reboiler engineering lets it control very different malt and grain spirits on the same site. Texas maturation then accelerates wood interaction, giving the spirit an assertive, concentrated structure.",
+      "cask23Narrative": "Balcones is a useful example of how American whisky can be engineered very differently from large-column bourbon production. Its seven-day open fermentations are deliberately long and microbially expressive, while both single malt and grain whiskies are pot distilled. The result is a dense, fruit-forward and textural style that carries a distinctly Texan intensity through maturation.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://balconesdistilling.diageoplatform.com/our-process",
+        "https://balconesdistilling.diageoplatform.com/our-story",
+        "https://balconesdistilling.diageoplatform.com/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-BARTON-1792",
+      "slug": "barton-1792",
+      "officialName": "Barton 1792 Distillery",
+      "entityType": "DISTILLERY",
+      "country": "United States",
+      "founded": 1879,
+      "location": "Bardstown, Kentucky, United States",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "The distillery site includes the Tom Moore Spring; established specialist references describe the process water as Kentucky limestone-filtered spring water.",
+        "malt": "Bourbon production uses corn with rye and malted barley across its traditional mash bills; some 1792 releases substitute wheat for rye or increase the rye proportion for expression-specific recipes.",
+        "fermentation": "Established specialist references describe closed fermentation with a proprietary yeast strain and fermentation in the roughly 72–96 hour range.",
+        "stills": "Barton 1792 uses column distillation followed by a copper doubler for a second distillation step.",
+        "maturation": "Whiskey matures on site in traditional Kentucky rickhouses. The official distillery states that the Bardstown property contains 29 barrel-aging warehouses; bourbon is matured in new charred oak as required by law."
+      },
+      "houseCharacter": "Barton 1792 follows the classic Kentucky architecture of grain-led sour-mash bourbon production, column distillation and a second pass through a copper doubler. Limestone-influenced water and a relatively long fermentation provide a clean foundation for grain and yeast character before distillation. Maturation across a large rickhouse estate then drives the concentration of caramel, spice and oak associated with the distillery's bourbon profile.",
+      "cask23Narrative": "Barton 1792 is a large historic Bardstown distillery built around classic Kentucky bourbon engineering rather than pot-still whisky production. Its whiskey is column distilled, redistilled through a copper doubler and matured across a substantial estate of traditional barrel warehouses. That structure helps explain the firm grain, spice and oak character found across the 1792 family, even as individual mash bills vary.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://1792bourbon.com/distillery/",
+        "https://1792bourbon.com/our-bourbon/",
+        "https://www.whiskybase.com/whiskies/distillery/335/about"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-BENROMACH",
+      "slug": "benromach",
+      "officialName": "Benromach Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Speyside",
+      "founded": 1898,
+      "owner": "Gordon & MacPhail",
+      "location": "Forres, Moray, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Benromach uses soft water from the Chapelton Spring in the Romach Hills a few miles behind the distillery.",
+        "malt": "Scottish barley is malted to Benromach's specification with a light touch of peat smoke, recreating a subtly smoky Speyside style.",
+        "fermentation": "Fermentation lasts approximately three to five days in larch washbacks. Benromach uses both brewer's yeast and distiller's yeast to create a more complete fermentation and greater flavour complexity.",
+        "stills": "Benromach double distils through two bespoke copper pot stills and relies on manual control of the run and spirit cut.",
+        "peat": "The core house style uses lightly peated malt designed to give a delicate smoke rather than an overtly peaty profile.",
+        "maturation": "Benromach strongly favours first-fill casks seasoned with bourbon or sherry, and matures spirit in traditional dunnage-style warehouses."
+      },
+      "houseCharacter": "Benromach creates complexity early through long fermentation and a mixed brewer's/distiller's yeast regime in larch washbacks. Double distillation through a small two-still setup preserves enough weight to carry the cereal and gentle peat character. First-fill bourbon and sherry wood then amplify fruit, malt, spice and smoke without masking the compact Speyside new make.",
+      "cask23Narrative": "Benromach deliberately looks back to an older Speyside style, where even elegant malt whisky carried a thread of smoke. Long fermentation, two yeast types and a compact two-still regime give the spirit weight and complexity before it enters first-fill bourbon and sherry casks. The result is a useful bridge between classic fruity Speyside whisky and a more savoury, gently smoky style.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.benromach.com/en-us/our-story",
+        "https://www.benromach.com/whisky-experiences/exploration-tour",
+        "https://www.benromach.com/whisky-experiences/discovery-tour"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-BIMBER",
+      "slug": "bimber",
+      "officialName": "Bimber Distillery",
+      "entityType": "DISTILLERY",
+      "country": "England",
+      "location": "London, England",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Bimber states that its process water comes from the Thames basin and is naturally high in calcium; it is treated and filtered before use.",
+        "malt": "Bimber uses single-farm English barley that is traditionally floor malted at Warminster Maltings.",
+        "fermentation": "Fermentation runs for roughly seven days in open-topped wooden washbacks made from lightly toasted American white oak. Bimber uses in-house yeast strains and controls washback temperature around 26-28°C; the resulting wash is around 10% ABV.",
+        "stills": "Bimber distils in two small Portuguese copper pot stills, Doris and Astraeus, heated by direct fire. The stills were designed to maximise copper contact and are run slowly to preserve a full-bodied, fruit-forward spirit.",
+        "peat": "The core house style is unpeated; Bimber also produces separately identified peated spirit for limited releases.",
+        "maturation": "The distillery uses hand-selected casks and an on-site cooperage, with a broad programme of bourbon, virgin oak, wine and fortified-wine casks across releases."
+      },
+      "houseCharacter": "Bimber builds much of its fruit character during an unusually long seven-day fermentation in open American-oak washbacks. Direct-fired small copper stills preserve weight while extensive copper contact keeps the spirit clean and ester-rich. That combination produces a dense but bright new make suited to active cask maturation without losing its tropical and orchard-fruit core.",
+      "cask23Narrative": "Bimber takes a deliberately hands-on approach to London whisky. Seven-day fermentation in open wooden washbacks generates intense ester-driven fruit, while small direct-fired pot stills give the spirit texture and weight. The result is a modern English single malt style that is rich, fruity and characterful before the cask begins to add its own influence.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.bimberdistillery.co.uk/home",
+        "https://www.bimberdistillery.co.uk/post/the-story-of-the-first-from-grain-to-glass",
+        "https://www.bimberdistillery.co.uk/post/work-it-harder-make-it-better",
+        "https://www.bimberdistillery.co.uk/post/the-water-does-taste-like-it-oughta"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-BLAIR-ATHOL",
+      "slug": "blair-athol",
+      "officialName": "Blair Athol Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "founded": 1798,
+      "owner": "Diageo",
+      "location": "Pitlochry, Perthshire, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Process water is drawn from the Allt Dour/Kinnaird Burn system flowing from the hills above Pitlochry.",
+        "malt": "The core malt specification is unpeated.",
+        "fermentation": "Established specialist references describe a relatively short house fermentation, typically around 46-50 hours, which promotes cereal, nutty and spicy character. Published washback counts vary across sources and operating periods, so no single current vessel count is asserted here.",
+        "stills": "Blair Athol uses two wash stills and two spirit stills with relatively plain, broad pear-shaped geometry and shell-and-tube condensers. The stills are steam heated.",
+        "maturation": "The distillery uses both bourbon and sherry casks, and its robust spirit is particularly well suited to ex-sherry maturation; traditional low dunnage warehouses are present on site."
+      },
+      "houseCharacter": "Blair Athol's relatively short fermentation keeps more cereal and nutty character in the wash rather than chasing maximum ester formation. Broad, low-reflux still geometry preserves weight through distillation, giving the new make a dense malt-loaf and spicy structure. That physical weight is why the spirit can take substantial sherry-cask influence without losing its core distillery character.",
+      "cask23Narrative": "Blair Athol is a muscular Highland malt built around weight rather than delicacy. Shorter fermentation and broad still geometry produce a nutty, malty spirit with enough structure to stand up to rich sherry wood. For customers, that makes Blair Athol particularly interesting when they enjoy darker fruit, spice and cereal depth rather than a light floral style.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.whisky.com/whisky-database/distilleries/details/blair-athol.html",
+        "https://scotchwhisky.com/whiskypedia/1824/blair-athol/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-BRUICHLADDICH",
+      "slug": "bruichladdich",
+      "officialName": "Bruichladdich Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Islay",
+      "founded": 1881,
+      "location": "Bruichladdich, Isle of Islay, Argyll, PA49 7UN",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Bruichladdich identifies An Torran, its own reservoir, as a source-water supply for production and uses separate Islay spring water for bottling reduction.",
+        "malt": "The distillery works with 100% Scottish barley across the Bruichladdich range and deliberately varies provenance, growing region and barley variety. Peated Port Charlotte and Octomore spirit are produced separately from the unpeated Bruichladdich style.",
+        "fermentation": "Fermentation averages about 72 hours in six Douglas-fir washbacks. Bruichladdich uses a mixture of fast- and slow-acting compressed wet yeast strains to extend fermentation activity and maintain the house fermentation profile.",
+        "stills": "Bruichladdich uses tall, narrow-necked Victorian-era copper pot stills and deliberately slow, trickle-style distillation to create a light, elegant, floral spirit.",
+        "peat": "Bruichladdich single malt is unpeated; Port Charlotte is typically produced at a heavily peated specification around 40 ppm, while Octomore explores substantially higher phenolic malt specifications as a separate expression family made at the same distillery.",
+        "maturation": "Whisky is matured on Islay in an exceptionally broad cask programme spanning bourbon, sherry, wine and fortified-wine casks; the distillery reports extensive on-site stocks and a very diverse wood inventory."
+      },
+      "houseCharacter": "Bruichladdich's relatively long wooden-washback fermentation builds floral and fruity precursors before distillation. Tall, narrow-necked stills and deliberately slow distillation increase reflux and favour an elegant, clean spirit rather than a heavy sulphury style. Because the same hardware can distil unpeated Bruichladdich, peated Port Charlotte and ultra-peated Octomore, the distillery provides a clear demonstration of how raw-material peat specification can radically change flavour while the underlying still-house signature remains recognisable.",
+      "cask23Narrative": "Bruichladdich is unusual on Islay because its house identity is not defined by one peat level. The same Victorian stillhouse produces unpeated Bruichladdich, heavily peated Port Charlotte and the extreme Octomore family, all through tall narrow-necked stills designed for elegant spirit. That makes the distillery especially valuable for understanding how barley provenance, peat and cask selection can transform a common production architecture into very different whiskies.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://uk.bruichladdich.com/blogs/news/glossary-of-whisky-words",
+        "https://uk.bruichladdich.com/collections/bruichladdich",
+        "https://uk.bruichladdich.com/blogs/philosophy/whats-in-your-whisky",
+        "https://uk.bruichladdich.com/blogs/news/port-charlotte-rising"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-BUFFALO-TRACE",
+      "slug": "buffalo-trace",
+      "officialName": "Buffalo Trace Distillery",
+      "entityType": "DISTILLERY",
+      "country": "United States",
+      "location": "Frankfort, Franklin County, Kentucky, United States",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Buffalo Trace uses Kentucky limestone-influenced water; official production records for specific releases also document reverse-osmosis treatment where appropriate.",
+        "malt": "Production spans multiple proprietary bourbon and rye recipes. Official release records document corn-rye-malted-barley recipes, wheated bourbon recipes and experimental grain variations rather than one universal mash bill.",
+        "fermentation": "Buffalo Trace is a sour-mash distillery. Official historical and release documentation confirms the use of fermenters and sour-mash processes, including revived E.H. Taylor-era Old Fashioned Sour Mash experiments; exact current fermentation duration is not published as one universal figure in the verified official source set.",
+        "stills": "Core bourbon production uses continuous column distillation followed by a second distillation step through a doubler. Buffalo Trace also operates an E.H. Taylor Jr. Microstill, a combination pot-and-column experimental still for small research batches.",
+        "maturation": "Whiskey is matured in new charred American white-oak barrels across multiple on-site warehouses. Official release records show variation in char level, entry proof, stave seasoning, warehouse type and floor as deliberately controlled maturation variables."
+      },
+      "houseCharacter": "Buffalo Trace's house architecture is intentionally flexible because one distillery supports multiple mash bills and brands rather than a single fixed new-make profile. Sour-mash fermentation and column-plus-doubler distillation create a consistent bourbon framework, while recipe, entry proof and warehouse placement are then used as controlled variables. The distillery's extensive experimentation programme makes maturation engineering—char, stave seasoning, entry proof and warehouse position—an unusually visible part of its flavour design.",
+      "cask23Narrative": "Buffalo Trace is best understood as a large production and research distillery rather than one narrowly defined bourbon recipe. Different grain bills pass through a common bourbon architecture of sour mash, column distillation and redistillation, before warehouse location, barrel char and entry proof shape the final whiskey. That is why brands made at the same Frankfort site can share a family resemblance while tasting markedly different.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.buffalotracedistillery.com/content/dam/buffalotracedistillery/letters/experimental-collection/2023-UPDATED-Experimental-Collection-Catalogue.pdf",
+        "https://www.buffalotracedistillery.com/content/dam/sazerac/corporate/news/press-releases/archive/2019/buffalo-trace/BTD%20Jan.%2023%202019%20OFC%20Fermenter%20Filled.pdf",
+        "https://www.buffalotracedistillery.com/content/dam/sazerac/corporate/news/press-releases/2023/buffalo-trace/2023-06-07-Daniel-Weller-Launch-Press-Release_FINAL.pdf"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-BUNNAHABHAIN",
+      "slug": "bunnahabhain",
+      "officialName": "Bunnahabhain Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Islay",
+      "founded": 1881,
+      "location": "Port Askaig, Isle of Islay, PA46 7RP",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Bunnahabhain uses mineral-rich spring water from the Margadale Spring, approximately one mile north of the distillery.",
+        "malt": "The distillery is best known for an unpeated Islay style, while separately produced peated spirit is also made for selected releases. Established specialist sources describe malt supply from Port Ellen Maltings.",
+        "fermentation": "Established specialist technical references describe six large Douglas-fir washbacks and fermentation of roughly 55 hours, creating a fruity, citrus-led wash.",
+        "stills": "Bunnahabhain operates two wash stills and two spirit stills. The official distillery describes its pear-shaped stills as the tallest on Islay, with long swan necks that restrict heavier compounds and promote a lighter spirit.",
+        "peat": "The core Bunnahabhain house style is unpeated; peated spirit is produced separately for Mòine and other designated releases.",
+        "maturation": "The distillery strongly associates its house style with high-quality American and European oak, particularly sherry casks, and matures stocks in traditional coastal dunnage warehouses beside Bunnahabhain Bay."
+      },
+      "houseCharacter": "Bunnahabhain combines an unpeated malt specification with relatively short-to-moderate fermentation and unusually tall pear-shaped stills. The long necks increase separation during distillation, helping create a lighter, fruitier distillate despite the robust oily texture for which the make is known. Sherry-led maturation then builds dried fruit, nuts and spice onto that clean coastal spirit rather than relying on peat smoke as the primary marker of Islay identity.",
+      "cask23Narrative": "Bunnahabhain is one of Islay's great counterpoints to the island's smoky stereotype. Its core spirit is unpeated and passes through the tallest stills on Islay, giving a lighter, fruitier distillate with enough oil and structure to handle rich sherry maturation. That combination explains why classic Bunnahabhain can taste coastal and powerful without needing heavy peat smoke.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://bunnahabhain.com/pages/about-us",
+        "https://bunnahabhain.com/en-us",
+        "https://bunnahabhain.com/en-us/pages/investing-in-a-cask",
+        "https://www.whisky.com/whisky-database/distilleries/details/bunnahabhain.html"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-CARDRONA",
+      "slug": "cardrona",
+      "officialName": "Cardrona Distillery",
+      "entityType": "DISTILLERY",
+      "country": "New Zealand",
+      "location": "Cardrona Valley, Otago, New Zealand",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Water is drawn from Alvin's Well, fed by the flanks of Mount Cardrona; the distillery also describes its process water as pristine Cardrona mountain water.",
+        "malt": "Single malt production uses 100% malted barley grown on New Zealand's South Island/Canterbury plains, malted to Cardrona's specifications and milled on site.",
+        "fermentation": "Wort ferments in stainless-steel washbacks with distiller's yeast for a minimum of 70 hours.",
+        "stills": "Whisky is double-distilled in two bespoke, hand-hammered Forsyths copper pot stills: the 2,000-litre wash still 'Roaring Meg' and 1,300-litre spirit still 'Gentle Annie'.",
+        "maturation": "Spirit is filled into seasoned ex-sherry, ex-Pinot Noir and ex-bourbon casks and matured in Cardrona's high-altitude valley environment, where the distillery highlights arid humidity and a large seasonal temperature swing."
+      },
+      "houseCharacter": "Cardrona builds a clean, fruit-led new make through a long fermentation in stainless steel followed by small-scale double pot distillation. The compact Forsyths stills retain concentration while the extended fermentation encourages ester development before the spirit reaches oak. Maturation in an alpine, low-humidity environment with large seasonal temperature swings gives cask interaction a distinctive environmental context.",
+      "cask23Narrative": "Cardrona is a modern New Zealand single malt distillery with unusually small bespoke pot stills and a fermentation of at least 70 hours. Its whisky starts with South Island barley and water drawn from Alvin's Well beneath Mount Cardrona, before ageing in casks such as ex-bourbon, ex-sherry and Otago Pinot Noir. The combination of long fermentation, compact stills and a high-altitude maturation climate makes Cardrona particularly interesting for customers exploring how New World whisky can build character through both process and place.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.cardronadistillery.com/pages/distillery",
+        "https://www.cardronadistillery.com/pages/faqs",
+        "https://www.cardronadistillery.com/collections/cardrona"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-CLONAKILTY",
+      "slug": "clonakilty",
+      "officialName": "Clonakilty Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Ireland",
+      "location": "Clonakilty, County Cork, Ireland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Water used to reduce new make spirit is sourced from deep wells; the distillery describes its production water as being drawn from ancient rock formations.",
+        "malt": "The distillery grows heritage barley on the Scully family's farm and uses both malted and unmalted barley for its single pot still production.",
+        "fermentation": "Clonakilty states that fermentation is deliberately lengthened to allow its yeast more time to develop flavour; an exact duration is not disclosed in the verified first-party sources reviewed.",
+        "stills": "Its single pot still whiskey is triple-distilled; the distillery's customer-facing technical material does not publish still capacities or condenser geometry in the verified source set reviewed.",
+        "maturation": "Whiskey is matured in oak casks in the Atlantic coastal environment; the distillery also highlights a gradual 'gentle cut' approach when adding water to spirit."
+      },
+      "houseCharacter": "Clonakilty's house approach centres on long fermentation, triple distillation and the use of both malted and unmalted barley in its pot still whiskey. Those choices are designed to create a lighter, sweeter spirit while retaining grain and fermentation character. Coastal maturation and the use of family-grown heritage barley reinforce the distillery's emphasis on local raw materials and provenance.",
+      "cask23Narrative": "Clonakilty is a County Cork distillery built around a strong farm-to-whiskey identity. Its pot still spirit combines malted and unmalted barley, extended fermentation and triple distillation, giving customers a useful contrast to heavier double-distilled styles. The distillery's coastal location and use of deep-well water and family-grown barley make it especially relevant for anyone interested in how Irish whiskey can express both production method and place.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://clonakiltydistillery.ie/sustainability/",
+        "https://shop.clonakiltydistillery.ie/products/clonakilty-single-pot-still-70cl"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-COTSWOLDS",
+      "slug": "cotswolds",
+      "officialName": "Cotswolds Distillery",
+      "entityType": "DISTILLERY",
+      "country": "England",
+      "location": "Stourton, Shipston-on-Stour, Warwickshire, England",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "malt": "Single malt production uses 100% locally grown Cotswolds barley, floor-malted at Warminster Maltings before being milled at the distillery.",
+        "fermentation": "Each mash yields about 2,500 litres of wort into stainless-steel washbacks. Two dried yeast strains, Anchor and Fermentis, are used and fermentation runs for more than 90 hours to encourage ester formation and fruity complexity.",
+        "stills": "Whisky is double-distilled in copper pot stills. The distillery uses early cut points to capture fruity esters and switches to feints sooner than many distilleries to exclude heavier compounds; new make comes off the still at about 75% ABV.",
+        "maturation": "New make is reduced to 63.5% ABV with demineralised water before filling into a range of oak casks for maturation."
+      },
+      "houseCharacter": "Cotswolds deliberately loads flavour into the wash through local floor-malted barley, two selected yeast strains and fermentation beyond 90 hours. Early spirit cuts then favour bright esters and limit heavier late-run compounds, producing a notably fruity new make before wood influence begins. The result is a distillate architecture aimed at orchard and tropical fruit intensity rather than relying on maturation alone to create flavour.",
+      "cask23Narrative": "Cotswolds Distillery is unusually transparent about how it builds fruit into its whisky before the spirit ever reaches a cask. More than 90 hours of fermentation, two selected yeast strains and an early spirit cut create a highly ester-driven new make, while locally grown barley anchors the whisky to its English origin. For customers, it is an excellent example of a modern distillery using fermentation and cut-point control as major flavour tools rather than treating cask maturation as the whole story.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.cotswoldsdistillery.com/pages/whisky-crafting",
+        "https://www.cotswoldsdistillery.com/blogs/news/new-make-spirit-and-moonshine",
+        "https://www.cotswoldsdistillery.com/pages/our-shops-new"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-DEANSTON",
+      "slug": "deanston",
+      "officialName": "Deanston Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "location": "Deanston, near Doune, Perthshire, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Production water is drawn from the River Teith, which also provides hydro-electric power for the distillery.",
+        "malt": "Deanston states that its barley is 100% Scottish and sourced as locally as possible.",
+        "fermentation": "Fermentation takes place in stainless-steel washbacks and can run for up to 100 hours.",
+        "stills": "Whisky is distilled in copper pot stills; Deanston highlights its feints receiver as part of the distillation system used to shape its waxy new-make character.",
+        "maturation": "Spirit matures in hand-selected oak casks in seven warehouses at the distillery, including former weaving sheds from the site's textile-mill history."
+      },
+      "houseCharacter": "Deanston combines very long fermentation with a traditional pot-still regime to build a waxy, fruit-bearing new make before maturation. Up to 100 hours in stainless-steel washbacks allows extensive fermentation-derived flavour development, while the River Teith supplies both process water and renewable power. Maturation in the old weaving sheds reinforces a production model that is closely tied to the converted mill site itself.",
+      "cask23Narrative": "Deanston is one of the Highlands' most distinctive converted industrial sites: a former cotton mill turned distillery on the River Teith. Its long fermentations of up to 100 hours help create the waxy, fruity new make for which the distillery is known, while the same river supplies both water and hydro-electric energy. It is a particularly useful distillery for customers who want to understand how fermentation length can shape texture and flavour before oak maturation begins.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://deanstonmalt.com/en-de/pages/about-deanston",
+        "https://deanstonmalt.com/de-de/blogs/news/deanston-organic-whisky",
+        "https://deanstonmalt.com/en-de"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-FETTERCAIRN",
+      "slug": "fettercairn",
+      "officialName": "Fettercairn Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "founded": 1824,
+      "location": "Fettercairn, Aberdeenshire, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "The distillery uses clear mountain water from the Cairngorm foothills; first-party material describes local estate water feeding the site and the cooling-ring system.",
+        "stills": "Fettercairn's defining feature is a copper cooling ring fitted around the upper part of the still. During distillation, water cascades over the outside of the copper, increasing internal condensation so that lighter vapours continue upward for collection.",
+        "maturation": "The distillery uses American white oak ex-bourbon barrels extensively and also runs a long-term Scottish Oak Programme exploring native oak for whisky maturation."
+      },
+      "houseCharacter": "Fettercairn's production identity is dominated by its unique still-cooling ring, which actively changes reflux by cooling the copper during distillation. By forcing more internal condensation, the system favours lighter vapours and is explicitly linked by the distillery to its refined tropical-fruit house style. Bourbon-led maturation then supports that bright distillate profile while selected releases explore alternative woods, including Scottish oak.",
+      "cask23Narrative": "Fettercairn is technically unusual even by Scotch whisky standards. Its stills are drenched externally with mountain water through a copper cooling ring, increasing condensation and allowing the lighter vapours to progress through the still. That engineering choice is central to the distillery's bright tropical style, making Fettercairn a fascinating dram for customers interested in how still design can directly alter spirit character.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.fettercairnwhisky.com/en-gb/about-us/",
+        "https://www.fettercairnwhisky.com/en-us/faqs/",
+        "https://www.fettercairnwhisky.com/en-gb/our-whisky/signature-collection/16-year-old/",
+        "https://www.fettercairnwhisky.com/en-gb/about-us/fettercairn-forest/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-FEW-SPIRITS",
+      "slug": "few-spirits",
+      "officialName": "FEW Spirits",
+      "entityType": "DISTILLERY",
+      "country": "United States",
+      "location": "Evanston, Illinois, United States",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "malt": "FEW describes its whiskeys as grain-to-glass and made from locally sourced grains; its bourbon uses a high-rye three-grain recipe and its rye combines a high rye content with corn.",
+        "fermentation": "FEW states that its bourbon fermentation uses a saison-style yeast, contributing spicy and fruity fermentation character.",
+        "maturation": "Its bourbon is matured in charred oak barrels and its rye in air-dried oak barrels."
+      },
+      "houseCharacter": "FEW's public technical disclosure emphasises grain selection, yeast choice and small-batch maturation rather than detailed still geometry. The use of saison-style yeast in bourbon fermentation is a distinctive flavour-building choice that supports spicy and fruity character before maturation. High-rye recipes and charred or air-dried oak then reinforce a robust American whiskey profile.",
+      "cask23Narrative": "FEW Spirits is an Evanston distillery whose technical identity is built around local grain, small-batch production and an unusually expressive fermentation choice: saison-style yeast in its bourbon. That yeast contributes another layer of spice and fruit before the whiskey meets oak, while the high-rye grain structure keeps the spirit lively and assertive. It is a useful American comparison for customers who want to see how yeast selection can matter as much as mash bill and barrel char.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://fewspirits.com/",
+        "https://fewspirits.com/products/",
+        "https://fewspirits.com/few-and-a-brew/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-FOUR-ROSES",
+      "slug": "four-roses",
+      "officialName": "Four Roses Distillery",
+      "entityType": "DISTILLERY",
+      "country": "United States",
+      "location": "Lawrenceburg, Kentucky, United States",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Four Roses combines its grain recipes with limestone-rich water from the spring-fed Salt River in Lawrenceburg, Kentucky.",
+        "malt": "Two mash bills are used: Mash Bill B is 60% corn, 35% rye and 5% malted barley; Mash Bill E is 75% corn, 20% rye and 5% malted barley.",
+        "fermentation": "Five proprietary yeast strains are used across the two mash bills to create ten distinct recipes. Fermentation runs for at least three days and produces a sour distiller's beer at about 8% ABV.",
+        "stills": "Four Roses uses straight-whiskey distillation at its Lawrenceburg distillery; first-party material states that the second distillation yields spirit at about 138-140 proof before transfer to maturation facilities.",
+        "maturation": "New distillate is reduced to 120 proof and filled into 53-gallon new charred American oak barrels. Four Roses matures its bourbon in single-story rack warehouses at Cox's Creek, designed to minimise temperature variation from top to bottom, and ages barrels for at least five years before use."
+      },
+      "houseCharacter": "Four Roses creates complexity primarily through recipe architecture: two mash bills crossed with five proprietary yeast strains produce ten distinct distillates before maturation. The high-rye mash bills establish a spicy grain framework while the yeast strains deliberately vary fruit, floral, herbal and spice expression. Gentle maturation in single-story rack warehouses then reduces vertical temperature variation, allowing those recipe differences to remain a central part of the finished bourbon style.",
+      "cask23Narrative": "Four Roses is unusual because it does not rely on one mash bill and one house yeast. Instead, two grain recipes and five proprietary yeast strains create ten distinct bourbon recipes, each designed to contribute a different balance of fruit, spice, florals or herbs. Those whiskies then mature in low, single-story warehouses, making Four Roses a particularly useful distillery for customers who want to understand how recipe design and yeast selection can shape bourbon before blending even begins.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.fourrosesbourbon.com/our-process",
+        "https://www.fourrosesbourbon.com/our-recipes",
+        "https://www.fourrosesbourbon.com/visit-us",
+        "https://www.fourrosesbourbon.com/blog/four-roses-through-the-decades-1940-1950"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-GLEN-MORAY",
+      "slug": "glen-moray",
+      "officialName": "Glen Moray Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Speyside",
+      "founded": 1897,
+      "location": "Elgin, Moray, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Process water is sourced from the nearby River Lossie.",
+        "malt": "Single malt production uses malted barley; Glen Moray also makes a peated single malt using malt dried with peat smoke.",
+        "fermentation": "Wort is fermented for 60 hours to produce wash at approximately 8.7% ABV.",
+        "stills": "Double distillation is carried out in nine copper pot stills: three wash stills and six spirit stills.",
+        "peat": "The core distillery style is unpeated, with separately produced peated single malt made from peat-smoked malt.",
+        "maturation": "American oak is the most commonly used maturation wood, alongside a broad programme of alternative casks and finishes including wine and fortified-wine casks."
+      },
+      "houseCharacter": "A 60-hour fermentation promotes clean fruity and floral fermentation character before double distillation through a large nine-still setup. River Lossie water and an unpeated malt base underpin a light, approachable Speyside new make, while separate peated runs extend the style without redefining the core profile. American oak maturation forms the foundation, with extensive finishing work used to build additional fruit and spice around the spirit.",
+      "cask23Narrative": "Glen Moray is a classic Speyside distillery with a particularly clear production signature: 60-hour fermentation, double distillation through three wash and six spirit stills, and American oak as the foundation of maturation. The result is a naturally light, fruity and floral spirit that takes well to the distillery's long-standing programme of wine and fortified-wine cask finishes. For customers, it is a useful example of how a relatively delicate new make can become highly expressive through cask selection rather than sheer spirit weight.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.glenmoray.com/our-whisky",
+        "https://www.glenmoray.com/our-craft",
+        "https://www.glenmoray.com/story-glen-moray"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-GLEN-SCOTIA",
+      "slug": "glen-scotia",
+      "officialName": "Glen Scotia Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Campbeltown",
+      "founded": 1832,
+      "location": "12 High Street, Campbeltown, Argyll, Scotland",
+      "owner": "Loch Lomond Group",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Production water is sourced from Crosshill Loch and a deep well on the distillery grounds.",
+        "malt": "The distillery works with unpeated, medium-peated and heavily peated malt specifications depending on production requirements.",
+        "fermentation": "Nine stainless-steel washbacks are used, with deliberately varied fermentation lengths from approximately 70 to 140 hours; long ferments are used to build broader fruity complexity.",
+        "stills": "A single pair of copper pot stills is used: one wash still and one spirit still. Specialist technical reporting records capacities of approximately 11,800 litres for the wash still and 8,600 litres for the spirit still.",
+        "peat": "Production includes unpeated through to heavily peated runs rather than one fixed peat specification.",
+        "maturation": "The distillery retains traditional dunnage warehousing and places significant emphasis on cask selection and wood management."
+      },
+      "houseCharacter": "Glen Scotia's defining production lever is fermentation breadth: shorter ferments contribute nuttier tones while very long ferments push fruit and complexity. A single pair of stills preserves a comparatively intimate, batch-driven production style, while different malt peat levels allow the distillery to move from coastal unpeated spirit to more overtly smoky variants. Dunnage maturation then reinforces the traditional Campbeltown combination of fruit, oil, maritime salinity and occasional smoke.",
+      "cask23Narrative": "Glen Scotia is one of Campbeltown's surviving working distilleries and still operates on a comparatively small scale. Its unusual spread of fermentation times, from short to very long, is central to the distillery's ability to build both nutty and fruity character before distillation through a single pair of stills. That production flexibility helps explain why Glen Scotia can show the oily, saline and slightly industrial character associated with Campbeltown while still carrying generous orchard and tropical fruit.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.glenscotia.com/",
+        "https://scotchwhisky.com/whiskypedia/1848/glen-scotia/",
+        "https://www.forbes.com/sites/joemicallef/2022/04/06/the-glen-scotia-distillery-scotch-whiskys-undiscovered-gem/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-GLENFARCLAS",
+      "slug": "glenfarclas",
+      "officialName": "Glenfarclas Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Speyside",
+      "founded": 1836,
+      "owner": "J. & G. Grant",
+      "location": "Ballindalloch, Banffshire, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Spring water rises from granite on the slopes of Ben Rinnes above the distillery.",
+        "malt": "Malted barley, spring water and yeast are the only raw production inputs stated by the distillery.",
+        "stills": "The spirit is double-distilled in traditional direct-fired copper pot stills; Glenfarclas continues to emphasise direct firing as a defining production method.",
+        "maturation": "European oak casks previously seasoned with Oloroso sherry are a cornerstone of maturation, selected from a family-run bodega in Spain. Traditional dunnage warehousing remains part of the maturation environment."
+      },
+      "houseCharacter": "Direct-fired distillation applies intense heat to the still base and contributes to the robust, weighty new-make style Glenfarclas deliberately preserves. Granite-filtered Ben Rinnes spring water supports a clean production base without adding a separate flavour claim beyond its mineral context. Long maturation in Oloroso-seasoned European oak then builds the distillery's familiar combination of sherry richness, spice, dried fruit and substantial texture.",
+      "cask23Narrative": "Glenfarclas is one of the clearest examples of a distillery protecting an old production choice because it shapes the spirit: the stills remain direct fired. That robust new make is then matured extensively in Oloroso-seasoned European oak, giving the whisky enough structure to carry deep sherry fruit, spice and weight over long ageing. It is a useful dram for understanding how distillation intensity and sherry-cask maturation can be designed to work together rather than independently.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://glenfarclas.com/production/",
+        "https://glenfarclas.com/",
+        "https://glenfarclas.com/news/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-GLENFIDDICH",
+      "slug": "glenfiddich",
+      "officialName": "Glenfiddich Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Speyside",
+      "founded": 1887,
+      "owner": "William Grant & Sons",
+      "location": "Dufftown, Moray, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Glenfiddich uses water from the Robbie Dhu spring, whose surrounding land is owned by the Grant family to protect the source.",
+        "malt": "The standard distillery style is unpeated malted barley.",
+        "fermentation": "Established specialist technical documentation records Douglas-fir washbacks and approximately 72-hour fermentation for the current process.",
+        "stills": "Glenfiddich uses a large battery of relatively small copper pot stills in multiple stillhouses; official material emphasises the continued use of traditional hand-built copper stills while specialist references document multiple wash- and spirit-still shapes across the site.",
+        "peat": "Standard production is unpeated.",
+        "maturation": "American bourbon and Spanish sherry oak are central maturation woods, supported by an on-site cooperage and extensive warehousing; selected expressions use additional cask types and marrying vessels."
+      },
+      "houseCharacter": "Robbie Dhu spring water and unpeated malt establish a clean base, while extended fermentation in wooden washbacks supports the pear, apple and ester-led fruitiness strongly associated with Glenfiddich. The distillery's unusually large number of relatively small copper pot stills gives high production scale without abandoning the copper contact and still-by-still character of traditional malt distillation. Bourbon and sherry oak then shape that fruit-led spirit into the soft, polished Speyside profile that defines the house style.",
+      "cask23Narrative": "Glenfiddich is enormous by single-malt standards, but its production architecture still relies on traditional copper pot stills, wooden washbacks and protected spring water from Robbie Dhu. The fermentation regime is designed to preserve the fresh pear-and-orchard-fruit character that has become one of the distillery's signatures. Its on-site cooperage and vast cask inventory then allow that relatively light, fruity new make to be shaped through bourbon, sherry and specialist finishing rather than through heavy peat or dense spirit weight.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.glenfiddich.com/en-gb/explore/single-malt-your-need-to-know-guide",
+        "https://www.glenfiddich.com/en-gb/explore/whisky-facts",
+        "https://www.glenfiddich.com/index.php/distillery/",
+        "https://www.whisky.com/whisky-database/distilleries/details/glenfiddich.html"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-GLENGLASSAUGH",
+      "slug": "glenglassaugh",
+      "officialName": "Glenglassaugh Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "founded": 1874,
+      "owner": "Brown-Forman",
+      "location": "Portsoy, Aberdeenshire, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "The distillery draws mineral-rich water from the Glassaugh Spring on Durne Hill above the site.",
+        "malt": "Core production is unpeated, with separate periods of peated production; established specialist data records peated malt above 30 ppm for those runs.",
+        "fermentation": "Six washbacks are used, four wooden and two stainless steel. Established specialist data records a minimum fermentation of approximately 60 hours.",
+        "stills": "A single pair of copper pot stills is used, one wash still and one spirit still, both with boil-ball geometry and vertical shell-and-tube condensation.",
+        "peat": "Predominantly unpeated production with separately scheduled peated runs.",
+        "maturation": "Whisky matures in coastal warehouses overlooking Sandend Bay, with bourbon, sherry, Manzanilla, port and other cask types used across the range."
+      },
+      "houseCharacter": "Mineral-rich spring water and a mixed wood/stainless fermentation setup support a ripe, fruity fermentation profile before distillation through a single pair of boil-ball stills. The distillery's standard spirit is unpeated and fruit-led, with separate peated campaigns adding a darker smoky dimension without replacing the core style. Coastal warehousing and broad cask use then reinforce Glenglassaugh's combination of tropical fruit, honeyed sweetness and maritime salinity.",
+      "cask23Narrative": "Glenglassaugh sits almost on the edge of Sandend Bay, and its production is unusually easy to read in the glass: ripe fruit from fermentation and distillation, then a distinct coastal maturation environment. A single pair of boil-ball stills gives the distillery a relatively focused spirit profile, while separate peated runs create a second, smokier register without changing the identity of the core whisky. For customers, Glenglassaugh is a strong example of how location, spirit shape and cask choice can combine to create a recognisably coastal malt without relying on heavy peat alone.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.glenglassaugh.com/discover/",
+        "https://www.glenglassaugh.com/glenglassaugh-spirit-reawakens-with-new-era-of-coastal-malts/",
+        "https://scotchwhisky.com/whiskypedia/1857/glenglassaugh/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-HEAVEN-HILL",
+      "slug": "heaven-hill",
+      "officialName": "Heaven Hill Distillery",
+      "entityType": "DISTILLERY",
+      "country": "United States",
+      "region": "Kentucky",
+      "founded": 1935,
+      "owner": "Heaven Hill Brands",
+      "location": "Louisville and Bardstown, Kentucky, United States",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Kentucky limestone water is used in mashing.",
+        "malt": "Heaven Hill works with corn, malted barley, rye and wheat across multiple mash bills sourced through long-standing farm relationships.",
+        "fermentation": "A proprietary yeast strain used since the company's founding is added to sour-mash fermentations that run for several days.",
+        "stills": "Whiskey is distilled in 70-foot continuous column stills with perforated copper plates, followed by doubler systems engineered for substantial copper contact.",
+        "maturation": "New whiskey is filled into charred oak barrels and aged in Kentucky rickhouses, predominantly traditional open-rick wooden structures with metal cladding; the Bernheim campus also includes brick rickhouses."
+      },
+      "houseCharacter": "Heaven Hill's sour-mash process and proprietary house yeast create continuity across a wide family of bourbon and rye mash bills rather than one single grain recipe. Tall copper-rich column distillation produces a consistent, clean distillate at industrial scale while doublers add further copper interaction before barreling. Kentucky rickhouse ageing then drives the familiar American-whiskey concentration of caramelised oak, spice, grain sweetness and mature oxidative depth through seasonal temperature swings.",
+      "cask23Narrative": "Heaven Hill is less a single-recipe distillery than a production system built to express several American-whiskey styles from one disciplined technical base. Sour mash, a long-preserved proprietary yeast and tall copper column stills give consistency across different corn, rye and wheat recipes. The defining final stage is Kentucky rickhouse maturation, where heavily charred oak and large seasonal temperature changes transform that clean new make into the layered caramel, spice and oak character associated with the distillery's mature bourbons and ryes.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://heavenhilldistillery.com/whiskey-101.php/our-distillery.php",
+        "https://heavenhilldistillery.com/making-americas-whiskey.php",
+        "https://heavenhilldistillery.com/our-distillery.php"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-HIGHLAND-PARK",
+      "slug": "highland-park",
+      "officialName": "Highland Park Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Islands",
+      "founded": 1798,
+      "owner": "The Edrington Group",
+      "location": "Kirkwall, Orkney, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "malt": "The distillery retains traditional floor malting for part of its malt requirement and dries hand-turned malt in two historic kilns.",
+        "fermentation": "Established specialist technical data records fermentation periods spanning approximately 52 to 96 hours depending on production schedule.",
+        "stills": "Four Forsyths copper pot stills are used: two wash stills and two spirit stills, described by Highland Park as medium-sized and designed for a balanced, rounded new make.",
+        "peat": "Highland Park uses Orkney peat in its traditional maltings, giving the distillery its distinctive aromatic smoke rather than an aggressively phenolic style.",
+        "maturation": "A substantial portion of the whisky matures in traditional earth-floored dunnage warehouses beside the distillery in Orkney's cool, temperate maritime climate."
+      },
+      "houseCharacter": "Traditional floor-malting and Orkney peat provide an aromatic smoky component before fermentation and double pot distillation. Medium-sized stills and a variable fermentation regime balance fruit, malt weight and smoke rather than maximising any single element. Dunnage maturation in Orkney's relatively even maritime climate then allows that heathery peat, fruit and oak to develop slowly with comparatively restrained evaporation.",
+      "cask23Narrative": "Highland Park's character begins before the stillhouse, with part of its barley still malted by hand and dried using Orkney peat. That peat is central to the distillery's aromatic, heathery smoke, which is noticeably different from the sharper medicinal styles often associated with Islay. Four medium-sized pot stills and cool Orkney dunnage maturation then build a rounded spirit where smoke, fruit, malt and oak tend to sit in balance rather than compete.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.highlandparkwhisky.com/en/brand-story/distillery",
+        "https://scotchwhisky.com/whiskypedia/1867/highland-park/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-JURA",
+      "slug": "jura",
+      "officialName": "Jura Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Islands",
+      "founded": 1810,
+      "owner": "Whyte & Mackay Ltd",
+      "location": "Craighouse, Isle of Jura, PA60 7XT",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Process water is drawn from Loch a'Bhaile Mhargaidh (Market Loch) on Jura.",
+        "malt": "The distillery primarily uses very lightly peated malt for its core distillate and also runs peated malt for selected styles.",
+        "fermentation": "Six stainless-steel washbacks are used; established specialist data records a fermentation time of approximately 54 hours.",
+        "stills": "Four exceptionally tall copper pot stills are used: two wash stills and two spirit stills. Established specialist data lists wash stills at about 24,500 litres and spirit stills at about 15,500 litres; the tall, constricted neck geometry promotes high reflux and a lighter spirit.",
+        "peat": "Core production is lightly peated or effectively unpeated, with separate peated production used for selected expressions.",
+        "maturation": "Jura uses on-site bonded warehousing with both racked and dunnage storage and matures whisky in American and European oak casks."
+      },
+      "houseCharacter": "Jura's very tall stills create extensive reflux and favour a comparatively light, fruity new-make spirit. A relatively short fermentation provides a firmer cereal structure beneath that distillate, while selective peated production allows smoke to be introduced without defining every batch. American oak ex-bourbon maturation is a central part of the distillery's modern house style.",
+      "cask23Narrative": "Jura's distillery character begins with unusually tall stills that encourage reflux and help produce a lighter, fruit-led spirit. Most of the core make is only lightly smoky, while dedicated peated runs give the distillery room to create more assertive styles when required. For the drinker, that means Jura can move between bright, balanced fruit and measured smoke without losing its underlying island identity.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.jurawhisky.com/en-gb/news/what-does-jura-whisky-taste-like-flavour-profiles-tasting-notes-and-food-pairings/",
+        "https://www.whisky.com/whisky-database/distilleries/details/jura.html",
+        "https://scotchwhisky.com/whiskypedia/1869/jura/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-KAVALAN",
+      "slug": "kavalan",
+      "officialName": "Kavalan Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Taiwan",
+      "founded": 2005,
+      "owner": "King Car Group",
+      "location": "Yilan County, Taiwan",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Production water comes from springs fed by Taiwan's Snow Mountain and Central Mountain ranges.",
+        "malt": "Malted barley is imported rather than grown in Taiwan; the distillery's regional production material notes imported malt and no in-house malting.",
+        "fermentation": "Temperature-controlled jacketed washbacks are used. Official regional material gives a fermentation period of 3-5 days; established specialist data records 16 closed stainless-steel washbacks and a typical 60-72 hour cycle in current operation.",
+        "stills": "Kavalan uses double distillation in Forsyths copper pot stills. The original configuration used paired 12,000-litre wash stills and 7,000-litre spirit stills; later expansion brought the site to 20 pot stills.",
+        "maturation": "Whisky matures in multi-storey warehouses at Yilan, where strong temperature gradients accelerate extraction. The distillery uses American white oak extensively alongside European wine and sherry casks, with on-site cooperage and STR reconditioning for selected casks."
+      },
+      "houseCharacter": "Kavalan starts with very soft mountain spring water and temperature-controlled fermentation adapted to Taiwan's subtropical climate. Double distillation in Forsyths copper pot stills creates a clean, fruit-forward new make, while the hot Yilan warehouses accelerate extraction and oxidation. The resulting house style is typically ripe, tropical and cask-expressive, with climate playing a larger role in maturation speed than in traditional cool-climate Scotch production.",
+      "cask23Narrative": "Kavalan is a useful example of how climate can reshape whisky production without changing the core logic of malt distillation. Mountain spring water, controlled fermentation and Scottish-made copper stills establish a clean spirit, then Taiwan's heat drives unusually active maturation. The result is often intensely fruity and cask-led at younger chronological ages than a drinker might expect from cooler whisky regions.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://kavalan.eu/herstellung/",
+        "https://www.whisky.com/whisky-database/distilleries/details/kavalan-yuan-shan-distillery.html"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-KILCHOMAN",
+      "slug": "kilchoman",
+      "officialName": "Kilchoman Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Islay",
+      "founded": 2005,
+      "location": "Rockside Farm, Bruichladdich, Isle of Islay, PA49 7UT",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Water is drawn from the Allt Gleann Osamail burn; spirit is reduced to cask-filling strength with Glen Osamail water.",
+        "malt": "Kilchoman grows barley on Rockside Farm for its 100% Islay releases and retains traditional floor malting. Its own malt is peated on site over Islay peat; other production also uses peated malted barley.",
+        "fermentation": "The distillery states a 90-hour fermentation for current production, using distiller's yeast; six washbacks are documented in official tour material.",
+        "stills": "Two identical stillhouses operate in parallel. Each has a steam-heated wash still charged with about 3,000 litres and a small spirit still with a tall narrow neck and reflux bulb; the spirit still is approximately 2,070 litres. Slow distillation and high copper contact are used to create a light, floral spirit.",
+        "peat": "Peat is fundamental to production; on-site malt for the 100% Islay style is smoked with Islay peat and official production material describes peating as a core stage.",
+        "maturation": "100% of Kilchoman spirit is matured on Islay. The site uses both dunnage and racked warehousing; bourbon casks are the predominant maturation vessel with sherry and other cask types also used."
+      },
+      "houseCharacter": "Kilchoman combines highly traditional farm-distillery practices with deliberately long fermentation and very small still geometry. The 90-hour fermentation develops fruity and lactic complexity, while slow distillation through a tall, narrow-necked spirit still with a reflux bulb increases copper interaction. This keeps the heavily peated distillate unusually clean, floral and citrus-led rather than simply dense or medicinal.",
+      "cask23Narrative": "Kilchoman is one of the clearest grain-to-glass examples on Islay: barley can be grown, floor-malted, peated, distilled, matured and bottled at the same farm distillery. Its long 90-hour fermentation and small reflux-heavy spirit still are designed to preserve fruit and floral lift inside a firmly peated structure. That is why Kilchoman can taste unmistakably smoky while still showing brightness, citrus and creamy fermentation character.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.kilchomandistillery.com/our-farm-distillery/",
+        "https://www.kilchomandistillery.com/distillery-news/behind-the-scenes-mashing-fermenting-distilling/",
+        "https://www.kilchomandistillery.com/distillery-news/behind-the-scenes-cask-maturation/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-LAGG",
+      "slug": "lagg",
+      "officialName": "Lagg Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Islands",
+      "founded": 2019,
+      "owner": "Isle of Arran Distillers",
+      "location": "Kilmory, Isle of Arran, KA27 8PG",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "malt": "Lagg uses 100% malted barley and produces peated spirit at different specifications, including 20 ppm and 50 ppm runs. Official technical material identifies Concerto malt in established production.",
+        "fermentation": "Four Douglas-fir washbacks, each 24,000 litres and normally filled to 20,000 litres, are used. Current official process material gives approximately 55-60 hours with M-strain distillers yeast, followed by an additional resting period in a pine receiver before distillation.",
+        "stills": "Two custom Forsyths copper pot stills are used: a 10,000-litre bulbous-onion wash still and a 7,000-litre lamp-glass spirit still. The stills are short and broad with a downward-sloping lyne arm, and are steam heated.",
+        "peat": "Lagg is designed around peated whisky production, with official material documenting 20 ppm and 50 ppm malt specifications depending on the production run.",
+        "maturation": "The core Kilmory style is matured in first-fill bourbon barrels; the distillery also uses Oloroso sherry and a range of other finishing casks for specific releases."
+      },
+      "houseCharacter": "Lagg deliberately uses cloudy wort, M-strain yeast and a moderately long fermentation to retain fatty-acid and ester precursors that contribute earthier, weightier flavours. Its short, broad stills and downward-sloping lyne arms reduce reflux compared with tall-necked designs, reinforcing body and peat weight. The result is a smoky spirit with an oily texture but enough fruit to stop the profile becoming purely tarry or medicinal.",
+      "cask23Narrative": "Lagg was engineered from the start to make a fuller, earthier style of peated Arran whisky. Cloudy wort, Douglas-fir washbacks and short, broad pot stills all push the spirit toward weight and texture, while carefully chosen yeast and fermentation preserve a fruitier core. For customers, it is a useful contrast to the lighter unpeated style made at Lochranza on the same island.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.laggwhisky.com/latest/140-how-to-make-scotch-whisky",
+        "https://www.laggwhisky.com/latest/31-blog-series-v-washbacks",
+        "https://www.laggwhisky.com/latest/28-blog-series-copper-pot-stills-and-mash-tun"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-LAPHROAIG",
+      "slug": "laphroaig",
+      "officialName": "Laphroaig Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Islay",
+      "founded": 1815,
+      "owner": "Suntory Global Spirits",
+      "location": "Port Ellen, Isle of Islay, PA42 7DU",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Laphroaig's production water comes from the Kilbride Reservoir and Kilbride Stream, flowing across Islay peatland before reaching the distillery.",
+        "malt": "The distillery retains traditional floor malting for part of its barley production. Barley is hand-turned and cold-smoked over locally cut Islay peat; additional malt is sourced externally to complete production needs.",
+        "stills": "Established specialist technical sources document seven steam-heated copper pot stills: three wash stills and four spirit stills. The squat spirit-still geometry and ascending lyne arms preserve a powerful, oily spirit while still allowing meaningful copper contact.",
+        "peat": "Peat is central to Laphroaig's production. The distillery specifically emphasises low-temperature peat smoking using local peat rich in heather, lichen, seaweed and moss.",
+        "maturation": "American-oak ex-bourbon casks are central to the house style, with sherry-seasoned and smaller-format casks used for selected expressions. Maturation takes place at the coastal Islay site as well as within the wider brand's warehousing system."
+      },
+      "houseCharacter": "Laphroaig builds intensity before distillation through floor-malted barley and low-temperature Islay peat smoking. Its squat pot stills and relatively low-reflux geometry preserve oily, phenolic compounds, while copper contact keeps the spirit from becoming coarse. Ex-bourbon maturation then frames the medicinal, maritime and smoky new make with vanilla and coconut sweetness rather than covering it.",
+      "cask23Narrative": "Laphroaig's identity begins long before the cask: Kilbride water, floor malting and cold peat smoke establish the famous medicinal and maritime core. The stillhouse is configured to retain weight and phenolic power rather than polish it into a delicate spirit. In the glass, that engineering explains why Laphroaig combines iodine-like smoke and coastal intensity with an underlying sweetness from American oak.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.laphroaig.com/en-gb/isle-of-islay-whisky",
+        "https://www.laphroaig.com/whiskies",
+        "https://www.theblend.world/learn/brands/laphroaig/laphroaig-production",
+        "https://www.laphroaig.it/en/news/news_17.html"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-LOCHLEA",
+      "slug": "lochlea",
+      "officialName": "Lochlea Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Lowland",
+      "founded": 2018,
+      "location": "Lochlea Farm, Craigie, Kilmarnock, Ayrshire",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Lochlea draws production water from its own well and local groundwater sources on the farm.",
+        "malt": "The distillery grows its own Laureate barley on approximately 90 hectares of the farm; malting is carried out off site before the malt returns for distillation.",
+        "fermentation": "Fermentation is carried out in purpose-designed washbacks within the converted farm steading. The official source does not disclose an exact washback count, material or fermentation duration in the verified source set.",
+        "stills": "Two copper pot stills are used. Lochlea states that their size and shape, controlled steam flow, shallow lyne arms and condensing columns are designed to maximise copper contact and produce a light, fruit-forward spirit.",
+        "maturation": "New make spirit is filled into directly sourced casks and matured entirely on the farm in converted cattle sheds using both racking and stowage."
+      },
+      "houseCharacter": "Lochlea's own-farm barley keeps a cereal note at the centre of the process, while the distillery targets clear wort and a light, fruit-forward distillate. Two copper pot stills with shallow lyne arms and deliberate copper contact favour brightness rather than heavy sulphur or oil. On-site maturation allows cask selection to develop the spirit without losing the barley-led identity established on the farm.",
+      "cask23Narrative": "Lochlea is a genuinely farm-rooted distillery: it grows its own barley, draws its own water, distils on the steading and matures its whisky in converted farm buildings. The production design aims for a light, fruit-led spirit while keeping the cereal character of the barley visible. That makes Lochlea particularly interesting for drinkers who want to understand how grain provenance and distillation style can stay connected from field to cask.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://lochleadistillery.com/our-story/the-distillery/",
+        "https://lochleadistillery.com/faqs/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-MH",
+      "slug": "mh-distillery",
+      "officialName": "M&H Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Israel",
+      "founded": 2013,
+      "location": "16 HaThiya St, Tel Aviv-Jaffa, Israel",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Local groundwater is filtered and purified through the distillery's water-treatment system before use in production.",
+        "malt": "M&H uses unpeated malted barley for standard production and runs a two-week peated production session at approximately 40 ppm every six months.",
+        "fermentation": "Six washbacks are used with specialty dry whisky yeast. The official distillery states a fermentation duration of 60-72 hours.",
+        "stills": "M&H uses double distillation in custom-made traditional copper pot stills. The spirit cut is relatively short, beginning around 80% ABV and ending around 70%, producing new make at approximately 75% ABV.",
+        "peat": "Standard production is unpeated; a dedicated peated run at approximately 40 ppm is carried out periodically.",
+        "maturation": "Whisky is matured for at least three years without climate control across several Israeli climate zones. The cask programme includes new oak, ex-bourbon and rye, STR wine casks, kosher sherry butts, rum, Cognac, Islay whisky and Israeli wine casks."
+      },
+      "houseCharacter": "M&H uses a conventional malt base and copper-pot double distillation but adapts fermentation and maturation to Israel's hot climate. A 60-72 hour fermentation and relatively narrow spirit cut create a sweet, grassy, medium-bodied new make, while the absence of climate control subjects casks to intense regional temperature and humidity differences. The resulting house character is cask-active and concentrated, with maturation location functioning as a major production variable.",
+      "cask23Narrative": "M&H is built around the idea that climate itself can become part of whisky production. The spirit is made with familiar malt-whisky tools—malted barley, 60-72 hour fermentation and copper pot stills—but its casks mature across dramatically different Israeli environments, from Tel Aviv to the Dead Sea. For the customer, that makes M&H a particularly clear demonstration of how heat and humidity can reshape extraction, evaporation and maturation speed.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://mh-distillery.com/our-craft-magic/",
+        "https://mh-distillery.com/about-us/",
+        "https://mh-distillery.com/contact-us/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-MACDUFF",
+      "slug": "macduff",
+      "officialName": "Macduff Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "founded": 1960,
+      "owner": "John Dewar & Sons / Bacardi",
+      "location": "Macduff, Banff, Aberdeenshire, AB45 3JT",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Established specialist sources record process water from local natural spring and field-drain sources, with burn water used for cooling.",
+        "malt": "Malt is sourced commercially; current specialist references describe predominantly unpeated malt for core production.",
+        "fermentation": "Current specialist reporting records nine stainless-steel washbacks of approximately 34,000 litres and a fermentation time of about 55 hours.",
+        "stills": "Macduff operates five copper pot stills in an unusual two-wash/three-spirit configuration. The stills have upward-tilting lyne arms with pronounced right-angle kinks; the spirit stills use horizontal shell-and-tube condensers, helping create a weighty, nutty spirit while the rising lyne arms add reflux.",
+        "maturation": "Macduff spirit destined for single malt and blends is matured within Bacardi/Dewar's warehousing; specialist sources also document on-site/racked and dunnage storage historically."
+      },
+      "houseCharacter": "Macduff's short fermentation gives the wash a relatively direct, cereal and nutty base rather than an intensely ester-driven one. The unusual five-still configuration, kinked rising lyne arms and cold shell-and-tube condensation balance reflux against a weightier, slightly sulphury new-make character. That combination gives the spirit body and nuttiness while preserving enough fruit to keep it from becoming blunt.",
+      "cask23Narrative": "Macduff is technically unusual because its stillhouse uses two wash stills and three spirit stills rather than matching pairs. Rising lyne arms and shell-and-tube condensers pull the spirit in two directions at once: some extra reflux and fruit, but also enough weight to retain a nutty, robust core. It is a useful distillery for understanding how condenser temperature and lyne-arm geometry can matter as much as still shape itself.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://scotchwhisky.com/whiskypedia/1880/macduff/",
+        "https://smws.com/unfiltered/macduff-distillery-profile",
+        "https://www.whisky.com/whisky-database/distilleries/details/macduff.html"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-MACKMYRA",
+      "slug": "mackmyra",
+      "officialName": "Mackmyra Gravity Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Sweden",
+      "founded": 2011,
+      "owner": "No.1 Beverage Group",
+      "location": "Gävle, Sweden",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Mackmyra's whisky production is based on Swedish spring water; established specialist references identify naturally filtered water from the Valboåsen esker system.",
+        "malt": "Mackmyra uses Swedish barley and maintains both unpeated and smoked malt streams. The smoked recipe uses Swedish peat together with juniper smoke as a distinctive house technique.",
+        "fermentation": "Established specialist data records stainless-steel washbacks and an extended fermentation of roughly 4-6 days. The current official site does not publish a precise fermentation specification.",
+        "stills": "The 35-metre Gravity Distillery moves raw materials downward through production stages using gravity. Distillation is carried out in a pair of Forsyths copper pot stills with comparatively classical narrow-neck geometry.",
+        "peat": "Smoked production uses Swedish peat together with juniper, while unpeated production is run separately.",
+        "maturation": "Mackmyra uses Swedish oak, American oak and ex-wine/spirit casks, including small 30-litre casks. Maturation occurs across multiple Swedish environments, notably the Bodås mine approximately 50 metres underground."
+      },
+      "houseCharacter": "Mackmyra's Gravity Distillery is engineered around vertical material flow rather than pumps, reducing energy use while preserving conventional pot-still distillation. Swedish barley, local spring water and separate unpeated or juniper-and-peat smoked recipes create a distinctly Nordic raw-material signature. Maturation in Swedish oak, small casks and unusual environments such as the Bodås mine adds pronounced spice and wood influence to an otherwise fruity spirit.",
+      "cask23Narrative": "Mackmyra combines familiar malt-whisky mechanics with distinctly Swedish ingredients and maturation ideas. The gravity-fed distillery uses Scottish-made copper pot stills, but its smoked spirit can combine Swedish peat with juniper, and its cask programme makes extensive use of Swedish oak and unusual warehouse sites. That makes Mackmyra valuable for customers exploring how local raw materials can create a recognisable national style without abandoning traditional malt distillation.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.mackmyra.se/var-historia",
+        "https://www.whisky.com/whisky-database/distilleries/details/mackmyra.html",
+        "https://www.whiskybase.com/whiskies/distillery/207/about"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-ROYAL-BRACKLA",
+      "slug": "royal-brackla",
+      "officialName": "Royal Brackla Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "founded": 1812,
+      "owner": "John Dewar & Sons (Bacardi)",
+      "location": "Cawdor Estate, near Nairn, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Production water is drawn from Cursack Springs; specialist technical sources distinguish this from Cawdor Burn/process-water supplies.",
+        "malt": "Unpeated malted barley; the distillery no longer operates floor maltings.",
+        "fermentation": "Eight washbacks are used: six wooden washbacks and two stainless-steel washbacks. Established specialist sources report a long fermentation of about 68-70 hours, used to favour ester-driven fruitiness.",
+        "stills": "Four copper pot stills: two wash stills and two spirit stills. The stills are tall with rising lyne arms, encouraging reflux and prolonged copper contact for a lighter, perfumed spirit.",
+        "maturation": "Official Royal Brackla releases mature first in American oak before finishing in selected sherry casks including Oloroso, Palo Cortado and Pedro Ximenez styles."
+      },
+      "houseCharacter": "Royal Brackla combines long fermentation with tall, reflux-promoting stills to emphasise clean esters, orchard fruit and perfume rather than heavy sulphury weight. The distillation regime produces a bright, relatively light spirit able to carry assertive sherry finishing. American-oak primary maturation followed by sherry-cask finishing supplies the richer dried-fruit and spice layer associated with the modern house range.",
+      "cask23Narrative": "Royal Brackla is a Highland distillery whose production is engineered toward elegance before the cask work begins. Long fermentation and tall, reflux-heavy stills favour a clean, fruity new make, while the current house range is then shaped through American-oak maturation and carefully chosen sherry finishes. That contrast explains why Royal Brackla can feel polished and perfumed at its core yet still carry substantial dried-fruit and spice richness.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.royalbrackla.com/",
+        "https://www.royalbrackla.com/faq/",
+        "https://www.royalbrackla.com/our-whiskies/",
+        "https://www.whisky.com/whisky-database/distilleries/details/royal-brackla.html",
+        "https://scotchwhisky.com/whiskypedia/1887/royal-brackla/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-SCAPEGRACE",
+      "slug": "scapegrace",
+      "officialName": "Scapegrace Distillery",
+      "entityType": "DISTILLERY",
+      "country": "New Zealand",
+      "founded": 2022,
+      "location": "Central Otago, New Zealand, near Lake Dunstan on the 45th parallel",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "The distillery identifies Southern Alps glacial water as its whisky water source.",
+        "malt": "100% New Zealand barley is used for whisky. Official material identifies local distiller's malt and a separate Manuka-smoked malt made with New Zealand-grown West Coast Manuka wood.",
+        "stills": "Scapegrace states that the Central Otago site uses Speyside-made copper stills; established specialist reporting describes a pair of copper pot stills for whisky production.",
+        "peat": "The distillery makes both unsmoked malt whisky and Manuka-smoked malt whisky; no peat-PPM figure is published in the verified source set.",
+        "maturation": "Official releases and cask-club disclosures include virgin French oak as a core maturation choice, alongside ex-bourbon, Pinot Noir and other cask types. The site deliberately exploits Central Otago's pronounced seasonal temperature swings during maturation."
+      },
+      "houseCharacter": "Scapegrace builds its single malt around New Zealand barley, glacial water and a modern Central Otago maturation climate with large seasonal temperature movement. Copper pot distillation provides the spirit base, while unsmoked and Manuka-smoked malt streams allow the distillery to create distinct aromatic styles without relying on Scotch-style peat conventions. French oak and local wine-cask influence then add spice, structure and regional character to the fruit-led new make.",
+      "cask23Narrative": "Scapegrace is a distinctly New Zealand whisky operation rather than a copy of a Scottish template. Local barley and Southern Alps water form the base, while the distillery also uses Manuka-smoked malt to create a uniquely local smoky style. Central Otago's dramatic seasons and a cask programme that includes French oak and New Zealand wine wood make maturation as important to the identity as the spirit itself.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://scapegracedistillery.com/pages/grain-to-glass-1",
+        "https://scapegracedistillery.com/pages/exclusive-cask-club",
+        "https://scapegracedistillery.com/pages/scapegrace-digital-portfolio",
+        "https://scapegracedistillery.com/products/scapegrace-single-malt-vanguard-40",
+        "https://www.thewhiskyexchange.com/inspiration/article/18144/a-guide-to-new-zealand-whisky",
+        "https://www.whisky.com/whisky-database/distilleries/details/scapegrace.html"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-SPIRIT-OF-YORKSHIRE",
+      "slug": "spirit-of-yorkshire",
+      "officialName": "Spirit of Yorkshire Distillery",
+      "entityType": "DISTILLERY",
+      "country": "England",
+      "location": "Hunmanby, North Yorkshire, England",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Production water comes from the chalk aquifer beneath the family farm at Hunmanby Grange.",
+        "malt": "Filey Bay is made with 100% homegrown barley from Hunmanby Grange. The barley is malted nearby in Bridlington before milling and mashing on the farm.",
+        "fermentation": "Mashing and fermentation take place at Hunmanby Grange, where the farm and Wold Top Brewery infrastructure form the first stage of the whisky-making process. Exact fermentation duration is not published in the verified first-party sources reviewed.",
+        "stills": "Spirit of Yorkshire operates two large Forsyth pot stills and a four-plate copper column that works in tandem with the spirit still, creating an unusual hybrid configuration for single malt production.",
+        "maturation": "Whisky is matured on the family farm at Hunmanby Grange. The distillery describes its process as fully field-to-bottle, from growing barley through maturation and bottling."
+      },
+      "houseCharacter": "Spirit of Yorkshire combines estate-grown barley and chalk-aquifer water with an unusual still configuration incorporating two large pot stills and a four-plate column working with the spirit still. That setup gives the distillers additional control over spirit character while preserving a farm-led production identity from grain through maturation. The distillery describes Filey Bay's core profile as light, fruity and creamy, consistent with its aim to build an approachable but technically distinctive English single malt.",
+      "cask23Narrative": "Spirit of Yorkshire is the physical distillery behind Filey Bay and one of the clearest true field-to-bottle whisky operations in England. Its barley is grown on the family farm, its water comes from the chalk aquifer beneath that land, and its unusual combination of pot stills with a four-plate copper column gives the distillers extra control over spirit style. For customers, Filey Bay is therefore not simply a brand story: it is a single-estate whisky whose agriculture, brewing, distillation and maturation are all closely linked.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://spiritofyorkshire.com/about-us/",
+        "https://spiritofyorkshire.com/farm/",
+        "https://spiritofyorkshire.com/farm/one-entity-two-sites/",
+        "https://spiritofyorkshire.com/distillery-tours/",
+        "https://spiritofyorkshire.com/madeofyorkshire/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-SPRINGBANK",
+      "slug": "springbank",
+      "officialName": "Springbank Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Campbeltown",
+      "founded": 1828,
+      "location": "Campbeltown, Kintyre, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Springbank states that its production water comes from the hills around Campbeltown; established technical literature identifies Crosshill Loch as the process-water source.",
+        "malt": "Springbank malts 100% of its own barley on traditional floor maltings. Kilning varies by spirit style: Springbank uses a combination of peat fire and hot air, Longrow is the heavily peated style, and Hazelburn is unpeated.",
+        "fermentation": "Six boatskin-larch washbacks are used. Official Springbank material states fermentation can run for up to 110 hours.",
+        "stills": "Three copper stills are used: one wash still, one low-wines still and one spirit still. The wash still is direct-fired by live flame. Springbank is distilled approximately 2.5 times, Longrow twice and Hazelburn three times.",
+        "peat": "Peat exposure varies deliberately by the three spirit styles made at the same physical distillery: Springbank, heavily peated Longrow and unpeated Hazelburn.",
+        "maturation": "Cask filling, maturation, bottling and labelling are all carried out on site; Springbank states that every production stage from malting to bottling is completed at the distillery."
+      },
+      "houseCharacter": "Springbank's defining feature is not one isolated piece of equipment but a completely integrated, manually controlled production system. Floor malting, variable peat regimes, long wooden-washback fermentation and three-still distillation allow one site to create three materially different spirit styles, with the direct-fired wash still and 2.5-times distillation central to Springbank itself. On-site maturation and bottling preserve continuity between spirit production, cask development and finished whisky.",
+      "cask23Narrative": "Springbank is one of the rare distilleries where the entire whisky journey still happens under one roof, from floor malting to bottling. The same hardware is deliberately used in different ways to make Springbank, Longrow and Hazelburn, changing peat levels and distillation regimes rather than treating them as separate distilleries. For a whisky drinker, that makes Springbank a remarkable demonstration of how process choices can reshape spirit character before maturation even begins.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.springbank.scot/about/process/",
+        "https://www.springbank.scot/about/distillery/",
+        "https://www.ibd.org.uk/media/5e2hin4o/5-campbeltown.pdf"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-STARWARD",
+      "slug": "starward",
+      "officialName": "Starward Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Australia",
+      "location": "Port Melbourne, Victoria, Australia",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "malt": "Starward uses Australian malted barley, including barley grown around Geelong for its single malt production.",
+        "fermentation": "A combination of brewer's and distiller's yeast is used to develop tropical, fruit-forward ester character. Official educational material states whisky fermentation takes at least 48 hours.",
+        "stills": "Whisky is distilled in copper stills, with the distillery emphasising retention of fermentation-derived tropical fruit character in the new make.",
+        "maturation": "Starward is built around Australian red-wine-barrel maturation, including Shiraz, Cabernet Sauvignon, Pinot Noir and Merlot casks sourced from wine regions such as the Yarra Valley, Barossa Valley and Margaret River."
+      },
+      "houseCharacter": "Starward deliberately treats fermentation as a flavour-building stage, using both brewer's and distiller's yeast to generate tropical-fruit esters. Copper distillation is then managed to preserve rather than erase those fruit-driven congeners. Fresh Australian red-wine casks add berry fruit, spice and tannin, making the maturation programme a direct extension of the fruity new-make design.",
+      "cask23Narrative": "Starward's identity is unmistakably Australian: local malt, brewer-led fermentation thinking and fresh Australian wine barrels rather than a Scotch-style cask template. The spirit is designed to carry tropical fruit from fermentation through copper distillation, then meet Shiraz, Cabernet, Pinot and other red-wine casks in Melbourne's variable climate. The result is a whisky style where fermentation fruit and wine-cask character are deliberately built to work together.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://starward.com.au/collections/award-winning-whisky",
+        "https://starward.com.au/blogs/journal/what-is-single-malt-whisky"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-YAMAZAKI",
+      "slug": "yamazaki",
+      "officialName": "Suntory Yamazaki Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Japan",
+      "founded": 1923,
+      "owner": "Suntory Spirits",
+      "location": "Shimamoto, Osaka Prefecture, Japan, southwest of Kyoto",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Yamazaki was selected for its high-quality local water at the confluence area of the Katsura, Uji and Kizu rivers; Suntory identifies the area's water and humid microclimate as fundamental to the distillery.",
+        "fermentation": "Suntory deliberately uses different washback types and yeast regimes to create multiple component-spirit styles. Exact washback counts and fermentation durations are not admitted because current first-party public sources emphasise diversity rather than one fixed specification.",
+        "stills": "Yamazaki uses multiple differently shaped copper pot stills rather than a single uniform still design, enabling production of a broad range of malt component spirits. Suntory confirms direct firing is used for first distillation as part of its quality approach, alongside continuing pilot-distillery research into alternative heating technologies.",
+        "maturation": "A wide range of cask types is deliberately used to create diverse malt components suitable for long-term maturation. The humid Yamazaki climate is treated by Suntory as an important part of maturation conditions."
+      },
+      "houseCharacter": "Yamazaki is designed around diversity rather than one narrowly fixed new-make style. Different washbacks, pot-still geometries, direct-fired first distillation and varied cask types allow Suntory to produce many distinct malt components at one physical site. Those components are built to withstand long ageing, with Yamazaki's humid climate and broad cask repertoire adding further differentiation during maturation.",
+      "cask23Narrative": "Yamazaki is best understood as a whisky-making laboratory at full distillery scale. Instead of relying on one still shape or one fermentation regime, Suntory deliberately creates multiple styles of new make using different washbacks, still geometries and cask types, then brings those components together through maturation and blending expertise. That production diversity is one of the reasons Yamazaki can show such breadth while remaining recognisably rooted in the same historic Japanese distillery.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.suntory.com/news/article/mt_items/14475E.pdf",
+        "https://www.suntory.com/news/article/mt_items/14584E.pdf",
+        "https://www.suntory.com/news/article/mt_items/14314E.pdf",
+        "https://www.suntory.com/csr/data/report/pdf/ccbook_2025.pdf"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-BALVENIE",
+      "slug": "balvenie",
+      "officialName": "The Balvenie Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Speyside",
+      "founded": 1892,
+      "owner": "William Grant & Sons",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "malt": "The Balvenie retains traditional floor maltings and grows part of its own barley. Established specialist technical references state that only a minority of total malt demand is produced on site, with the balance purchased externally.",
+        "fermentation": "Established specialist references describe approximately 65-hour fermentation in large washbacks, producing a sweet, malty wash.",
+        "stills": "The distillery operates multiple wash and spirit stills with tall necks and reflux features. Specialist references describe five wash stills and six spirit stills, with distinctive reflux balls and differing lyne-arm orientations that promote separation and a sweet, refined spirit.",
+        "peat": "The standard house style is essentially unpeated; once a year The Balvenie produces a separate smoky spirit during its Peat Week programme using peat prepared through its own malting operation.",
+        "maturation": "The distillery maintains an on-site cooperage and is strongly associated with American-oak whisky casks, European-oak sherry casks and secondary cask finishing, a technique pioneered at The Balvenie by David C. Stewart."
+      },
+      "houseCharacter": "Balvenie's production architecture is built around preserving sweetness while maintaining texture. Floor-malted barley contributes a traditional cereal base, while long fermentation and high-reflux still geometry favour honeyed, fruity spirit with relatively little roughness. Its extensive in-house cooperage and finishing programme then layers vanilla, spice, dried fruit and other cask-derived notes onto that sweet Speyside core.",
+      "cask23Narrative": "The Balvenie is unusual not because one single production feature dominates, but because so many traditional crafts remain on site. Floor malting, resident coppersmithing and cooperage feed into a spirit designed to be naturally honeyed and supple. That makes it especially responsive to the distillery's famous use of secondary cask maturation and wood finishing.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.thebalvenie.com/en-gb/our-whisky-collection/stories-whiskies/the-creation-of-a-classic/",
+        "https://www.whisky.com/whisky-database/distilleries/details/balvenie.html"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-BENRIACH",
+      "slug": "benriach",
+      "officialName": "The Benriach Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Speyside",
+      "founded": 1898,
+      "owner": "Brown-Forman",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Benriach draws mineral-rich water from an underground aquifer beneath the distillery grounds and uses a distinctive four-water mash.",
+        "malt": "Benriach produces both unpeated and Highland-peated spirit and periodically revives its own floor maltings during its annual Malting Season.",
+        "fermentation": "The official site links the sweet four-water mash to a fruit-forward wash; established specialist technical references describe eight washbacks and an unusually long fermentation averaging around 100 hours.",
+        "stills": "Benriach operates four main copper pot stills, two wash and two spirit stills, and distils deliberately slowly. The distillery also makes small annual runs of triple-distilled spirit.",
+        "peat": "Benriach distils a Highland-peated style as well as its classic unpeated spirit, using mainland peat to create a sweeter woodland-smoke profile rather than a medicinal coastal peat profile.",
+        "maturation": "Benriach uses an unusually broad cask palette sourced globally, including bourbon, sherry, wine and other fortified-wine casks, with stocks held in both traditional dunnage and larger warehouse formats."
+      },
+      "houseCharacter": "Benriach deliberately builds fruit before the spirit reaches the cask: its mineral-rich water, four-water mash and long fermentation favour ester formation and orchard-fruit character. Slow distillation then preserves a broad heart cut, while the distillery can switch among unpeated, peated and occasional triple-distilled styles. That flexible spirit architecture is designed to work with an unusually diverse cask inventory rather than one narrowly defined maturation regime.",
+      "cask23Narrative": "Benriach is best understood as a Speyside distillery built for flavour diversity. Its long, sweet fermentation and slow distillation create a fruit-forward core, but the same site also produces Highland-peated and occasional triple-distilled spirit. That gives the maturation team an unusually wide canvas, which is why Benriach expressions can range from orchard-fruit Speyside elegance to sweet smoke and richly cask-driven styles.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.benriachdistillery.com/en-us/our-process/",
+        "https://www.benriachdistillery.com/our-history/",
+        "https://www.whisky.com/whisky-database/distilleries/details/benriach.html"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-DALMORE",
+      "slug": "dalmore",
+      "officialName": "The Dalmore Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "founded": 1839,
+      "location": "Alness, Highlands, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "The Dalmore identifies Loch Morie as its water source.",
+        "fermentation": "The 2026 distillery expansion added Oregon-pine washbacks. No precise fermentation-duration figure is admitted because it is not published in the verified first-party source set.",
+        "stills": "The Dalmore's asymmetric copper stillhouse is intentionally preserved through exact Forsyths replicas. The stills use boil balls to increase copper contact; wash stills have distinctive flat-topped heads with side outlets into long winding lyne arms, while spirit stills use water jackets around the heads and necks to promote reflux.",
+        "maturation": "The distillery operates a multi-cask maturation philosophy supported by long-standing relationships with major bodegas and wineries, using cask selection as a central part of the house style."
+      },
+      "houseCharacter": "The Dalmore's robust, fruity new make is shaped by an intentionally asymmetric set of stills rather than a uniform stillhouse design. Boil balls, unusual wash-still vapour paths and water-jacketed spirit stills create different levels of copper contact and reflux, producing complementary spirit weights. That structurally complex new make is designed to withstand long and layered maturation across sherry, wine and other high-impact cask types.",
+      "cask23Narrative": "The Dalmore's production story begins with unusually individual still geometry rather than a standardised set of identical pots. Different still shapes create distinct spirit personalities, with added reflux and copper contact refining the new make while retaining weight. That strong, fruity base is then deliberately built for sophisticated multi-cask maturation, which is why wood management is so central to The Dalmore's identity.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.thedalmore.com/en-us/our-world/a-stillhouse-built-with-purpose/",
+        "https://www.thedalmore.com/en/our-world/reimagining-the-home-of-the-dalmore/",
+        "https://www.thedalmore.com/en-gb/our-story/",
+        "https://www.thedalmore.com/en-us/our-world/a-window-illuminating-the-artistry-of-the-dalmore/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-GLENDRONACH",
+      "slug": "glendronach",
+      "officialName": "The GlenDronach Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "founded": 1826,
+      "location": "Forgue by Huntly, Aberdeenshire, Scotland",
+      "owner": "Brown-Forman",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Soft Highland water is drawn from springs associated with the Dronac Burn on the distillery grounds.",
+        "malt": "Scottish malted barley is used; small volumes of peated spirit have also been produced.",
+        "fermentation": "Traditional Scottish larch washbacks are used. Established specialist reporting places fermentation at roughly 55-60 hours for the current robust, weighty style.",
+        "stills": "The distillery uses four copper pot stills, two wash and two spirit stills, with the distinctive saxophone-shaped geometry highlighted by the distillery.",
+        "peat": "The house style is primarily unpeated, with limited peated production occurring separately.",
+        "maturation": "Pedro Ximénez and Oloroso sherry casks are central to the house style, with maturation in traditional dunnage warehouses."
+      },
+      "houseCharacter": "A relatively compact fermentation regime and robust Highland new make preserve cereal weight and dark-fruit potential rather than chasing maximum lightness. The saxophone-shaped stills retain body while still allowing enough copper contact for fruit and texture to remain articulate. Long maturation in Oloroso and Pedro Ximénez casks then amplifies dried fruit, nut, spice and natural colour into the deeply sherried style for which GlenDronach is known.",
+      "cask23Narrative": "The GlenDronach is built around a substantial Highland spirit designed to stand up to long maturation in richly seasoned sherry oak. Traditional larch washbacks and distinctive saxophone-shaped stills help preserve weight and texture before the whisky moves into Oloroso and Pedro Ximénez casks in dunnage warehouses. For customers, that means the sherry influence is not simply a finish laid over a delicate spirit; it is integrated with a muscular new make capable of carrying deep dried-fruit, nut and spice character for decades.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.glendronachdistillery.com/our-craft/",
+        "https://www.masterofmalt.com/blog/post/how-the-glendronach-is-winning-over-sherry-lovers/",
+        "https://www.masterofmalt.com/blog/post/the-glendronach-cask-strength-batch-12-review/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-LAKES",
+      "slug": "the-lakes",
+      "officialName": "The Lakes Distillery",
+      "entityType": "DISTILLERY",
+      "country": "England",
+      "location": "Bassenthwaite, Cumbria, England",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "The distillery uses pure water from the Lake District National Park in whisky production.",
+        "malt": "Unpeated malted barley is used for The Lakes single malt.",
+        "fermentation": "Three different yeast strains are combined to build layered flavour. Fermentation is extended to as much as 96 hours, deliberately reaching malolactic fermentation to increase complexity and creamy texture.",
+        "stills": "The distillery uses copper pot distillation with separate wash and spirit stills. Distillation is run slowly to maximise copper contact and retain a robust, fruity spirit suited to active maturation.",
+        "maturation": "The house philosophy is explicitly sherry-led and wood-forward. The distillery has expanded racked warehousing on site to support maturation and stock growth."
+      },
+      "houseCharacter": "The Lakes begins with unpeated malt and intentionally long, multi-yeast fermentation to create a robust, fruity and textural wash. Slow copper-pot distillation maximises copper contact while preserving enough body for active wood influence. The resulting spirit is engineered specifically for a sherry-led, wood-forward maturation regime rather than for neutral cask treatment.",
+      "cask23Narrative": "The Lakes Distillery designs its spirit with maturation already in mind. Three yeast strains and fermentation of up to 96 hours build fruit and texture before slow copper distillation creates a spirit strong enough to stand up to assertive sherry-led wood. It is a useful example of modern English whisky making where fermentation, distillation and cask design are treated as one connected flavour system.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://lakesdistillery.com/pages/whisky-story",
+        "https://lakesdistillery.com/blogs/news/lakes-distillery-secure-investment-to-support-growth-plans"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-MACALLAN",
+      "slug": "macallan",
+      "officialName": "The Macallan Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Speyside",
+      "founded": 1824,
+      "owner": "The Edrington Group",
+      "location": "The Macallan Estate, Easter Elchies, Craigellachie, Moray",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "The current distillery continues to use the same estate water source and raw-material regime as the previous Macallan site; established technical sources describe on-site spring water in production.",
+        "fermentation": "The current distillery uses stainless-steel fermenters fitted with external cooling to control temperature within the integrated stillhouse/tun-room environment. Exact current fermentation duration is not disclosed in the verified source set.",
+        "stills": "The current distillery contains 36 small copper pot stills arranged in three circular pods: 12 wash stills and 24 spirit stills. Macallan deliberately retains unusually small spirit stills to maximise copper contact and preserve its rich, fruity distillate style.",
+        "maturation": "Macallan operates a highly controlled oak programme centred on sherry-seasoned European and American oak alongside ex-bourbon casks, with wood sourcing, seasoning and cooperage specification managed as a core part of production."
+      },
+      "houseCharacter": "Macallan's unusually small spirit stills create high copper contact while retaining enough weight to produce a rich, fruity new make. The modern distillery uses temperature-controlled stainless fermentation to reproduce the established spirit character despite a radically different building. Its highly managed sherry-seasoned oak programme then provides much of the dried-fruit, spice and polished oak character associated with mature Macallan.",
+      "cask23Narrative": "The Macallan's modern distillery looks radically different from the old site, but the production brief was continuity rather than reinvention. Its signature remains the use of unusually small spirit stills and a tightly controlled oak programme, especially sherry-seasoned casks. For the drinker, the key idea is that the distillery engineers a rich fruit-driven spirit first, then uses carefully specified wood to build depth rather than relying on cask influence alone.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.themacallan.com/en-us/inside-the-macallan/our-process/distinction-in-the-distillation",
+        "https://www.themacallan.com/en-us/inside-the-macallan/our-estate/a-celebration-of-our-past-present-and-future",
+        "https://scotchwhisky.com/magazine/features/19128/inside-macallan-s-ground-breaking-distillery/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-TOBERMORY",
+      "slug": "tobermory",
+      "officialName": "Tobermory Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Islands",
+      "founded": 1798,
+      "location": "Tobermory, Isle of Mull, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Established specialist sources identify Gearr Abhainn as the distillery water source.",
+        "malt": "The same physical distillery makes unpeated Tobermory and heavily peated Ledaig spirit. Specialist technical references describe Tobermory malt at very low phenol levels and Ledaig at roughly 35 ppm or higher.",
+        "fermentation": "Four wooden washbacks are used. Established specialist sources report variable fermentation, approximately 50-100 hours, with longer runs supporting fruit development.",
+        "stills": "Two wash stills and two spirit stills are used. The stills incorporate reflux bowls and distinctive S-shaped/kinked lyne arms, increasing reflux; shell-and-tube condensers are used.",
+        "peat": "Peat is a deliberate production split: Tobermory is the unpeated house spirit, while Ledaig is the heavily peated style from the same distillery.",
+        "maturation": "Only limited warehousing is retained on site; a significant proportion of maturation takes place away from the distillery, while special or limited stocks can be held locally."
+      },
+      "houseCharacter": "Tobermory's unusual still geometry creates meaningful reflux despite the distillery's relatively oily spirit texture. Variable fermentation length allows fruit character to develop before the spirit reaches the two pairs of stills. The same hardware then supports two distinct malt streams—unpeated Tobermory and heavily peated Ledaig—making malt specification rather than separate plant one of the key determinants of style.",
+      "cask23Narrative": "Tobermory is really two whisky personalities made in one historic Isle of Mull distillery. Unpeated Tobermory and smoky Ledaig share the same fermentation and distinctive kinked-lyne-arm stillhouse, so the major stylistic split begins with the malt itself. That makes the site a useful example of how a single set of hardware can produce dramatically different whiskies when peat specification is changed deliberately.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://tobermorydistillery.com/pages/distillery-experiences",
+        "https://www.whisky.com/whisky-database/distilleries/details/tobermory.html",
+        "https://scotchwhisky.com/whiskypedia/1900/tobermory/",
+        "https://www.whiskybase.com/whiskies/distillery/115/about"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-TOMATIN",
+      "slug": "tomatin",
+      "officialName": "Tomatin Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "founded": 1897,
+      "owner": "Tomatin Distillery Co. Ltd. (Takara Shuzo group)",
+      "location": "Tomatin, Inverness-shire, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Tomatin uses naturally soft water from the Alt-na-Frith burn.",
+        "malt": "Scottish malted barley is used. The core Tomatin spirit is unpeated; a lightly peated production run made for roughly one week each year is used for Cu Bocan.",
+        "fermentation": "Twelve stainless-steel washbacks are documented by established specialist sources. Published specialist fermentation figures conflict materially, so no exact duration is admitted to the governed profile.",
+        "stills": "Twelve tall, slim copper pot stills remain installed at Tomatin, arranged as six wash and six spirit stills, although production utilisation varies. The tall still geometry supports the distillery's light, soft and fruity spirit style.",
+        "peat": "Tomatin's core spirit is unpeated; the distillery separately produces a lightly peated spirit for Cu Bocan during a limited annual production period.",
+        "maturation": "Official material emphasises a broad wood policy including bourbon, sherry, refill and wine/fortified-wine casks, with both dunnage and racked warehousing represented in established technical sources."
+      },
+      "houseCharacter": "Tomatin combines soft Highland water with tall, slim stills to produce a light and fruit-forward new make rather than a heavy spirit. The site retains unusually large installed still capacity, but production is managed for quality rather than the scale that once made Tomatin Scotland's largest malt distillery. A broad wood policy then gives the gentle spirit enough flexibility to support both classic bourbon/sherry maturation and more experimental cask programmes.",
+      "cask23Narrative": "Tomatin's modern identity is almost the opposite of its historic reputation for sheer scale. Although twelve stills remain on site, the distillery now emphasises a softer, fruitier spirit made with Alt-na-Frith water and tall copper stills, then develops that spirit through a broad cask programme. The separate lightly peated Cu Bocan run shows how the same plant can also create a different house stream without redefining the core Tomatin style.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://tomatin.com/",
+        "https://tomatin.com/tomatin/our-whisky/",
+        "https://scotchwhisky.com/whiskypedia/1901/tomatin/",
+        "https://www.whisky.com/whisky-database/distilleries/details/tomatin.html"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-TORABHAIG",
+      "slug": "torabhaig",
+      "officialName": "Torabhaig Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Islands",
+      "founded": 2017,
+      "location": "Sleat Peninsula, Isle of Skye, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "malt": "Scottish two-row spring barley is used, with malt dried over peat smoke for the core house style.",
+        "fermentation": "Traditional Douglas-fir washbacks are used. An established Skye technical source reports eight wooden washbacks and fermentation varying approximately 70-120 hours; the distillery's own published material confirms that fermentation length is an actively controlled flavour variable.",
+        "stills": "Torabhaig uses twin Forsyths copper pot stills designed specifically for the restored steading: one wash still and one spirit still.",
+        "peat": "Peat is central to the distillery's 'smoke with taste' house style, but the exact PPM level varies across production and is not hard-coded here as a single facility-wide number.",
+        "maturation": "The majority of new make is filled to first-fill bourbon casks sourced from Kentucky, with sherry and virgin-oak components used for selected releases."
+      },
+      "houseCharacter": "Torabhaig builds its spirit around peated malt, long flavour-driven fermentation and a compact two-still plant rather than high-volume production. The distillery treats fermentation length, yeast, cut points and peat level as active variables, which is why its smoky house style is expressed with significant fruit and textural variation. Bourbon-led maturation preserves that smoky-fruity core while selected sherry and virgin-oak casks add additional structure.",
+      "cask23Narrative": "Torabhaig's aim is not simply to make heavily smoky whisky, but to make peat carry flavour. Its Douglas-fir washbacks, twin Forsyths stills and variable fermentation programme are used to build fruit and texture underneath the smoke, while first-fill bourbon remains the main maturation foundation. That is the production logic behind the distillery's own phrase 'smoke with taste'.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://torabhaig.com/pages/the-journey",
+        "https://torabhaig.com/collections/journeymans-series",
+        "https://torabhaig.com/",
+        "https://www.marussiabeveragesusa.com/content/uploads/2021/02/Torabhaig-SellSheet-MBevUSA.pdf",
+        "https://www.tighnatalisker.co.uk/whisky/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-TULLIBARDINE",
+      "slug": "tullibardine",
+      "officialName": "Tullibardine Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "founded": 1949,
+      "location": "Blackford, Perthshire, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Tullibardine uses water from the Danny Burn, fed by mineral-rich springs in the Ochil Hills.",
+        "fermentation": "The current official site states the distillery has 10 washbacks; established specialist sources describe stainless-steel washbacks and a minimum fermentation of roughly 52 hours.",
+        "stills": "Four copper pot stills are operated on site: two wash stills and two spirit stills. Established specialist sources report wash-still capacities around 21,500 litres and spirit-still capacities around 16,200 litres.",
+        "maturation": "Maturation is managed on site with warehousing capacity for around 20,000 casks; the distillery also operates its own cooperage and bottling plant."
+      },
+      "houseCharacter": "Tullibardine combines mineral-rich Ochil Hills water with a straightforward four-pot-still Highland production setup and on-site control from distillation through maturation and bottling. Its stainless-steel fermentation regime is comparatively conventional, placing greater emphasis on clean spirit production and subsequent wood management. The extensive on-site warehousing and cooperage give the distillery unusually direct control over cask handling after distillation.",
+      "cask23Narrative": "Tullibardine is a particularly self-contained Highland operation: almost every stage after malting happens on the Blackford site. Danny Burn water feeds a four-still plant, while casks are matured, maintained and eventually bottled within the same distillery complex. That makes wood management and on-site control central to understanding the Tullibardine style.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.tullibardine.com/distillery",
+        "https://tullibardine.com/our-story",
+        "https://www.whisky.com/whisky-database/distilleries/details/tullibardine.html"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-WHITE-PEAK",
+      "slug": "white-peak",
+      "officialName": "White Peak Distillery",
+      "entityType": "DISTILLERY",
+      "country": "England",
+      "location": "The Wire Works, Ambergate, Derbyshire, England",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "malt": "Wire Works is made as a lightly peated English single malt; White Peak places strong emphasis on local provenance and flavour creation during mashing and fermentation.",
+        "fermentation": "Fresh live brewer's yeast is collected from Thornbridge Brewery. White Peak states that Wire Works uses extended fermentation, with current first-party technical material describing 140-hour fermentations; earlier production writing documents a 96-hour regime, showing deliberate evolution toward longer fermentation.",
+        "stills": "The distillery uses traditional copper pot distillation and double distils its whisky. Exact pot-still capacities are not admitted because they are not published in the verified first-party source set.",
+        "peat": "The house spirit is lightly peated, intended to provide elegant smoke beneath the fermentation-derived fruit rather than dominate the profile.",
+        "maturation": "Wire Works uses a broad wood programme including STR ex-red-wine casks, ex-bourbon barrels, virgin American oak and other wine casks; maturation and bottling take place at White Peak."
+      },
+      "houseCharacter": "White Peak deliberately uses fresh live brewer's yeast and very long fermentation to maximise fruit and aromatic complexity before distillation. Light peat adds a restrained smoky layer, while copper pot distillation preserves enough body for active wood influence. STR wine casks, bourbon wood and other oak types then work with rather than replace the fermentation-driven fruit structure.",
+      "cask23Narrative": "White Peak is a modern English distillery with a distinctly brewing-led approach to whisky. Fresh Thornbridge brewer's yeast and unusually long fermentation are used to build fruit before the lightly peated wash reaches the copper stills, making fermentation one of the real signatures of Wire Works. The cask programme is broad, but the distillery's own releases repeatedly show that the spirit—not just the wood—is intended to remain visible.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.whitepeakdistillery.co.uk/our-story/",
+        "https://www.whitepeakdistillery.co.uk/60-second-read-on-yeast/",
+        "https://www.whitepeakdistillery.co.uk/derbyshire-rum-distillation-fermentation/",
+        "https://www.whitepeakdistillery.co.uk/wire-works-bourbon-barrel/",
+        "https://www.whitepeakdistillery.co.uk/wire-works-wine-cask-series/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-WILD-TURKEY",
+      "slug": "wild-turkey",
+      "officialName": "Wild Turkey Distillery",
+      "entityType": "DISTILLERY",
+      "country": "United States",
+      "region": "Kentucky",
+      "location": "Lawrenceburg, Kentucky, United States",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "The distillery sits on a Kentucky River limestone shelf and uses limestone-filtered local water, which naturally removes iron before mashing.",
+        "malt": "Wild Turkey uses non-GMO corn, rye and malted barley across its bourbon and rye mash bills.",
+        "fermentation": "A proprietary yeast strain is used in a sour-mash process. Campari technical material identifies 23 fermenters and an approximately 80-90 hour fermentation, producing a beer around 10% ABV.",
+        "stills": "The main distillation system uses a tall 19-plate column still followed by a doubler/pot-style second distillation. Wild Turkey deliberately distils at a lower proof than the legal maximum to retain more flavour and reduce subsequent dilution.",
+        "maturation": "New make enters new charred American white-oak barrels at a deliberately low proof; the house uses No. 4 char barrels and matures in Kentucky warehouses under the Russell family's long-standing production regime."
+      },
+      "houseCharacter": "Wild Turkey combines high-rye grain recipes, a proprietary yeast culture and relatively long sour-mash fermentation to generate a robust, spicy ferment before distillation. The 19-plate column and doubler are operated at deliberately lower proof than the legal ceiling, retaining more congeners and reducing the amount of water needed before barrel entry. Heavy-char American oak then amplifies vanilla, caramel and spice without erasing the grain-driven structure.",
+      "cask23Narrative": "Wild Turkey's flavour starts with a production philosophy of keeping more character rather than stripping it away. Limestone water, a proprietary yeast strain and long sour-mash fermentation feed a column-and-doubler system that deliberately distils below the legal maximum proof. The whiskey then enters heavily charred American oak at a relatively low proof, helping explain the dense spice, caramel and grain intensity associated with the house style.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://www.wildturkeybourbon.com/en-us/our-craft/",
+        "https://www.campariacademy.com/en-uk/training/products-category/wild-turkey-bourbon-whiskey/",
+        "https://www.campariacademy.com/en-au/wp-content/uploads/sites/6/2023/01/CA_Bourbon-Branch-Web-Booklet.pdf"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-WOLFBURN",
+      "slug": "wolfburn",
+      "officialName": "Wolfburn Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "location": "Thurso, Caithness, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Water is drawn from the Wolf Burn, rising from a spring near the distillery and naturally filtered through Caithness stone.",
+        "malt": "Wolfburn uses sustainably sourced UK malt and produces both non-peated and lightly peated spirit depending on the production run.",
+        "fermentation": "A single bottom-fermenting yeast strain is used. Wolfburn describes fermentation as deliberately long and unhurried; no exact hour figure is admitted because it is not published in the verified first-party source set.",
+        "stills": "Whisky is double distilled slowly and gently in small copper pot stills. Exact still counts and capacities are not admitted from first-party evidence currently available.",
+        "peat": "The distillery produces both non-peated and lightly peated spirit; official bottling data shows lightly peated examples around 5 ppm, but this is not treated as a universal facility-wide specification.",
+        "maturation": "All whisky is matured on site in traditional-style dunnage warehouses near the sea. Core cask types include first-fill ex-bourbon barrels, first- and second-fill Oloroso sherry butts, rum casks and custom recoopered quarter casks."
+      },
+      "houseCharacter": "Wolfburn is built around unhurried production: extended fermentation is followed by slow, gentle small-pot distillation rather than high-throughput spirit stripping. The result is intended to preserve fruit and a smooth, rounded texture before oak influence. On-site dunnage maturation, with bourbon and sherry casks at the centre of the programme, then develops the spirit in Caithness's cool northern climate.",
+      "cask23Narrative": "Wolfburn's production philosophy is deliberately patient. Spring water from the Wolf Burn, long fermentation and slow double distillation in small copper stills are all used to create a clean but flavourful spirit before it enters oak. Because every cask matures at the distillery in traditional dunnage warehouses, the northern Caithness environment remains part of the whisky's story from new make to bottle.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://wolfburn.com/pages/corewhiskies",
+        "https://wolfburn.com/products/10-year-old-single-malt-scotch-whisky-46-vol-70cl",
+        "https://wolfburn.com/products/12-year-old-single-malt-scotch-whisky-46-vol-35cl",
+        "https://wolfburn.com/pages/dramsontheburn"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    }
+  ]
+}

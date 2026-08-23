@@ -1,0 +1,30 @@
+{
+  "distilleryId": "DIST-LAPHROAIG",
+  "slug": "laphroaig",
+  "officialName": "Laphroaig Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Islay",
+  "founded": 1815,
+  "owner": "Suntory Global Spirits",
+  "location": "Port Ellen, Isle of Islay, PA42 7DU",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Laphroaig's production water comes from the Kilbride Reservoir and Kilbride Stream, flowing across Islay peatland before reaching the distillery.",
+    "malt": "The distillery retains traditional floor malting for part of its barley production. Barley is hand-turned and cold-smoked over locally cut Islay peat; additional malt is sourced externally to complete production needs.",
+    "stills": "Established specialist technical sources document seven steam-heated copper pot stills: three wash stills and four spirit stills. The squat spirit-still geometry and ascending lyne arms preserve a powerful, oily spirit while still allowing meaningful copper contact.",
+    "peat": "Peat is central to Laphroaig's production. The distillery specifically emphasises low-temperature peat smoking using local peat rich in heather, lichen, seaweed and moss.",
+    "maturation": "American-oak ex-bourbon casks are central to the house style, with sherry-seasoned and smaller-format casks used for selected expressions. Maturation takes place at the coastal Islay site as well as within the wider brand's warehousing system."
+  },
+  "houseCharacter": "Laphroaig builds intensity before distillation through floor-malted barley and low-temperature Islay peat smoking. Its squat pot stills and relatively low-reflux geometry preserve oily, phenolic compounds, while copper contact keeps the spirit from becoming coarse. Ex-bourbon maturation then frames the medicinal, maritime and smoky new make with vanilla and coconut sweetness rather than covering it.",
+  "cask23Narrative": "Laphroaig's identity begins long before the cask: Kilbride water, floor malting and cold peat smoke establish the famous medicinal and maritime core. The stillhouse is configured to retain weight and phenolic power rather than polish it into a delicate spirit. In the glass, that engineering explains why Laphroaig combines iodine-like smoke and coastal intensity with an underlying sweetness from American oak.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.laphroaig.com/en-gb/isle-of-islay-whisky",
+    "https://www.laphroaig.com/whiskies",
+    "https://www.theblend.world/learn/brands/laphroaig/laphroaig-production",
+    "https://www.laphroaig.it/en/news/news_17.html"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

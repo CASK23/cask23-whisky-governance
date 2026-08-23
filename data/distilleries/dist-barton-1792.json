@@ -1,0 +1,27 @@
+{
+  "distilleryId": "DIST-BARTON-1792",
+  "slug": "barton-1792",
+  "officialName": "Barton 1792 Distillery",
+  "entityType": "DISTILLERY",
+  "country": "United States",
+  "founded": 1879,
+  "location": "Bardstown, Kentucky, United States",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "The distillery site includes the Tom Moore Spring; established specialist references describe the process water as Kentucky limestone-filtered spring water.",
+    "malt": "Bourbon production uses corn with rye and malted barley across its traditional mash bills; some 1792 releases substitute wheat for rye or increase the rye proportion for expression-specific recipes.",
+    "fermentation": "Established specialist references describe closed fermentation with a proprietary yeast strain and fermentation in the roughly 72–96 hour range.",
+    "stills": "Barton 1792 uses column distillation followed by a copper doubler for a second distillation step.",
+    "maturation": "Whiskey matures on site in traditional Kentucky rickhouses. The official distillery states that the Bardstown property contains 29 barrel-aging warehouses; bourbon is matured in new charred oak as required by law."
+  },
+  "houseCharacter": "Barton 1792 follows the classic Kentucky architecture of grain-led sour-mash bourbon production, column distillation and a second pass through a copper doubler. Limestone-influenced water and a relatively long fermentation provide a clean foundation for grain and yeast character before distillation. Maturation across a large rickhouse estate then drives the concentration of caramel, spice and oak associated with the distillery's bourbon profile.",
+  "cask23Narrative": "Barton 1792 is a large historic Bardstown distillery built around classic Kentucky bourbon engineering rather than pot-still whisky production. Its whiskey is column distilled, redistilled through a copper doubler and matured across a substantial estate of traditional barrel warehouses. That structure helps explain the firm grain, spice and oak character found across the 1792 family, even as individual mash bills vary.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://1792bourbon.com/distillery/",
+    "https://1792bourbon.com/our-bourbon/",
+    "https://www.whiskybase.com/whiskies/distillery/335/about"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

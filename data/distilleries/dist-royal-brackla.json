@@ -1,0 +1,31 @@
+{
+  "distilleryId": "DIST-ROYAL-BRACKLA",
+  "slug": "royal-brackla",
+  "officialName": "Royal Brackla Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "founded": 1812,
+  "owner": "John Dewar & Sons (Bacardi)",
+  "location": "Cawdor Estate, near Nairn, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Production water is drawn from Cursack Springs; specialist technical sources distinguish this from Cawdor Burn/process-water supplies.",
+    "malt": "Unpeated malted barley; the distillery no longer operates floor maltings.",
+    "fermentation": "Eight washbacks are used: six wooden washbacks and two stainless-steel washbacks. Established specialist sources report a long fermentation of about 68-70 hours, used to favour ester-driven fruitiness.",
+    "stills": "Four copper pot stills: two wash stills and two spirit stills. The stills are tall with rising lyne arms, encouraging reflux and prolonged copper contact for a lighter, perfumed spirit.",
+    "maturation": "Official Royal Brackla releases mature first in American oak before finishing in selected sherry casks including Oloroso, Palo Cortado and Pedro Ximenez styles."
+  },
+  "houseCharacter": "Royal Brackla combines long fermentation with tall, reflux-promoting stills to emphasise clean esters, orchard fruit and perfume rather than heavy sulphury weight. The distillation regime produces a bright, relatively light spirit able to carry assertive sherry finishing. American-oak primary maturation followed by sherry-cask finishing supplies the richer dried-fruit and spice layer associated with the modern house range.",
+  "cask23Narrative": "Royal Brackla is a Highland distillery whose production is engineered toward elegance before the cask work begins. Long fermentation and tall, reflux-heavy stills favour a clean, fruity new make, while the current house range is then shaped through American-oak maturation and carefully chosen sherry finishes. That contrast explains why Royal Brackla can feel polished and perfumed at its core yet still carry substantial dried-fruit and spice richness.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.royalbrackla.com/",
+    "https://www.royalbrackla.com/faq/",
+    "https://www.royalbrackla.com/our-whiskies/",
+    "https://www.whisky.com/whisky-database/distilleries/details/royal-brackla.html",
+    "https://scotchwhisky.com/whiskypedia/1887/royal-brackla/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-GLENFARCLAS",
+  "slug": "glenfarclas",
+  "officialName": "Glenfarclas Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Speyside",
+  "founded": 1836,
+  "owner": "J. & G. Grant",
+  "location": "Ballindalloch, Banffshire, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Spring water rises from granite on the slopes of Ben Rinnes above the distillery.",
+    "malt": "Malted barley, spring water and yeast are the only raw production inputs stated by the distillery.",
+    "stills": "The spirit is double-distilled in traditional direct-fired copper pot stills; Glenfarclas continues to emphasise direct firing as a defining production method.",
+    "maturation": "European oak casks previously seasoned with Oloroso sherry are a cornerstone of maturation, selected from a family-run bodega in Spain. Traditional dunnage warehousing remains part of the maturation environment."
+  },
+  "houseCharacter": "Direct-fired distillation applies intense heat to the still base and contributes to the robust, weighty new-make style Glenfarclas deliberately preserves. Granite-filtered Ben Rinnes spring water supports a clean production base without adding a separate flavour claim beyond its mineral context. Long maturation in Oloroso-seasoned European oak then builds the distillery's familiar combination of sherry richness, spice, dried fruit and substantial texture.",
+  "cask23Narrative": "Glenfarclas is one of the clearest examples of a distillery protecting an old production choice because it shapes the spirit: the stills remain direct fired. That robust new make is then matured extensively in Oloroso-seasoned European oak, giving the whisky enough structure to carry deep sherry fruit, spice and weight over long ageing. It is a useful dram for understanding how distillation intensity and sherry-cask maturation can be designed to work together rather than independently.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://glenfarclas.com/production/",
+    "https://glenfarclas.com/",
+    "https://glenfarclas.com/news/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

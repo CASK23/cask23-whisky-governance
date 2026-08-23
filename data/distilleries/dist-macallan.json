@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-MACALLAN",
+  "slug": "macallan",
+  "officialName": "The Macallan Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Speyside",
+  "founded": 1824,
+  "owner": "The Edrington Group",
+  "location": "The Macallan Estate, Easter Elchies, Craigellachie, Moray",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "The current distillery continues to use the same estate water source and raw-material regime as the previous Macallan site; established technical sources describe on-site spring water in production.",
+    "fermentation": "The current distillery uses stainless-steel fermenters fitted with external cooling to control temperature within the integrated stillhouse/tun-room environment. Exact current fermentation duration is not disclosed in the verified source set.",
+    "stills": "The current distillery contains 36 small copper pot stills arranged in three circular pods: 12 wash stills and 24 spirit stills. Macallan deliberately retains unusually small spirit stills to maximise copper contact and preserve its rich, fruity distillate style.",
+    "maturation": "Macallan operates a highly controlled oak programme centred on sherry-seasoned European and American oak alongside ex-bourbon casks, with wood sourcing, seasoning and cooperage specification managed as a core part of production."
+  },
+  "houseCharacter": "Macallan's unusually small spirit stills create high copper contact while retaining enough weight to produce a rich, fruity new make. The modern distillery uses temperature-controlled stainless fermentation to reproduce the established spirit character despite a radically different building. Its highly managed sherry-seasoned oak programme then provides much of the dried-fruit, spice and polished oak character associated with mature Macallan.",
+  "cask23Narrative": "The Macallan's modern distillery looks radically different from the old site, but the production brief was continuity rather than reinvention. Its signature remains the use of unusually small spirit stills and a tightly controlled oak programme, especially sherry-seasoned casks. For the drinker, the key idea is that the distillery engineers a rich fruit-driven spirit first, then uses carefully specified wood to build depth rather than relying on cask influence alone.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.themacallan.com/en-us/inside-the-macallan/our-process/distinction-in-the-distillation",
+    "https://www.themacallan.com/en-us/inside-the-macallan/our-estate/a-celebration-of-our-past-present-and-future",
+    "https://scotchwhisky.com/magazine/features/19128/inside-macallan-s-ground-breaking-distillery/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

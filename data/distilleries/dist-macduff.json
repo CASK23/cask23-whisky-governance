@@ -1,0 +1,29 @@
+{
+  "distilleryId": "DIST-MACDUFF",
+  "slug": "macduff",
+  "officialName": "Macduff Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "founded": 1960,
+  "owner": "John Dewar & Sons / Bacardi",
+  "location": "Macduff, Banff, Aberdeenshire, AB45 3JT",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Established specialist sources record process water from local natural spring and field-drain sources, with burn water used for cooling.",
+    "malt": "Malt is sourced commercially; current specialist references describe predominantly unpeated malt for core production.",
+    "fermentation": "Current specialist reporting records nine stainless-steel washbacks of approximately 34,000 litres and a fermentation time of about 55 hours.",
+    "stills": "Macduff operates five copper pot stills in an unusual two-wash/three-spirit configuration. The stills have upward-tilting lyne arms with pronounced right-angle kinks; the spirit stills use horizontal shell-and-tube condensers, helping create a weighty, nutty spirit while the rising lyne arms add reflux.",
+    "maturation": "Macduff spirit destined for single malt and blends is matured within Bacardi/Dewar's warehousing; specialist sources also document on-site/racked and dunnage storage historically."
+  },
+  "houseCharacter": "Macduff's short fermentation gives the wash a relatively direct, cereal and nutty base rather than an intensely ester-driven one. The unusual five-still configuration, kinked rising lyne arms and cold shell-and-tube condensation balance reflux against a weightier, slightly sulphury new-make character. That combination gives the spirit body and nuttiness while preserving enough fruit to keep it from becoming blunt.",
+  "cask23Narrative": "Macduff is technically unusual because its stillhouse uses two wash stills and three spirit stills rather than matching pairs. Rising lyne arms and shell-and-tube condensers pull the spirit in two directions at once: some extra reflux and fruit, but also enough weight to retain a nutty, robust core. It is a useful distillery for understanding how condenser temperature and lyne-arm geometry can matter as much as still shape itself.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://scotchwhisky.com/whiskypedia/1880/macduff/",
+    "https://smws.com/unfiltered/macduff-distillery-profile",
+    "https://www.whisky.com/whisky-database/distilleries/details/macduff.html"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

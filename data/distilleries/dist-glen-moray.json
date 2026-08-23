@@ -1,0 +1,29 @@
+{
+  "distilleryId": "DIST-GLEN-MORAY",
+  "slug": "glen-moray",
+  "officialName": "Glen Moray Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Speyside",
+  "founded": 1897,
+  "location": "Elgin, Moray, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Process water is sourced from the nearby River Lossie.",
+    "malt": "Single malt production uses malted barley; Glen Moray also makes a peated single malt using malt dried with peat smoke.",
+    "fermentation": "Wort is fermented for 60 hours to produce wash at approximately 8.7% ABV.",
+    "stills": "Double distillation is carried out in nine copper pot stills: three wash stills and six spirit stills.",
+    "peat": "The core distillery style is unpeated, with separately produced peated single malt made from peat-smoked malt.",
+    "maturation": "American oak is the most commonly used maturation wood, alongside a broad programme of alternative casks and finishes including wine and fortified-wine casks."
+  },
+  "houseCharacter": "A 60-hour fermentation promotes clean fruity and floral fermentation character before double distillation through a large nine-still setup. River Lossie water and an unpeated malt base underpin a light, approachable Speyside new make, while separate peated runs extend the style without redefining the core profile. American oak maturation forms the foundation, with extensive finishing work used to build additional fruit and spice around the spirit.",
+  "cask23Narrative": "Glen Moray is a classic Speyside distillery with a particularly clear production signature: 60-hour fermentation, double distillation through three wash and six spirit stills, and American oak as the foundation of maturation. The result is a naturally light, fruity and floral spirit that takes well to the distillery's long-standing programme of wine and fortified-wine cask finishes. For customers, it is a useful example of how a relatively delicate new make can become highly expressive through cask selection rather than sheer spirit weight.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.glenmoray.com/our-whisky",
+    "https://www.glenmoray.com/our-craft",
+    "https://www.glenmoray.com/story-glen-moray"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

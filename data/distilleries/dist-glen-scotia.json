@@ -1,0 +1,30 @@
+{
+  "distilleryId": "DIST-GLEN-SCOTIA",
+  "slug": "glen-scotia",
+  "officialName": "Glen Scotia Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Campbeltown",
+  "founded": 1832,
+  "location": "12 High Street, Campbeltown, Argyll, Scotland",
+  "owner": "Loch Lomond Group",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Production water is sourced from Crosshill Loch and a deep well on the distillery grounds.",
+    "malt": "The distillery works with unpeated, medium-peated and heavily peated malt specifications depending on production requirements.",
+    "fermentation": "Nine stainless-steel washbacks are used, with deliberately varied fermentation lengths from approximately 70 to 140 hours; long ferments are used to build broader fruity complexity.",
+    "stills": "A single pair of copper pot stills is used: one wash still and one spirit still. Specialist technical reporting records capacities of approximately 11,800 litres for the wash still and 8,600 litres for the spirit still.",
+    "peat": "Production includes unpeated through to heavily peated runs rather than one fixed peat specification.",
+    "maturation": "The distillery retains traditional dunnage warehousing and places significant emphasis on cask selection and wood management."
+  },
+  "houseCharacter": "Glen Scotia's defining production lever is fermentation breadth: shorter ferments contribute nuttier tones while very long ferments push fruit and complexity. A single pair of stills preserves a comparatively intimate, batch-driven production style, while different malt peat levels allow the distillery to move from coastal unpeated spirit to more overtly smoky variants. Dunnage maturation then reinforces the traditional Campbeltown combination of fruit, oil, maritime salinity and occasional smoke.",
+  "cask23Narrative": "Glen Scotia is one of Campbeltown's surviving working distilleries and still operates on a comparatively small scale. Its unusual spread of fermentation times, from short to very long, is central to the distillery's ability to build both nutty and fruity character before distillation through a single pair of stills. That production flexibility helps explain why Glen Scotia can show the oily, saline and slightly industrial character associated with Campbeltown while still carrying generous orchard and tropical fruit.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.glenscotia.com/",
+    "https://scotchwhisky.com/whiskypedia/1848/glen-scotia/",
+    "https://www.forbes.com/sites/joemicallef/2022/04/06/the-glen-scotia-distillery-scotch-whiskys-undiscovered-gem/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

@@ -1,0 +1,30 @@
+{
+  "distilleryId": "DIST-TORABHAIG",
+  "slug": "torabhaig",
+  "officialName": "Torabhaig Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Islands",
+  "founded": 2017,
+  "location": "Sleat Peninsula, Isle of Skye, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "malt": "Scottish two-row spring barley is used, with malt dried over peat smoke for the core house style.",
+    "fermentation": "Traditional Douglas-fir washbacks are used. An established Skye technical source reports eight wooden washbacks and fermentation varying approximately 70-120 hours; the distillery's own published material confirms that fermentation length is an actively controlled flavour variable.",
+    "stills": "Torabhaig uses twin Forsyths copper pot stills designed specifically for the restored steading: one wash still and one spirit still.",
+    "peat": "Peat is central to the distillery's 'smoke with taste' house style, but the exact PPM level varies across production and is not hard-coded here as a single facility-wide number.",
+    "maturation": "The majority of new make is filled to first-fill bourbon casks sourced from Kentucky, with sherry and virgin-oak components used for selected releases."
+  },
+  "houseCharacter": "Torabhaig builds its spirit around peated malt, long flavour-driven fermentation and a compact two-still plant rather than high-volume production. The distillery treats fermentation length, yeast, cut points and peat level as active variables, which is why its smoky house style is expressed with significant fruit and textural variation. Bourbon-led maturation preserves that smoky-fruity core while selected sherry and virgin-oak casks add additional structure.",
+  "cask23Narrative": "Torabhaig's aim is not simply to make heavily smoky whisky, but to make peat carry flavour. Its Douglas-fir washbacks, twin Forsyths stills and variable fermentation programme are used to build fruit and texture underneath the smoke, while first-fill bourbon remains the main maturation foundation. That is the production logic behind the distillery's own phrase 'smoke with taste'.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://torabhaig.com/pages/the-journey",
+    "https://torabhaig.com/collections/journeymans-series",
+    "https://torabhaig.com/",
+    "https://www.marussiabeveragesusa.com/content/uploads/2021/02/Torabhaig-SellSheet-MBevUSA.pdf",
+    "https://www.tighnatalisker.co.uk/whisky/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

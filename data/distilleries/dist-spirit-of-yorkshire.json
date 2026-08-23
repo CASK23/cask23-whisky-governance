@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-SPIRIT-OF-YORKSHIRE",
+  "slug": "spirit-of-yorkshire",
+  "officialName": "Spirit of Yorkshire Distillery",
+  "entityType": "DISTILLERY",
+  "country": "England",
+  "location": "Hunmanby, North Yorkshire, England",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Production water comes from the chalk aquifer beneath the family farm at Hunmanby Grange.",
+    "malt": "Filey Bay is made with 100% homegrown barley from Hunmanby Grange. The barley is malted nearby in Bridlington before milling and mashing on the farm.",
+    "fermentation": "Mashing and fermentation take place at Hunmanby Grange, where the farm and Wold Top Brewery infrastructure form the first stage of the whisky-making process. Exact fermentation duration is not published in the verified first-party sources reviewed.",
+    "stills": "Spirit of Yorkshire operates two large Forsyth pot stills and a four-plate copper column that works in tandem with the spirit still, creating an unusual hybrid configuration for single malt production.",
+    "maturation": "Whisky is matured on the family farm at Hunmanby Grange. The distillery describes its process as fully field-to-bottle, from growing barley through maturation and bottling."
+  },
+  "houseCharacter": "Spirit of Yorkshire combines estate-grown barley and chalk-aquifer water with an unusual still configuration incorporating two large pot stills and a four-plate column working with the spirit still. That setup gives the distillers additional control over spirit character while preserving a farm-led production identity from grain through maturation. The distillery describes Filey Bay's core profile as light, fruity and creamy, consistent with its aim to build an approachable but technically distinctive English single malt.",
+  "cask23Narrative": "Spirit of Yorkshire is the physical distillery behind Filey Bay and one of the clearest true field-to-bottle whisky operations in England. Its barley is grown on the family farm, its water comes from the chalk aquifer beneath that land, and its unusual combination of pot stills with a four-plate copper column gives the distillers extra control over spirit style. For customers, Filey Bay is therefore not simply a brand story: it is a single-estate whisky whose agriculture, brewing, distillation and maturation are all closely linked.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://spiritofyorkshire.com/about-us/",
+    "https://spiritofyorkshire.com/farm/",
+    "https://spiritofyorkshire.com/farm/one-entity-two-sites/",
+    "https://spiritofyorkshire.com/distillery-tours/",
+    "https://spiritofyorkshire.com/madeofyorkshire/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

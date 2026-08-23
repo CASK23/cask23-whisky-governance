@@ -1,0 +1,31 @@
+{
+  "distilleryId": "DIST-GLENFIDDICH",
+  "slug": "glenfiddich",
+  "officialName": "Glenfiddich Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Speyside",
+  "founded": 1887,
+  "owner": "William Grant & Sons",
+  "location": "Dufftown, Moray, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Glenfiddich uses water from the Robbie Dhu spring, whose surrounding land is owned by the Grant family to protect the source.",
+    "malt": "The standard distillery style is unpeated malted barley.",
+    "fermentation": "Established specialist technical documentation records Douglas-fir washbacks and approximately 72-hour fermentation for the current process.",
+    "stills": "Glenfiddich uses a large battery of relatively small copper pot stills in multiple stillhouses; official material emphasises the continued use of traditional hand-built copper stills while specialist references document multiple wash- and spirit-still shapes across the site.",
+    "peat": "Standard production is unpeated.",
+    "maturation": "American bourbon and Spanish sherry oak are central maturation woods, supported by an on-site cooperage and extensive warehousing; selected expressions use additional cask types and marrying vessels."
+  },
+  "houseCharacter": "Robbie Dhu spring water and unpeated malt establish a clean base, while extended fermentation in wooden washbacks supports the pear, apple and ester-led fruitiness strongly associated with Glenfiddich. The distillery's unusually large number of relatively small copper pot stills gives high production scale without abandoning the copper contact and still-by-still character of traditional malt distillation. Bourbon and sherry oak then shape that fruit-led spirit into the soft, polished Speyside profile that defines the house style.",
+  "cask23Narrative": "Glenfiddich is enormous by single-malt standards, but its production architecture still relies on traditional copper pot stills, wooden washbacks and protected spring water from Robbie Dhu. The fermentation regime is designed to preserve the fresh pear-and-orchard-fruit character that has become one of the distillery's signatures. Its on-site cooperage and vast cask inventory then allow that relatively light, fruity new make to be shaped through bourbon, sherry and specialist finishing rather than through heavy peat or dense spirit weight.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.glenfiddich.com/en-gb/explore/single-malt-your-need-to-know-guide",
+    "https://www.glenfiddich.com/en-gb/explore/whisky-facts",
+    "https://www.glenfiddich.com/index.php/distillery/",
+    "https://www.whisky.com/whisky-database/distilleries/details/glenfiddich.html"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

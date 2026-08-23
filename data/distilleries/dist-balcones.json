@@ -1,0 +1,26 @@
+{
+  "distilleryId": "DIST-BALCONES",
+  "slug": "balcones",
+  "officialName": "Balcones Distilling",
+  "entityType": "DISTILLERY",
+  "country": "United States",
+  "founded": 2008,
+  "location": "Waco, Texas, United States",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "malt": "Balcones separates production for malted barley from corn and rye. American single malt production uses a dedicated roller mill that lightly cracks malted barley, while corn and rye are processed separately for grain-whisky production.",
+    "fermentation": "Balcones uses a seven-day open fermentation exposed to the Waco environment. For single malt, the distillery states that it uses a dual pitch of dry malt-whisky yeast and dry brewer's ale yeast; corn and rye whiskies use malt-whisky yeast only.",
+    "stills": "The stillhouse contains four copper pot stills: two wash stills and two spirit stills. Balcones double-distils in batches, uses distinctive helical lyne-arm geometry, and equips wash stills with external reboilers so grain whiskies can be pot-distilled on-grain.",
+    "maturation": "Balcones matures whisky in the hot Texas climate and employs multiple oak and cask regimes across its American single malt and grain-whisky programmes; the official process source does not define one universal wood specification for every expression."
+  },
+  "houseCharacter": "Balcones builds flavour heavily during fermentation: seven days of open fermentation allow both pitched yeast and local microflora to create acids and ester precursors. Pot distillation through four copper stills preserves weight and density, while the distillery's unusual lyne-arm and external-reboiler engineering lets it control very different malt and grain spirits on the same site. Texas maturation then accelerates wood interaction, giving the spirit an assertive, concentrated structure.",
+  "cask23Narrative": "Balcones is a useful example of how American whisky can be engineered very differently from large-column bourbon production. Its seven-day open fermentations are deliberately long and microbially expressive, while both single malt and grain whiskies are pot distilled. The result is a dense, fruit-forward and textural style that carries a distinctly Texan intensity through maturation.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://balconesdistilling.diageoplatform.com/our-process",
+    "https://balconesdistilling.diageoplatform.com/our-story",
+    "https://balconesdistilling.diageoplatform.com/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

@@ -1,0 +1,29 @@
+{
+  "distilleryId": "DIST-SPRINGBANK",
+  "slug": "springbank",
+  "officialName": "Springbank Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Campbeltown",
+  "founded": 1828,
+  "location": "Campbeltown, Kintyre, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Springbank states that its production water comes from the hills around Campbeltown; established technical literature identifies Crosshill Loch as the process-water source.",
+    "malt": "Springbank malts 100% of its own barley on traditional floor maltings. Kilning varies by spirit style: Springbank uses a combination of peat fire and hot air, Longrow is the heavily peated style, and Hazelburn is unpeated.",
+    "fermentation": "Six boatskin-larch washbacks are used. Official Springbank material states fermentation can run for up to 110 hours.",
+    "stills": "Three copper stills are used: one wash still, one low-wines still and one spirit still. The wash still is direct-fired by live flame. Springbank is distilled approximately 2.5 times, Longrow twice and Hazelburn three times.",
+    "peat": "Peat exposure varies deliberately by the three spirit styles made at the same physical distillery: Springbank, heavily peated Longrow and unpeated Hazelburn.",
+    "maturation": "Cask filling, maturation, bottling and labelling are all carried out on site; Springbank states that every production stage from malting to bottling is completed at the distillery."
+  },
+  "houseCharacter": "Springbank's defining feature is not one isolated piece of equipment but a completely integrated, manually controlled production system. Floor malting, variable peat regimes, long wooden-washback fermentation and three-still distillation allow one site to create three materially different spirit styles, with the direct-fired wash still and 2.5-times distillation central to Springbank itself. On-site maturation and bottling preserve continuity between spirit production, cask development and finished whisky.",
+  "cask23Narrative": "Springbank is one of the rare distilleries where the entire whisky journey still happens under one roof, from floor malting to bottling. The same hardware is deliberately used in different ways to make Springbank, Longrow and Hazelburn, changing peat levels and distillation regimes rather than treating them as separate distilleries. For a whisky drinker, that makes Springbank a remarkable demonstration of how process choices can reshape spirit character before maturation even begins.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.springbank.scot/about/process/",
+    "https://www.springbank.scot/about/distillery/",
+    "https://www.ibd.org.uk/media/5e2hin4o/5-campbeltown.pdf"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

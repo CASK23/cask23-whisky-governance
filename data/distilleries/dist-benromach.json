@@ -1,0 +1,30 @@
+{
+  "distilleryId": "DIST-BENROMACH",
+  "slug": "benromach",
+  "officialName": "Benromach Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Speyside",
+  "founded": 1898,
+  "owner": "Gordon & MacPhail",
+  "location": "Forres, Moray, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Benromach uses soft water from the Chapelton Spring in the Romach Hills a few miles behind the distillery.",
+    "malt": "Scottish barley is malted to Benromach's specification with a light touch of peat smoke, recreating a subtly smoky Speyside style.",
+    "fermentation": "Fermentation lasts approximately three to five days in larch washbacks. Benromach uses both brewer's yeast and distiller's yeast to create a more complete fermentation and greater flavour complexity.",
+    "stills": "Benromach double distils through two bespoke copper pot stills and relies on manual control of the run and spirit cut.",
+    "peat": "The core house style uses lightly peated malt designed to give a delicate smoke rather than an overtly peaty profile.",
+    "maturation": "Benromach strongly favours first-fill casks seasoned with bourbon or sherry, and matures spirit in traditional dunnage-style warehouses."
+  },
+  "houseCharacter": "Benromach creates complexity early through long fermentation and a mixed brewer's/distiller's yeast regime in larch washbacks. Double distillation through a small two-still setup preserves enough weight to carry the cereal and gentle peat character. First-fill bourbon and sherry wood then amplify fruit, malt, spice and smoke without masking the compact Speyside new make.",
+  "cask23Narrative": "Benromach deliberately looks back to an older Speyside style, where even elegant malt whisky carried a thread of smoke. Long fermentation, two yeast types and a compact two-still regime give the spirit weight and complexity before it enters first-fill bourbon and sherry casks. The result is a useful bridge between classic fruity Speyside whisky and a more savoury, gently smoky style.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.benromach.com/en-us/our-story",
+    "https://www.benromach.com/whisky-experiences/exploration-tour",
+    "https://www.benromach.com/whisky-experiences/discovery-tour"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

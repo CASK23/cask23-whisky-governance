@@ -1,0 +1,27 @@
+{
+  "distilleryId": "DIST-FOUR-ROSES",
+  "slug": "four-roses",
+  "officialName": "Four Roses Distillery",
+  "entityType": "DISTILLERY",
+  "country": "United States",
+  "location": "Lawrenceburg, Kentucky, United States",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Four Roses combines its grain recipes with limestone-rich water from the spring-fed Salt River in Lawrenceburg, Kentucky.",
+    "malt": "Two mash bills are used: Mash Bill B is 60% corn, 35% rye and 5% malted barley; Mash Bill E is 75% corn, 20% rye and 5% malted barley.",
+    "fermentation": "Five proprietary yeast strains are used across the two mash bills to create ten distinct recipes. Fermentation runs for at least three days and produces a sour distiller's beer at about 8% ABV.",
+    "stills": "Four Roses uses straight-whiskey distillation at its Lawrenceburg distillery; first-party material states that the second distillation yields spirit at about 138-140 proof before transfer to maturation facilities.",
+    "maturation": "New distillate is reduced to 120 proof and filled into 53-gallon new charred American oak barrels. Four Roses matures its bourbon in single-story rack warehouses at Cox's Creek, designed to minimise temperature variation from top to bottom, and ages barrels for at least five years before use."
+  },
+  "houseCharacter": "Four Roses creates complexity primarily through recipe architecture: two mash bills crossed with five proprietary yeast strains produce ten distinct distillates before maturation. The high-rye mash bills establish a spicy grain framework while the yeast strains deliberately vary fruit, floral, herbal and spice expression. Gentle maturation in single-story rack warehouses then reduces vertical temperature variation, allowing those recipe differences to remain a central part of the finished bourbon style.",
+  "cask23Narrative": "Four Roses is unusual because it does not rely on one mash bill and one house yeast. Instead, two grain recipes and five proprietary yeast strains create ten distinct bourbon recipes, each designed to contribute a different balance of fruit, spice, florals or herbs. Those whiskies then mature in low, single-story warehouses, making Four Roses a particularly useful distillery for customers who want to understand how recipe design and yeast selection can shape bourbon before blending even begins.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.fourrosesbourbon.com/our-process",
+    "https://www.fourrosesbourbon.com/our-recipes",
+    "https://www.fourrosesbourbon.com/visit-us",
+    "https://www.fourrosesbourbon.com/blog/four-roses-through-the-decades-1940-1950"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

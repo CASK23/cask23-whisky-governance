@@ -1,0 +1,27 @@
+{
+  "distilleryId": "DIST-WILD-TURKEY",
+  "slug": "wild-turkey",
+  "officialName": "Wild Turkey Distillery",
+  "entityType": "DISTILLERY",
+  "country": "United States",
+  "region": "Kentucky",
+  "location": "Lawrenceburg, Kentucky, United States",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "The distillery sits on a Kentucky River limestone shelf and uses limestone-filtered local water, which naturally removes iron before mashing.",
+    "malt": "Wild Turkey uses non-GMO corn, rye and malted barley across its bourbon and rye mash bills.",
+    "fermentation": "A proprietary yeast strain is used in a sour-mash process. Campari technical material identifies 23 fermenters and an approximately 80-90 hour fermentation, producing a beer around 10% ABV.",
+    "stills": "The main distillation system uses a tall 19-plate column still followed by a doubler/pot-style second distillation. Wild Turkey deliberately distils at a lower proof than the legal maximum to retain more flavour and reduce subsequent dilution.",
+    "maturation": "New make enters new charred American white-oak barrels at a deliberately low proof; the house uses No. 4 char barrels and matures in Kentucky warehouses under the Russell family's long-standing production regime."
+  },
+  "houseCharacter": "Wild Turkey combines high-rye grain recipes, a proprietary yeast culture and relatively long sour-mash fermentation to generate a robust, spicy ferment before distillation. The 19-plate column and doubler are operated at deliberately lower proof than the legal ceiling, retaining more congeners and reducing the amount of water needed before barrel entry. Heavy-char American oak then amplifies vanilla, caramel and spice without erasing the grain-driven structure.",
+  "cask23Narrative": "Wild Turkey's flavour starts with a production philosophy of keeping more character rather than stripping it away. Limestone water, a proprietary yeast strain and long sour-mash fermentation feed a column-and-doubler system that deliberately distils below the legal maximum proof. The whiskey then enters heavily charred American oak at a relatively low proof, helping explain the dense spice, caramel and grain intensity associated with the house style.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.wildturkeybourbon.com/en-us/our-craft/",
+    "https://www.campariacademy.com/en-uk/training/products-category/wild-turkey-bourbon-whiskey/",
+    "https://www.campariacademy.com/en-au/wp-content/uploads/sites/6/2023/01/CA_Bourbon-Branch-Web-Booklet.pdf"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

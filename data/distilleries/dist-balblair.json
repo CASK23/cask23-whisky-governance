@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-BALBLAIR",
+  "slug": "balblair",
+  "officialName": "Balblair Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "founded": 1790,
+  "location": "Edderton, Tain, Ross-Shire, IV19 1LB",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Balblair uses water from the open lade flowing down the Edderton Hills.",
+    "malt": "The distillery states that its whisky is made with Black Isle barley.",
+    "fermentation": "Balblair publishes an extended 62-hour fermentation as part of its deliberately slow production regime.",
+    "stills": "Balblair describes its original squat-neck copper pot stills and an unusually slow distillation regime, including approximately 4.5 hours of slow distillation.",
+    "maturation": "Balblair emphasises patient maturation and cask selection rather than fixed single-wood maturation; the verified official source set does not publish a single universal warehouse or cask specification for all spirit."
+  },
+  "houseCharacter": "Balblair's long fermentation develops ester-driven fruit before distillation. Its squat-neck pot stills retain sufficient weight to balance that fruit with oils and structure, while slow distillation allows careful separation of the spirit cut. The result is a light but complex Highland new make that can carry both bright fruit and heavier nutty, leathery notes through maturation.",
+  "cask23Narrative": "Balblair is shaped by patience rather than speed. A 62-hour fermentation builds fruit, while slow distillation through squat-neck pot stills gives the spirit enough weight to remain complex rather than simply delicate. For the customer, that helps explain Balblair's mix of orchard fruit, citrus and honey alongside deeper nutty and leathery tones as the whisky matures.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.balblair.com/our-distillery",
+    "https://www.balblair.com/collection",
+    "https://www.balblair.com/timeline-our-story"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

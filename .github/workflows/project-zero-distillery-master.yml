@@ -1,0 +1,55 @@
+name: Project Zero Distillery Master
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'data/distilleries/**'
+      - 'schema/**'
+      - 'reconciliation/**'
+      - 'scripts/build_distillery_master.py'
+      - '.github/workflows/project-zero-distillery-master.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: project-zero-distillery-master-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install validator
+        run: python -m pip install --disable-pip-version-check jsonschema
+
+      - name: Validate profiles and build unified master
+        run: python scripts/build_distillery_master.py
+
+      - name: Commit deterministic master payload
+        env:
+          TARGET_BRANCH: ${{ github.head_ref }}
+        run: |
+          git config user.name "CASK23 Project Zero Bot"
+          git config user.email "nilesh@cask23.co.uk"
+          git add PROJECT_ZERO_DISTILLERY_MASTER.json
+          if git diff --cached --quiet; then
+            echo "Master payload already current"
+          else
+            git commit -m "build: assemble validated Project Zero distillery master"
+            git pull --rebase origin "${TARGET_BRANCH}"
+            git push origin HEAD:"${TARGET_BRANCH}"
+          fi
