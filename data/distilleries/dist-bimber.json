@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-BIMBER",
+  "slug": "bimber",
+  "officialName": "Bimber Distillery",
+  "entityType": "DISTILLERY",
+  "country": "England",
+  "location": "London, England",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Bimber states that its process water comes from the Thames basin and is naturally high in calcium; it is treated and filtered before use.",
+    "malt": "Bimber uses single-farm English barley that is traditionally floor malted at Warminster Maltings.",
+    "fermentation": "Fermentation runs for roughly seven days in open-topped wooden washbacks made from lightly toasted American white oak. Bimber uses in-house yeast strains and controls washback temperature around 26-28°C; the resulting wash is around 10% ABV.",
+    "stills": "Bimber distils in two small Portuguese copper pot stills, Doris and Astraeus, heated by direct fire. The stills were designed to maximise copper contact and are run slowly to preserve a full-bodied, fruit-forward spirit.",
+    "peat": "The core house style is unpeated; Bimber also produces separately identified peated spirit for limited releases.",
+    "maturation": "The distillery uses hand-selected casks and an on-site cooperage, with a broad programme of bourbon, virgin oak, wine and fortified-wine casks across releases."
+  },
+  "houseCharacter": "Bimber builds much of its fruit character during an unusually long seven-day fermentation in open American-oak washbacks. Direct-fired small copper stills preserve weight while extensive copper contact keeps the spirit clean and ester-rich. That combination produces a dense but bright new make suited to active cask maturation without losing its tropical and orchard-fruit core.",
+  "cask23Narrative": "Bimber takes a deliberately hands-on approach to London whisky. Seven-day fermentation in open wooden washbacks generates intense ester-driven fruit, while small direct-fired pot stills give the spirit texture and weight. The result is a modern English single malt style that is rich, fruity and characterful before the cask begins to add its own influence.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.bimberdistillery.co.uk/home",
+    "https://www.bimberdistillery.co.uk/post/the-story-of-the-first-from-grain-to-glass",
+    "https://www.bimberdistillery.co.uk/post/work-it-harder-make-it-better",
+    "https://www.bimberdistillery.co.uk/post/the-water-does-taste-like-it-oughta"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
