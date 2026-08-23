@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-ARDNAMURCHAN",
+  "slug": "ardnamurchan",
+  "officialName": "Ardnamurchan Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "founded": 2014,
+  "location": "Glenbeg, Acharacle, PH36 4JG",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "The distillery uses water from the Glenmore spring to reduce new make spirit to 63.5% ABV before cask filling; the Glenmore river supplies cooling water.",
+    "fermentation": "Ardnamurchan uses seven washbacks in total: four wooden washbacks, comprising one oak and three Oregon pine, plus three stainless-steel washbacks.",
+    "stills": "The distillery uses traditional copper pot stills: a 10,000-litre wash still and a 6,000-litre spirit still. The spirit still has a boil ball for additional reflux, and both stills feed standard shell-and-tube condensers located outside the building. Heating is by steam generated from a local woodchip biomass boiler.",
+    "peat": "The distillery describes its intended house profile as showing gentle peat smoke rather than a heavily peated style.",
+    "maturation": "Ardnamurchan matures whisky on site in its own dunnage warehouses on the Ardnamurchan peninsula, close to the North Atlantic."
+  },
+  "houseCharacter": "Ardnamurchan's mixed wooden and stainless-steel washback regime gives the distillery flexibility in how fermentation-derived character is developed, while the exact fermentation duration is not stated in the verified source set. The spirit still's boil ball increases reflux, and external shell-and-tube condensers support a clean but still weighty spirit structure. On-site dunnage maturation preserves a close link between production and maturation, supporting the distillery's stated gently smoky, rich, oily, honeyed and fruity house direction.",
+  "cask23Narrative": "Ardnamurchan combines modern engineering with a deliberately traditional maturation setup. Its spirit still uses a boil ball to encourage extra reflux, while both wooden and stainless-steel washbacks are used in fermentation and the whisky matures in dunnage warehouses beside the distillery. The result is a West Highland style built around gentle peat, oiliness, honeyed fruit and coastal character rather than aggressive smoke.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://ardnamurchandistillery.com/distillery",
+    "https://ardnamurchandistillery.com/responsible-distilling",
+    "https://ardnamurchandistillery.com/news/ardnamurchan-distillery-turns-ten"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
