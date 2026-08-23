@@ -1,0 +1,29 @@
+{
+  "distilleryId": "DIST-HEAVEN-HILL",
+  "slug": "heaven-hill",
+  "officialName": "Heaven Hill Distillery",
+  "entityType": "DISTILLERY",
+  "country": "United States",
+  "region": "Kentucky",
+  "founded": 1935,
+  "owner": "Heaven Hill Brands",
+  "location": "Louisville and Bardstown, Kentucky, United States",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Kentucky limestone water is used in mashing.",
+    "malt": "Heaven Hill works with corn, malted barley, rye and wheat across multiple mash bills sourced through long-standing farm relationships.",
+    "fermentation": "A proprietary yeast strain used since the company's founding is added to sour-mash fermentations that run for several days.",
+    "stills": "Whiskey is distilled in 70-foot continuous column stills with perforated copper plates, followed by doubler systems engineered for substantial copper contact.",
+    "maturation": "New whiskey is filled into charred oak barrels and aged in Kentucky rickhouses, predominantly traditional open-rick wooden structures with metal cladding; the Bernheim campus also includes brick rickhouses."
+  },
+  "houseCharacter": "Heaven Hill's sour-mash process and proprietary house yeast create continuity across a wide family of bourbon and rye mash bills rather than one single grain recipe. Tall copper-rich column distillation produces a consistent, clean distillate at industrial scale while doublers add further copper interaction before barreling. Kentucky rickhouse ageing then drives the familiar American-whiskey concentration of caramelised oak, spice, grain sweetness and mature oxidative depth through seasonal temperature swings.",
+  "cask23Narrative": "Heaven Hill is less a single-recipe distillery than a production system built to express several American-whiskey styles from one disciplined technical base. Sour mash, a long-preserved proprietary yeast and tall copper column stills give consistency across different corn, rye and wheat recipes. The defining final stage is Kentucky rickhouse maturation, where heavily charred oak and large seasonal temperature changes transform that clean new make into the layered caramel, spice and oak character associated with the distillery's mature bourbons and ryes.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://heavenhilldistillery.com/whiskey-101.php/our-distillery.php",
+    "https://heavenhilldistillery.com/making-americas-whiskey.php",
+    "https://heavenhilldistillery.com/our-distillery.php"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
