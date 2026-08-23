@@ -1,0 +1,107 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-004",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "governanceRule": "Data chooses the icon; the icon never generates the data.",
+  "records": [
+    {
+      "beverageId": "04a7d52c-45cd-4a0d-bcf1-c6df36185c87",
+      "officialName": "Togouchi Blended Sake Cask Finish 40%",
+      "verifiedDescriptors": ["Green apple", "Spice", "Melon", "Muscat grape", "White grape"],
+      "descriptorFamilies": {"Green apple":"orchard-fruit","Spice":"spice","Melon":"tropical","Muscat grape":"dried-fruit","White grape":"dried-fruit"},
+      "cask23TastingNarrative": "Green apple and spice open into melon and Muscat-grape sweetness, with white-grape acidity carrying a smooth, gently spiced finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.sakuraobd.co.jp/en/blended/","https://togouchi.com/en/gamme-whisky-togouchi/sake-cask-finish-2/"]
+    },
+    {
+      "beverageId": "33c45a03-96b6-4ac1-9e81-b4cc414f5867",
+      "officialName": "Togouchi 12 Year Blended 40%",
+      "verifiedDescriptors": ["Dark chocolate", "Smoke"],
+      "descriptorFamilies": {"Dark chocolate":"chocolate-coffee","Smoke":"smoke-peat"},
+      "cask23TastingNarrative": "Dark chocolate sits against a restrained smoky edge in this mature Togouchi blend.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": ["https://www.thewhiskyexchange.com/p/28520/togouchi-whisky-12-year-old"]
+    },
+    {
+      "beverageId": "1e029780-7227-4f65-851b-e84b429bb8f8",
+      "officialName": "Ichiros Malt & Grain Blend 46.5%",
+      "verifiedDescriptors": ["Honey", "Cinnamon", "Apple", "Pear"],
+      "descriptorFamilies": {"Honey":"sweet","Cinnamon":"spice","Apple":"orchard-fruit","Pear":"orchard-fruit"},
+      "cask23TastingNarrative": "Honeyed sweetness and cinnamon spice frame fresh apple and pear in this balanced world blend from Ichiro Akuto.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_EXACT_ABV",
+      "sources": ["https://www.thewhiskyexchange.com/p/48233/ichiros-malt-grain-world-blended-whisky"]
+    },
+    {
+      "beverageId": "05e4c85a-3249-48c1-a3bb-1915f0a1c943",
+      "officialName": "Glenglassaugh Evolution",
+      "verifiedDescriptors": ["Raisin", "Melon", "Cherry", "Smoke", "Milk chocolate"],
+      "descriptorFamilies": {"Raisin":"dried-fruit","Melon":"tropical","Cherry":"dried-fruit","Smoke":"smoke-peat","Milk chocolate":"chocolate-coffee"},
+      "cask23TastingNarrative": "Raisin, melon and cherry fruit are rounded by milk chocolate sweetness and a light smoky edge from the Tennessee-whiskey-cask maturation.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": ["https://www.thewhiskyexchange.com/p/21912/glenglassaugh-evolution"]
+    },
+    {
+      "beverageId": "34a32af5-0fd9-43c4-b44b-4ac415aac0db",
+      "officialName": "Balblair 15 Year Old",
+      "verifiedDescriptors": ["Honey", "Gingerbread", "Prune", "Lemon peel", "Dark chocolate", "Tropical fruit", "Spice", "Vanilla", "Citrus"],
+      "descriptorFamilies": {"Honey":"sweet","Gingerbread":"spice","Prune":"dried-fruit","Lemon peel":"citrus","Dark chocolate":"chocolate-coffee","Tropical fruit":"tropical","Spice":"spice","Vanilla":"sweet","Citrus":"citrus"},
+      "cask23TastingNarrative": "Honey and gingerbread meet prune and lemon peel, before dark chocolate, tropical fruit and spice lead to a creamy vanilla-and-citrus finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.balblair.com/collection/2-balblair-15-year-old"]
+    },
+    {
+      "beverageId": "af7064c3-05d3-47cf-a738-56572e0512c5",
+      "officialName": "Yamazaki 12 Year 43%",
+      "verifiedDescriptors": ["Peach", "Pineapple", "Grapefruit", "Clove", "Candied orange", "Vanilla", "Mizunara oak", "Coconut", "Cranberry", "Ginger", "Cinnamon"],
+      "descriptorFamilies": {"Peach":"orchard-fruit","Pineapple":"tropical","Grapefruit":"citrus","Clove":"spice","Candied orange":"citrus","Vanilla":"sweet","Mizunara oak":"oak","Coconut":"tropical","Cranberry":"dried-fruit","Ginger":"spice","Cinnamon":"spice"},
+      "cask23TastingNarrative": "Peach, pineapple and grapefruit are layered with clove, candied orange and vanilla, while Mizunara oak, coconut and cranberry lead into sweet ginger and cinnamon.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://house.suntory.com/yamazaki-whisky/yamazaki-12-years-old"]
+    },
+    {
+      "beverageId": "e2e00fde-a68c-46a2-87e5-a7a4a5a718f8",
+      "officialName": "Uncle Nearest 100 Proof 50%",
+      "verifiedDescriptors": ["Caramel", "Maple", "Dried fruit", "Floral", "Vanilla"],
+      "descriptorFamilies": {"Caramel":"sweet","Maple":"sweet","Dried fruit":"dried-fruit","Floral":"floral-herbal","Vanilla":"sweet"},
+      "cask23TastingNarrative": "Spicy caramel and maple lead into dried fruit and floral notes, with vanilla sweetness lingering through the long finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://unclenearest.com/experienceun/","https://unclenearest.com/wp-content/uploads/2020/05/UncleNearestTastingMat-May2020.pdf"],
+      "governanceNote": "Sensory identity matches Uncle Nearest 1856 100 Proof. Facility provenance remains governed separately by the terminal-withhold decision for the specific BeverageId."
+    },
+    {
+      "beverageId": "9f348102-3aa6-4d99-9511-1a4f9248ca57",
+      "officialName": "Isle of Raasay Signature Single Malt",
+      "verifiedDescriptors": ["Light peat smoke", "Dark fruit"],
+      "descriptorFamilies": {"Light peat smoke":"smoke-peat","Dark fruit":"dried-fruit"},
+      "cask23TastingNarrative": "Light peat smoke is balanced by rich dark-fruit character in Raasay's signature six-cask single malt.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://raasaydistillery.com/wp-content/uploads/2023/07/raasay-distillery-bar-menu.pdf"]
+    },
+    {
+      "beverageId": "a4540049-d252-42f2-92d6-92c66e7230ab",
+      "officialName": "Cotswolds 2014 Odyssey Barley 46%",
+      "verifiedDescriptors": [],
+      "descriptorFamilies": {},
+      "cask23TastingNarrative": null,
+      "evidenceTier": "WITHHELD_PENDING_EXACT_2014_RELEASE_SENSORY_SOURCE",
+      "sources": []
+    },
+    {
+      "beverageId": "175d15bf-e5a7-4ebb-b41a-cb0654d49050",
+      "officialName": "WhistlePig Vermont Oak 15 Y 46%",
+      "verifiedDescriptors": [],
+      "descriptorFamilies": {},
+      "cask23TastingNarrative": null,
+      "evidenceTier": "WITHHELD_PENDING_EXACT_RELEASE_SENSORY_SOURCE",
+      "sources": []
+    },
+    {
+      "beverageId": "4b47d2c9-4d5c-485d-aca9-e6edb84d698e",
+      "officialName": "WhistlePig Old World 12 Y 43%",
+      "verifiedDescriptors": [],
+      "descriptorFamilies": {},
+      "cask23TastingNarrative": null,
+      "evidenceTier": "WITHHELD_PENDING_EXACT_RELEASE_SENSORY_SOURCE",
+      "sources": []
+    }
+  ]
+}
