@@ -1,0 +1,54 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-014",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "governanceRule": "Exact expression evidence only; conflicting release identity or ABV is withheld.",
+  "records": [
+    {
+      "beverageId": "30693126-4988-4b98-86c5-ac26b4a439ff",
+      "officialName": "Morris Muscat Barrels 46%",
+      "verifiedDescriptors": ["Dates", "Figs", "Dark molasses", "Dried fig", "Sweet malt", "Vanilla", "Cinnamon", "Cocoa", "Oak"],
+      "descriptorFamilies": {"Dates":"dried-fruit","Figs":"dried-fruit","Dark molasses":"sweet","Dried fig":"dried-fruit","Sweet malt":"sweet","Vanilla":"sweet","Cinnamon":"spice","Cocoa":"chocolate-coffee","Oak":"oak"},
+      "cask23TastingNarrative": "Dates, figs and dark molasses lead into dried fig, sweet malt and vanilla, with cinnamon, cocoa and oak shaping the rich Muscat-barrel finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.morrisofrutherglen.com/pages/muscat-barrel"]
+    },
+    {
+      "beverageId": "31202f73-4db9-4bdb-ba23-e90ba057d58e",
+      "officialName": "Kavalan King Car Conductor 46%",
+      "verifiedDescriptors": ["Papaya", "Banana", "Green apple", "Floral", "Honey", "Vanilla", "Red dates"],
+      "descriptorFamilies": {"Papaya":"tropical","Banana":"tropical","Green apple":"orchard-fruit","Floral":"floral-herbal","Honey":"sweet","Vanilla":"sweet","Red dates":"dried-fruit"},
+      "cask23TastingNarrative": "Papaya and banana meet green apple and floral notes, with honey, vanilla and red-date richness rounding the 46% palate.",
+      "evidenceTier": "TIER_1_OFFICIAL_PARENT_BROCHURE",
+      "sources": ["https://www.kingcar.com.tw/fileupload/books/2/2014_%E5%93%81%E9%85%92%E9%A2%A8Vol.03.pdf","https://www.kavalanwhisky.eu/en/all-whiskies/king-whisky-conductor/"]
+    },
+    {
+      "beverageId": "57b7787a-69cf-4655-90e3-ca3e3957fc95",
+      "officialName": "Scapegrace Dimension Limited Release VII",
+      "verifiedDescriptors": ["Spiced walnut", "Cider apple", "Sweet hay"],
+      "descriptorFamilies": {"Spiced walnut":"nutty","Cider apple":"orchard-fruit","Sweet hay":"floral-herbal"},
+      "cask23TastingNarrative": "Spiced walnut and cider apple are joined by sweet hay in this Manuka-smoked, virgin-French-oak New Zealand malt.",
+      "evidenceTier": "TIER_2_ESTABLISHED_RETAILER_BRAND_NOTES",
+      "sources": ["https://www.firstfillspirits.com/product/scapegrace-dimension-limited-release-vii-new-zealand-single-malt-whisky/","https://thelittlewhiskyshop.co.uk/collections/whisky/products/scapegrace-dimension-limited-release-vii-new-zealand-single-malt-whisky-70cl-46"]
+    },
+    {
+      "beverageId": "32bc076b-9e7f-42fc-8665-26b239b8b741",
+      "officialName": "Ardbeg Drum Committee Release 46%",
+      "verifiedDescriptors": [],
+      "descriptorFamilies": {},
+      "cask23TastingNarrative": null,
+      "evidenceTier": "WITHHELD_IDENTITY_STRENGTH_CONFLICT",
+      "sources": ["https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-drum-committee-release-whisky/","https://whiskyexperts.net/pr-ardbeg-drum-eine-praechtige-aromenparade/"],
+      "governanceNote": "The true 2019 Committee Release is documented at 52% ABV, while the standard Ardbeg Drum is 46%. The governed name combines 'Committee Release' with 46%, so neither release's sensory profile is applied until physical bottle identity is reconciled."
+    },
+    {
+      "beverageId": "2f8fb674-11b3-449e-aa23-446b3eb7adea",
+      "officialName": "Cardrona Growing Wings 65.6%",
+      "verifiedDescriptors": [],
+      "descriptorFamilies": {},
+      "cask23TastingNarrative": null,
+      "evidenceTier": "WITHHELD_CURRENT_RELEASE_ABV_MISMATCH",
+      "sources": ["https://www.hotalingandco.com/wp-content/uploads/2025/04/GrowingWings_A4_SellSheet.pdf"],
+      "governanceNote": "Current official/importer Growing Wings material describes a 63.9% release, while the governed record is 65.6%. No sensory profile is donated across the ABV/release boundary."
+    }
+  ]
+}
