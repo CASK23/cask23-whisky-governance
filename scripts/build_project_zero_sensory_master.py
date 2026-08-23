@@ -6,7 +6,7 @@ Hard rules:
 - No name recovery, fuzzy matching, slug matching, or cross-expression donation.
 - Existing governed descriptors/tasting notes are preserved verbatim.
 - Research fills missing fields only.
-- A research row with a BeverageId absent from the manifest is a hard failure.
+- A research row with a BeverageId absent from the manifest is a hard failure unless it is covered by an explicit reviewed ledger-correction row.
 - Descriptor-family mappings must be explicitly present in a reviewed ledger; no family inference.
 - Withholds remain explicit and never become synthetic sensory content.
 """
@@ -24,9 +24,9 @@ ALLOWED_FAMILIES = {
     "maritime", "smoke-peat",
 }
 
-# Higher number wins only when two research ledgers compete to fill the SAME missing field.
-# Baseline governed manifest values always outrank every research row because they are preserved.
+
 def evidence_rank(tier: str | None) -> int:
+    """Rank competing research only; governed baseline fields are never replaced."""
     t = (tier or "").upper()
     if t.startswith("TIER_A_PHYSICAL"):
         return 100
@@ -61,6 +61,25 @@ def validate_family_map(descriptors: list[str], family_map: dict[str, str], cont
             fail(f"{context}: invalid family {family!r} for {descriptor!r}")
 
 
+def load_explicit_corrections(progress_dir: Path) -> dict[tuple[str, str], str]:
+    path = progress_dir / "ledger-corrections.json"
+    if not path.exists():
+        return {}
+    payload = load(path)
+    rows = payload.get("corrections") if isinstance(payload, dict) else None
+    if not isinstance(rows, list):
+        fail(f"{path}: corrections must be an array")
+    corrections: dict[tuple[str, str], str] = {}
+    for row in rows:
+        ledger = row.get("ledger")
+        bad = row.get("incorrectBeverageId")
+        good = row.get("canonicalBeverageId")
+        if not all(isinstance(v, str) and v for v in (ledger, bad, good)):
+            fail(f"{path}: malformed correction row")
+        corrections[(ledger, bad)] = good
+    return corrections
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("manifest", type=Path, help="Verbatim Lovable 262-item completeness manifest")
@@ -86,20 +105,31 @@ def main() -> None:
             fail(f"Manifest row {idx} missing officialName")
         canonical[bid] = row
 
+    explicit_corrections = load_explicit_corrections(args.progress_dir)
     research: dict[str, list[dict[str, Any]]] = {bid: [] for bid in canonical}
     ledger_paths = sorted(args.progress_dir.glob("progress-*.json"))
     if not ledger_paths:
         fail(f"No progress ledgers found under {args.progress_dir}")
 
+    corrections_applied: list[dict[str, str]] = []
     for path in ledger_paths:
         payload = load(path)
         records = payload.get("records") if isinstance(payload, dict) else None
         if not isinstance(records, list):
             fail(f"{path}: missing records array")
-        for row in records:
+        for original_row in records:
+            row = dict(original_row)
             bid = row.get("beverageId")
             if bid not in canonical:
-                fail(f"{path}: research BeverageId not in canonical manifest: {bid}")
+                corrected = explicit_corrections.get((path.name, bid))
+                if not corrected:
+                    fail(f"{path}: research BeverageId not in canonical manifest and has no explicit correction: {bid}")
+                if corrected not in canonical:
+                    fail(f"{path}: correction target is not in canonical manifest: {corrected}")
+                corrections_applied.append({"ledger": path.name, "from": bid, "to": corrected})
+                bid = corrected
+                row["beverageId"] = corrected
+                row["governanceCorrectionApplied"] = True
             research[bid].append({**row, "_ledger": str(path)})
 
     output_records: list[dict[str, Any]] = []
@@ -121,7 +151,6 @@ def main() -> None:
         family_map: dict[str, str] = {}
 
         if existing_desc:
-            # Require an explicit reviewed mapping somewhere in the ledgers for the exact descriptor set.
             mapping_candidate = next(
                 (r for r in ranked if all(d in (r.get("descriptorFamilies") or {}) for d in existing_desc)),
                 None,
@@ -193,7 +222,9 @@ def main() -> None:
             "researchFilledNarrativeRecords": research_filled_narratives,
             "explicitWithholds": explicit_withholds,
             "ledgerCount": len(ledger_paths),
+            "explicitLedgerCorrectionsApplied": len(corrections_applied),
         },
+        "ledgerCorrectionsApplied": corrections_applied,
         "records": output_records,
     }
 
