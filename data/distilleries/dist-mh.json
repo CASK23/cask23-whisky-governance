@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-MH",
+  "slug": "mh-distillery",
+  "officialName": "M&H Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Israel",
+  "founded": 2013,
+  "location": "16 HaThiya St, Tel Aviv-Jaffa, Israel",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Local groundwater is filtered and purified through the distillery's water-treatment system before use in production.",
+    "malt": "M&H uses unpeated malted barley for standard production and runs a two-week peated production session at approximately 40 ppm every six months.",
+    "fermentation": "Six washbacks are used with specialty dry whisky yeast. The official distillery states a fermentation duration of 60-72 hours.",
+    "stills": "M&H uses double distillation in custom-made traditional copper pot stills. The spirit cut is relatively short, beginning around 80% ABV and ending around 70%, producing new make at approximately 75% ABV.",
+    "peat": "Standard production is unpeated; a dedicated peated run at approximately 40 ppm is carried out periodically.",
+    "maturation": "Whisky is matured for at least three years without climate control across several Israeli climate zones. The cask programme includes new oak, ex-bourbon and rye, STR wine casks, kosher sherry butts, rum, Cognac, Islay whisky and Israeli wine casks."
+  },
+  "houseCharacter": "M&H uses a conventional malt base and copper-pot double distillation but adapts fermentation and maturation to Israel's hot climate. A 60-72 hour fermentation and relatively narrow spirit cut create a sweet, grassy, medium-bodied new make, while the absence of climate control subjects casks to intense regional temperature and humidity differences. The resulting house character is cask-active and concentrated, with maturation location functioning as a major production variable.",
+  "cask23Narrative": "M&H is built around the idea that climate itself can become part of whisky production. The spirit is made with familiar malt-whisky tools—malted barley, 60-72 hour fermentation and copper pot stills—but its casks mature across dramatically different Israeli environments, from Tel Aviv to the Dead Sea. For the customer, that makes M&H a particularly clear demonstration of how heat and humidity can reshape extraction, evaporation and maturation speed.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://mh-distillery.com/our-craft-magic/",
+    "https://mh-distillery.com/about-us/",
+    "https://mh-distillery.com/contact-us/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
