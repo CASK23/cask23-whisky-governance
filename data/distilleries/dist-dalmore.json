@@ -1,0 +1,28 @@
+{
+  "distilleryId": "DIST-DALMORE",
+  "slug": "dalmore",
+  "officialName": "The Dalmore Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "founded": 1839,
+  "location": "Alness, Highlands, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "The Dalmore identifies Loch Morie as its water source.",
+    "fermentation": "The 2026 distillery expansion added Oregon-pine washbacks. No precise fermentation-duration figure is admitted because it is not published in the verified first-party source set.",
+    "stills": "The Dalmore's asymmetric copper stillhouse is intentionally preserved through exact Forsyths replicas. The stills use boil balls to increase copper contact; wash stills have distinctive flat-topped heads with side outlets into long winding lyne arms, while spirit stills use water jackets around the heads and necks to promote reflux.",
+    "maturation": "The distillery operates a multi-cask maturation philosophy supported by long-standing relationships with major bodegas and wineries, using cask selection as a central part of the house style."
+  },
+  "houseCharacter": "The Dalmore's robust, fruity new make is shaped by an intentionally asymmetric set of stills rather than a uniform stillhouse design. Boil balls, unusual wash-still vapour paths and water-jacketed spirit stills create different levels of copper contact and reflux, producing complementary spirit weights. That structurally complex new make is designed to withstand long and layered maturation across sherry, wine and other high-impact cask types.",
+  "cask23Narrative": "The Dalmore's production story begins with unusually individual still geometry rather than a standardised set of identical pots. Different still shapes create distinct spirit personalities, with added reflux and copper contact refining the new make while retaining weight. That strong, fruity base is then deliberately built for sophisticated multi-cask maturation, which is why wood management is so central to The Dalmore's identity.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://www.thedalmore.com/en-us/our-world/a-stillhouse-built-with-purpose/",
+    "https://www.thedalmore.com/en/our-world/reimagining-the-home-of-the-dalmore/",
+    "https://www.thedalmore.com/en-gb/our-story/",
+    "https://www.thedalmore.com/en-us/our-world/a-window-illuminating-the-artistry-of-the-dalmore/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
