@@ -1,0 +1,26 @@
+{
+  "distilleryId": "DIST-NEAREST-GREEN",
+  "slug": "nearest-green",
+  "officialName": "Nearest Green Distillery",
+  "entityType": "DISTILLERY",
+  "country": "United States",
+  "region": "Tennessee",
+  "owner": "Uncle Nearest, Inc.",
+  "location": "3125 Highway 231 N, Shelbyville, Tennessee 37160, United States",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "stills": "Established specialist reporting identifies an 18-inch column still as part of the distillery's whiskey-production system; the facility is a working distillery and farm.",
+    "maturation": "Tennessee whiskey produced for the house is matured in new charred oak after the required Tennessee-whiskey production steps; the site operates extensive barrel-aging facilities as part of its phased Shelbyville campus."
+  },
+  "houseCharacter": "Nearest Green is a modern Tennessee whiskey facility built around large-scale column distillation, barrel maturation and the production conventions associated with Tennessee whiskey. The exact water source, fermentation duration and current mash specifications are not publicly disclosed in the verified source set, so they are intentionally absent here. The technical profile therefore remains focused on the physical Shelbyville facility rather than projecting brand-level or sourced-whiskey specifications onto its own new make.",
+  "cask23Narrative": "Nearest Green Distillery in Shelbyville is the physical home of Uncle Nearest and a major modern Tennessee whiskey campus. It is important to separate that facility from the provenance of individual Uncle Nearest bottlings: older releases were built from sourced Tennessee whiskey, while later releases can contain whiskey from the company's own barrels. For Cask 23, the distillery profile explains the current production home without pretending that every bottle carrying the Uncle Nearest name was necessarily distilled there.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://unclenearest.com/distillery/",
+    "https://unclenearest.com/",
+    "https://unclenearest.com/wp-content/uploads/2025/05/TTB_Labeling_Memo_UncleNearest.pdf",
+    "https://chuckcowdery.blogspot.com/2023/05/who-makes-americas-whiskey-now.html"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}

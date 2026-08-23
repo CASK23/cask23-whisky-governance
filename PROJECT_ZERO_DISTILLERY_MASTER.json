@@ -1,23 +1,28 @@
 {
   "project": "PROJECT_ZERO_DISTILLERY_MASTER",
-  "version": "1.1",
+  "version": "1.2",
   "generatedDate": "2026-08-23",
   "governanceStatus": "FOUNDER_REVIEW",
   "metrics": {
     "approvedDistilleryEntityRowsCovered": 58,
-    "canonicalPhysicalFacilityProfiles": 58,
+    "canonicalPhysicalFacilityProfiles": 63,
     "v11AdditionalFacilityProfiles": 3,
-    "coverageOverrideRows": 4,
-    "sourceEntityCoverageRows": 62,
+    "v12AdditionalFacilityProfiles": 5,
+    "v11CoverageOverrideRows": 4,
+    "v12CoverageOverrideRows": 3,
+    "sourceEntityCoverageRows": 65,
+    "expressionProvenanceDecisions": 12,
+    "expressionFacilityBindings": 10,
+    "expressionBindingsTerminallyWithheld": 2,
+    "openExpressionProvenanceQueue": 0,
     "schemaValidationPassed": true,
-    "profileSourceReferences": 189,
-    "uniqueSourceUrls": 189,
+    "profileSourceReferences": 208,
+    "uniqueSourceUrls": 208,
     "evidenceTierCounts": {
-      "TIER_2_ESTABLISHED_SPECIALIST": 24,
-      "TIER_1_OFFICIAL": 34
+      "TIER_2_ESTABLISHED_SPECIALIST": 28,
+      "TIER_1_OFFICIAL": 35
     },
-    "suppressedNonFacilityExploreTargets": 6,
-    "provenanceReviewQueueCount": 6
+    "suppressedNonFacilityExploreTargets": 6
   },
   "sourceEntityCoverage": [
     {
@@ -161,6 +166,13 @@
       "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
+      "directorySlug": "evan-williams",
+      "entityName": "evan-williams",
+      "canonicalDistilleryId": "DIST-HEAVEN-HILL",
+      "canonicalSlug": "heaven-hill",
+      "relationship": "BRAND_LABEL_RESOLVES_TO_SINGLE_PHYSICAL_FACILITY"
+    },
+    {
       "directorySlug": "fettercairn-distillery",
       "entityName": "Fettercairn Distillery",
       "canonicalDistilleryId": "DIST-FETTERCAIRN",
@@ -252,6 +264,13 @@
       "relationship": "PZ_DISTILLERY_00_APPROVED"
     },
     {
+      "directorySlug": "hudson",
+      "entityName": "hudson",
+      "canonicalDistilleryId": "DIST-TUTHILLTOWN",
+      "canonicalSlug": "tuthilltown",
+      "relationship": "BRAND_LABEL_RESOLVES_TO_SINGLE_PHYSICAL_FACILITY"
+    },
+    {
       "directorySlug": "indri",
       "entityName": "indri",
       "canonicalDistilleryId": "DIST-PICCADILY-INDRI",
@@ -334,6 +353,13 @@
       "canonicalDistilleryId": "DIST-MH",
       "canonicalSlug": "mh-distillery",
       "relationship": "PZ_DISTILLERY_00_APPROVED"
+    },
+    {
+      "directorySlug": "old-pulteney",
+      "entityName": "old-pulteney",
+      "canonicalDistilleryId": "DIST-PULTENEY",
+      "canonicalSlug": "pulteney",
+      "relationship": "BRAND_LABEL_RESOLVES_TO_SINGLE_PHYSICAL_FACILITY"
     },
     {
       "directorySlug": "paul-john",
@@ -455,6 +481,204 @@
       "relationship": "PZ_DISTILLERY_00_APPROVED"
     }
   ],
+  "expressionProvenance": [
+    {
+      "stagingId": "C4-STAGE-0140",
+      "beverageId": "ea965ec1-d90a-40ae-b8b1-e1175ea336ae",
+      "systemSlug": "old-pulteney-18-year-46",
+      "displayName": "Old Pulteney 18 Year 46%",
+      "status": "BOUND",
+      "canonicalDistilleryId": "DIST-PULTENEY",
+      "canonicalSlug": "pulteney",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://oldpulteney.com/pages/our-craft",
+        "https://oldpulteney.com/pages/200-year-anniversary"
+      ]
+    },
+    {
+      "stagingId": "C4-STAGE-0141",
+      "beverageId": "2485d92a-8b39-468f-9d4b-4f7e9d6e0f0d",
+      "systemSlug": "old-pulteney-port-finish-46",
+      "displayName": "Old Pulteney Port Finish 46%",
+      "status": "BOUND",
+      "canonicalDistilleryId": "DIST-PULTENEY",
+      "canonicalSlug": "pulteney",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://oldpulteney.com/pages/our-craft"
+      ]
+    },
+    {
+      "stagingId": "C4-STAGE-0142",
+      "beverageId": "0080a244-a6ab-4521-b4ef-3b4dad942b0f",
+      "systemSlug": "old-pulteney-12-year-40",
+      "displayName": "Old Pulteney 12 Year 40%",
+      "status": "BOUND",
+      "canonicalDistilleryId": "DIST-PULTENEY",
+      "canonicalSlug": "pulteney",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://oldpulteney.com/pages/our-craft"
+      ]
+    },
+    {
+      "stagingId": "C4-STAGE-0143",
+      "beverageId": "3bd4d7ff-20b9-4ca1-add5-24acd5ad17f5",
+      "systemSlug": "old-pulteney-huddart-46",
+      "displayName": "Old Pulteney Huddart 46%",
+      "status": "BOUND",
+      "canonicalDistilleryId": "DIST-PULTENEY",
+      "canonicalSlug": "pulteney",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://oldpulteney.com/pages/our-craft"
+      ]
+    },
+    {
+      "stagingId": "C4-STAGE-0027",
+      "beverageId": "175d15bf-e5a7-4ebb-b41a-cb0654d49050",
+      "systemSlug": "whistlepig-vermont-oak-15-y-46",
+      "displayName": "WhistlePig Vermont Oak 15 Y 46%",
+      "status": "BOUND",
+      "canonicalDistilleryId": "DIST-ALBERTA-DISTILLERS",
+      "canonicalSlug": "alberta-distillers",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "note": "The 15 Year Vermont Oak release uses sourced Canadian rye; established specialist provenance identifies Alberta Distillers as the source facility. WhistlePig's Vermont farm distillery opened in 2015 and cannot be the physical source of this 15-year-old stock.",
+      "sources": [
+        "https://www.whistlepigwhiskey.com/faq/",
+        "https://www.whiskybase.com/whiskies/whisky/142381/whistlepig-15-year-old",
+        "https://distiller.com/spirits/whistlepig-15-year-estate-oak-rye"
+      ]
+    },
+    {
+      "stagingId": "C4-STAGE-0028",
+      "beverageId": "4b47d2c9-4d5c-485d-aca9-e6edb84d698e",
+      "systemSlug": "whistlepig-old-world-12-y-43",
+      "displayName": "WhistlePig Old World 12 Y 43%",
+      "status": "WITHHELD_SOURCE_TRANSITION_AMBIGUITY",
+      "candidateCanonicalDistilleryIds": [
+        "DIST-ALBERTA-DISTILLERS",
+        "DIST-ROSS-SQUIBB"
+      ],
+      "candidateCanonicalSlugs": [
+        "alberta-distillers",
+        "ross-squibb"
+      ],
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "note": "WhistlePig Old World 12 provenance changed across bottling eras: specialist documentation identifies early MGP/Lawrenceburg 95/5 rye and later Alberta Distillers 100% rye stock. The active Cask 23 record lacks bottle-era evidence sufficient to choose one physical source. No facility rack assignment is permitted until bottle-level provenance is supplied.",
+      "sources": [
+        "https://www.whistlepigwhiskey.com/faq/",
+        "https://www.lostcargo.com/article/whistlepig-old-world-12-year-old-rye"
+      ]
+    },
+    {
+      "stagingId": "C4-STAGE-0029",
+      "beverageId": "268dab4f-855b-4970-ad6e-2c392c1e935a",
+      "systemSlug": "whistlepig-10-y-50",
+      "displayName": "WhistlePig 10 Y 50%",
+      "status": "BOUND",
+      "canonicalDistilleryId": "DIST-ALBERTA-DISTILLERS",
+      "canonicalSlug": "alberta-distillers",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "note": "The original 10 Year WhistlePig rye is sourced 100% rye from Alberta, Canada; specialist provenance identifies Alberta Distillers as the source facility.",
+      "sources": [
+        "https://www.whistlepigwhiskey.com/faq/",
+        "https://distiller.com/spirits/whistlepig-straight-rye-whiskey-10-year"
+      ]
+    },
+    {
+      "stagingId": "C4-STAGE-0030",
+      "beverageId": "e2e00fde-a68c-46a2-87e5-a7a4a5a718f8",
+      "systemSlug": "uncle-nearest-100-proof-50",
+      "displayName": "Uncle Nearest 100 Proof 50%",
+      "status": "WITHHELD_BOTTLING_ERA_AMBIGUITY",
+      "brandAssociatedCanonicalDistilleryId": "DIST-NEAREST-GREEN",
+      "brandAssociatedCanonicalSlug": "nearest-green",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "note": "Uncle Nearest 1856/100 Proof exists across sourcing eras. Earlier bottlings used sourced Tennessee whiskey from two undisclosed Tennessee distillers; newer production includes whiskey from the company's own Nearest Green barrels. The active Cask 23 record does not contain bottle-era packaging evidence that safely identifies which liquid is present. The customer may explore Nearest Green as the brand's physical home, but this BeverageId must not appear in the facility rack until bottle-level provenance is resolved.",
+      "sources": [
+        "https://unclenearest.com/distillery/",
+        "https://unclenearest.com/whiskey/1856-premium-aged-whiskey/",
+        "https://distiller.com/spirits/uncle-nearest-1856-premium-aged-whiskey"
+      ]
+    },
+    {
+      "stagingId": "C4-STAGE-0025",
+      "beverageId": "5a215f0e-cc12-4eeb-a44e-99fa4f39c942",
+      "systemSlug": "hudson-manhattan-46",
+      "displayName": "Hudson Manhattan 46%",
+      "status": "BOUND",
+      "canonicalDistilleryId": "DIST-TUTHILLTOWN",
+      "canonicalSlug": "tuthilltown",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "note": "Hudson Manhattan Rye is documented as distilled at Tuthilltown Spirits in Gardiner, New York, using rye and pot/double distillation in its historic production specification.",
+      "sources": [
+        "https://www.hudsonwhiskey.com/en-US/distillery/",
+        "https://www.diffordsguide.com/beer-wine-spirits/2484/hudson-manhattan-rye-whiskey"
+      ]
+    },
+    {
+      "stagingId": "C4-STAGE-0013",
+      "beverageId": "c8066615-c70e-4da7-9002-6ff1b01e47d1",
+      "systemSlug": "evan-williams-black-label",
+      "displayName": "Evan Williams Black Label",
+      "status": "BOUND",
+      "canonicalDistilleryId": "DIST-HEAVEN-HILL",
+      "canonicalSlug": "heaven-hill",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "note": "Heaven Hill identifies Evan Williams Black Label as part of its bourbon production and warehouse program; the active expression therefore binds to the existing Heaven Hill physical-facility profile.",
+      "sources": [
+        "https://heavenhilldistillery.com/evan-williams.php",
+        "https://heavenhilldistillery.com/whiskey-101.php"
+      ]
+    },
+    {
+      "stagingId": "C4-STAGE-0016",
+      "beverageId": "6d326307-12f9-4ee0-bd16-b4b0cd687c87",
+      "systemSlug": "rebel-tawny-port",
+      "displayName": "Rebel Tawny Port",
+      "status": "BOUND",
+      "canonicalDistilleryId": "DIST-HEAVEN-HILL",
+      "canonicalSlug": "heaven-hill",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "note": "Founder-supplied physical bottle evidence identifies Kentucky Straight Bourbon Whiskey, bottled for Lux Row. The 2021 limited release used four-year-old bourbon before a Tawny Port finish; that base spirit predates Lux Row's 2018 distillery start. Contemporary/historical specialist evidence identifies Heaven Hill/Bernheim as Luxco's Rebel contract source for this era, so the expression binds to Heaven Hill rather than Lux Row.",
+      "sources": [
+        "urn:cask23:evidence:physical-bottle:rebel-tawny-port",
+        "https://luxrowdistillers.com/rebel-bourbon-launches-limited-edition-tawny-port-finish/",
+        "https://distiller.com/spirits/rebel-yell-kentucky-straight-bourbon",
+        "https://chuckcowdery.blogspot.com/2014/07/luxco-identifies-sources-for-its.html"
+      ]
+    },
+    {
+      "stagingId": "C4-STAGE-0022",
+      "beverageId": "9fd43b75-4de0-41bb-b9a6-f46b15bb8770",
+      "systemSlug": "rebel-straight-45",
+      "displayName": "Rebel Straight 45%",
+      "status": "BOUND",
+      "canonicalDistilleryId": "DIST-ROSS-SQUIBB",
+      "canonicalSlug": "ross-squibb",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "note": "Founder-supplied physical bottle evidence resolves the expression as Rebel Straight Rye Whiskey, 45% ABV, aged 24 months, distilled and aged in Indiana, bottled for Lux Row. Established specialist provenance identifies the two-year Rebel rye as MGP/Lawrenceburg stock, now governed as Ross & Squibb Distillery.",
+      "sources": [
+        "urn:cask23:evidence:physical-bottle:rebel-straight-rye",
+        "https://modernthirst.com/2015/09/16/rebel-yell-small-batch-rye-review/",
+        "https://www.mgpingredients.com/branded-spirits/ross-squibb-distillery"
+      ]
+    }
+  ],
+  "terminalWithheldExpressions": [
+    {
+      "beverageId": "4b47d2c9-4d5c-485d-aca9-e6edb84d698e",
+      "reason": "SOURCE_TRANSITION_AMBIGUITY",
+      "requiredFutureEvidence": "Bottle-era, lot or label evidence identifying the Old World 12 source generation."
+    },
+    {
+      "beverageId": "e2e00fde-a68c-46a2-87e5-a7a4a5a718f8",
+      "reason": "BOTTLING_ERA_AMBIGUITY",
+      "requiredFutureEvidence": "Bottle-era/packaging evidence distinguishing legacy sourced 1856 from later own-barrel Nearest Green production."
+    }
+  ],
   "presentationGovernance": {
     "suppressExploreDistillery": [
       {
@@ -494,32 +718,7 @@
         "note": "Smokehead is a brand built around undisclosed Islay single malt; no physical-facility route may be inferred."
       }
     ],
-    "provenanceReviewQueue": [
-      {
-        "directorySlug": "old-pulteney",
-        "reason": "Brand identity; expression-level confirmation required before binding to Pulteney Distillery."
-      },
-      {
-        "directorySlug": "whistlepig",
-        "reason": "Brand has physical distilling operations, but exact listed-expression provenance must be established before facility assignment."
-      },
-      {
-        "directorySlug": "uncle-nearest",
-        "reason": "Brand has physical distilling operations, but exact listed-expression provenance must be established before facility assignment."
-      },
-      {
-        "directorySlug": "hudson",
-        "reason": "Brand historically associated with Tuthilltown; exact listed-expression provenance must be established before facility assignment."
-      },
-      {
-        "directorySlug": "evan-williams",
-        "reason": "Brand identity; exact listed-expression production facility must be proven before assignment."
-      },
-      {
-        "directorySlug": "rebel",
-        "reason": "Brand identity; exact listed-expression production facility must be proven before assignment."
-      }
-    ]
+    "provenanceReviewQueue": []
   },
   "sensoryGovernance": {
     "policyId": "PZ-WHISKY-SENSORY-SMOKE-V1.1",
@@ -539,6 +738,34 @@
     "implementationNote": "Lovable audit identified persisted Family 10 smoke derived from SMOKE_FROM_PEAT_LEVEL and smokeFromPeat. Applying this policy to current canonical revisions requires authorised manifest regeneration/supersession; this governance contract does not itself mutate Supabase canonical revisions."
   },
   "profiles": [
+    {
+      "distilleryId": "DIST-ALBERTA-DISTILLERS",
+      "slug": "alberta-distillers",
+      "officialName": "Alberta Distillers Limited",
+      "entityType": "DISTILLERY",
+      "country": "Canada",
+      "region": "Alberta",
+      "location": "Calgary, Alberta, Canada",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "The distillery describes its water as pure, mineral-rich glacial water from the Rocky Mountains.",
+        "malt": "Its signature rye production uses 100% unmalted Canadian Prairie rye sourced from Alberta, Saskatchewan and Manitoba, together with a proprietary enzyme system developed for rye conversion.",
+        "fermentation": "Established specialist technical references describe approximately four-day fermentation following mash preparation, with around 20 washbacks and a proprietary yeast strain.",
+        "stills": "Alberta Distillers uses both continuous-column and batch/pot distillation. Specialist technical documentation describes a beer column feeding further continuous rectification as well as a kettle/pot-still route used for flavouring whisky and selected rye styles.",
+        "maturation": "Whisky is matured on site in new charred white oak, ex-bourbon and reused Canadian whisky barrels, with both rack and pallet warehouse systems."
+      },
+      "houseCharacter": "Alberta Distillers builds its rye identity from resilient prairie grain, glacial water and an unusual ability to process 100% unmalted rye through its own enzyme system. Combining high-efficiency continuous distillation with pot/batch distillation lets the distillery create both lighter base whisky and more characterful rye components. New oak, ex-bourbon and reused barrels then give the blender a broad maturation palette while retaining the grain's characteristic spice, fruit and sweetness.",
+      "cask23Narrative": "Alberta Distillers is one of the great engines of Canadian rye whisky and an important provenance point for mature sourced rye found in international brands. Its technical speciality is 100% unmalted prairie rye, handled with proprietary enzymes and distilled through both continuous and pot-based systems rather than a single still regime. That combination helps explain why mature Alberta rye can carry intense spice and grain character while still providing the polished texture needed for long ageing and secondary finishing.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.albertadistillers.com/",
+        "https://www.albertadistillers.com/our-brands/alberta-premium",
+        "https://www.whiskybase.com/whiskies/distillery/356/about",
+        "https://thewhiskeywash.com/canadian-whiskey/alberta-distillers-stamps-its-version-of-canadian-rye-on-the-whisky-map/"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
     {
       "distilleryId": "DIST-AMRUT",
       "slug": "amrut",
@@ -1580,6 +1807,32 @@
       "governanceStatus": "SOURCE_VERIFIED"
     },
     {
+      "distilleryId": "DIST-NEAREST-GREEN",
+      "slug": "nearest-green",
+      "officialName": "Nearest Green Distillery",
+      "entityType": "DISTILLERY",
+      "country": "United States",
+      "region": "Tennessee",
+      "owner": "Uncle Nearest, Inc.",
+      "location": "3125 Highway 231 N, Shelbyville, Tennessee 37160, United States",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "stills": "Established specialist reporting identifies an 18-inch column still as part of the distillery's whiskey-production system; the facility is a working distillery and farm.",
+        "maturation": "Tennessee whiskey produced for the house is matured in new charred oak after the required Tennessee-whiskey production steps; the site operates extensive barrel-aging facilities as part of its phased Shelbyville campus."
+      },
+      "houseCharacter": "Nearest Green is a modern Tennessee whiskey facility built around large-scale column distillation, barrel maturation and the production conventions associated with Tennessee whiskey. The exact water source, fermentation duration and current mash specifications are not publicly disclosed in the verified source set, so they are intentionally absent here. The technical profile therefore remains focused on the physical Shelbyville facility rather than projecting brand-level or sourced-whiskey specifications onto its own new make.",
+      "cask23Narrative": "Nearest Green Distillery in Shelbyville is the physical home of Uncle Nearest and a major modern Tennessee whiskey campus. It is important to separate that facility from the provenance of individual Uncle Nearest bottlings: older releases were built from sourced Tennessee whiskey, while later releases can contain whiskey from the company's own barrels. For Cask 23, the distillery profile explains the current production home without pretending that every bottle carrying the Uncle Nearest name was necessarily distilled there.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://unclenearest.com/distillery/",
+        "https://unclenearest.com/",
+        "https://unclenearest.com/wp-content/uploads/2025/05/TTB_Labeling_Memo_UncleNearest.pdf",
+        "https://chuckcowdery.blogspot.com/2023/05/who-makes-americas-whiskey-now.html"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
       "distilleryId": "DIST-JOHN-DISTILLERIES-GOA",
       "slug": "john-distilleries-goa",
       "officialName": "Paul John Distillery, Goa",
@@ -1631,6 +1884,66 @@
         "https://www.indri.in/the-distillery",
         "https://www.indri.in/our-process",
         "https://www.piccadily.com/our-distilleries"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-PULTENEY",
+      "slug": "pulteney",
+      "officialName": "Pulteney Distillery",
+      "entityType": "DISTILLERY",
+      "country": "Scotland",
+      "region": "Highland",
+      "founded": 1826,
+      "owner": "Inver House Distillers",
+      "location": "Wick, Caithness, Scotland",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "Process water comes from Loch Hempriggs and reaches the distillery through the historic gravity-fed lade built by Thomas Telford.",
+        "malt": "The distillery uses unpeated malted barley sourced from local farmers and mills it through a century-old Porteus mill.",
+        "fermentation": "Six stainless-steel washbacks each have a 23,500-litre working capacity; the current distillery process describes fermentation at around 60 hours using dried yeast.",
+        "stills": "One wash still and one spirit still are used. The wash still has an unusual boil-ball/flat-top geometry, and spirit is condensed through traditional worm tubs, contributing weight and texture.",
+        "peat": "The malt is unpeated.",
+        "maturation": "American and Spanish oak casks mature in cool, humid warehouses in Wick; official distillery material explicitly links the coastal warehouse environment to the house maturation character."
+      },
+      "houseCharacter": "Pulteney combines unpeated malt and a relatively long fermentation with unusually shaped copper stills and worm-tub condensation. The still geometry preserves aromatic fragrance while the worms retain body and depth in the new make. Long maturation in Wick's cool, humid coastal warehouses then reinforces the distillery's characteristic combination of fruit, malt, spice and maritime salinity.",
+      "cask23Narrative": "Pulteney is the physical distillery behind Old Pulteney, made in Wick at the far north-eastern edge of mainland Scotland. Its unusually shaped wash still and traditional worm tubs help explain why the whisky can feel both fragrant and substantial, while maturation beside the Caithness coast adds the maritime impression for which the house is known. For a Cask 23 customer, it is a useful example of how still shape, condensation and warehouse environment can combine to create a recognisable coastal single-malt identity without relying on peat smoke.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": [
+        "https://oldpulteney.com/pages/our-craft",
+        "https://oldpulteney.com/whisky-blog/making-whisky-facts-figures/",
+        "https://oldpulteney.com/pages/200-year-anniversary"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-ROSS-SQUIBB",
+      "slug": "ross-squibb",
+      "officialName": "Ross & Squibb Distillery",
+      "entityType": "DISTILLERY",
+      "country": "United States",
+      "region": "Indiana",
+      "founded": 1847,
+      "owner": "MGP Ingredients",
+      "location": "Lawrenceburg, Indiana, United States",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "waterSource": "The Lawrenceburg distillery draws limestone-filtered water from an underground aquifer; MGP also identifies the Greater Miami aquifer as a key production-water resource.",
+        "malt": "The facility handles multiple grains and is a major producer of high-rye whiskey, including 95% rye recipes alongside bourbon mash bills.",
+        "fermentation": "Established technical reporting describes large fermentation capacity at Lawrenceburg with approximately three-day fermentation for whiskey production.",
+        "stills": "The Lawrenceburg complex uses continuous-column distillation for large-scale whiskey production and has extensive expertise in high-rye mash bills and contract distillation.",
+        "maturation": "Whiskey is barreled and matured through the Lawrenceburg/Greendale complex and associated warehouse network before sale either under MGP-owned brands or to contract customers."
+      },
+      "houseCharacter": "Ross & Squibb's production identity is built around high-volume continuous distillation combined with unusually deep expertise in high-rye mash bills. Limestone-filtered aquifer water, large fermentation capacity and multiple established whiskey recipes allow the site to produce spirit ranging from bourbon to intensely rye-led distillate. Its role as both a brand distillery and a major contract producer means the same physical hardware underpins many labels that do not carry the Ross & Squibb name.",
+      "cask23Narrative": "Ross & Squibb in Lawrenceburg is one of the most important source distilleries in American whiskey, particularly for rye. The facility is the modern identity of the historic Lawrenceburg plant long known to the trade as MGP, and its whiskey appears under both house brands and third-party labels. For Cask 23, that distinction matters: a bottle may say Rebel or another brand on the front while the actual liquid provenance points back to this Indiana production asset.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.mgpingredients.com/branded-spirits/ross-squibb-distillery",
+        "https://www.mgpingredients.com/more-information/news-press/news-releases/luxco-rebrands-indiana-home-its-branded-spirits-ross",
+        "https://www.mgpingredients.com/distilling-solutions/resources/distilling-blog/making-rye-whiskey.html",
+        "https://alcademics.com/a-visit-to-mgps-lawrenceburg-distillery/"
       ],
       "governanceStatus": "SOURCE_VERIFIED"
     },
@@ -2086,6 +2399,35 @@
         "https://www.tullibardine.com/distillery",
         "https://tullibardine.com/our-story",
         "https://www.whisky.com/whisky-database/distilleries/details/tullibardine.html"
+      ],
+      "governanceStatus": "SOURCE_VERIFIED"
+    },
+    {
+      "distilleryId": "DIST-TUTHILLTOWN",
+      "slug": "tuthilltown",
+      "officialName": "Tuthilltown Spirits Distillery",
+      "entityType": "DISTILLERY",
+      "country": "United States",
+      "region": "New York",
+      "founded": 2003,
+      "owner": "William Grant & Sons",
+      "location": "14 Grist Mill Lane, Gardiner, New York 12525, United States",
+      "operationalStatus": "ACTIVE",
+      "production": {
+        "malt": "Hudson whiskey is made from New York grain sourced from local family farmers; current rye production includes a 95% rye / 5% malted barley recipe, while historic Hudson Manhattan Rye was produced from 100% rye.",
+        "fermentation": "Established specialist reporting describes eight 3,000-gallon temperature-controlled fermenters and fermentation of roughly three to four days.",
+        "stills": "The facility uses multiple stills and has historically double-distilled Hudson whiskey. The Cask 23 Hudson Manhattan Rye expression is documented as pot-distilled and double-distilled at Tuthilltown.",
+        "maturation": "Whiskey is matured on the Gardiner site in rickhouses. Historic Hudson Manhattan Rye used small new-charred American oak barrels; the current Hudson range uses new American oak with longer age statements for several releases."
+      },
+      "houseCharacter": "Tuthilltown's house identity begins with locally sourced New York grain and compact-batch fermentation before distillation on a flexible craft-scale still system. Historic Hudson releases such as Manhattan Rye relied on double pot distillation and unusually small new-oak barrels, creating a concentrated grain-and-oak style at relatively young ages. The modern distillery has evolved toward longer maturation while retaining the same strongly New York, grain-forward production identity.",
+      "cask23Narrative": "Tuthilltown Spirits in Gardiner is the physical distillery behind the historic Hudson Manhattan Rye on the Cask 23 list. The distillery helped restart legal whiskey production in New York after Prohibition and built its early reputation around local grain, hands-on distillation and small-barrel maturation. That makes Hudson Manhattan especially useful as a snapshot of the early American craft-whiskey movement: bold rye grain, direct pot-still character and assertive new oak rather than the long, polished maturation typical of larger Kentucky producers.",
+      "verificationDate": "2026-08-23",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": [
+        "https://www.hudsonwhiskey.com/en-US/distillery/",
+        "https://www.tuthilltowndistillery.com/",
+        "https://www.diffordsguide.com/beer-wine-spirits/2484/hudson-manhattan-rye-whiskey",
+        "https://www.thespiritsbusiness.com/2014/08/the-secrets-of-tuthilltown-spirits-in-pictures/"
       ],
       "governanceStatus": "SOURCE_VERIFIED"
     },

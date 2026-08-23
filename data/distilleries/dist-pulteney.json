@@ -1,0 +1,30 @@
+{
+  "distilleryId": "DIST-PULTENEY",
+  "slug": "pulteney",
+  "officialName": "Pulteney Distillery",
+  "entityType": "DISTILLERY",
+  "country": "Scotland",
+  "region": "Highland",
+  "founded": 1826,
+  "owner": "Inver House Distillers",
+  "location": "Wick, Caithness, Scotland",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "Process water comes from Loch Hempriggs and reaches the distillery through the historic gravity-fed lade built by Thomas Telford.",
+    "malt": "The distillery uses unpeated malted barley sourced from local farmers and mills it through a century-old Porteus mill.",
+    "fermentation": "Six stainless-steel washbacks each have a 23,500-litre working capacity; the current distillery process describes fermentation at around 60 hours using dried yeast.",
+    "stills": "One wash still and one spirit still are used. The wash still has an unusual boil-ball/flat-top geometry, and spirit is condensed through traditional worm tubs, contributing weight and texture.",
+    "peat": "The malt is unpeated.",
+    "maturation": "American and Spanish oak casks mature in cool, humid warehouses in Wick; official distillery material explicitly links the coastal warehouse environment to the house maturation character."
+  },
+  "houseCharacter": "Pulteney combines unpeated malt and a relatively long fermentation with unusually shaped copper stills and worm-tub condensation. The still geometry preserves aromatic fragrance while the worms retain body and depth in the new make. Long maturation in Wick's cool, humid coastal warehouses then reinforces the distillery's characteristic combination of fruit, malt, spice and maritime salinity.",
+  "cask23Narrative": "Pulteney is the physical distillery behind Old Pulteney, made in Wick at the far north-eastern edge of mainland Scotland. Its unusually shaped wash still and traditional worm tubs help explain why the whisky can feel both fragrant and substantial, while maturation beside the Caithness coast adds the maritime impression for which the house is known. For a Cask 23 customer, it is a useful example of how still shape, condensation and warehouse environment can combine to create a recognisable coastal single-malt identity without relying on peat smoke.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_1_OFFICIAL",
+  "sources": [
+    "https://oldpulteney.com/pages/our-craft",
+    "https://oldpulteney.com/whisky-blog/making-whisky-facts-figures/",
+    "https://oldpulteney.com/pages/200-year-anniversary"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
