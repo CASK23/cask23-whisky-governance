@@ -1,0 +1,30 @@
+{
+  "distilleryId": "DIST-ROSS-SQUIBB",
+  "slug": "ross-squibb",
+  "officialName": "Ross & Squibb Distillery",
+  "entityType": "DISTILLERY",
+  "country": "United States",
+  "region": "Indiana",
+  "founded": 1847,
+  "owner": "MGP Ingredients",
+  "location": "Lawrenceburg, Indiana, United States",
+  "operationalStatus": "ACTIVE",
+  "production": {
+    "waterSource": "The Lawrenceburg distillery draws limestone-filtered water from an underground aquifer; MGP also identifies the Greater Miami aquifer as a key production-water resource.",
+    "malt": "The facility handles multiple grains and is a major producer of high-rye whiskey, including 95% rye recipes alongside bourbon mash bills.",
+    "fermentation": "Established technical reporting describes large fermentation capacity at Lawrenceburg with approximately three-day fermentation for whiskey production.",
+    "stills": "The Lawrenceburg complex uses continuous-column distillation for large-scale whiskey production and has extensive expertise in high-rye mash bills and contract distillation.",
+    "maturation": "Whiskey is barreled and matured through the Lawrenceburg/Greendale complex and associated warehouse network before sale either under MGP-owned brands or to contract customers."
+  },
+  "houseCharacter": "Ross & Squibb's production identity is built around high-volume continuous distillation combined with unusually deep expertise in high-rye mash bills. Limestone-filtered aquifer water, large fermentation capacity and multiple established whiskey recipes allow the site to produce spirit ranging from bourbon to intensely rye-led distillate. Its role as both a brand distillery and a major contract producer means the same physical hardware underpins many labels that do not carry the Ross & Squibb name.",
+  "cask23Narrative": "Ross & Squibb in Lawrenceburg is one of the most important source distilleries in American whiskey, particularly for rye. The facility is the modern identity of the historic Lawrenceburg plant long known to the trade as MGP, and its whiskey appears under both house brands and third-party labels. For Cask 23, that distinction matters: a bottle may say Rebel or another brand on the front while the actual liquid provenance points back to this Indiana production asset.",
+  "verificationDate": "2026-08-23",
+  "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+  "sources": [
+    "https://www.mgpingredients.com/branded-spirits/ross-squibb-distillery",
+    "https://www.mgpingredients.com/more-information/news-press/news-releases/luxco-rebrands-indiana-home-its-branded-spirits-ross",
+    "https://www.mgpingredients.com/distilling-solutions/resources/distilling-blog/making-rye-whiskey.html",
+    "https://alcademics.com/a-visit-to-mgps-lawrenceburg-distillery/"
+  ],
+  "governanceStatus": "SOURCE_VERIFIED"
+}
