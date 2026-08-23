@@ -8,6 +8,7 @@ on:
       - 'data/distilleries/**'
       - 'schema/**'
       - 'reconciliation/**'
+      - 'governance/**'
       - 'scripts/build_distillery_master.py'
       - '.github/workflows/project-zero-distillery-master.yml'
 
