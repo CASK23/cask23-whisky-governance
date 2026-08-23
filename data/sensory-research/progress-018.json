@@ -1,0 +1,54 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-018",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "governanceRule": "Exact expression evidence only; canonical identity text is preserved even when the source reveals a spelling correction.",
+  "records": [
+    {
+      "beverageId": "8e5e74f1-1ce5-40ff-91dd-7f311b534a48",
+      "officialName": "KingGlassie Double Matured 5 Years in Ex-Bourbon and 3 Years in Amontillado",
+      "verifiedDescriptors": ["Smoke", "Tobacco", "Almond", "Nuts", "Char"],
+      "descriptorFamilies": {"Smoke":"smoke-peat","Tobacco":"oak","Almond":"nutty","Nuts":"nutty","Char":"smoke-peat"},
+      "cask23TastingNarrative": "Smoke and tobacco are wrapped around almond and nut richness, with a long char-led chewiness from five years in bourbon wood followed by three in Amontillado casks.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.inchdairniedistillery.com/product/kinglassie/","https://www.disaronnointernational.co.uk/ryelaw-1"],
+      "governanceNote": "Official product spelling is KinGlassie. This sensory enrichment does not alter the canonical manifest name 'KingGlassie'."
+    },
+    {
+      "beverageId": "a775fa25-3c07-4f6e-96b8-3c1e98643cce",
+      "officialName": "A Fine Christmas Malt TWE I/B 17 Year G/F 58.7%",
+      "verifiedDescriptors": ["Christmas cake", "Cherry", "Sherry", "Stewed fruit", "Caramel", "Toffee", "Chocolate raisin", "Apple", "Orange", "Redcurrant", "Christmas pudding", "Cinnamon", "Nutmeg", "Walnut", "Date", "Plum", "Candied peel"],
+      "descriptorFamilies": {"Christmas cake":"dried-fruit","Cherry":"dried-fruit","Sherry":"dried-fruit","Stewed fruit":"orchard-fruit","Caramel":"sweet","Toffee":"sweet","Chocolate raisin":"chocolate-coffee","Apple":"orchard-fruit","Orange":"citrus","Redcurrant":"dried-fruit","Christmas pudding":"dried-fruit","Cinnamon":"spice","Nutmeg":"spice","Walnut":"nutty","Date":"dried-fruit","Plum":"orchard-fruit","Candied peel":"citrus"},
+      "cask23TastingNarrative": "Christmas cake, cherry and sherry lead into caramel, toffee and chocolate-raisin richness, with apple, orange, redcurrant and Christmas pudding followed by cinnamon, nutmeg, walnut, date, plum and candied peel.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_EXACT_RELEASE",
+      "sources": ["https://www.thewhiskyexchange.com/p/45999/a-fine-christmas-malt-2018-17-year-old"],
+      "governanceNote": "Exact 2018 17-year-old release at 58.7% and 1,800 bottles. Sensory data does not assert the rumoured distillery identity."
+    },
+    {
+      "beverageId": "a9e90ace-7c0f-484c-bd0a-fb078a607cc4",
+      "officialName": "TBY I/B The English Whisky Co. 8 Year 52.3%",
+      "verifiedDescriptors": ["Sooty smoke", "White grape", "Lemon zest", "Peat smoke", "Butterscotch mint", "Juicy fruit", "Earth", "Chilli", "Barbecued lemon peel"],
+      "descriptorFamilies": {"Sooty smoke":"smoke-peat","White grape":"dried-fruit","Lemon zest":"citrus","Peat smoke":"smoke-peat","Butterscotch mint":"sweet","Juicy fruit":"orchard-fruit","Earth":"floral-herbal","Chilli":"spice","Barbecued lemon peel":"smoke-peat"},
+      "cask23TastingNarrative": "Sooty peat smoke meets white grape and lemon zest, followed by butterscotch-mint sweetness, juicy fruit and earth before chilli heat and barbecued lemon peel carry the long finish.",
+      "evidenceTier": "TIER_1_OFFICIAL_BOTTLER",
+      "sources": ["https://www.thatboutiqueywhiskycompany.com/whiskies/english-whisky-company"]
+    },
+    {
+      "beverageId": "7b714302-ba3e-4375-b568-9e71f3f8618f",
+      "officialName": "Mossburn Mannochmore 10 Year 56.1%",
+      "verifiedDescriptors": ["Sponge cake", "Lemon drizzle cake", "Fruit cake", "Spice", "Coffee", "Barley", "White grape", "Sesame", "Lemon peel", "Almond"],
+      "descriptorFamilies": {"Sponge cake":"sweet","Lemon drizzle cake":"citrus","Fruit cake":"dried-fruit","Spice":"spice","Coffee":"chocolate-coffee","Barley":"sweet","White grape":"dried-fruit","Sesame":"nutty","Lemon peel":"citrus","Almond":"nutty"},
+      "cask23TastingNarrative": "Sponge cake, lemon drizzle and fruit cake lead into spice, coffee and barley, with white grape sweetness followed by sesame, lemon peel and almond.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_EXACT_RELEASE",
+      "sources": ["https://www.masterofmalt.com/whiskies/mannochmore/mannochmore-10-year-old-2008-cask-strength-mossburn-whisky/"]
+    },
+    {
+      "beverageId": "f7c8f15b-a8ed-48ae-b14b-d3a563ca3135",
+      "officialName": "Mossburn Craigellachie 16 years Marsala Cask 52.4%",
+      "verifiedDescriptors": ["Nuts", "Floral", "Dried apricot", "Orange marmalade", "Sweet spice", "Oak spice", "Red fruit", "Stewed summer fruit", "Caramel"],
+      "descriptorFamilies": {"Nuts":"nutty","Floral":"floral-herbal","Dried apricot":"dried-fruit","Orange marmalade":"citrus","Sweet spice":"spice","Oak spice":"oak","Red fruit":"dried-fruit","Stewed summer fruit":"orchard-fruit","Caramel":"sweet"},
+      "cask23TastingNarrative": "Nutty and floral notes meet dried apricot, orange marmalade and sweet spice, before oak spice gives way to red and stewed summer fruit with a light caramel finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_RETAILER_EXACT_RELEASE",
+      "sources": ["https://www.htfw.com/craigellachie-mossburn-vintage-cask-batch-38-2007-16-year-old-whisky","https://farehamwinecellar.co.uk/Products/spirit/scotch-whisky/scotch-whisky-single-malt/speyside-single-malt-whisky/mossburn-vintage-casks-no-38-craigellachie-2007/"]
+    }
+  ]
+}
