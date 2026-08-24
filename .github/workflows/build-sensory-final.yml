@@ -1,0 +1,108 @@
+name: Build Project Zero Sensory Master Final
+
+on:
+  push:
+    branches:
+      - finalize/project-zero-sensory-master
+    paths:
+      - '.sensory-build-trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout finalize branch
+        uses: actions/checkout@v4
+        with:
+          ref: finalize/project-zero-sensory-master
+          fetch-depth: 0
+
+      - name: Fetch authoritative 262-expression manifest
+        run: |
+          set -euo pipefail
+          mkdir -p .build-input
+          curl --fail --location --silent --show-error \
+            'https://raw.githubusercontent.com/CASK23/cask23-whisky-bar/main/project-zero/governance/pz-whisky-sensory-completeness.manifest.json?token=CKP2OPB54SOELZSBS2KJXA3KRQNN5AA' \
+            -o .build-input/pz-whisky-sensory-completeness.manifest.json
+          python - <<'PY'
+          import json
+          rows=json.load(open('.build-input/pz-whisky-sensory-completeness.manifest.json','r',encoding='utf-8'))
+          assert isinstance(rows,list) and len(rows)==262
+          ids=[r['beverageId'] for r in rows]
+          assert len(set(ids))==262
+          print('manifest: 262 records / 262 unique BeverageIds')
+          PY
+
+      - name: Build sensory master
+        run: |
+          set -euo pipefail
+          python scripts/build_project_zero_sensory_master.py \
+            .build-input/pz-whisky-sensory-completeness.manifest.json \
+            --progress-dir data/sensory-research \
+            --output PROJECT_ZERO_SENSORY_MASTER.json | tee sensory-build-metrics.json
+
+      - name: Validate hard gates
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('PROJECT_ZERO_SENSORY_MASTER.json').read_text(encoding='utf-8'))
+          records=data['records']
+          assert data['recordCount']==262
+          assert len(records)==262
+          ids=[r['beverageId'] for r in records]
+          assert len(set(ids))==262
+          allowed={'orchard-fruit','citrus','dried-fruit','tropical','sweet','chocolate-coffee','spice','nutty','oak','floral-herbal','maritime','smoke-peat'}
+          assert len(allowed)==12
+          urls=set(); statuses={}; unmapped=[]
+          for r in records:
+              desc=r.get('descriptors') or []
+              fm=r.get('descriptorFamilies') or {}
+              if set(fm)!=set(desc):
+                  unmapped.append({'beverageId':r['beverageId'],'descriptorKeys':sorted(desc),'familyKeys':sorted(fm)})
+              bad=[v for v in fm.values() if v not in allowed]
+              assert not bad, f"invalid taxonomy family {r['beverageId']}: {bad}"
+              statuses[r['governanceStatus']]=statuses.get(r['governanceStatus'],0)+1
+              for src in r.get('sources') or []:
+                  if isinstance(src,str) and src.startswith(('http://','https://')):
+                      urls.add(src)
+          assert not unmapped, f'unmapped descriptor/family mismatches: {unmapped}'
+          report={
+            'project':data.get('project'),
+            'version':data.get('version'),
+            'recordCount':262,
+            'uniqueBeverageIds':262,
+            'allowedVisualFamilies':12,
+            **data['metrics'],
+            'distinctExternalSourceUrls':len(urls),
+            'governanceStatuses':statuses,
+            'unmappedDescriptorCount':0,
+            'validation':'PASS'
+          }
+          Path('PROJECT_ZERO_SENSORY_MASTER.validation.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(report,indent=2))
+          PY
+
+      - name: Determinism check
+        run: |
+          set -euo pipefail
+          cp PROJECT_ZERO_SENSORY_MASTER.json /tmp/master-first.json
+          python scripts/build_project_zero_sensory_master.py \
+            .build-input/pz-whisky-sensory-completeness.manifest.json \
+            --progress-dir data/sensory-research \
+            --output PROJECT_ZERO_SENSORY_MASTER.json >/tmp/second-build-metrics.json
+          cmp -s /tmp/master-first.json PROJECT_ZERO_SENSORY_MASTER.json
+          echo 'deterministic repeat-build: PASS'
+
+      - name: Commit validated master to finalize branch
+        run: |
+          set -euo pipefail
+          git config user.name 'CASK23 Project Zero Bot'
+          git config user.email 'nilesh@cask23.co.uk'
+          git add PROJECT_ZERO_SENSORY_MASTER.json PROJECT_ZERO_SENSORY_MASTER.validation.json
+          git commit -m 'build: compile validated Project Zero sensory master'
+          git push origin HEAD:finalize/project-zero-sensory-master
