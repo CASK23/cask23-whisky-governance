@@ -38,6 +38,36 @@ jobs:
           print('manifest: 262 records / 262 unique BeverageIds')
           PY
 
+      - name: Audit governed existing descriptor taxonomy coverage
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          manifest=json.loads(Path('data/input/pz-whisky-sensory-completeness.manifest.json').read_text(encoding='utf-8'))
+          maps={}
+          for p in sorted(Path('data/sensory-research').glob('progress-*.json')):
+              if '-correction' in p.stem: continue
+              data=json.loads(p.read_text(encoding='utf-8'))
+              for r in data.get('records',[]):
+                  bid=r.get('beverageId'); fm=r.get('descriptorFamilies') or {}
+                  if bid and fm: maps.setdefault(bid,[]).append((p.name,fm))
+          gaps=[]
+          unique=set()
+          for r in manifest:
+              desc=list(r.get('currentDescriptors') or [])
+              if not desc: continue
+              opts=maps.get(r['beverageId'],[])
+              if any(all(d in fm for d in desc) for _,fm in opts): continue
+              missing=[]
+              for d in desc:
+                  if not any(d in fm for _,fm in opts): missing.append(d)
+              gaps.append({'beverageId':r['beverageId'],'officialName':r['officialName'],'missingDescriptors':missing,'allExistingDescriptors':desc})
+              unique.update(missing)
+          print('BASELINE_TAXONOMY_GAP_RECORDS=',len(gaps))
+          print('BASELINE_TAXONOMY_GAP_UNIQUE_DESCRIPTORS=',len(unique))
+          print(json.dumps({'uniqueDescriptors':sorted(unique,key=str.casefold),'records':gaps},ensure_ascii=False,indent=2))
+          PY
+
       - name: Build sensory master
         run: |
           set -euo pipefail
