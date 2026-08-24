@@ -44,7 +44,7 @@ FM={
 'Forest berries':'orchard-fruit','Seville orange':'citrus','Walnut':'nutty',
 'Cherry blossom':'floral-herbal',
 'Brown sugar':'sweet','Baking spice':'spice','Minerality':'maritime','Stewed apple':'orchard-fruit',
-'Mineral':'maritime'
+'Peach':'orchard-fruit','Mineral':'maritime'
 }
 
 U={
