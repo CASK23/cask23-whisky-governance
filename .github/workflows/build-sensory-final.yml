@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - '.sensory-build-trigger'
+      - 'data/input/pz-whisky-sensory-completeness.manifest.json'
       - 'data/sensory-research/**'
       - 'scripts/build_project_zero_sensory_master.py'
       - '.github/workflows/build-sensory-final.yml'
@@ -23,16 +24,14 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
-      - name: Fetch authoritative 262-expression manifest
+      - name: Validate authoritative 262-expression manifest
         run: |
           set -euo pipefail
-          mkdir -p .build-input
-          curl --fail --location --silent --show-error \
-            'https://raw.githubusercontent.com/CASK23/cask23-whisky-bar/main/project-zero/governance/pz-whisky-sensory-completeness.manifest.json?token=CKP2OPB54SOELZSBS2KJXA3KRQNN5AA' \
-            -o .build-input/pz-whisky-sensory-completeness.manifest.json
           python - <<'PY'
           import json
-          rows=json.load(open('.build-input/pz-whisky-sensory-completeness.manifest.json','r',encoding='utf-8'))
+          from pathlib import Path
+          p=Path('data/input/pz-whisky-sensory-completeness.manifest.json')
+          rows=json.loads(p.read_text(encoding='utf-8'))
           assert isinstance(rows,list) and len(rows)==262
           ids=[r['beverageId'] for r in rows]
           assert len(set(ids))==262
@@ -43,7 +42,7 @@ jobs:
         run: |
           set -euo pipefail
           python scripts/build_project_zero_sensory_master.py \
-            .build-input/pz-whisky-sensory-completeness.manifest.json \
+            data/input/pz-whisky-sensory-completeness.manifest.json \
             --progress-dir data/sensory-research \
             --output PROJECT_ZERO_SENSORY_MASTER.json | tee sensory-build-metrics.json
 
@@ -95,7 +94,7 @@ jobs:
           set -euo pipefail
           cp PROJECT_ZERO_SENSORY_MASTER.json /tmp/master-first.json
           python scripts/build_project_zero_sensory_master.py \
-            .build-input/pz-whisky-sensory-completeness.manifest.json \
+            data/input/pz-whisky-sensory-completeness.manifest.json \
             --progress-dir data/sensory-research \
             --output PROJECT_ZERO_SENSORY_MASTER.json >/tmp/second-build-metrics.json
           cmp -s /tmp/master-first.json PROJECT_ZERO_SENSORY_MASTER.json
