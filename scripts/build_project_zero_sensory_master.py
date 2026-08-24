@@ -107,7 +107,13 @@ def main() -> None:
 
     explicit_corrections = load_explicit_corrections(args.progress_dir)
     research: dict[str, list[dict[str, Any]]] = {bid: [] for bid in canonical}
-    ledger_paths = sorted(args.progress_dir.glob("progress-*.json"))
+    # Only execution ledgers participate in assembly. Human-readable correction
+    # artefacts such as progress-002-correction.json are governance records, not
+    # research ledgers; the machine-readable correction lives in ledger-corrections.json.
+    ledger_paths = sorted(
+        p for p in args.progress_dir.glob("progress-*.json")
+        if "-correction" not in p.stem
+    )
     if not ledger_paths:
         fail(f"No progress ledgers found under {args.progress_dir}")
 
