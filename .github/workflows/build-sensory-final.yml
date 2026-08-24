@@ -1,11 +1,14 @@
 name: Build Project Zero Sensory Master Final
 
 on:
-  push:
+  pull_request:
     branches:
-      - finalize/project-zero-sensory-master
+      - main
     paths:
       - '.sensory-build-trigger'
+      - 'data/sensory-research/**'
+      - 'scripts/build_project_zero_sensory_master.py'
+      - '.github/workflows/build-sensory-final.yml'
 
 permissions:
   contents: write
@@ -17,7 +20,7 @@ jobs:
       - name: Checkout finalize branch
         uses: actions/checkout@v4
         with:
-          ref: finalize/project-zero-sensory-master
+          ref: ${{ github.head_ref }}
           fetch-depth: 0
 
       - name: Fetch authoritative 262-expression manifest
@@ -99,10 +102,12 @@ jobs:
           echo 'deterministic repeat-build: PASS'
 
       - name: Commit validated master to finalize branch
+        env:
+          TARGET_BRANCH: ${{ github.head_ref }}
         run: |
           set -euo pipefail
           git config user.name 'CASK23 Project Zero Bot'
           git config user.email 'nilesh@cask23.co.uk'
           git add PROJECT_ZERO_SENSORY_MASTER.json PROJECT_ZERO_SENSORY_MASTER.validation.json
           git commit -m 'build: compile validated Project Zero sensory master'
-          git push origin HEAD:finalize/project-zero-sensory-master
+          git push origin HEAD:${TARGET_BRANCH}
