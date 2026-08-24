@@ -1,87 +1,56 @@
-name: Project Zero Sensory Master Validation
+name: Project Zero Distillery Master
 
 on:
-  push:
+  pull_request:
     branches:
-      - feature/whisky-sensory-governance
-  workflow_dispatch:
+      - main
+    paths:
+      - 'data/distilleries/**'
+      - 'schema/**'
+      - 'reconciliation/**'
+      - 'governance/**'
+      - 'scripts/build_distillery_master.py'
+      - '.github/workflows/project-zero-distillery-master.yml'
 
 permissions:
   contents: write
 
+concurrency:
+  group: project-zero-distillery-master-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
 jobs:
-  validate-and-build-sensory:
-    if: github.actor != 'github-actions[bot]'
+  validate-and-build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source branch
         uses: actions/checkout@v4
         with:
-          ref: feature/whisky-sensory-governance
+          ref: ${{ github.head_ref }}
           fetch-depth: 0
 
-      - name: Fetch authoritative 262-expression manifest
-        run: |
-          set -euo pipefail
-          mkdir -p .build-input
-          curl --fail --location --silent --show-error \
-            'https://raw.githubusercontent.com/CASK23/cask23-whisky-bar/main/project-zero/governance/pz-whisky-sensory-completeness.manifest.json?token=CKP2OPDOSTAS54Z5KGFG4QDKRQH6JAA' \
-            -o .build-input/pz-whisky-sensory-completeness.manifest.json
-          python - <<'PY'
-          import json
-          p='.build-input/pz-whisky-sensory-completeness.manifest.json'
-          rows=json.load(open(p,'r',encoding='utf-8'))
-          assert isinstance(rows,list) and len(rows)==262, len(rows) if isinstance(rows,list) else type(rows)
-          ids=[r['beverageId'] for r in rows]
-          assert len(set(ids))==262, 'duplicate manifest BeverageId'
-          print('manifest 262/262 PASS')
-          PY
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-      - name: Build deterministic sensory master
-        run: |
-          set -euo pipefail
-          python scripts/build_project_zero_sensory_master.py \
-            .build-input/pz-whisky-sensory-completeness.manifest.json \
-            --progress-dir data/sensory-research \
-            --output PROJECT_ZERO_SENSORY_MASTER.json | tee sensory-build-metrics.json
+      - name: Install validator
+        run: python -m pip install --disable-pip-version-check jsonschema
 
-      - name: Validate hard gates
-        run: |
-          set -euo pipefail
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          data=json.loads(Path('PROJECT_ZERO_SENSORY_MASTER.json').read_text(encoding='utf-8'))
-          records=data['records']
-          assert data['recordCount']==262
-          assert len(records)==262
-          ids=[r['beverageId'] for r in records]
-          assert len(set(ids))==262
-          allowed={'orchard-fruit','citrus','dried-fruit','tropical','sweet','chocolate-coffee','spice','nutty','oak','floral-herbal','maritime','smoke-peat'}
-          urls=set(); statuses={}
-          for r in records:
-              desc=r.get('descriptors') or []
-              fm=r.get('descriptorFamilies') or {}
-              assert set(fm)==set(desc), f"family keys mismatch {r['beverageId']}"
-              assert all(v in allowed for v in fm.values()), f"invalid family {r['beverageId']}"
-              statuses[r['governanceStatus']]=statuses.get(r['governanceStatus'],0)+1
-              for src in r.get('sources') or []:
-                  if isinstance(src,str) and src.startswith(('http://','https://')): urls.add(src)
-          report={'version':data.get('version'),'recordCount':262,'uniqueBeverageIds':262,**data['metrics'],'distinctExternalSourceUrls':len(urls),'governanceStatuses':statuses,'allowedVisualFamilies':len(allowed),'validation':'PASS'}
-          Path('PROJECT_ZERO_SENSORY_MASTER.validation.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
-          print(json.dumps(report,indent=2))
-          PY
+      - name: Validate profiles and build unified master
+        run: python scripts/build_distillery_master.py
 
-      - name: Commit validated master payload
+      - name: Commit deterministic master payload
+        env:
+          TARGET_BRANCH: ${{ github.head_ref }}
         run: |
-          set -euo pipefail
           git config user.name "CASK23 Project Zero Bot"
           git config user.email "nilesh@cask23.co.uk"
-          git add PROJECT_ZERO_SENSORY_MASTER.json PROJECT_ZERO_SENSORY_MASTER.validation.json
+          git add PROJECT_ZERO_DISTILLERY_MASTER.json
           if git diff --cached --quiet; then
             echo "Master payload already current"
           else
-            git commit -m "build: compile validated Project Zero sensory master"
-            git pull --rebase origin feature/whisky-sensory-governance
-            git push origin HEAD:feature/whisky-sensory-governance
+            git commit -m "build: assemble validated Project Zero distillery master"
+            git pull --rebase origin "${TARGET_BRANCH}"
+            git push origin HEAD:"${TARGET_BRANCH}"
           fi
