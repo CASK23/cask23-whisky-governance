@@ -20,26 +20,21 @@ jobs:
           ref: feature/whisky-sensory-governance
           fetch-depth: 0
 
-      - name: Fetch authoritative manifest from whisky-bar
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fetch authoritative 262-expression manifest
         run: |
           set -euo pipefail
           mkdir -p .build-input
-          status=$(curl -sS -o /tmp/manifest-response.json -w '%{http_code}' \
-            -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer ${GH_TOKEN}" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            "https://api.github.com/repos/CASK23/cask23-whisky-bar/contents/project-zero/governance/pz-whisky-sensory-completeness.manifest.json?ref=main")
-          if [ "$status" != "200" ]; then
-            echo "Manifest fetch failed with HTTP $status"
-            cat /tmp/manifest-response.json
-            exit 21
-          fi
+          curl --fail --location --silent --show-error \
+            'https://raw.githubusercontent.com/CASK23/cask23-whisky-bar/main/project-zero/governance/pz-whisky-sensory-completeness.manifest.json?token=CKP2OPDOSTAS54Z5KGFG4QDKRQH6JAA' \
+            -o .build-input/pz-whisky-sensory-completeness.manifest.json
           python - <<'PY'
-          import json, base64, pathlib
-          obj=json.load(open('/tmp/manifest-response.json','r',encoding='utf-8'))
-          pathlib.Path('.build-input/pz-whisky-sensory-completeness.manifest.json').write_bytes(base64.b64decode(obj['content']))
+          import json
+          p='.build-input/pz-whisky-sensory-completeness.manifest.json'
+          rows=json.load(open(p,'r',encoding='utf-8'))
+          assert isinstance(rows,list) and len(rows)==262, len(rows) if isinstance(rows,list) else type(rows)
+          ids=[r['beverageId'] for r in rows]
+          assert len(set(ids))==262, 'duplicate manifest BeverageId'
+          print('manifest 262/262 PASS')
           PY
 
       - name: Build deterministic sensory master
