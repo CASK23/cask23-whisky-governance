@@ -1,0 +1,53 @@
+name: Build Project Zero Sensory Master v1.1
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.sensory-v1-1-trigger'
+      - 'scripts/apply_sensory_gap_closure_v1_1.py'
+      - '.github/workflows/sensory-gap-v1-1-build.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - name: Apply v1.1 governed gap closure
+        run: python scripts/apply_sensory_gap_closure_v1_1.py | tee sensory-v1-1-build-report.json
+      - name: Verify deterministic 262/262 hard gates
+        run: |
+          python - <<'PY'
+          import json, hashlib
+          from pathlib import Path
+          p=json.loads(Path('PROJECT_ZERO_SENSORY_MASTER_v1.1.json').read_text(encoding='utf-8'))
+          assert p['version']=='1.1'
+          assert p['recordCount']==262 and len(p['records'])==262
+          ids=[r['beverageId'] for r in p['records']]
+          assert len(set(ids))==262
+          assert all(r.get('descriptors') for r in p['records'])
+          assert all(r.get('tastingNarrative') for r in p['records'])
+          assert all(set(r.get('descriptorFamilies') or {})==set(r['descriptors']) for r in p['records'])
+          assert all(r.get('governanceStatus')=='ENRICHED' for r in p['records'])
+          allowed={'orchard-fruit','citrus','dried-fruit','tropical','sweet','chocolate-coffee','spice','nutty','oak','floral-herbal','maritime','smoke-peat'}
+          assert all(v in allowed for r in p['records'] for v in (r.get('descriptorFamilies') or {}).values())
+          first=Path('PROJECT_ZERO_SENSORY_MASTER_v1.1.json').read_bytes()
+          print('sha256-first',hashlib.sha256(first).hexdigest())
+          PY
+          cp PROJECT_ZERO_SENSORY_MASTER_v1.1.json /tmp/first.json
+          python scripts/apply_sensory_gap_closure_v1_1.py >/tmp/second.txt
+          cmp -s /tmp/first.json PROJECT_ZERO_SENSORY_MASTER_v1.1.json
+          echo 'deterministic repeat-build: PASS'
+      - name: Commit validated v1.1 assets
+        run: |
+          git config user.name 'CASK23 Project Zero Bot'
+          git config user.email 'nilesh@cask23.co.uk'
+          git add PROJECT_ZERO_SENSORY_MASTER.json PROJECT_ZERO_SENSORY_MASTER_v1.1.json PROJECT_ZERO_SENSORY_MASTER_v1.1.validation.json
+          git commit -m 'sensory: compile fully populated Project Zero master v1.1'
+          git push origin HEAD:${{ github.head_ref }}
