@@ -1,0 +1,23 @@
+{
+  "project": "PROJECT_ZERO_SENSORY_MASTER",
+  "version": "1.0-candidate",
+  "recordCount": 262,
+  "uniqueBeverageIds": 262,
+  "allowedVisualFamilies": 12,
+  "descriptorCoverage": 214,
+  "tastingNarrativeCoverage": 216,
+  "researchFilledDescriptorRecords": 100,
+  "researchFilledNarrativeRecords": 161,
+  "explicitWithholds": 11,
+  "ledgerCount": 17,
+  "explicitLedgerCorrectionsApplied": 1,
+  "baselineTaxonomyMappingsUsed": 78,
+  "distinctExternalSourceUrls": 131,
+  "governanceStatuses": {
+    "ENRICHED": 217,
+    "ABSENT_UNRESOLVED": 34,
+    "WITHHELD": 11
+  },
+  "unmappedDescriptorCount": 0,
+  "validation": "PASS"
+}

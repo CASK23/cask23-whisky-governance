@@ -7,7 +7,7 @@ Hard rules:
 - Existing governed descriptors/tasting notes are preserved verbatim.
 - Research fills missing fields only.
 - A research row with a BeverageId absent from the manifest is a hard failure unless it is covered by an explicit reviewed ledger-correction row.
-- Descriptor-family mappings must be explicitly present in a reviewed ledger; no family inference.
+- Descriptor-family mappings must be explicitly present either in a reviewed expression ledger or, for pre-existing governed descriptors only, in the reviewed governed baseline descriptor-family map; no family inference.
 - Withholds remain explicit and never become synthetic sensory content.
 """
 from __future__ import annotations
@@ -61,6 +61,26 @@ def validate_family_map(descriptors: list[str], family_map: dict[str, str], cont
             fail(f"{context}: invalid family {family!r} for {descriptor!r}")
 
 
+def load_baseline_family_map(path: Path) -> dict[str, str]:
+    if not path.exists():
+        fail(f"Governed baseline descriptor-family map not found: {path}")
+    payload = load(path)
+    if not isinstance(payload, dict):
+        fail(f"{path}: expected object")
+    declared = payload.get("allowedFamilies")
+    if not isinstance(declared, list) or set(declared) != ALLOWED_FAMILIES or len(declared) != len(ALLOWED_FAMILIES):
+        fail(f"{path}: allowedFamilies must declare exactly the 12 governed visual families")
+    mapping = payload.get("descriptorFamilies")
+    if not isinstance(mapping, dict):
+        fail(f"{path}: descriptorFamilies must be an object")
+    for descriptor, family in mapping.items():
+        if not isinstance(descriptor, str) or not descriptor:
+            fail(f"{path}: malformed descriptor key")
+        if family not in ALLOWED_FAMILIES:
+            fail(f"{path}: invalid family {family!r} for {descriptor!r}")
+    return mapping
+
+
 def load_explicit_corrections(progress_dir: Path) -> dict[tuple[str, str], str]:
     path = progress_dir / "ledger-corrections.json"
     if not path.exists():
@@ -84,6 +104,12 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("manifest", type=Path, help="Verbatim Lovable 262-item completeness manifest")
     ap.add_argument("--progress-dir", type=Path, default=Path("data/sensory-research"))
+    ap.add_argument(
+        "--baseline-family-map",
+        type=Path,
+        default=Path("schema/governed-descriptor-family-map.json"),
+        help="Reviewed explicit visual-family mappings for descriptors already present in the governed manifest",
+    )
     ap.add_argument("--output", type=Path, default=Path("PROJECT_ZERO_SENSORY_MASTER.json"))
     args = ap.parse_args()
 
@@ -105,6 +131,7 @@ def main() -> None:
             fail(f"Manifest row {idx} missing officialName")
         canonical[bid] = row
 
+    baseline_family_map = load_baseline_family_map(args.baseline_family_map)
     explicit_corrections = load_explicit_corrections(args.progress_dir)
     research: dict[str, list[dict[str, Any]]] = {bid: [] for bid in canonical}
     # Only execution ledgers participate in assembly. Human-readable correction
@@ -144,6 +171,7 @@ def main() -> None:
     explicit_withholds = 0
     research_filled_descriptors = 0
     research_filled_narratives = 0
+    baseline_taxonomy_mappings_used = 0
 
     for bid in sorted(canonical):
         base = canonical[bid]
@@ -165,7 +193,11 @@ def main() -> None:
                 fm = mapping_candidate.get("descriptorFamilies") or {}
                 family_map = {d: fm[d] for d in existing_desc}
             else:
-                fail(f"{bid}: governed existing descriptors lack reviewed taxonomy mappings")
+                missing = [d for d in existing_desc if d not in baseline_family_map]
+                if missing:
+                    fail(f"{bid}: governed existing descriptors lack reviewed taxonomy mappings: {missing}")
+                family_map = {d: baseline_family_map[d] for d in existing_desc}
+                baseline_taxonomy_mappings_used += 1
         else:
             desc_candidate = next((r for r in ranked if r.get("verifiedDescriptors")), None)
             if desc_candidate:
@@ -229,6 +261,7 @@ def main() -> None:
             "explicitWithholds": explicit_withholds,
             "ledgerCount": len(ledger_paths),
             "explicitLedgerCorrectionsApplied": len(corrections_applied),
+            "baselineTaxonomyMappingsUsed": baseline_taxonomy_mappings_used,
         },
         "ledgerCorrectionsApplied": corrections_applied,
         "records": output_records,
