@@ -1,0 +1,90 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-008",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "governanceRule": "Data chooses the icon; the icon never generates the data.",
+  "records": [
+    {
+      "beverageId": "91a68c55-b5f7-45cd-b9bc-3b42dca7367f",
+      "officialName": "Indri Diwali 2025 Marsala Cask 58.5%",
+      "verifiedDescriptors": ["Stewed apricot", "Cherry", "Plum", "Vanilla", "Honey", "Red berries", "Nutmeg", "Chocolate", "Walnut", "Oak"],
+      "descriptorFamilies": {"Stewed apricot":"orchard-fruit","Cherry":"dried-fruit","Plum":"orchard-fruit","Vanilla":"sweet","Honey":"sweet","Red berries":"dried-fruit","Nutmeg":"spice","Chocolate":"chocolate-coffee","Walnut":"nutty","Oak":"oak"},
+      "cask23TastingNarrative": "Stewed apricot, cherry and plum meet vanilla and honey, before red berries, nutmeg, chocolate and walnut build into a long wine-and-oak finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://piccadily.com/diwali-collection-2025"]
+    },
+    {
+      "beverageId": "d3dfeb99-f19c-40e2-947e-786750fd427f",
+      "officialName": "The Cardrona Single Malt Whisky — The Falcon",
+      "verifiedDescriptors": ["Burnt toffee", "Vanilla cream", "Nectarine", "Pepper"],
+      "descriptorFamilies": {"Burnt toffee":"sweet","Vanilla cream":"sweet","Nectarine":"orchard-fruit","Pepper":"spice"},
+      "cask23TastingNarrative": "Burnt toffee and vanilla cream frame sun-ripened nectarine, with pepper adding a warm, drying lift.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.cardronadistillery.co.uk/products/copy-of-the-falcon-the-cardrona-single-malt-whisky-au"]
+    },
+    {
+      "beverageId": "3af074f8-139e-4be2-a1e5-784240032a01",
+      "officialName": "Wire Works Amarone Wine Finish 53.6%",
+      "verifiedDescriptors": [],
+      "descriptorFamilies": {},
+      "cask23TastingNarrative": null,
+      "evidenceTier": "WITHHELD_RELEASE_MISMATCH",
+      "sources": ["https://www.whitepeakdistillery.co.uk/wire-works-wine-cask-series/"],
+      "governanceNote": "Current official Amarone Wine release is 54.1% ABV while the governed record is 53.6%. No cross-release sensory reuse is permitted."
+    },
+    {
+      "beverageId": "0d6597d3-a727-4b81-ba6b-3034b245f45e",
+      "officialName": "Mackmyra Skördetid",
+      "verifiedDescriptors": ["Grape", "Raisin", "Pear", "Ginger", "Vanilla", "Oak", "Herbal spice"],
+      "descriptorFamilies": {"Grape":"dried-fruit","Raisin":"dried-fruit","Pear":"orchard-fruit","Ginger":"spice","Vanilla":"sweet","Oak":"oak","Herbal spice":"floral-herbal"},
+      "cask23TastingNarrative": "Vinous grape and raisin notes lead into pear, ginger and vanilla, with oak and herbal spice carrying the warm Amarone-finished profile.",
+      "evidenceTier": "TIER_1_OFFICIAL_PRESS",
+      "sources": ["https://news.cision.com/mackmyra-svensk-whisky/r/masi-gives-mackmyra-skordetid-a-taste-of-italy%2Cc2730351"]
+    },
+    {
+      "beverageId": "d2e1d954-0a8e-4f39-aee7-fc0a793c2a96",
+      "officialName": "Mackmyra Svensk Ek Swedish & American Oak 46.1%",
+      "verifiedDescriptors": ["Citrus", "Pear", "Apple", "Honey", "Sandalwood", "Ginger", "Black pepper", "Roasted oak", "Herbs", "Caramel", "Dark chocolate"],
+      "descriptorFamilies": {"Citrus":"citrus","Pear":"orchard-fruit","Apple":"orchard-fruit","Honey":"sweet","Sandalwood":"oak","Ginger":"spice","Black pepper":"spice","Roasted oak":"oak","Herbs":"floral-herbal","Caramel":"sweet","Dark chocolate":"chocolate-coffee"},
+      "cask23TastingNarrative": "Citrus, pear and apple sit over honey, before sandalwood, ginger, black pepper and roasted oak develop into herbs, caramel and dark chocolate.",
+      "evidenceTier": "TIER_1_OFFICIAL_TECH_SHEET",
+      "sources": ["https://gzhls.at/blob/ldb/5/d/2/f/abe4724b3f462af2f373fb8e7d67267f5a5a.pdf"]
+    },
+    {
+      "beverageId": "e7c6388b-2ad4-4b84-84fb-fcde0a1420c1",
+      "officialName": "Mackmyra Svensk Rok Swedish Smoke 46.1%",
+      "verifiedDescriptors": ["Smoke", "Oak", "Anise", "Tobacco", "Sea salt", "Green fruit"],
+      "descriptorFamilies": {"Smoke":"smoke-peat","Oak":"oak","Anise":"spice","Tobacco":"oak","Sea salt":"maritime","Green fruit":"orchard-fruit"},
+      "cask23TastingNarrative": "Swedish smoke is joined by oak, anise and tobacco, with sea salt and green fruit keeping the profile fresh and distinctly Nordic.",
+      "evidenceTier": "TIER_1_OFFICIAL_PROFILE",
+      "sources": ["https://mb.cision.com/Public/411/9776817/a120b9b47521b317.pdf"]
+    },
+    {
+      "beverageId": "8fce4a6c-f8f0-45ef-84f6-8a04b36636a2",
+      "officialName": "Kavalan Solist Single Cask Port Cask 57.1%",
+      "verifiedDescriptors": ["Citrus", "Orange", "Nuts", "Oak", "Sweet grape", "Chocolate", "Brown sugar", "Raisin", "Caramel", "Strawberry"],
+      "descriptorFamilies": {"Citrus":"citrus","Orange":"citrus","Nuts":"nutty","Oak":"oak","Sweet grape":"dried-fruit","Chocolate":"chocolate-coffee","Brown sugar":"sweet","Raisin":"dried-fruit","Caramel":"sweet","Strawberry":"dried-fruit"},
+      "cask23TastingNarrative": "Citrus and orange meet nutty oak, followed by sweet grape, chocolate, brown sugar and raisin before caramel and strawberry carry the long Port-cask finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_EXACT_ABV",
+      "sources": ["https://www.mitra-oirschot.nl/webshop/Kavalan-Solist-Port-Cask-57-1-p227418313"]
+    },
+    {
+      "beverageId": "5866431d-37e2-42ec-b2ca-f6278234b92c",
+      "officialName": "Deanston 15 Year Old Organic",
+      "verifiedDescriptors": ["Stem ginger", "White pepper", "Clove", "Vanilla", "Sweet fruit", "Honey", "Black pepper", "Nutty", "Oak", "Aniseed"],
+      "descriptorFamilies": {"Stem ginger":"spice","White pepper":"spice","Clove":"spice","Vanilla":"sweet","Sweet fruit":"orchard-fruit","Honey":"sweet","Black pepper":"spice","Nutty":"nutty","Oak":"oak","Aniseed":"spice"},
+      "cask23TastingNarrative": "Stem ginger, white pepper and clove sit over vanilla, sweet fruit and honey, before black pepper, nuts, oak and aniseed shape the finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": ["https://cdnc.heyzine.com/files/uploaded/v2/c8c1b080ac2713a5dcb1e19596d09b6cd7ad3e40-2.pdf"]
+    },
+    {
+      "beverageId": "98eb8688-8f95-4ad0-94c9-365fe41299e4",
+      "officialName": "Glenglassaugh Octaves Classic Batch 2",
+      "verifiedDescriptors": ["Tangerine", "Honey", "Vanilla", "Mango", "Chocolate", "Raisin", "Peach", "Oak", "Spice"],
+      "descriptorFamilies": {"Tangerine":"citrus","Honey":"sweet","Vanilla":"sweet","Mango":"tropical","Chocolate":"chocolate-coffee","Raisin":"dried-fruit","Peach":"orchard-fruit","Oak":"oak","Spice":"spice"},
+      "cask23TastingNarrative": "Tangerine, honey and vanilla lead into mango, chocolate and raisin, with peach, oak and gentle spice deepening the octave-cask profile.",
+      "evidenceTier": "TIER_3_REVIEW_EXACT_RELEASE",
+      "sources": ["https://www.reddit.com/r/Scotch/comments/mtm9jf"],
+      "governanceNote": "No official or established-specialist tasting note surfaced in the exact-query pass; this exact-release review is retained at lower evidence tier rather than promoted to primary evidence."
+    }
+  ]
+}

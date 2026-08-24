@@ -1,0 +1,9 @@
+{
+  "correctionId": "PZ-SENSORY-PROGRESS-002-CORR-001",
+  "appliesTo": "data/sensory-research/progress-002.json",
+  "rule": "Final assembly MUST use the canonical manifest beverageId. The erroneous ledger UUID below is invalid and must not bind by name.",
+  "invalidBeverageId": "067b619a-62ac-4bba-9e07-33b4c4c1a2292",
+  "canonicalBeverageId": "067b619a-62ac-4bba-9e07-33b4c619f26c",
+  "officialName": "The Benriach 12 Year 46%",
+  "status": "CORRECTED_BY_EXACT_MANIFEST_ID"
+}

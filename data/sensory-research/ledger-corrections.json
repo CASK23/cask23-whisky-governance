@@ -1,0 +1,10 @@
+{
+  "corrections": [
+    {
+      "ledger": "progress-002.json",
+      "incorrectBeverageId": "067b619a-62ac-4bba-9e07-33b4c4c1a2292",
+      "canonicalBeverageId": "067b619a-62ac-4bba-9e07-33b4c619f26c",
+      "reason": "Transcription error in early sensory progress ledger. Canonical BeverageId is taken from the frozen 262-item Lovable manifest. This is an explicit governance correction, not a name-based recovery."
+    }
+  ]
+}

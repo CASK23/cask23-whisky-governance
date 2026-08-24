@@ -1,0 +1,91 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-007",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "governanceRule": "Data chooses the icon; the icon never generates the data.",
+  "records": [
+    {
+      "beverageId": "4ec009ed-1372-4382-bf49-2d0d333a1f92",
+      "officialName": "Ardnamurchan Cask Strength 59.4%",
+      "verifiedDescriptors": ["Coastal peat smoke", "Vanilla", "Citrus zest", "Orchard fruit", "Oak", "Black pepper", "Seaweed", "Sea salt"],
+      "descriptorFamilies": {"Coastal peat smoke":"smoke-peat","Vanilla":"sweet","Citrus zest":"citrus","Orchard fruit":"orchard-fruit","Oak":"oak","Black pepper":"spice","Seaweed":"maritime","Sea salt":"maritime"},
+      "cask23TastingNarrative": "Coastal peat smoke, vanilla and bright citrus lead into ripe orchard fruit, warm oak and black pepper, with seaweed and sea-salt salinity lingering through the finish.",
+      "evidenceTier": "TIER_1_OFFICIAL_EXPRESSION_FAMILY",
+      "sources": ["https://ardnamurchandistillery.com/our-whiskies/ad-limited-release","https://ardnamurchandistillery.com/our-whiskies"],
+      "governanceNote": "Official Cask Strength release notes are batch-family notes; ABV varies by batch. Sensory enrichment does not alter the governed 59.4% identity."
+    },
+    {
+      "beverageId": "62ee7be7-885c-43a7-984d-1bc592640c40",
+      "officialName": "Hazelburn 10 Year 46%",
+      "verifiedDescriptors": ["Baked pineapple", "Lemon sherbet", "Honeycomb", "Orange peel", "Green apple", "Custard", "Salted caramel", "Ginger", "Toasted coconut", "Mineral"],
+      "descriptorFamilies": {"Baked pineapple":"tropical","Lemon sherbet":"citrus","Honeycomb":"sweet","Orange peel":"citrus","Green apple":"orchard-fruit","Custard":"sweet","Salted caramel":"sweet","Ginger":"spice","Toasted coconut":"tropical","Mineral":"maritime"},
+      "cask23TastingNarrative": "Baked pineapple, lemon sherbet and honeycomb open into green apple and creamy custard, before salted caramel, ginger, toasted coconut and a mineral note shape the finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.springbank.scot/whisky/hazelburn/"]
+    },
+    {
+      "beverageId": "8d9ccba2-258a-438c-b6ab-16f25b0f1b10",
+      "officialName": "Octomore 10.3 6 Year 114 PPM 61.3%",
+      "verifiedDescriptors": ["Earthy peat smoke", "Lemon", "Thyme", "Sea salt", "Vanilla", "Fudge", "Honey", "Pear", "Gooseberry", "Oak"],
+      "descriptorFamilies": {"Earthy peat smoke":"smoke-peat","Lemon":"citrus","Thyme":"floral-herbal","Sea salt":"maritime","Vanilla":"sweet","Fudge":"sweet","Honey":"sweet","Pear":"orchard-fruit","Gooseberry":"orchard-fruit","Oak":"oak"},
+      "cask23TastingNarrative": "Earthy peat smoke, lemon and thyme meet sea salt, vanilla and fudge, with honey, pear and gooseberry developing over oak beneath the heavy Islay peat.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_PRODUCER_NOTES",
+      "sources": ["https://www.thewhiskyexchange.com/p/51093/octomore-103-6-year-old-islay-barley"]
+    },
+    {
+      "beverageId": "89337992-3e63-463c-a5bf-ef1e0890675c",
+      "officialName": "Ardbeg Eureka!",
+      "verifiedDescriptors": ["Cherry", "Red apple", "Coffee", "Cocoa", "Heather smoke", "Dark chocolate", "Walnut", "Raisin", "Cinnamon", "Seaweed", "Bonfire embers"],
+      "descriptorFamilies": {"Cherry":"dried-fruit","Red apple":"orchard-fruit","Coffee":"chocolate-coffee","Cocoa":"chocolate-coffee","Heather smoke":"smoke-peat","Dark chocolate":"chocolate-coffee","Walnut":"nutty","Raisin":"dried-fruit","Cinnamon":"spice","Seaweed":"maritime","Bonfire embers":"smoke-peat"},
+      "cask23TastingNarrative": "Cherry and red apple open into coffee and cocoa beneath heather smoke, before dark chocolate, walnut, raisin and cinnamon meet salty seaweed and bonfire embers.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.ardbeg.com/en-gb/products/ardbeg-eureka"]
+    },
+    {
+      "beverageId": "9d9d4838-02a1-43a8-a712-cb394bd81959",
+      "officialName": "Ardbeg 19 Year Traigh Bhan 46.2%",
+      "verifiedDescriptors": ["Dark chocolate", "Peppermint", "Coffee", "Liquorice", "Bonfire smoke", "Ginger", "Soot", "Herbs", "Citrus"],
+      "descriptorFamilies": {"Dark chocolate":"chocolate-coffee","Peppermint":"floral-herbal","Coffee":"chocolate-coffee","Liquorice":"floral-herbal","Bonfire smoke":"smoke-peat","Ginger":"spice","Soot":"smoke-peat","Herbs":"floral-herbal","Citrus":"citrus"},
+      "cask23TastingNarrative": "Dark chocolate and peppermint meet coffee and liquorice, while bonfire smoke, ginger and soot carry the mature Ardbeg character alongside herbs and citrus.",
+      "evidenceTier": "TIER_1_OFFICIAL_RELEASE_SERIES",
+      "sources": ["https://www.ardbeg.com/en-gb/products/ardbeg-19-years-old-traigh-bhan-batch-6"],
+      "governanceNote": "Manifest does not identify the annual Traigh Bhan batch. The record uses only recurring series-level flavour markers supported by current official 46.2% Traigh Bhan material; batch-specific one-off notes are not asserted."
+    },
+    {
+      "beverageId": "94dc70e5-72cb-4d0f-b904-933e15f05a70",
+      "officialName": "Peat's Beast Cask/Batch Strength Pedro Ximénez Sherry Finish",
+      "verifiedDescriptors": ["Peat smoke", "Sherry", "Burnt sugar", "Vanilla", "Orange", "Clove"],
+      "descriptorFamilies": {"Peat smoke":"smoke-peat","Sherry":"dried-fruit","Burnt sugar":"sweet","Vanilla":"sweet","Orange":"citrus","Clove":"spice"},
+      "cask23TastingNarrative": "Peat smoke and sherry sweetness combine with burnt sugar and vanilla, lifted by orange and clove spice.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": ["https://www.youtube.com/watch?v=NJhlJNZ0Ig0"]
+    },
+    {
+      "beverageId": "0a427e9f-f20e-4050-a4a8-563e6a27e26b",
+      "officialName": "Gordon & MacPhail Discovery Miltonduff 10 Years Old",
+      "verifiedDescriptors": ["Sherry", "Raisin", "Hazelnut", "Citrus", "Milk chocolate", "Orange zest", "Cinnamon", "Plum", "Fig"],
+      "descriptorFamilies": {"Sherry":"dried-fruit","Raisin":"dried-fruit","Hazelnut":"nutty","Citrus":"citrus","Milk chocolate":"chocolate-coffee","Orange zest":"citrus","Cinnamon":"spice","Plum":"orchard-fruit","Fig":"dried-fruit"},
+      "cask23TastingNarrative": "Dry sherry, raisin and roasted hazelnut are brightened by citrus, before milk chocolate, orange zest and cinnamon deepen into plum and fig.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_PRODUCER_NOTES",
+      "sources": ["https://www.thewhiskyexchange.com/p/43920/miltonduff-10-year-old-sherry-cask-gm-discovery-range"]
+    },
+    {
+      "beverageId": "fbde470e-8e33-4178-b8c4-cb855943acec",
+      "officialName": "Lochlea Ploughing Edition 100% Isly Barrel",
+      "verifiedDescriptors": ["Green apple", "Cereal", "Summer hay", "Sea salt", "Peat embers"],
+      "descriptorFamilies": {"Green apple":"orchard-fruit","Cereal":"sweet","Summer hay":"floral-herbal","Sea salt":"maritime","Peat embers":"smoke-peat"},
+      "cask23TastingNarrative": "Fresh green apple and cereal lead into summer hay, with sea salt and lingering peat embers defining the ex-Islay-barrel finish.",
+      "evidenceTier": "TIER_1_OFFICIAL_RETAILER_SPEC",
+      "sources": ["https://www.houseoftownend.com/product/specsheet/lochlea-distillery-ploughing-edition-second-crop-single-malt-whisky"]
+    },
+    {
+      "beverageId": "580f7478-dcb3-489d-8e37-88aa3cf08616",
+      "officialName": "Springbank Cask Strength 12 Year",
+      "verifiedDescriptors": [],
+      "descriptorFamilies": {},
+      "cask23TastingNarrative": null,
+      "evidenceTier": "WITHHELD_BATCH_UNSPECIFIED",
+      "sources": ["https://www.springbank.scot/whisky/springbank-range/"],
+      "governanceNote": "Springbank 12 Cask Strength tasting notes vary materially by release/batch and the manifest does not carry a batch ABV/year. No current-edition tasting profile is applied to an unspecified historic record."
+    }
+  ]
+}

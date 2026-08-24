@@ -1,0 +1,118 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-005",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "governanceRule": "Data chooses the icon; the icon never generates the data.",
+  "records": [
+    {
+      "beverageId": "28e05805-1c4a-447a-8b03-05cd16aa37ed",
+      "officialName": "Amrut Intermediate Sherry 57.1%",
+      "verifiedDescriptors": ["Moist cake", "Sultana", "Liquorice", "Orange", "Honeycomb", "Caramel", "Spice", "Oak"],
+      "descriptorFamilies": {"Moist cake":"sweet","Sultana":"dried-fruit","Liquorice":"floral-herbal","Orange":"citrus","Honeycomb":"sweet","Caramel":"sweet","Spice":"spice","Oak":"oak"},
+      "cask23TastingNarrative": "Moist cake and sultana richness are layered with liquorice, orange and honeycomb, while caramel, spice and oak carry the powerful sherry-led finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://amrutdistilleries.com/amrut-indian-single-malt-whisky-intermediate-sherry-57-1-duplicate/"]
+    },
+    {
+      "beverageId": "75442f77-5311-4009-b166-7f59f08e43af",
+      "officialName": "Glen Moray 18 Year 47.2%",
+      "verifiedDescriptors": ["Toasted oak", "Treacle toffee", "Autumn fruit", "Baked apple", "Vanilla", "Raisin", "Light smoke"],
+      "descriptorFamilies": {"Toasted oak":"oak","Treacle toffee":"sweet","Autumn fruit":"orchard-fruit","Baked apple":"orchard-fruit","Vanilla":"sweet","Raisin":"dried-fruit","Light smoke":"smoke-peat"},
+      "cask23TastingNarrative": "Toasted oak and treacle toffee frame caramelised autumn fruit, baked apple and vanilla, with smoked raisin and a faint wisp of smoke through the long finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.glenmoray.com/heritage-18-year-old"]
+    },
+    {
+      "beverageId": "76a91166-658f-424e-981f-7097e2d82fa0",
+      "officialName": "Glen Moray Sherry Cask 40%",
+      "verifiedDescriptors": ["Fig", "Honey", "Warm spice", "Dried fruit"],
+      "descriptorFamilies": {"Fig":"dried-fruit","Honey":"sweet","Warm spice":"spice","Dried fruit":"dried-fruit"},
+      "cask23TastingNarrative": "Fresh fig and honeyed sweetness meet warm spice and dried-fruit richness in Glen Moray's sherry-cask finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.glenmoray.com/thick-leaves","https://www.glenmoray.com/moray-clan"]
+    },
+    {
+      "beverageId": "98a32c49-a870-4c76-ac8e-49ff9da86e5b",
+      "officialName": "Wire Works Caduro 46.8%",
+      "verifiedDescriptors": ["Green apple", "Banana", "Orange marmalade", "Nutmeg", "White chocolate", "Vanilla fudge", "Marzipan", "Treacle", "Butterscotch", "Peat smoke"],
+      "descriptorFamilies": {"Green apple":"orchard-fruit","Banana":"tropical","Orange marmalade":"citrus","Nutmeg":"spice","White chocolate":"chocolate-coffee","Vanilla fudge":"sweet","Marzipan":"nutty","Treacle":"sweet","Butterscotch":"sweet","Peat smoke":"smoke-peat"},
+      "cask23TastingNarrative": "Green apple and banana lead into orange marmalade, nutmeg and white chocolate, followed by vanilla fudge, marzipan and treacle before butterscotch and a wisp of peat smoke close the finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://www.whitepeakdistillery.co.uk/product/wire-works-whisky-caduro/"]
+    },
+    {
+      "beverageId": "5c8bdd2e-b010-4300-a201-98fd97e855f4",
+      "officialName": "Mackmyra Vinterglöd Swedish Mulled Wine & P/X Matured 46.1%",
+      "verifiedDescriptors": ["Orange", "Candied fruit", "Almond", "Oak", "Ginger"],
+      "descriptorFamilies": {"Orange":"citrus","Candied fruit":"dried-fruit","Almond":"nutty","Oak":"oak","Ginger":"spice"},
+      "cask23TastingNarrative": "Orange and candied fruit are joined by almond and oak, with a warming ginger-like spice reflecting the mulled-wine and PX-cask influence.",
+      "evidenceTier": "TIER_1_OFFICIAL_DISTRIBUTOR",
+      "sources": ["https://grapeexpectations.com.mv/wp-content/uploads/2025/01/Grape-Expectations-Pvt.-Ltd.-European-Single-Malt-Portfolio-2025.pdf"]
+    },
+    {
+      "beverageId": "36dcb6c0-7426-4b7e-9a3c-d9fa273176a0",
+      "officialName": "Glenfarclas 10 Year 40%",
+      "verifiedDescriptors": ["Honey", "Vanilla", "Pear", "Dried fruit", "Cinnamon", "Clove", "Sherry"],
+      "descriptorFamilies": {"Honey":"sweet","Vanilla":"sweet","Pear":"orchard-fruit","Dried fruit":"dried-fruit","Cinnamon":"spice","Clove":"spice","Sherry":"dried-fruit"},
+      "cask23TastingNarrative": "Honey, vanilla and pear sit over sweet sherry, with dried fruit, cinnamon and clove giving the youthful Speyside malt a gently spiced finish.",
+      "evidenceTier": "TIER_1_OFFICIAL_DISTRIBUTOR",
+      "sources": ["https://www.bibendum-wine.co.uk/spirits-softs/whisky/glenfarclas-10-year-old-1/?AltTemplate=TastingNotesPDF&download=true"]
+    },
+    {
+      "beverageId": "17e15876-5b28-4537-a905-fb4fe71e4034",
+      "officialName": "Glenfarclas 12 Year 43%",
+      "verifiedDescriptors": ["Sherry", "Cinnamon", "Stewed fruit"],
+      "descriptorFamilies": {"Sherry":"dried-fruit","Cinnamon":"spice","Stewed fruit":"orchard-fruit"},
+      "cask23TastingNarrative": "A classic sherried profile of stewed fruit and cinnamon spice, with a firm, slightly oily Speyside weight.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": ["https://document-tc.galaxy.tf/wdpdf-46kv8lz0yzqqiib6vu5un7z1c/whisky-bible.pdf"]
+    },
+    {
+      "beverageId": "a57d9a63-4e5a-419f-9e4b-05739054aa2a",
+      "officialName": "Glenfarclas 105 Cask Strength 60%",
+      "verifiedDescriptors": ["Apple", "Vanilla", "Caramel", "Sherry", "Pear", "Dark chocolate", "Oak"],
+      "descriptorFamilies": {"Apple":"orchard-fruit","Vanilla":"sweet","Caramel":"sweet","Sherry":"dried-fruit","Pear":"orchard-fruit","Dark chocolate":"chocolate-coffee","Oak":"oak"},
+      "cask23TastingNarrative": "Apple, pear and sherry fruit are wrapped in vanilla and caramel sweetness, with dry oak and dark chocolate carrying the powerful cask-strength palate.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": ["https://www.youtube.com/watch?v=iZi40JPgCr0"]
+    },
+    {
+      "beverageId": "73d4671a-3807-41f1-9b85-1aeb4c28bcdd",
+      "officialName": "Glenfarclas 185th Anniversary 46%",
+      "verifiedDescriptors": ["Sherry", "Dried fruit", "Plum", "Fig", "Green apple", "Ginger", "Salted toffee", "Dark chocolate"],
+      "descriptorFamilies": {"Sherry":"dried-fruit","Dried fruit":"dried-fruit","Plum":"orchard-fruit","Fig":"dried-fruit","Green apple":"orchard-fruit","Ginger":"spice","Salted toffee":"sweet","Dark chocolate":"chocolate-coffee"},
+      "cask23TastingNarrative": "Old, rich sherry character remains fresh through plum, fig and green apple, with ginger, salted toffee and dark chocolate adding depth to the anniversary vatting.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST",
+      "sources": ["https://www.houseoftownend.com/product/specsheet/glenfarclas-185th-anniversary-bottling-release-highland-single-malt-whisky"]
+    },
+    {
+      "beverageId": "213c368a-3e81-4ec3-85d3-84daacd26198",
+      "officialName": "Bimber Legacy Collection 2024",
+      "verifiedDescriptors": [],
+      "descriptorFamilies": {},
+      "cask23TastingNarrative": null,
+      "evidenceTier": "WITHHELD_NO_EXACT_SENSORY_SOURCE",
+      "sources": ["https://www.whiskybase.com/whiskies/whisky/267630/bimber-legacy-collection-2024"],
+      "governanceNote": "Exact bottle/cask identity is verified, but no qualifying exact sensory source was found in the permitted hierarchy."
+    },
+    {
+      "beverageId": "25141c4f-f434-42c4-ad36-3850c674078c",
+      "officialName": "Bimber Santa’s Edition 2023",
+      "verifiedDescriptors": [],
+      "descriptorFamilies": {},
+      "cask23TastingNarrative": null,
+      "evidenceTier": "WITHHELD_NO_EXACT_SENSORY_SOURCE",
+      "sources": ["https://www.whiskybase.com/whiskies/whisky/244431/bimber-santas-edition-2023"],
+      "governanceNote": "Exact release identity is verified, but no qualifying exact sensory source was found in the permitted hierarchy."
+    },
+    {
+      "beverageId": "4c1fe5c9-653d-4379-940c-d87e4b2303e2",
+      "officialName": "Mackmyra Moment Fjallmark (Cloudberry Wine) 46.1%",
+      "verifiedDescriptors": [],
+      "descriptorFamilies": {},
+      "cask23TastingNarrative": null,
+      "evidenceTier": "WITHHELD_RELEASE_MISMATCH",
+      "sources": ["https://www.masterofmalt.com/whiskies/mackmyra-svensk-whisky/mackmyra-moment-fjallmark-whisky/"],
+      "governanceNote": "Available specialist sensory source describes a 42% release while the governed manifest is 46.1%; no cross-release reuse permitted."
+    }
+  ]
+}

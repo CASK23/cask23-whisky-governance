@@ -1,0 +1,54 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-016",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "governanceRule": "Exact expression evidence only; identity-only evidence does not authorise unevidenced tasting notes.",
+  "records": [
+    {
+      "beverageId": "3e9bbd62-10e4-4e80-9c50-cb9c57533ca3",
+      "officialName": "Arran 13 Year Small Batch Port Pipe 53.2%",
+      "verifiedDescriptors": ["Raisin", "Molasses", "Toffee apple", "Caramel", "Vanilla", "Honey", "Citrus", "Apple", "Cinnamon", "Ginger", "Dark berries"],
+      "descriptorFamilies": {"Raisin":"dried-fruit","Molasses":"sweet","Toffee apple":"sweet","Caramel":"sweet","Vanilla":"sweet","Honey":"sweet","Citrus":"citrus","Apple":"orchard-fruit","Cinnamon":"spice","Ginger":"spice","Dark berries":"dried-fruit"},
+      "cask23TastingNarrative": "Raisin, molasses and toffee apple lead into caramel and vanilla, with honey, citrus and apple followed by cinnamon, ginger and dark-berry richness from the Port pipes.",
+      "evidenceTier": "TIER_2_ESTABLISHED_RETAILER_EXACT_RELEASE",
+      "sources": ["https://www.cgarsltd.co.uk/arran-year-old-port-pipe-small-batch-532-70cl-p-59912.html","https://thespiritsembassy.com/products/arran-13-year-old-small-batch-port-pipe"]
+    },
+    {
+      "beverageId": "9ca764d0-af12-4b0f-b789-ede22997165a",
+      "officialName": "Laphroaig Single Cask 59.6% Amontillado Cask",
+      "verifiedDescriptors": ["Walnut", "Maple syrup", "Pancakes", "Cinnamon", "Clove", "Velvety smoke", "Salted caramel", "Almond", "Salt"],
+      "descriptorFamilies": {"Walnut":"nutty","Maple syrup":"sweet","Pancakes":"sweet","Cinnamon":"spice","Clove":"spice","Velvety smoke":"smoke-peat","Salted caramel":"sweet","Almond":"nutty","Salt":"maritime"},
+      "cask23TastingNarrative": "Walnut, maple syrup and warm pancake sweetness lead into cinnamon and clove, with velvety smoke, salted caramel, almond and salt carrying the long Amontillado-cask finish.",
+      "evidenceTier": "TIER_1_OFFICIAL_EXACT_SINGLE_CASK",
+      "sources": ["https://www.laphroaig.com/en-gb/whiskies/islay-ember-single-cask"],
+      "governanceNote": "Official Islay Ember material matches the governed 2014/2025 single Amontillado cask #802279 at 59.6% and 312 bottles."
+    },
+    {
+      "beverageId": "9bfa71c8-4065-4dec-a665-b5e9ac44a25e",
+      "officialName": "SMWS 36.211 Chocolate-covered cherry cask",
+      "verifiedDescriptors": ["Dark chocolate", "Cherry", "Oak", "Black forest gateau", "Raisin", "Tobacco", "Toffee", "Caramel", "Old leather", "Peanut", "Pickled ginger", "Shortcrust pastry", "Chutney", "Caramel brownie", "Salted chocolate fudge"],
+      "descriptorFamilies": {"Dark chocolate":"chocolate-coffee","Cherry":"dried-fruit","Oak":"oak","Black forest gateau":"chocolate-coffee","Raisin":"dried-fruit","Tobacco":"oak","Toffee":"sweet","Caramel":"sweet","Old leather":"oak","Peanut":"nutty","Pickled ginger":"spice","Shortcrust pastry":"sweet","Chutney":"spice","Caramel brownie":"sweet","Salted chocolate fudge":"chocolate-coffee"},
+      "cask23TastingNarrative": "Dark chocolate, cherry and oak evoke black-forest gateau before raisin, tobacco, toffee and caramel deepen the palate, with peanut, pickled ginger and salted chocolate fudge emerging after reduction.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://smws.com/chocolate-covered-cherry-cask/"]
+    },
+    {
+      "beverageId": "bac1657d-95d3-40d0-b004-74efb95e0203",
+      "officialName": "Signatory Vintage 100 Proof Edition #29 — Speyside (M) 2011",
+      "verifiedDescriptors": ["Sweet malt", "Apple", "Pear", "Honey", "Vanilla", "Roasted almond", "Citrus", "Toffee", "Crème brûlée", "Apricot", "Dried fig", "Oak spice", "Nutmeg", "Cinnamon"],
+      "descriptorFamilies": {"Sweet malt":"sweet","Apple":"orchard-fruit","Pear":"orchard-fruit","Honey":"sweet","Vanilla":"sweet","Roasted almond":"nutty","Citrus":"citrus","Toffee":"sweet","Crème brûlée":"sweet","Apricot":"orchard-fruit","Dried fig":"dried-fruit","Oak spice":"oak","Nutmeg":"spice","Cinnamon":"spice"},
+      "cask23TastingNarrative": "Sweet malt, apple and pear sit over honey, vanilla and roasted almond, before toffee, crème brûlée, apricot and dried fig meet oak, nutmeg and cinnamon at 100 proof.",
+      "evidenceTier": "TIER_2_ESTABLISHED_RETAILER_EXACT_RELEASE",
+      "sources": ["https://www.maltrocks.de/products/speyside-m-2011-2024-13-jahre-signatory-100-proof-edition-29","https://www.whisky-online.com/products/speyside-m-2011-2024-13-year-old-signatory-vintage-100-proof-edition-29"]
+    },
+    {
+      "beverageId": "6aa861fb-d627-46eb-8f17-291da1567bd1",
+      "officialName": "Kilchoman 2008 Single Cask Release Islay Pipe Band 60.4%",
+      "verifiedDescriptors": [],
+      "descriptorFamilies": {},
+      "cask23TastingNarrative": null,
+      "evidenceTier": "WITHHELD_EXACT_IDENTITY_NO_QUALIFYING_SENSORY_TEXT",
+      "sources": ["https://www.kilchomandistillery.com/distillery-news/islay-pipe-band-single-cask-bottling/"],
+      "governanceNote": "Kilchoman officially verifies fresh Bourbon cask 461/2008 at 60.4% and states that bottle labels carried John MacLellan tasting notes, but the qualifying source page does not reproduce those notes. Identity is proven; sensory content remains withheld."
+    }
+  ]
+}

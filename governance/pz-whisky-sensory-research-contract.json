@@ -1,0 +1,37 @@
+{
+  "project": "PROJECT_ZERO_SENSORY_MASTER",
+  "version": "0.1",
+  "branch": "feature/whisky-sensory-governance",
+  "sourceManifest": "Lovable project-zero/governance/pz-whisky-sensory-completeness.manifest.json",
+  "sourceManifestRecordCount": 262,
+  "currentCoverage": {
+    "recordsWithDescriptors": 114,
+    "recordsWithoutDescriptors": 148,
+    "recordsWithTastingNote": 55,
+    "recordsWithoutTastingNote": 207
+  },
+  "researchScope": "Research every missing sensory field across the 262 governed BeverageIds using exact BeverageId identity only.",
+  "sourceHierarchy": [
+    "official producer / distillery expression page",
+    "official owner / parent-company expression material",
+    "official importer / distributor technical sheet",
+    "established industry specialist"
+  ],
+  "evidencePolicy": {
+    "noFuzzyMatching": true,
+    "noCrossExpressionReuse": true,
+    "noGeneratedFlavourClaims": true,
+    "withholdRatherThanGuess": true,
+    "verbatimSourceNotesAllowedOnlyWhenGoverned": true,
+    "customerNarrativeMustBeEvidenceBacked": true
+  },
+  "targetFields": [
+    "descriptors",
+    "tastingNote",
+    "flavourFamilyMappings"
+  ],
+  "taxonomySchema": "schema/flavour-taxonomy-schema.json",
+  "taxonomyRule": "Data chooses the icon; the icon never generates the data.",
+  "plannedOutput": "PROJECT_ZERO_SENSORY_MASTER.json",
+  "governanceStatus": "RESEARCH_ACTIVE"
+}

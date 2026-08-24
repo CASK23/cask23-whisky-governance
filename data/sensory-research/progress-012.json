@@ -1,0 +1,61 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-012",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "governanceRule": "Exact expression evidence only; no cross-batch or name-similarity donation.",
+  "records": [
+    {
+      "beverageId": "04a7d52c-45cd-4a0d-bcf1-c6df36185c87",
+      "officialName": "Togouchi Blended Sake Cask Finish 40%",
+      "verifiedDescriptors": ["Vanilla", "Green apple", "Malt", "Lactic", "Wood", "White fruit", "Spice"],
+      "descriptorFamilies": {"Vanilla":"sweet","Green apple":"orchard-fruit","Malt":"sweet","Lactic":"sweet","Wood":"oak","White fruit":"orchard-fruit","Spice":"spice"},
+      "cask23TastingNarrative": "Vanilla, green apple and malt open gently before lactic and woody notes develop, with white fruit and spice carrying the long Sake-cask finish.",
+      "evidenceTier": "TIER_1_OFFICIAL",
+      "sources": ["https://togouchi.com/en/gamme-whisky-togouchi/sake-cask-finish-2/"]
+    },
+    {
+      "beverageId": "05e4c85a-3249-48c1-a3bb-1915f0a1c943",
+      "officialName": "Glenglassaugh Evolution",
+      "verifiedDescriptors": ["Sweet barley", "Pineapple", "Vanilla", "Caramelised pear", "White pepper", "Green apple", "Salted caramel", "Banana", "Oak spice"],
+      "descriptorFamilies": {"Sweet barley":"sweet","Pineapple":"tropical","Vanilla":"sweet","Caramelised pear":"orchard-fruit","White pepper":"spice","Green apple":"orchard-fruit","Salted caramel":"sweet","Banana":"tropical","Oak spice":"oak"},
+      "cask23TastingNarrative": "Sweet barley, pineapple and vanilla lead into caramelised pear, before white pepper and green apple give way to salted caramel, banana and oak spice.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_PRODUCER_NOTES",
+      "sources": ["https://www.tyndrumwhisky.com/glenglassaugh-evolution-50.html"]
+    },
+    {
+      "beverageId": "0935aaef-ef3b-4509-98a5-792f1125f97a",
+      "officialName": "Signatory Vintage Coastal Edition 50 Year 43.1%",
+      "verifiedDescriptors": ["Brine", "Dried fruit", "Dark chocolate", "Citrus", "Sea salt", "Sherry sweetness", "Gentle peat", "Oak"],
+      "descriptorFamilies": {"Brine":"maritime","Dried fruit":"dried-fruit","Dark chocolate":"chocolate-coffee","Citrus":"citrus","Sea salt":"maritime","Sherry sweetness":"sweet","Gentle peat":"smoke-peat","Oak":"oak"},
+      "cask23TastingNarrative": "Brine and sea salt cut through dried fruit, dark chocolate and sherry sweetness, with citrus, gentle peat and polished oak carrying the long coastal finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_EXACT_RELEASE",
+      "sources": ["https://www.tyndrumwhisky.com/old-school-single-malt-50yo-coastal-edition-signatory-vintage.html"]
+    },
+    {
+      "beverageId": "0a427e9f-f20e-4050-a4a8-563e6a27e26b",
+      "officialName": "Gordon & MacPhail Discovery Miltonduff 10 Years Old",
+      "verifiedDescriptors": ["Dry sherry", "Stewed raisin", "Roasted hazelnut", "Citrus", "Milk chocolate", "Orange zest", "Spiced stewed fruit"],
+      "descriptorFamilies": {"Dry sherry":"dried-fruit","Stewed raisin":"dried-fruit","Roasted hazelnut":"nutty","Citrus":"citrus","Milk chocolate":"chocolate-coffee","Orange zest":"citrus","Spiced stewed fruit":"spice"},
+      "cask23TastingNarrative": "Dry sherry, stewed raisin and roasted hazelnut lead into milk chocolate and orange zest, with spiced stewed fruit and citrus extending the finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_RETAILER_PRODUCER_NOTES",
+      "sources": ["https://www.tesco.com/shop/en-GB/products/326134116"]
+    },
+    {
+      "beverageId": "17e15876-5b28-4537-a905-fb4fe71e4034",
+      "officialName": "Glenfarclas 12 Year 43%",
+      "verifiedDescriptors": ["Sherried fruit", "Spice", "Sweetness", "Oak"],
+      "descriptorFamilies": {"Sherried fruit":"dried-fruit","Spice":"spice","Sweetness":"sweet","Oak":"oak"},
+      "cask23TastingNarrative": "Fresh sherried fruit and sweetness are balanced by spice and oak, carrying into a long, flavoursome finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_RETAILER_OFFICIAL_NOTES",
+      "sources": ["https://whiskyinternationalonline.com/en-gb/products/glenfarclas-12-year-old-whisky-43"]
+    },
+    {
+      "beverageId": "1e029780-7227-4f65-851b-e84b429bb8f8",
+      "officialName": "Ichiros Malt & Grain Blend 46.5%",
+      "verifiedDescriptors": ["Apple", "Orange", "Vanilla", "Pear", "Honey", "Cinnamon"],
+      "descriptorFamilies": {"Apple":"orchard-fruit","Orange":"citrus","Vanilla":"sweet","Pear":"orchard-fruit","Honey":"sweet","Cinnamon":"spice"},
+      "cask23TastingNarrative": "Apple and orange lead into vanilla, pear and honey, with cinnamon adding a gentle spiced lift to the long, balanced finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_EXACT_ABV",
+      "sources": ["https://www.whiskyshop.com/ichiro-s-malt-grain-white-label"]
+    }
+  ]
+}

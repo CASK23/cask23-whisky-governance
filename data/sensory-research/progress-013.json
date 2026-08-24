@@ -1,0 +1,54 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-013",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "governanceRule": "Exact expression evidence only; uncertain release identity is withheld rather than inferred.",
+  "records": [
+    {
+      "beverageId": "1cadb28e-7fca-479c-8781-10be41b3c78c",
+      "officialName": "Gordon & Macphail Private Collection 2005 Ledaig 45%",
+      "verifiedDescriptors": ["Honey-roasted ham", "Citrus", "Summer berries", "Orange marmalade", "Pepper", "Red fruit", "Dark chocolate", "Smoke"],
+      "descriptorFamilies": {"Honey-roasted ham":"smoke-peat","Citrus":"citrus","Summer berries":"dried-fruit","Orange marmalade":"citrus","Pepper":"spice","Red fruit":"dried-fruit","Dark chocolate":"chocolate-coffee","Smoke":"smoke-peat"},
+      "cask23TastingNarrative": "Honey-roasted ham and smoke meet spicy citrus and summer berries, followed by orange marmalade, pepper, red fruit and dark chocolate from the Hermitage-finished Ledaig.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_EXACT_RELEASE",
+      "sources": ["https://www.thewhiskyexchange.com/p/40834/ledaig-2005-hermitage-finish-private-collection"]
+    },
+    {
+      "beverageId": "55d0ac69-0553-441b-8859-ad46b229d63d",
+      "officialName": "Longrow 100 Proof Batch 1 57.1%",
+      "verifiedDescriptors": ["Medicinal peat smoke", "Redcurrant", "Earthy smoke", "Crème brûlée", "Vanilla", "Almond", "Red cola", "Strawberry", "Marzipan"],
+      "descriptorFamilies": {"Medicinal peat smoke":"smoke-peat","Redcurrant":"dried-fruit","Earthy smoke":"smoke-peat","Crème brûlée":"sweet","Vanilla":"sweet","Almond":"nutty","Red cola":"sweet","Strawberry":"dried-fruit","Marzipan":"nutty"},
+      "cask23TastingNarrative": "Medicinal peat smoke and redcurrant soften into earthy smoke, crème brûlée, vanilla and almond, before red-cola sweetness, strawberry and marzipan carry the smoky finish.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_PRODUCER_NOTES",
+      "sources": ["https://www.masterofmalt.com/whiskies/longrow/longrow-100-proof-whisky/"]
+    },
+    {
+      "beverageId": "3e7bc42e-7e26-41bb-be07-b94f49bca2b4",
+      "officialName": "Hazelburn 15 Year Oloroso Cask Matured 55.8%",
+      "verifiedDescriptors": ["Cherry menthol", "Red cola", "Date syrup", "Black forest gateau", "Fudge", "Caramel", "Toffee apple", "Leather", "Demerara sugar", "Crème brûlée", "Rum-soaked raisins", "Vanilla sponge"],
+      "descriptorFamilies": {"Cherry menthol":"dried-fruit","Red cola":"sweet","Date syrup":"dried-fruit","Black forest gateau":"chocolate-coffee","Fudge":"sweet","Caramel":"sweet","Toffee apple":"sweet","Leather":"oak","Demerara sugar":"sweet","Crème brûlée":"sweet","Rum-soaked raisins":"dried-fruit","Vanilla sponge":"sweet"},
+      "cask23TastingNarrative": "Cherry menthol, red cola and date syrup lead into black-forest gateau, fudge and caramel, with toffee apple, leather and demerara sugar giving way to rum-soaked raisin and vanilla sponge.",
+      "evidenceTier": "TIER_2_ESTABLISHED_RETAILER_PRODUCER_NOTES",
+      "sources": ["https://jpha.co.uk/products/hazelburn-15-year-old-oloroso-cask-matured-2023-release"]
+    },
+    {
+      "beverageId": "c6a2d3ae-722f-4345-93d9-01373656cc12",
+      "officialName": "Springbank Local Barley 8 Year",
+      "verifiedDescriptors": ["Malt", "Melon", "Hay", "Wet wool", "Tobacco leaf", "Matchstick", "Lemon", "Honey", "Banana", "Apricot"],
+      "descriptorFamilies": {"Malt":"sweet","Melon":"tropical","Hay":"floral-herbal","Wet wool":"floral-herbal","Tobacco leaf":"oak","Matchstick":"smoke-peat","Lemon":"citrus","Honey":"sweet","Banana":"tropical","Apricot":"orchard-fruit"},
+      "cask23TastingNarrative": "Malt, melon and hay open with wet-wool and tobacco notes, before lemon, honey, banana and apricot bring fruit and sweetness to the oily Local Barley profile.",
+      "evidenceTier": "TIER_2_ESTABLISHED_SPECIALIST_EXACT_2025_RELEASE",
+      "sources": ["https://www.whiskynotes.be/2025/springbank/springbank-8-years-local-barley-2025/"],
+      "governanceNote": "Source identifies the 8-year 58.1% 2025 Local Barley release (distilled 2016, bottled Dec 2024). Sensory enrichment does not change canonical naming."
+    },
+    {
+      "beverageId": "abae9b07-0138-4130-9ecd-fc0b50e78492",
+      "officialName": "Springbank 8 Year Old Ex-Oloroso 58.1%",
+      "verifiedDescriptors": [],
+      "descriptorFamilies": {},
+      "cask23TastingNarrative": null,
+      "evidenceTier": "WITHHELD_RELEASE_IDENTITY_AMBIGUITY",
+      "sources": ["https://www.whiskyshop.com/auctions/a132076-springbank-2018-8-year-old-distillery-exclusive"],
+      "governanceNote": "A current 8-year 58.1% ex-Oloroso distillery-exclusive release is documented, but the manifest lacks distillation/bottling/release identifiers needed to prove it is the same physical bottling. No sensory profile is donated."
+    }
+  ]
+}

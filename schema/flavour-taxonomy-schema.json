@@ -1,0 +1,303 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cask23.co.uk/schema/flavour-taxonomy-schema.json",
+  "title": "Cask23 Governed Visual Flavour Taxonomy",
+  "description": "Project Zero sensory presentation taxonomy. Data chooses the icon; the icon never generates the data.",
+  "type": "object",
+  "required": [
+    "taxonomyId",
+    "version",
+    "governanceRule",
+    "families"
+  ],
+  "properties": {
+    "taxonomyId": {
+      "const": "PZ-WHISKY-FLAVOUR-TAXONOMY"
+    },
+    "version": {
+      "const": "1.0"
+    },
+    "governanceRule": {
+      "const": "Data chooses the icon; the icon never generates the data."
+    },
+    "presentationPolicy": {
+      "type": "object",
+      "required": [
+        "artworkStyle",
+        "purpose",
+        "forbiddenUse"
+      ],
+      "properties": {
+        "artworkStyle": {
+          "const": "fine-line monochrome"
+        },
+        "purpose": {
+          "const": "visual navigation anchor only"
+        },
+        "forbiddenUse": {
+          "const": "A visual asset must never manufacture, infer, strengthen, or substitute an unevidenced flavour claim."
+        }
+      },
+      "additionalProperties": false
+    },
+    "families": {
+      "type": "array",
+      "minItems": 12,
+      "maxItems": 12,
+      "uniqueItems": true,
+      "prefixItems": [
+        {
+          "$ref": "#/$defs/orchardFruit"
+        },
+        {
+          "$ref": "#/$defs/citrus"
+        },
+        {
+          "$ref": "#/$defs/driedFruit"
+        },
+        {
+          "$ref": "#/$defs/tropical"
+        },
+        {
+          "$ref": "#/$defs/sweet"
+        },
+        {
+          "$ref": "#/$defs/chocolateCoffee"
+        },
+        {
+          "$ref": "#/$defs/spice"
+        },
+        {
+          "$ref": "#/$defs/nutty"
+        },
+        {
+          "$ref": "#/$defs/oak"
+        },
+        {
+          "$ref": "#/$defs/floralHerbal"
+        },
+        {
+          "$ref": "#/$defs/maritime"
+        },
+        {
+          "$ref": "#/$defs/smokePeat"
+        }
+      ],
+      "items": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "familyBase": {
+      "type": "object",
+      "required": [
+        "familyId",
+        "label",
+        "exampleDescriptors",
+        "visualAsset"
+      ],
+      "properties": {
+        "familyId": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "exampleDescriptors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2,
+          "uniqueItems": true
+        },
+        "visualAsset": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "orchardFruit": {
+      "allOf": [
+        { "$ref": "#/$defs/familyBase" },
+        {
+          "properties": {
+            "familyId": { "const": "orchard-fruit" },
+            "label": { "const": "Orchard fruit" },
+            "exampleDescriptors": { "const": ["Apple", "pear"] },
+            "visualAsset": { "const": "sliced-apple" }
+          }
+        }
+      ]
+    },
+    "citrus": {
+      "allOf": [
+        { "$ref": "#/$defs/familyBase" },
+        {
+          "properties": {
+            "familyId": { "const": "citrus" },
+            "label": { "const": "Citrus" },
+            "exampleDescriptors": { "const": ["Lemon", "orange zest"] },
+            "visualAsset": { "const": "citrus-peel" }
+          }
+        }
+      ]
+    },
+    "driedFruit": {
+      "allOf": [
+        { "$ref": "#/$defs/familyBase" },
+        {
+          "properties": {
+            "familyId": { "const": "dried-fruit" },
+            "label": { "const": "Dried fruit" },
+            "exampleDescriptors": { "const": ["Raisin", "fig", "dates"] },
+            "visualAsset": { "const": "dried-fruit" }
+          }
+        }
+      ]
+    },
+    "tropical": {
+      "allOf": [
+        { "$ref": "#/$defs/familyBase" },
+        {
+          "properties": {
+            "familyId": { "const": "tropical" },
+            "label": { "const": "Tropical" },
+            "exampleDescriptors": { "const": ["Pineapple", "mango"] },
+            "visualAsset": { "const": "tropical-fruit" }
+          }
+        }
+      ]
+    },
+    "sweet": {
+      "allOf": [
+        { "$ref": "#/$defs/familyBase" },
+        {
+          "properties": {
+            "familyId": { "const": "sweet" },
+            "label": { "const": "Sweet" },
+            "exampleDescriptors": { "const": ["Honey", "caramel", "toffee"] },
+            "visualAsset": { "const": "honeycomb" }
+          }
+        }
+      ]
+    },
+    "chocolateCoffee": {
+      "allOf": [
+        { "$ref": "#/$defs/familyBase" },
+        {
+          "properties": {
+            "familyId": { "const": "chocolate-coffee" },
+            "label": { "const": "Chocolate/Coffee" },
+            "exampleDescriptors": { "const": ["Cocoa", "espresso", "mocha"] },
+            "visualAsset": { "const": "cacao-coffee-beans" }
+          }
+        }
+      ]
+    },
+    "spice": {
+      "allOf": [
+        { "$ref": "#/$defs/familyBase" },
+        {
+          "properties": {
+            "familyId": { "const": "spice" },
+            "label": { "const": "Spice" },
+            "exampleDescriptors": { "const": ["Cinnamon", "clove", "pepper"] },
+            "visualAsset": { "const": "spice-illustration" }
+          }
+        }
+      ]
+    },
+    "nutty": {
+      "allOf": [
+        { "$ref": "#/$defs/familyBase" },
+        {
+          "properties": {
+            "familyId": { "const": "nutty" },
+            "label": { "const": "Nutty" },
+            "exampleDescriptors": { "const": ["Almond", "hazelnut", "marzipan"] },
+            "visualAsset": { "const": "nuts" }
+          }
+        }
+      ]
+    },
+    "oak": {
+      "allOf": [
+        { "$ref": "#/$defs/familyBase" },
+        {
+          "properties": {
+            "familyId": { "const": "oak" },
+            "label": { "const": "Oak" },
+            "exampleDescriptors": { "const": ["Oak", "cedar", "tannin"] },
+            "visualAsset": { "const": "oak-stave" }
+          }
+        }
+      ]
+    },
+    "floralHerbal": {
+      "allOf": [
+        { "$ref": "#/$defs/familyBase" },
+        {
+          "properties": {
+            "familyId": { "const": "floral-herbal" },
+            "label": { "const": "Floral/Herbal" },
+            "exampleDescriptors": { "const": ["Heather", "flowers", "herbs"] },
+            "visualAsset": { "const": "botanical" }
+          }
+        }
+      ]
+    },
+    "maritime": {
+      "allOf": [
+        { "$ref": "#/$defs/familyBase" },
+        {
+          "properties": {
+            "familyId": { "const": "maritime" },
+            "label": { "const": "Maritime" },
+            "exampleDescriptors": { "const": ["Brine", "seaweed", "mineral"] },
+            "visualAsset": { "const": "coastal-motif" }
+          }
+        }
+      ]
+    },
+    "smokePeat": {
+      "allOf": [
+        { "$ref": "#/$defs/familyBase" },
+        {
+          "properties": {
+            "familyId": { "const": "smoke-peat" },
+            "label": { "const": "Smoke/Peat" },
+            "exampleDescriptors": { "const": ["Peat smoke", "bonfire"] },
+            "visualAsset": { "const": "smoke-motif" }
+          }
+        }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "taxonomyId": "PZ-WHISKY-FLAVOUR-TAXONOMY",
+      "version": "1.0",
+      "governanceRule": "Data chooses the icon; the icon never generates the data.",
+      "presentationPolicy": {
+        "artworkStyle": "fine-line monochrome",
+        "purpose": "visual navigation anchor only",
+        "forbiddenUse": "A visual asset must never manufacture, infer, strengthen, or substitute an unevidenced flavour claim."
+      },
+      "families": [
+        { "familyId": "orchard-fruit", "label": "Orchard fruit", "exampleDescriptors": ["Apple", "pear"], "visualAsset": "sliced-apple" },
+        { "familyId": "citrus", "label": "Citrus", "exampleDescriptors": ["Lemon", "orange zest"], "visualAsset": "citrus-peel" },
+        { "familyId": "dried-fruit", "label": "Dried fruit", "exampleDescriptors": ["Raisin", "fig", "dates"], "visualAsset": "dried-fruit" },
+        { "familyId": "tropical", "label": "Tropical", "exampleDescriptors": ["Pineapple", "mango"], "visualAsset": "tropical-fruit" },
+        { "familyId": "sweet", "label": "Sweet", "exampleDescriptors": ["Honey", "caramel", "toffee"], "visualAsset": "honeycomb" },
+        { "familyId": "chocolate-coffee", "label": "Chocolate/Coffee", "exampleDescriptors": ["Cocoa", "espresso", "mocha"], "visualAsset": "cacao-coffee-beans" },
+        { "familyId": "spice", "label": "Spice", "exampleDescriptors": ["Cinnamon", "clove", "pepper"], "visualAsset": "spice-illustration" },
+        { "familyId": "nutty", "label": "Nutty", "exampleDescriptors": ["Almond", "hazelnut", "marzipan"], "visualAsset": "nuts" },
+        { "familyId": "oak", "label": "Oak", "exampleDescriptors": ["Oak", "cedar", "tannin"], "visualAsset": "oak-stave" },
+        { "familyId": "floral-herbal", "label": "Floral/Herbal", "exampleDescriptors": ["Heather", "flowers", "herbs"], "visualAsset": "botanical" },
+        { "familyId": "maritime", "label": "Maritime", "exampleDescriptors": ["Brine", "seaweed", "mineral"], "visualAsset": "coastal-motif" },
+        { "familyId": "smoke-peat", "label": "Smoke/Peat", "exampleDescriptors": ["Peat smoke", "bonfire"], "visualAsset": "smoke-motif" }
+      ]
+    }
+  ]
+}
