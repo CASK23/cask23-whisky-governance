@@ -1,0 +1,21 @@
+{
+  "project": "PROJECT_ZERO_SENSORY_GAP_CLOSURE_V1.1",
+  "packetId": "SG-02B",
+  "status": "INITIATED_AWAITING_CANONICAL_R1_QUEUE_BIND",
+  "predecessor": "SG-02A",
+  "predecessorStatus": "EVIDENCE_COMPLETE",
+  "queueClassRequested": "R1",
+  "queueBinding": {
+    "state": "NOT_YET_BOUND",
+    "reason": "No canonical SG-02B/R1 sensory queue definition was found in the governance repository or the available Project Zero workspace/library material. An older, unrelated distillery-identity 'Batch R1' was located and explicitly rejected as a source for this sensory workflow.",
+    "selectionPolicy": "Do not infer SG-02B membership from generic ABSENT_UNRESOLVED records or from unrelated R1 workstreams. Bind only to an explicit Sensory Gap Closure v1.1 R1 queue source."
+  },
+  "researchPolicy": {
+    "exactBeverageIdOnly": true,
+    "physicalBottleEvidencePriority": "TIER_A_PHYSICAL_LABEL",
+    "withholdRatherThanGuess": true,
+    "crossExpressionReuse": false,
+    "lovableMutation": false
+  },
+  "nextAction": "Bind the explicit remaining Sensory Gap Closure v1.1 R1 queue, then form SG-02B without changing the frozen master or Lovable until evidence is reviewed."
+}
