@@ -1,0 +1,29 @@
+{
+  "project": "PROJECT_ZERO_SENSORY_GAP_CLOSURE_V1.1",
+  "packetId": "SG-02A",
+  "status": "EVIDENCE_COMPLETE",
+  "completedEvidenceLedger": "data/sensory-research/progress-019.json",
+  "evidenceAuthority": "TIER_A_PHYSICAL_LABEL",
+  "outcome": {
+    "qualifyEnrich": 8,
+    "absentUnresolved": 1,
+    "identityHold": 0
+  },
+  "resolvedByPhysicalAuthority": [
+    "77f17865-8e38-471d-9118-f3d8f9bbe10f",
+    "6e01457c-cd2d-43ff-b90a-f13b937791ca"
+  ],
+  "defensibleUnresolved": [
+    "5d3a84dc-45a5-4d87-b8c5-f320430ec98a"
+  ],
+  "masterMutationPolicy": {
+    "canonicalWritePath": "reviewed progress ledger -> scripts/build_project_zero_sensory_master.py -> PROJECT_ZERO_SENSORY_MASTER.json",
+    "directHandEditOfGeneratedMaster": false,
+    "lovableMutation": false
+  },
+  "notes": [
+    "Berry Bros. & Rudd Williamson identity is locked to Cask #210, Hogshead, Moscatel finish, 2013, 11 years, 59.3% ABV; alternatives #213/#214/#215 rejected by exact physical bottle label.",
+    "BenRiach Cask #2399 physical rear label supplies producer-printed sensory notes and supersedes the previously unqualified secondary sensory source.",
+    "Mossburn Blair Athol Batch 23.0408.39 identity is Tier-A proven, but generic house copy is not expression-specific sensory evidence; sensory remains ABSENT_UNRESOLVED."
+  ]
+}
