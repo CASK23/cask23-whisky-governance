@@ -1,0 +1,132 @@
+{
+  "batchId": "PZ-SENSORY-PROGRESS-019",
+  "workstream": "PROJECT_ZERO_SENSORY_GAP_CLOSURE_V1.1",
+  "packetId": "SG-02A",
+  "status": "SOURCE_VERIFIED_PROGRESS",
+  "packetStatus": "EVIDENCE_COMPLETE",
+  "governanceRule": "Physical bottle-label evidence is Tier-A primary authority. Exact BeverageId binding only; no cross-expression reuse; withhold rather than invent sensory content.",
+  "batchOutcome": {
+    "qualifyEnrich": 8,
+    "absentUnresolved": 1,
+    "identityHold": 0,
+    "deltaFromPriorAudit": "6 QUALIFY / 2 UNRESOLVED / 1 IDENTITY HOLD -> 8 QUALIFY / 1 UNRESOLVED / 0 IDENTITY HOLD"
+  },
+  "records": [
+    {
+      "beverageId": "77f17865-8e38-471d-9118-f3d8f9bbe10f",
+      "officialName": "Berry Bros. & Rudd Coasts & Shores Williamson 2013 11 Year Old",
+      "governanceDecision": "QUALIFIES — ENRICH",
+      "identityRefinement": {
+        "vintage": 2013,
+        "ageYears": 11,
+        "caskNumber": "210",
+        "caskType": "Hogshead",
+        "finish": "Moscatel",
+        "abvPercent": 59.3,
+        "outturn": 305,
+        "rejectedAlternativeCaskNumbers": ["213", "214", "215"]
+      },
+      "verifiedDescriptors": [
+        "Muscovado sugar",
+        "Dried fruit",
+        "Lime",
+        "Citrus",
+        "Dark treacle",
+        "Raisin",
+        "Smoky peat",
+        "Moscatel sweetness"
+      ],
+      "descriptorFamilies": {
+        "Muscovado sugar": "sweet",
+        "Dried fruit": "dried-fruit",
+        "Lime": "citrus",
+        "Citrus": "citrus",
+        "Dark treacle": "sweet",
+        "Raisin": "dried-fruit",
+        "Smoky peat": "smoke-peat",
+        "Moscatel sweetness": "sweet"
+      },
+      "cask23TastingNarrative": "Muscovado sugar and dried-fruit sweetness meet lime and citrus, followed by dark treacle, raisin and smoky peat, with Moscatel sweetness lingering on the finish.",
+      "evidenceTier": "TIER_A_PHYSICAL_LABEL",
+      "sources": [
+        "physical-label:1000040659.jpg",
+        "physical-label:1000040661.jpg"
+      ],
+      "governanceNote": "Exact physical bottle label resolves the former identity hold as Cask #210 at 59.3% ABV and rejects discovered alternatives #213, #214 and #215. Rear-label sensory copy is expression-specific primary evidence."
+    },
+    {
+      "beverageId": "6e01457c-cd2d-43ff-b90a-f13b937791ca",
+      "officialName": "BenRiach 2005 Port Pipe 18 Year 57.4%",
+      "governanceDecision": "QUALIFIES — ENRICH",
+      "identityRefinement": {
+        "producerExpression": "BenRiach Distillery Cask",
+        "vintage": 2005,
+        "style": "Classic",
+        "caskType": "Port Pipe",
+        "caskNumber": "2399",
+        "bottledYear": 2023,
+        "ageYears": 18,
+        "distilledDate": "2005-05-13",
+        "abvPercent": 57.4
+      },
+      "verifiedDescriptors": [
+        "Baked cherry",
+        "Apple pie",
+        "Almond",
+        "Madeira",
+        "Liquorice",
+        "Orange oil",
+        "Treacle toffee",
+        "Stewed apple",
+        "Cherry compote",
+        "Demerara sugar",
+        "Mascarpone cream"
+      ],
+      "descriptorFamilies": {
+        "Baked cherry": "dried-fruit",
+        "Apple pie": "orchard-fruit",
+        "Almond": "nutty",
+        "Madeira": "dried-fruit",
+        "Liquorice": "spice",
+        "Orange oil": "citrus",
+        "Treacle toffee": "sweet",
+        "Stewed apple": "orchard-fruit",
+        "Cherry compote": "dried-fruit",
+        "Demerara sugar": "sweet",
+        "Mascarpone cream": "sweet"
+      },
+      "cask23TastingNarrative": "Baked cherry and apple pie lead with an almond/Madeira character, liquorice, orange oil and treacle toffee, followed by stewed apple and cherry compote with demerara sugar and mascarpone cream.",
+      "evidenceTier": "TIER_A_PHYSICAL_LABEL",
+      "sources": [
+        "physical-label:1000040728.jpg",
+        "physical-label:1000040729.jpg",
+        "physical-label:1000040730.jpg"
+      ],
+      "governanceNote": "Producer-printed rear-label Nose and Palate supersede the previously unqualified secondary sensory source. The exact phrase 'almond/Madeira character' is preserved in the governed narrative."
+    },
+    {
+      "beverageId": "5d3a84dc-45a5-4d87-b8c5-f320430ec98a",
+      "officialName": "Mossburn Blair Athol 16 Year Oloroso 54.1%",
+      "governanceDecision": "REMAINS ABSENT_UNRESOLVED",
+      "identityRefinement": {
+        "bottler": "Mossburn Distillers & Blenders",
+        "distillery": "Blair Athol",
+        "ageYears": 16,
+        "vintage": 2008,
+        "bottledDate": "2025-03-03",
+        "batchNumber": "23.0408.39",
+        "caskBill": "OLOROSO",
+        "abvPercent": 54.1
+      },
+      "verifiedDescriptors": [],
+      "descriptorFamilies": {},
+      "cask23TastingNarrative": null,
+      "evidenceTier": "TIER_A_PHYSICAL_LABEL_NO_EXPRESSION_SENSORY",
+      "sources": [
+        "physical-label:1000040686(1).jpg",
+        "physical-label:1000040687(1).jpg"
+      ],
+      "governanceNote": "Identity is Tier-A proven. The rear label contains only generic Mossburn house copy ('balance, depth and complexity') and no expression-specific sensory descriptors or tasting note. Do not convert generic marketing language into sensory data."
+    }
+  ]
+}
