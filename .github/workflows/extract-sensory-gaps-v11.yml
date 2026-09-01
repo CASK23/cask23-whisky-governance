@@ -1,0 +1,33 @@
+name: Extract Project Zero Sensory v1.1 Gaps
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.sensory-v11-trigger'
+      - 'scripts/extract_sensory_gap_list.py'
+      - 'PROJECT_ZERO_SENSORY_MASTER.json'
+      - '.github/workflows/extract-sensory-gaps-v11.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - name: Extract exact gap list
+        run: python scripts/extract_sensory_gap_list.py
+      - name: Commit gap list
+        env:
+          TARGET_BRANCH: ${{ github.head_ref }}
+        run: |
+          git config user.name 'CASK23 Project Zero Bot'
+          git config user.email 'nilesh@cask23.co.uk'
+          git add PROJECT_ZERO_SENSORY_GAP_LIST_v1.1.json
+          git commit -m 'build: extract final sensory v1.1 gap list' || exit 0
+          git push origin HEAD:${TARGET_BRANCH}

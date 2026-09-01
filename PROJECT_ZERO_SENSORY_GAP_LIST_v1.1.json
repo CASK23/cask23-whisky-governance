@@ -1,0 +1,698 @@
+{
+  "project": "PROJECT_ZERO_SENSORY_GAP_LIST",
+  "version": "1.1-pre-research",
+  "sourceMasterVersion": "1.0-candidate",
+  "recordCount": 49,
+  "metrics": {
+    "absentUnresolved": 34,
+    "withheld": 11,
+    "missingDescriptorsHasNarrative": 3,
+    "missingNarrativeHasDescriptors": 1
+  },
+  "records": [
+    {
+      "beverageId": "0cda1c9d-6868-4482-a690-caaac3225f34",
+      "officialName": "Bruichladdich Old School 10 Year 50%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "10c6b4e0-f057-417d-9a10-0eb78aaede16",
+      "officialName": "Mossburn I/B Macduff 16 Year Banyuls Cask 50.8%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "10e1b78f-3c66-437c-98f0-66e88b9fde6d",
+      "officialName": "That Boutique-Y Whisky Co. 11 Year 48.8%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "175d15bf-e5a7-4ebb-b41a-cb0654d49050",
+      "officialName": "WhistlePig Vermont Oak 15 Y 46%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "WITHHELD",
+      "withholdReasons": [
+        "WITHHELD_PENDING_EXACT_RELEASE_SENSORY_SOURCE"
+      ],
+      "sources": [],
+      "gapReasons": [
+        "WITHHELD"
+      ]
+    },
+    {
+      "beverageId": "17638f87-72e1-4496-8bc8-be444ed282d2",
+      "officialName": "Ardmore Single Cask 41 Year 41.7%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "177d30a7-8fb6-487e-9495-d45e0621c5e5",
+      "officialName": "Bruichladdich 2007 Micro-Provenance Single Cask",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "213c368a-3e81-4ec3-85d3-84daacd26198",
+      "officialName": "Bimber Legacy Collection 2024",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "WITHHELD",
+      "withholdReasons": [
+        "WITHHELD_NO_EXACT_SENSORY_SOURCE"
+      ],
+      "sources": [
+        "https://www.whiskybase.com/whiskies/whisky/267630/bimber-legacy-collection-2024"
+      ],
+      "gapReasons": [
+        "WITHHELD"
+      ]
+    },
+    {
+      "beverageId": "25141c4f-f434-42c4-ad36-3850c674078c",
+      "officialName": "Bimber Santa’s Edition 2023",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "WITHHELD",
+      "withholdReasons": [
+        "WITHHELD_NO_EXACT_SENSORY_SOURCE"
+      ],
+      "sources": [
+        "https://www.whiskybase.com/whiskies/whisky/244431/bimber-santas-edition-2023"
+      ],
+      "gapReasons": [
+        "WITHHELD"
+      ]
+    },
+    {
+      "beverageId": "32bc076b-9e7f-42fc-8665-26b239b8b741",
+      "officialName": "Ardbeg Drum Committee Release 46%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "WITHHELD",
+      "withholdReasons": [
+        "WITHHELD_IDENTITY_STRENGTH_CONFLICT"
+      ],
+      "sources": [
+        "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-drum-committee-release-whisky/",
+        "https://whiskyexperts.net/pr-ardbeg-drum-eine-praechtige-aromenparade/"
+      ],
+      "gapReasons": [
+        "WITHHELD"
+      ]
+    },
+    {
+      "beverageId": "362f6637-c2ee-404b-a0f6-0de125271065",
+      "officialName": "Douglas Laing's Provenance Ben Nevis 8 Year 46%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "3af074f8-139e-4be2-a1e5-784240032a01",
+      "officialName": "Wire Works Amarone Wine Finish 53.6%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "WITHHELD",
+      "withholdReasons": [
+        "WITHHELD_RELEASE_MISMATCH"
+      ],
+      "sources": [
+        "https://www.whitepeakdistillery.co.uk/wire-works-wine-cask-series/"
+      ],
+      "gapReasons": [
+        "WITHHELD"
+      ]
+    },
+    {
+      "beverageId": "3ffefe28-8c29-48fd-b386-9e64fd9a32ee",
+      "officialName": "Paul John Single Cask Weller Barrel",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "4b47d2c9-4d5c-485d-aca9-e6edb84d698e",
+      "officialName": "WhistlePig Old World 12 Y 43%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "WITHHELD",
+      "withholdReasons": [
+        "WITHHELD_PENDING_EXACT_RELEASE_SENSORY_SOURCE"
+      ],
+      "sources": [],
+      "gapReasons": [
+        "WITHHELD"
+      ]
+    },
+    {
+      "beverageId": "4c1fe5c9-653d-4379-940c-d87e4b2303e2",
+      "officialName": "Mackmyra Moment Fjallmark (Cloudberry Wine) 46.1%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "WITHHELD",
+      "withholdReasons": [
+        "WITHHELD_RELEASE_MISMATCH"
+      ],
+      "sources": [
+        "https://www.masterofmalt.com/whiskies/mackmyra-svensk-whisky/mackmyra-moment-fjallmark-whisky/"
+      ],
+      "gapReasons": [
+        "WITHHELD"
+      ]
+    },
+    {
+      "beverageId": "580f7478-dcb3-489d-8e37-88aa3cf08616",
+      "officialName": "Springbank Cask Strength 12 Year",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "WITHHELD",
+      "withholdReasons": [
+        "WITHHELD_BATCH_UNSPECIFIED"
+      ],
+      "sources": [
+        "https://www.springbank.scot/whisky/springbank-range/"
+      ],
+      "gapReasons": [
+        "WITHHELD"
+      ]
+    },
+    {
+      "beverageId": "58d26ce5-3e09-4744-bdde-a5c0e745df35",
+      "officialName": "Cu Bocan Signature Bourbon, Sherry, Virgin Cask 46%",
+      "currentDescriptors": [
+        "Peat smoke",
+        "Citrus",
+        "Baking spice"
+      ],
+      "currentDescriptorFamilies": {
+        "Peat smoke": "smoke-peat",
+        "Citrus": "citrus",
+        "Baking spice": "spice"
+      },
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ENRICHED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "MISSING_NARRATIVE_HAS_DESCRIPTORS"
+      ]
+    },
+    {
+      "beverageId": "5a215f0e-cc12-4eeb-a44e-99fa4f39c942",
+      "officialName": "Hudson Manhattan 46%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": "Honeyed cereal and cinnamon on the nose; pepper, cinnamon, rye, butter and honey on the palate; peppercorn, oak and green apple on the finish.",
+      "currentGovernanceStatus": "ENRICHED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "MISSING_DESCRIPTORS_HAS_NARRATIVE"
+      ]
+    },
+    {
+      "beverageId": "5d3a84dc-45a5-4d87-b8c5-f320430ec98a",
+      "officialName": "Mossburn I/B Blair Athol 16 Year Oloroso Cask 54.1%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "6aa861fb-d627-46eb-8f17-291da1567bd1",
+      "officialName": "Kilchoman 2008 Single Cask Release Islay Pipe Band 60.4%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "WITHHELD",
+      "withholdReasons": [
+        "WITHHELD_EXACT_IDENTITY_NO_QUALIFYING_SENSORY_TEXT"
+      ],
+      "sources": [
+        "https://www.kilchomandistillery.com/distillery-news/islay-pipe-band-single-cask-bottling/"
+      ],
+      "gapReasons": [
+        "WITHHELD"
+      ]
+    },
+    {
+      "beverageId": "6e01457c-cd2d-43ff-b90a-f13b937791ca",
+      "officialName": "BenRiach 2005 Port Pipe 18 Year 57.4%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "758b89fb-ef82-416d-8706-20adf91d4f56",
+      "officialName": "Arran Signature Series Edition 2: Barrel Bonfire",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "76b4392e-c465-41a9-8cce-2f0719b015b9",
+      "officialName": "Glendronach 11 Year Hand Filled P/X Punchion 61.6%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "77f17865-8e38-471d-9118-f3d8f9bbe10f",
+      "officialName": "Berry Bros. & Rudd Coasts & Shores Williamson 2013 11 Year Old",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "7faf63fa-9d2e-41c2-b4b9-df20c001ca33",
+      "officialName": "Arran 10 Year 46%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "8112a9eb-3811-4991-b527-0332c5d0b71c",
+      "officialName": "Kilkerran Sherry Cask 8 Year (2023) 57.5%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "87549a48-d0a7-49fd-9121-bcb6ec482443",
+      "officialName": "Deanston 1997 P/X Butt Hand Filled 55.7%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "8e4d8a22-c445-41d9-b834-1326092489c2",
+      "officialName": "Kilchoman Club Fourteenth Edition",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "97ac9c38-9a8a-43f6-897f-737d1d15dd98",
+      "officialName": "Starward Left-Field 40%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "98c013b3-d013-4d96-98fc-887eee666696",
+      "officialName": "Yushan Signature Single Malt Whisky — Sherry Cask",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "a2c232e0-3e77-42a3-9f53-93ec8df6a523",
+      "officialName": "Smokehead Sherry Bomb",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "a2e58652-f197-418a-bd10-1465890005f7",
+      "officialName": "Longrow Red 7 (2024)",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "a2ea3189-32d0-447a-b923-64b9f8b68f1d",
+      "officialName": "Glenfarclas 15 Year 46.7%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "a335a69d-1ca1-4681-beee-66d8dcdeca45",
+      "officialName": "Benromach 2010 Peat Smoke Sherry Cask Matured 8 Year 59.9%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "a4540049-d252-42f2-92d6-92c66e7230ab",
+      "officialName": "Cotswolds 2014 Odyssey Barley 46%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "WITHHELD",
+      "withholdReasons": [
+        "WITHHELD_PENDING_EXACT_2014_RELEASE_SENSORY_SOURCE"
+      ],
+      "sources": [],
+      "gapReasons": [
+        "WITHHELD"
+      ]
+    },
+    {
+      "beverageId": "a46c9621-342a-4611-91f7-4f6aee3af174",
+      "officialName": "Amrut Fusion 50%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": "A Bangalore-matured malt fusing Indian and peated Scottish barley for gentle smoke and complexity.",
+      "currentGovernanceStatus": "ENRICHED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "MISSING_DESCRIPTORS_HAS_NARRATIVE"
+      ]
+    },
+    {
+      "beverageId": "a688be1e-59a1-4288-b249-5c67590220c0",
+      "officialName": "Macallan 10 Year Old Bottling 40%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "abae9b07-0138-4130-9ecd-fc0b50e78492",
+      "officialName": "Springbank 8 Year Old Ex-Oloroso 58.1%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "WITHHELD",
+      "withholdReasons": [
+        "WITHHELD_RELEASE_IDENTITY_AMBIGUITY"
+      ],
+      "sources": [
+        "https://www.whiskyshop.com/auctions/a132076-springbank-2018-8-year-old-distillery-exclusive"
+      ],
+      "gapReasons": [
+        "WITHHELD"
+      ]
+    },
+    {
+      "beverageId": "afac0c31-0043-4e7f-9549-b5447b61bf4f",
+      "officialName": "Gleann Mor Bunnahabhain 8 Year 50%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "ba646323-3f20-41a8-a3a2-ec3cf851ca52",
+      "officialName": "Amrut Single P/X Single Cask 62.8%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "bbf91335-42e2-4763-8f3a-f22181010eea",
+      "officialName": "Springbank 21 Year (2025) Edition",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "cb800a9f-8ace-4166-b415-f6fd537d3d75",
+      "officialName": "Mossburn I/B Ardmore 9 Year 46%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "d2f79a5f-764a-48f8-ac39-1b73cbf10128",
+      "officialName": "Mossburn I/B Royal Brackla 16 Year 54.9%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "d69b9fe8-ba8e-4790-8e42-91a17f021507",
+      "officialName": "Gordon & MacPhail Discovery Glenrothes 11 Years Old",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "db208401-e768-4eb0-96a2-b22ecf07c534",
+      "officialName": "Mackmyra Moment Krosbar American Oak & German Cherry Wine 46.1%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "e4e62bae-d0fb-413a-8de4-03ad7e292fee",
+      "officialName": "Peg Leg Porker 8 Year 45%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": "Trade/menu evidence describes the 8-year Tennessee bourbon as receiving a hickory-charcoal filtering treatment.",
+      "currentGovernanceStatus": "ENRICHED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "MISSING_DESCRIPTORS_HAS_NARRATIVE"
+      ]
+    },
+    {
+      "beverageId": "e632054b-255a-48e4-b24c-deaa5157fff5",
+      "officialName": "Springbank 13 Year Refill Calvados filled into Palo Cortado in2022",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "ebee399a-ea9f-4ad5-9117-e0dcd3276421",
+      "officialName": "Integrity Malts (Benrinnes) Bourbon Cask 55.3%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "ec7e7167-78f7-494d-9093-3e83b4e590f9",
+      "officialName": "Mackmyra Mak Classic 40%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    },
+    {
+      "beverageId": "f7c60fcf-96c3-4858-97d6-48df8d89ed84",
+      "officialName": "Mossburn Miltonduff 16 years oloroso 57.4%",
+      "currentDescriptors": [],
+      "currentDescriptorFamilies": {},
+      "currentTastingNarrative": null,
+      "currentGovernanceStatus": "ABSENT_UNRESOLVED",
+      "withholdReasons": [],
+      "sources": [],
+      "gapReasons": [
+        "ABSENT_UNRESOLVED"
+      ]
+    }
+  ]
+}
