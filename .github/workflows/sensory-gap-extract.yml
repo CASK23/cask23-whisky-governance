@@ -1,0 +1,67 @@
+name: Extract Project Zero Sensory Gap List
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/sensory-gap-extract.yml'
+      - '.sensory-gap-trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Build exact final gap list
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          src=Path('PROJECT_ZERO_SENSORY_MASTER.json')
+          data=json.loads(src.read_text(encoding='utf-8'))
+          gaps=[]
+          buckets={'ABSENT_UNRESOLVED':0,'WITHHELD':0,'MISSING_DESCRIPTORS_WITH_NARRATIVE':0,'MISSING_NARRATIVE_WITH_DESCRIPTORS':0}
+          for r in data['records']:
+              desc=list(r.get('descriptors') or [])
+              note=r.get('tastingNarrative')
+              status=r.get('governanceStatus')
+              reasons=[]
+              if status=='ABSENT_UNRESOLVED':
+                  reasons.append('ABSENT_UNRESOLVED'); buckets['ABSENT_UNRESOLVED']+=1
+              if status=='WITHHELD':
+                  reasons.append('WITHHELD'); buckets['WITHHELD']+=1
+              if not desc and note:
+                  reasons.append('MISSING_DESCRIPTORS_WITH_NARRATIVE'); buckets['MISSING_DESCRIPTORS_WITH_NARRATIVE']+=1
+              if desc and not note:
+                  reasons.append('MISSING_NARRATIVE_WITH_DESCRIPTORS'); buckets['MISSING_NARRATIVE_WITH_DESCRIPTORS']+=1
+              if reasons:
+                  gaps.append({
+                    'beverageId':r['beverageId'],
+                    'officialName':r['officialName'],
+                    'governanceStatus':status,
+                    'gapReasons':reasons,
+                    'currentDescriptors':desc,
+                    'currentTastingNarrative':note,
+                    'withholdReasons':r.get('withholdReasons') or [],
+                    'sources':r.get('sources') or []
+                  })
+          payload={'project':'PROJECT_ZERO_SENSORY_GAP_LIST','sourceVersion':data.get('version'),'recordCount':len(gaps),'bucketCounts':buckets,'records':gaps}
+          Path('PROJECT_ZERO_SENSORY_GAP_LIST.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          Path('PROJECT_ZERO_SENSORY_GAP_LIST.names.txt').write_text('\n'.join(f"{x['beverageId']}\t{x['officialName']}\t{','.join(x['gapReasons'])}" for x in gaps)+'\n',encoding='utf-8')
+          print(json.dumps({'recordCount':len(gaps),'bucketCounts':buckets},indent=2))
+          PY
+
+      - name: Commit gap list
+        run: |
+          git config user.name 'CASK23 Project Zero Bot'
+          git config user.email 'nilesh@cask23.co.uk'
+          git add PROJECT_ZERO_SENSORY_GAP_LIST.json PROJECT_ZERO_SENSORY_GAP_LIST.names.txt
+          git commit -m 'audit: compile exact sensory gap list'
+          git push origin HEAD:${{ github.head_ref }}

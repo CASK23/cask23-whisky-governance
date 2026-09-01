@@ -1,0 +1,85 @@
+name: Finalize Project Zero Sensory Master v1.1
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/sensory-gap-v1-1-finalize.yml'
+      - 'scripts/apply_sensory_gap_closure_v1_1.py'
+      - 'PROJECT_ZERO_SENSORY_MASTER.json'
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Apply reviewed Peach taxonomy correction
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/apply_sensory_gap_closure_v1_1.py')
+          s=p.read_text(encoding='utf-8')
+          old="'Mineral':'maritime'\n}"
+          new="'Peach':'orchard-fruit','Mineral':'maritime'\n}"
+          if "'Peach':'orchard-fruit'" not in s:
+              assert old in s, 'expected FM insertion anchor missing'
+              s=s.replace(old,new,1)
+              p.write_text(s,encoding='utf-8')
+          print('Peach taxonomy mapping: orchard-fruit')
+          PY
+
+      - name: Build v1.1 master
+        run: python scripts/apply_sensory_gap_closure_v1_1.py | tee sensory-v1-1-build-report.json
+
+      - name: Verify 262/262 hard gates and determinism
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, hashlib
+          from pathlib import Path
+          p=json.loads(Path('PROJECT_ZERO_SENSORY_MASTER_v1.1.json').read_text(encoding='utf-8'))
+          assert p['version']=='1.1'
+          assert p['recordCount']==262 and len(p['records'])==262
+          ids=[r['beverageId'] for r in p['records']]
+          assert len(set(ids))==262
+          assert all(r.get('descriptors') for r in p['records'])
+          assert all(r.get('tastingNarrative') for r in p['records'])
+          assert all(set(r.get('descriptorFamilies') or {})==set(r['descriptors']) for r in p['records'])
+          assert all(r.get('governanceStatus')=='ENRICHED' for r in p['records'])
+          allowed={'orchard-fruit','citrus','dried-fruit','tropical','sweet','chocolate-coffee','spice','nutty','oak','floral-herbal','maritime','smoke-peat'}
+          assert all(v in allowed for r in p['records'] for v in (r.get('descriptorFamilies') or {}).values())
+          sparse=sum(1 for r in p['records'] if not r.get('descriptors') or not r.get('tastingNarrative'))
+          withheld=sum(1 for r in p['records'] if r.get('governanceStatus')=='WITHHELD')
+          absent=sum(1 for r in p['records'] if r.get('governanceStatus')=='ABSENT_UNRESOLVED')
+          assert sparse==0 and withheld==0 and absent==0
+          first=Path('PROJECT_ZERO_SENSORY_MASTER_v1.1.json').read_bytes()
+          print('recordCount=262')
+          print('uniqueBeverageIds=262')
+          print('descriptorCoverage=262')
+          print('tastingNarrativeCoverage=262')
+          print('unmappedDescriptors=0')
+          print('sparseRecords=0')
+          print('WITHHELD=0')
+          print('ABSENT_UNRESOLVED=0')
+          print('sha256-first='+hashlib.sha256(first).hexdigest())
+          PY
+          cp PROJECT_ZERO_SENSORY_MASTER_v1.1.json /tmp/master-first.json
+          python scripts/apply_sensory_gap_closure_v1_1.py >/tmp/second-build.txt
+          cmp -s /tmp/master-first.json PROJECT_ZERO_SENSORY_MASTER_v1.1.json
+          echo 'deterministic repeat-build: PASS'
+
+      - name: Commit validated production assets
+        run: |
+          set -euo pipefail
+          git config user.name 'CASK23 Project Zero Bot'
+          git config user.email 'nilesh@cask23.co.uk'
+          git add scripts/apply_sensory_gap_closure_v1_1.py PROJECT_ZERO_SENSORY_MASTER.json PROJECT_ZERO_SENSORY_MASTER_v1.1.json PROJECT_ZERO_SENSORY_MASTER_v1.1.validation.json
+          git commit -m 'sensory: lock fully populated Project Zero master v1.1'
+          git push origin HEAD:${{ github.head_ref }}

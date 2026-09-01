@@ -1,0 +1,17 @@
+{
+  "project": "PROJECT_ZERO_SENSORY_MASTER",
+  "version": "1.1",
+  "recordCount": 262,
+  "uniqueBeverageIds": 262,
+  "descriptorCoverage": 262,
+  "tastingNarrativeCoverage": 262,
+  "fullyPopulatedRecords": 262,
+  "remainingSparseRecords": 0,
+  "remainingWithheldRecords": 0,
+  "remainingAbsentUnresolvedRecords": 0,
+  "gapClosureRecords": 49,
+  "allowedVisualFamilies": 12,
+  "unmappedDescriptorCount": 0,
+  "distinctExternalSourceUrls": 167,
+  "validation": "PASS"
+}

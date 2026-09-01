@@ -1,0 +1,49 @@
+0cda1c9d-6868-4482-a690-caaac3225f34	Bruichladdich Old School 10 Year 50%	ABSENT_UNRESOLVED
+10c6b4e0-f057-417d-9a10-0eb78aaede16	Mossburn I/B Macduff 16 Year Banyuls Cask 50.8%	ABSENT_UNRESOLVED
+10e1b78f-3c66-437c-98f0-66e88b9fde6d	That Boutique-Y Whisky Co. 11 Year 48.8%	ABSENT_UNRESOLVED
+175d15bf-e5a7-4ebb-b41a-cb0654d49050	WhistlePig Vermont Oak 15 Y 46%	WITHHELD
+17638f87-72e1-4496-8bc8-be444ed282d2	Ardmore Single Cask 41 Year 41.7%	ABSENT_UNRESOLVED
+177d30a7-8fb6-487e-9495-d45e0621c5e5	Bruichladdich 2007 Micro-Provenance Single Cask	ABSENT_UNRESOLVED
+213c368a-3e81-4ec3-85d3-84daacd26198	Bimber Legacy Collection 2024	WITHHELD
+25141c4f-f434-42c4-ad36-3850c674078c	Bimber Santa’s Edition 2023	WITHHELD
+32bc076b-9e7f-42fc-8665-26b239b8b741	Ardbeg Drum Committee Release 46%	WITHHELD
+362f6637-c2ee-404b-a0f6-0de125271065	Douglas Laing's Provenance Ben Nevis 8 Year 46%	ABSENT_UNRESOLVED
+3af074f8-139e-4be2-a1e5-784240032a01	Wire Works Amarone Wine Finish 53.6%	WITHHELD
+3ffefe28-8c29-48fd-b386-9e64fd9a32ee	Paul John Single Cask Weller Barrel	ABSENT_UNRESOLVED
+4b47d2c9-4d5c-485d-aca9-e6edb84d698e	WhistlePig Old World 12 Y 43%	WITHHELD
+4c1fe5c9-653d-4379-940c-d87e4b2303e2	Mackmyra Moment Fjallmark (Cloudberry Wine) 46.1%	WITHHELD
+580f7478-dcb3-489d-8e37-88aa3cf08616	Springbank Cask Strength 12 Year	WITHHELD
+58d26ce5-3e09-4744-bdde-a5c0e745df35	Cu Bocan Signature Bourbon, Sherry, Virgin Cask 46%	MISSING_NARRATIVE_WITH_DESCRIPTORS
+5a215f0e-cc12-4eeb-a44e-99fa4f39c942	Hudson Manhattan 46%	MISSING_DESCRIPTORS_WITH_NARRATIVE
+5d3a84dc-45a5-4d87-b8c5-f320430ec98a	Mossburn I/B Blair Athol 16 Year Oloroso Cask 54.1%	ABSENT_UNRESOLVED
+6aa861fb-d627-46eb-8f17-291da1567bd1	Kilchoman 2008 Single Cask Release Islay Pipe Band 60.4%	WITHHELD
+6e01457c-cd2d-43ff-b90a-f13b937791ca	BenRiach 2005 Port Pipe 18 Year 57.4%	ABSENT_UNRESOLVED
+758b89fb-ef82-416d-8706-20adf91d4f56	Arran Signature Series Edition 2: Barrel Bonfire	ABSENT_UNRESOLVED
+76b4392e-c465-41a9-8cce-2f0719b015b9	Glendronach 11 Year Hand Filled P/X Punchion 61.6%	ABSENT_UNRESOLVED
+77f17865-8e38-471d-9118-f3d8f9bbe10f	Berry Bros. & Rudd Coasts & Shores Williamson 2013 11 Year Old	ABSENT_UNRESOLVED
+7faf63fa-9d2e-41c2-b4b9-df20c001ca33	Arran 10 Year 46%	ABSENT_UNRESOLVED
+8112a9eb-3811-4991-b527-0332c5d0b71c	Kilkerran Sherry Cask 8 Year (2023) 57.5%	ABSENT_UNRESOLVED
+87549a48-d0a7-49fd-9121-bcb6ec482443	Deanston 1997 P/X Butt Hand Filled 55.7%	ABSENT_UNRESOLVED
+8e4d8a22-c445-41d9-b834-1326092489c2	Kilchoman Club Fourteenth Edition	ABSENT_UNRESOLVED
+97ac9c38-9a8a-43f6-897f-737d1d15dd98	Starward Left-Field 40%	ABSENT_UNRESOLVED
+98c013b3-d013-4d96-98fc-887eee666696	Yushan Signature Single Malt Whisky — Sherry Cask	ABSENT_UNRESOLVED
+a2c232e0-3e77-42a3-9f53-93ec8df6a523	Smokehead Sherry Bomb	ABSENT_UNRESOLVED
+a2e58652-f197-418a-bd10-1465890005f7	Longrow Red 7 (2024)	ABSENT_UNRESOLVED
+a2ea3189-32d0-447a-b923-64b9f8b68f1d	Glenfarclas 15 Year 46.7%	ABSENT_UNRESOLVED
+a335a69d-1ca1-4681-beee-66d8dcdeca45	Benromach 2010 Peat Smoke Sherry Cask Matured 8 Year 59.9%	ABSENT_UNRESOLVED
+a4540049-d252-42f2-92d6-92c66e7230ab	Cotswolds 2014 Odyssey Barley 46%	WITHHELD
+a46c9621-342a-4611-91f7-4f6aee3af174	Amrut Fusion 50%	MISSING_DESCRIPTORS_WITH_NARRATIVE
+a688be1e-59a1-4288-b249-5c67590220c0	Macallan 10 Year Old Bottling 40%	ABSENT_UNRESOLVED
+abae9b07-0138-4130-9ecd-fc0b50e78492	Springbank 8 Year Old Ex-Oloroso 58.1%	WITHHELD
+afac0c31-0043-4e7f-9549-b5447b61bf4f	Gleann Mor Bunnahabhain 8 Year 50%	ABSENT_UNRESOLVED
+ba646323-3f20-41a8-a3a2-ec3cf851ca52	Amrut Single P/X Single Cask 62.8%	ABSENT_UNRESOLVED
+bbf91335-42e2-4763-8f3a-f22181010eea	Springbank 21 Year (2025) Edition	ABSENT_UNRESOLVED
+cb800a9f-8ace-4166-b415-f6fd537d3d75	Mossburn I/B Ardmore 9 Year 46%	ABSENT_UNRESOLVED
+d2f79a5f-764a-48f8-ac39-1b73cbf10128	Mossburn I/B Royal Brackla 16 Year 54.9%	ABSENT_UNRESOLVED
+d69b9fe8-ba8e-4790-8e42-91a17f021507	Gordon & MacPhail Discovery Glenrothes 11 Years Old	ABSENT_UNRESOLVED
+db208401-e768-4eb0-96a2-b22ecf07c534	Mackmyra Moment Krosbar American Oak & German Cherry Wine 46.1%	ABSENT_UNRESOLVED
+e4e62bae-d0fb-413a-8de4-03ad7e292fee	Peg Leg Porker 8 Year 45%	MISSING_DESCRIPTORS_WITH_NARRATIVE
+e632054b-255a-48e4-b24c-deaa5157fff5	Springbank 13 Year Refill Calvados filled into Palo Cortado in2022	ABSENT_UNRESOLVED
+ebee399a-ea9f-4ad5-9117-e0dcd3276421	Integrity Malts (Benrinnes) Bourbon Cask 55.3%	ABSENT_UNRESOLVED
+ec7e7167-78f7-494d-9093-3e83b4e590f9	Mackmyra Mak Classic 40%	ABSENT_UNRESOLVED
+f7c60fcf-96c3-4858-97d6-48df8d89ed84	Mossburn Miltonduff 16 years oloroso 57.4%	ABSENT_UNRESOLVED
